@@ -2,17 +2,31 @@ class ResourcesController < ApplicationController
   # I can search and filter resources posted by others
   # Can be filtered by company, job position, and keyword
   def index
+    @resources = Resources.all
+  end
+
+  def my_resources
+    @resources = current_user.resources
   end
 
   # I can use credits to access resources
   def show
+    @resources = Resources.find(params[:id])
   end
 
   # I can create a resource
   def new
+    @resource = Resource.new
   end
 
   def create
+    @resource = Resource.new(resource_params)
+    @resource.user = current_user
+    if @resource.save
+      redirect_to user_path(current_user)
+    else
+      render :new
+    end
   end
 
   # 'COULD HAVE' methods below
@@ -23,5 +37,11 @@ class ResourcesController < ApplicationController
 
   # I can practice for an interview with flashcards
   def toggle_favorite
+  end
+
+  private
+
+  def resource_params
+    params.require(:resource).permit(:content, :title, :summary, :votes, :level, :tags)
   end
 end
