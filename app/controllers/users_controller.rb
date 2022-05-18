@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   # I can see the four most recent jobs I've made
   # I can see how many credits I have
   def dashboard
-    @goal = curren_user.goals.order(created_at: :desc).first
+    @goal = current_user.goals.order(created_at: :desc).first
     @new_goal = Goal.new
     @new_goal.user = current_user
   end
