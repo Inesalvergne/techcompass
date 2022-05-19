@@ -26,6 +26,10 @@ class JobsController < ApplicationController
 
   # I can change the status of a job
 
+  def edit
+    @job = Job.find(params[:id])
+  end
+
   def update
     @job = Job.find(params[:id])
     if @job.update(job_params)
