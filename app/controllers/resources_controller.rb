@@ -15,7 +15,7 @@ class ResourcesController < ApplicationController
 
   # I can use credits to access resources
   def show
-    @resources = Resource.find(params[:id])
+    @resource = Resource.find(params[:id])
   end
 
   # I can create a resource

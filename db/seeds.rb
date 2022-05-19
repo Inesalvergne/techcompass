@@ -46,7 +46,7 @@ puts "Creating goals..."
   Goal.create!(
     job_target: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     description: "I want to achieve my dream of being a #{Faker::Job.title}",
-    user: User.all.sample
+    user: User.first
   )
 end
 
@@ -74,6 +74,6 @@ puts "Creating resources..."
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: levels.sample,
     tags: tags.sample,
-    user: User.all.sample
+    user: User.first
   )
 end
