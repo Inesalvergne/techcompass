@@ -2,11 +2,15 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  resources :goals
-  resources :resources do
+  resources :goals, only: %I[new create edit update]
+  resources :resources, only: %I[new create index show] do
     collection do
       get :my_resources
     end
+    member do
+      patch :upvote
+      post :toggle_favorite
+    end
   end
-  resources :jobs
+  resources :jobs, only: %I[new create show index edit update]
 end
