@@ -1,3 +1,13 @@
 class Resource < ApplicationRecord
+  include PgSearch::Model
+  pg_search_scope :search_by_title_and_author,
+                  against: %i[title level tags],
+                  associated_against: {
+                    user: %i[full_name job_title]
+                  },
+                  using: {
+                    tsearch: { prefix: true }
+                  }
+
   belongs_to :user
 end
