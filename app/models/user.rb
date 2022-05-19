@@ -6,4 +6,5 @@ class User < ApplicationRecord
 
   has_many :resources
   has_many :goals
+  has_many :jobs, through: :goals
 end

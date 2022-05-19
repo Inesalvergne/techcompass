@@ -18,7 +18,7 @@ class JobsController < ApplicationController
     @job = Job.new(job_params)
     @job.user = current_user
     if @job.save
-      redirect_to user_path(current_user)
+      redirect_to job_path(@job)
     else
       render :new
     end
@@ -33,7 +33,7 @@ class JobsController < ApplicationController
   def update
     @job = Job.find(params[:id])
     if @job.update(job_params)
-      redirect_to user_path(current_user)
+      redirect_to job_path(@job)
     else
       render :new
     end
