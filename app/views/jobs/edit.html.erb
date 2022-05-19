@@ -1,0 +1,12 @@
+  <%= simple_form_for @job do |f| %>
+    <%= f.input :company %>
+    <%= f.input :description %>
+    <%= f.input :location %>
+    <%= f.input :role %>
+    <%= f.input :level %>
+    <%= f.input :post_url %>
+    <%= f.input :interview_date %>
+    <%= f.input :remote %>
+    <%= f.input :status %>
+    <%= f.submit "Edit a Job", class: "btn btn-sm btn-primary" %>
+  <% end %>
