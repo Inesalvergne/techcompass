@@ -1,0 +1,10 @@
+<h1><%= @resource.title %></h1>
+<h2><%= "by #{@resource.user.full_name}" %></h2>
+
+<% if current_user.credits > 0  || @resource.user == current_user %>
+  <%= simple_format(@resource.content) %>
+<% else %>
+  <p>You currently do not have enough credits to view this resource.</p>
+<% end %>
+
+<%= "You currently have #{current_user.credits} credits" %>

@@ -1,0 +1,8 @@
+  <%= simple_form_for @resource do |f| %>
+    <%= f.input :title %>
+    <%= f.input :summary %>
+    <%= f.input :content %>
+    <%= f.input :level %>
+    <%= f.input :tags %>
+    <%= f.submit "Add a Resource", class: "btn btn-sm btn-primary" %>
+  <% end %>

@@ -2,7 +2,11 @@ class ResourcesController < ApplicationController
   # I can search and filter resources posted by others
   # Can be filtered by company, job position, and keyword
   def index
-    @resources = Resources.all
+    if params[:query].present?
+      @resources = Resource.search_by_title_and_author(params[:query])
+    else
+      @resources = Resource.all
+    end
   end
 
   def my_resources
@@ -11,7 +15,12 @@ class ResourcesController < ApplicationController
 
   # I can use credits to access resources
   def show
-    @resources = Resources.find(params[:id])
+    @resource = Resource.find(params[:id])
+
+    return if @resource.user == current_user
+
+    current_user.credits -= 1
+    current_user.save
   end
 
   # I can create a resource
@@ -23,7 +32,7 @@ class ResourcesController < ApplicationController
     @resource = Resource.new(resource_params)
     @resource.user = current_user
     if @resource.save
-      redirect_to user_path(current_user)
+      redirect_to resource_path(@resource)
     else
       render :new
     end
