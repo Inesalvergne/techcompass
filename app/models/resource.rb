@@ -10,4 +10,6 @@ class Resource < ApplicationRecord
                   }
 
   belongs_to :user
+
+  validates :title, :summary, :content, :level, :tags, presence: true
 end
