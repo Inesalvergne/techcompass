@@ -8,5 +8,6 @@ class UsersController < ApplicationController
     @goal = current_user.goals.order(created_at: :desc).first
     @new_goal = Goal.new
     @new_goal.user = current_user
+    @jobs = @goal.jobs.order(created_at: :desc).first(4)
   end
 end

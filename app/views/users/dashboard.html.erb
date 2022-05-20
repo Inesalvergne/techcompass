@@ -1,0 +1,18 @@
+<h1>My Dashboard</h1>
+<h3>My goal</h3>
+<p><%= @goal.description %></p>
+
+<%= link_to 'Add a Goal', new_goal_path %>
+<%= link_to 'Edit your Goal', edit_goal_path(@goal) %>
+
+<div>
+  <% @jobs.each do |job| %>
+    <div>
+      <%= job.company %>
+    </div>
+  <% end %>
+</div>
+
+<div>
+  <p><%= current_user.credits %></p>
+</div>
