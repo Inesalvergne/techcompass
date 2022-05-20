@@ -70,7 +70,7 @@ puts "Creating resources..."
   Resource.create!(
     title: Faker::Games::StreetFighter.quote,
     summary: Faker::Lorem.paragraph,
-    content: Faker::Lorem.paragraphs,
+    content: Faker::Lorem.paragraphs.join,
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: levels.sample,
     tags: tags.sample,
