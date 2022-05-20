@@ -9,5 +9,6 @@ class UsersController < ApplicationController
     @new_goal = Goal.new
     @new_goal.user = current_user
     @jobs = @goal.jobs.order(created_at: :desc).first(4)
+    @resources = current_user.resources.order(created_at: :desc).first(4)
   end
 end
