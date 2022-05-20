@@ -8,7 +8,7 @@ class GoalsController < ApplicationController
     @goal = Goal.new(goal_params)
     @goal.user = current_user
     if @goal.save
-      redirect_to user_path(current_user)
+      redirect_to dashboard_path
     else
       render :new
     end
@@ -23,7 +23,7 @@ class GoalsController < ApplicationController
   def update
     @goal = Goal.find(params[:id])
     if @goal.update(goal_params)
-      redirect_to user_path(current_user)
+      redirect_to dashboard_path
     else
       render :edit
     end
