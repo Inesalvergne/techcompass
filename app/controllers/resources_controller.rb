@@ -16,6 +16,11 @@ class ResourcesController < ApplicationController
   # I can use credits to access resources
   def show
     @resource = Resource.find(params[:id])
+
+    return if @resource.user == current_user
+
+    current_user.credits -= 1
+    current_user.save
   end
 
   # I can create a resource
