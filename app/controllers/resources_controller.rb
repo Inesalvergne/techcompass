@@ -27,7 +27,7 @@ class ResourcesController < ApplicationController
     @resource = Resource.new(resource_params)
     @resource.user = current_user
     if @resource.save
-      redirect_to user_path(current_user)
+      redirect_to resource_path(@resource)
     else
       render :new
     end
