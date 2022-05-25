@@ -9,6 +9,10 @@
 
 <ul>
   <% @resources.each do |resource| %>
-    <li><%= link_to "#{resource.title} by #{resource.user.full_name}", resource_path(resource.id) %></li>
+    <% if resource.user == current_user %>
+      <li><%= link_to "#{resource.title} by #{resource.user.full_name}", resource_path(resource.id) %></li>
+    <% else %>
+      <li><%= link_to "#{resource.title} by #{resource.user.full_name}", resource_path(resource.id), data: { confirm: "You are about to use a credit. You have #{current_user.credits} credits left. Are you sure?" } %></li>
+    <% end %>
   <% end %>
 </ul>
