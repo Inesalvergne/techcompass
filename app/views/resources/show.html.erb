@@ -2,7 +2,7 @@
 <h2><%= "by #{@resource.user.full_name}" %></h2>
 
 <% if current_user.credits > 0  || @resource.user == current_user %>
-  <%= simple_format(@resource.content) %>
+  <%= @resource.rich_content %>
 <% else %>
   <p>You currently do not have enough credits to view this resource.</p>
 <% end %>
