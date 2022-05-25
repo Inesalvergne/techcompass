@@ -19,7 +19,7 @@ class ResourcesController < ApplicationController
 
     return if @resource.user == current_user
 
-    current_user.credits -= 1
+    current_user.credits -= 1 if current_user.credits.positive?
     current_user.save
   end
 
