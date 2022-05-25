@@ -1,9 +1,15 @@
 <h1>My Dashboard</h1>
 <h3>My goal</h3>
-<p><%= @goal.description %></p>
+<% unless @jobs.nil? %>
+  <p><%= @goal.description %></p>
+<% else %>
+  <p>You currently have not set a goal!</p>
+<% end %>
 
 <%= link_to 'Add a Goal', new_goal_path %>
-<%= link_to 'Edit your Goal', edit_goal_path(@goal) %>
+<% unless @jobs.nil? %>
+  <%= link_to 'Edit your Goal', edit_goal_path(@goal) %>
+<% end %>
 
 <div class='border border-primary'>
   <p><%= pluralize(current_user.credits, 'credit')%></p>
@@ -11,10 +17,12 @@
 
 <div class='border border-primary'>
   <%= link_to 'My Job Applications', jobs_path %>
-  <% @jobs.each do |job| %>
-    <div>
-      <%= job.company %>
-    </div>
+  <% unless @jobs.nil? %>
+    <% @jobs.each do |job| %>
+      <div>
+        <%= job.company %>
+      </div>
+    <% end %>
   <% end %>
 </div>
 
@@ -28,6 +36,8 @@
 </div>
 
 <div class='border border-primary'>
-  <p>You have <%= pluralize(@goal.job_target - @goal.jobs.count, 'Application') %>left to meet your goal</p>
-  <p>You have posted <%= pluralize(current_user.resources.count, 'Resource') %></p>
+  <% unless @jobs.nil? %>
+    <p>You have <%= pluralize(@goal.job_target - @goal.jobs.count, 'Application') %>left to meet your goal</p>
+    <p>You have posted <%= pluralize(current_user.resources.count, 'Resource') %></p>
+  <% end %>
 </div>
