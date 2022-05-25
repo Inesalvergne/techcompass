@@ -1,4 +1,4 @@
-<% if current_user.goals.nil? %>
+<% if current_user.goals.nil? || current_user.goals.length == 0 %>
   <p>You currently have not set a goal! Set a goal first before adding a job application.</p>
   <%= link_to 'Add a Goal', new_goal_path %>
 <% else %>
