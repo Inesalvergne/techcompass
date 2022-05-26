@@ -1,5 +1,8 @@
 <h1>My Jobs</h1>
-<%= link_to 'Add a Job', new_job_path %>
+<%= link_to 'Add a Job', new_job_path, {remote: :true, 'data-bs-toggle': 'modal',
+                                                       'data-bs-target':
+                                                       '#exampleModal'} %>
+
 <div>
   <h3>Wishlist</h3>
   <ul>
@@ -60,3 +63,32 @@
     <% end %>
   </ul>
 </div>
+
+<%# MODAL TO ADD A JOB %>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"> Add a Job </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <%= simple_form_for(Job.new) do |f| %>
+              <%= f.input :company %>
+              <%= f.input :description %>
+              <%= f.input :location %>
+              <%= f.input :role, as: :select, collection: Job::ROLE %>
+              <%= f.input :level, as: :select, collection: Job::LEVEL %>
+              <%= f.input :post_url %>
+              <%= f.input :interview_date %>
+              <%= f.input :remote %>
+              <%= f.input :status, as: :select, collection: Job::STATUS %>
+              <%= f.submit "Add a Job", class: "btn btn-sm btn-primary" %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
