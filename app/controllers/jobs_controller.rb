@@ -19,7 +19,7 @@ class JobsController < ApplicationController
     @job.user = current_user
     @job.goal = current_user.goals.last
     if @job.save
-      redirect_to job_path(@job)
+      redirect_to jobs_path
     else
       render :new
     end
