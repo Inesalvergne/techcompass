@@ -2,5 +2,14 @@ class Job < ApplicationRecord
   belongs_to :goal
   has_one :user, through: :goal
 
-  validates :company, :description, :location, :role, :level, :post_url, :status, presence: true
+  ROLE = ['Back-End Developer', 'Front-End Developer',
+          'Full-Stack Developer'].freeze
+  LEVEL = ['Entry Level', 'Junior', 'Senior'].freeze
+  STATUS = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer',
+            'Rejected'].freeze
+
+  validates :company, :description, :location, presence: true
+  validates :role, presence: true, inclusion: { in: ROLE }
+  validates :level, presence: true, inclusion: { in: LEVEL }
+  validates :status, presence: true, inclusion: { in: STATUS }
 end
