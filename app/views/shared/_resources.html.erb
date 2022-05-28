@@ -1,0 +1,55 @@
+<ul class="container list-unstyled">
+  <% @resources.each do |resource| %>
+    <% if resource.user == current_user %>
+      <li>
+        <%= link_to resource_path(resource.id), class: 'text-decoration-none text-body' do %>
+          <div class="box-resource row d-flex border my-2">
+            <div class="box-resource-left col-2">
+              <%= image_tag("TechCompass-logo.png", class:"img-fluid resource-img") %>
+            </div>
+            <div class="box-resource-center col-7 d-flex flex-column justify-content-center">
+              <div class="box-resource-center-top">
+                <h4 class="fw-bold"><%= resource.title %></h4>
+                <p><%= "By #{resource.user.full_name}" %></p>
+              </div>
+              <div class="box-resource-center-bottom flex-row">
+                <%= resource.tags %>
+              </div>
+            </div>
+            <div class="box-resource-right col-3 d-flex justify-content-center align-items-center">
+              <div type="button" class="btn btn-primary d-flex flex-column">
+                <%= fa_icon "caret-up" %>
+                <%= "#{resource.votes} votes" %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      </li>
+    <% else %>
+      <li>
+        <%= link_to resource_path(resource.id), class: 'text-decoration-none text-body', data: { confirm: "You are about to use a credit. You have #{current_user.credits} credits left. Are you sure?" }  do %>
+            <div class="box-resource row d-flex border my-2">
+              <div class="box-resource-left col-2">
+                <%= image_tag("TechCompass-logo.png", class:"img-fluid resource-img") %>
+              </div>
+              <div class="box-resource-center col-7 d-flex flex-column justify-content-center">
+                <div class="box-resource-center-top">
+                  <h4 class="fw-bold"><%= resource.title %></h4>
+                  <p><%= "By #{resource.user.full_name}" %></p>
+                </div>
+                <div class="box-resource-center-bottom d-flex flex-row">
+                  <%= resource.tags %>
+                </div>
+              </div>
+              <div class="box-resource-right col-3 d-flex justify-content-center align-items-center">
+                <div type="button" class="btn btn-primary d-flex flex-column">
+                  <%= fa_icon "caret-up" %>
+                  <%= "#{resource.votes} votes" %>
+                </div>
+              </div>
+            </div>
+          <% end %>
+      </li>
+    <% end %>
+  <% end %>
+</ul>
