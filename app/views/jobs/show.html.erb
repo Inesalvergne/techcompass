@@ -1,4 +1,31 @@
 
-<div class="container">
-  <h1>Job Application for <%= @job.company %></h1>
+<div class="container" >
+  <div class="m-2 p-2">
+    <h3><%= @job.company %></h3>
+    <h6><%= @job.role %></h6>
+  </div>
+  <div class="border border-secondary rounded m-2 p-2 d-flex
+              justify-content-around">
+    <div>
+      <p><%= @job.interview_date %></p>
+      <p><%= @job.level %></p>
+    </div>
+    <div>
+      <p><%= @job.location %></p>
+      <p>Open to Remote Work: <%= @job.remote ? 'Yes' : 'No' %></p>
+    </div>
+  </div>
+
+  <div class="m-2 p-2">
+    <%= @job.description %>
+  </div>
+  <div class="m-2 p-2">
+    <% if @job.post_url %>
+      <a href="<%= @job.post_url %>">See the Job Posting</a>
+    <% end %>
+  </div>
+  <div class="m-2 p-2">
+    <h3>Suggested Resources Related to <%= @job.role %> Positions</h3>
+    <%= render 'shared/job_resource' %>
+  </div>
 </div>

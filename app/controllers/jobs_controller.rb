@@ -7,6 +7,7 @@ class JobsController < ApplicationController
   # I can see details of a job
   def show
     @job = Job.find(params[:id])
+    @resources = Resource.all
   end
 
   # I can add a job
