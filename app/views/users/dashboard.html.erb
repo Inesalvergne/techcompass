@@ -1,45 +1,63 @@
 <div class="container">
-  <h1>My Dashboard</h1>
-  <h3>My goal</h3>
-  <% unless @jobs.nil? %>
-    <p><%= @goal.description %></p>
-  <% else %>
-    <p>You currently have not set a goal!</p>
-  <% end %>
 
-  <%= link_to 'Add a Goal', new_goal_path %>
-  <% unless @jobs.nil? %>
-    <%= link_to 'Edit your Goal', edit_goal_path(@goal) %>
-  <% end %>
+  <div class="container-dashboard">
 
-  <div class='border border-primary'>
-    <p><%= pluralize(current_user.credits, 'credit')%></p>
-  </div>
-
-  <div class='border border-primary'>
-    <%= link_to 'My Job Applications', jobs_path %>
-    <% unless @jobs.nil? %>
-      <% @jobs.each do |job| %>
-        <div>
-          <%= job.company %>
+    <div class="mt-5 wrapper-dashboard">
+      <div class="header-dashboard">
+        <div class="wrapper-header-title">
+          <h5> Hello <%= current_user.full_name %>, welcome back!</h5>
         </div>
-      <% end %>
-    <% end %>
-  </div>
-
-  <div class='border border-primary'>
-    <%= link_to 'My Resources', my_resources_resources_path %>
-    <% @resources.each do |resource| %>
-      <div>
-        <%= resource.title %>
+        <div class="wrapper-header-date">
+        </div>
+        <h3>My goal</h3>
       </div>
-    <% end %>
-  </div>
+      <% unless @jobs.nil? %>
+        <p><%= @goal.description %></p>
+      <% else %>
+        <p>You currently have not set a goal!</p>
+      <% end %>
 
-  <div class='border border-primary'>
-    <% unless @jobs.nil? %>
-      <p>You have <%= pluralize(@goal.job_target - @goal.jobs.count, 'Application') %>left to meet your goal</p>
-      <p>You have posted <%= pluralize(current_user.resources.count, 'Resource') %></p>
-    <% end %>
+      <%= link_to 'Add a Goal', new_goal_path %>
+      <% unless @jobs.nil? %>
+        <%= link_to 'Edit your Goal', edit_goal_path(@goal) %>
+      <% end %>
+
+      <div class='border border-primary'>
+        <p><%= pluralize(current_user.credits, 'credit')%></p>
+      </div>
+
+      <div class='border border-primary'>
+        <%= link_to 'My Job Applications', jobs_path %>
+        <% unless @jobs.nil? %>
+          <% @jobs.each do |job| %>
+            <div>
+              <%= job.company %>
+            </div>
+          <% end %>
+        <% end %>
+      </div>
+
+      <div class='border border-primary'>
+        <%= link_to 'My Resources', my_resources_resources_path %>
+        <% @resources.each do |resource| %>
+          <div>
+            <%= resource.title %>
+          </div>
+        <% end %>
+      </div>
+
+      <div class='border border-primary'>
+        <% unless @jobs.nil? %>
+          <p>You have <%= pluralize(@goal.job_target - @goal.jobs.count, 'Application') %>left to meet your goal</p>
+          <p>You have posted <%= pluralize(current_user.resources.count, 'Resource') %></p>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="mt-5 wrapper-kpi">
+      <h5> My KPIs</h5>
+      <%= render 'shared/kpi_card' %>
+    </div>
+
   </div>
 </div>
