@@ -4,10 +4,12 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-  has_many :resources
-  has_many :goals
+  has_many :resources, dependent: :destroy
+  has_many :goals, dependent: :destroy
+
   has_many :jobs, through: :goals
-  has_many :views
+  has_many :views, dependent: :destroy
+
   has_many :resources, through: :views
 
   def viewed?(resource)

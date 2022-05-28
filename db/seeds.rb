@@ -12,6 +12,18 @@ Job.destroy_all
 Resource.destroy_all
 puts "Test string"
 
+
+file = File.open("db/programmer_interview_questions.txt")
+programmer_interview = Resource.new(
+    title: "Top interview questions",
+    summary: "",
+    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    level: LEVEL.sample,
+    tags: TAG.sample,
+    rich_content: file.read
+)
+file.close
+
 def create_user(name, title)
   User.create!(
     full_name: name,
@@ -22,14 +34,7 @@ def create_user(name, title)
   )
 end
 
-puts "Creating user 1..."
-ibrahim = create_user("ibrahim", levels[1])
 
-file = File.open("db/articles.txt")
-results = file.read
-
-levels = ['Entry-Level', 'Junior', 'Senior']
-levels.freeze
 ROLE = ['Back-End Developer', 'Front-End Developer',
         'Full-Stack Developer'].freeze
 
@@ -39,19 +44,21 @@ LEVEL = ['Entry Level', 'Junior', 'Senior'].freeze
 STATUS = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer',
           'Rejected'].freeze
 
-# levels = ['Entry-Level', 'Junior', 'Senior', 'CEO']
-# levels.freeze
 
-# statuses = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer', 'Rejected']
-# statuses.freeze
 
-<<<<<<< HEAD
-tags = ['front-end', 'back-end', 'full stack']
-tags.freeze
-=======
 TAG = ['Back-End Developer', 'Front-End Developer',
-       'Full-Stack Developer'].freeze
->>>>>>> 40ef23a5d5823a59745bf4ed305fb0c1fdd6e51c
+                 'Full-Stack Developer']
+
+
+
+
+puts "Creating user 1..."
+ibrahim = create_user("ibrahim", levels[1])
+
+programmer_interview.user = ibrahim
+programmer_interview.save
+
+
 
 
 User.create!(
@@ -108,17 +115,31 @@ puts "Creating resources..."
     tags: TAG.sample,
     user: User.first
   )
-
-  g_interview_q = File.open("db/programmer_interview_questions.txt")
-results = file.read
-  Resource.create!(
-    title: "Programmer Interview Questions",
-    summary: "...",
-    content: Faker::Lorem.paragraphs.join,
-    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-    level: "1",
-    tags: tags.sample,
-    user: User.first
-    rich_content: results
-  )
 end
+
+g_interview_q = File.open("db/programmer_interview_questions.txt")
+
+efave_lang = File.open("db/efave_lang.txt")
+
+piq = File.open("db/piq.txt")
+
+interview_questions = File.open("db/i_questions.txt")
+
+
+
+portfolio = File.open("db/portfolio_1.txt")
+
+
+fej_interviewqs = File.open("db/fej_interviewqs.txt")
+
+fes_interviewqs = File.open("db/fes_interviewqs.txt")
+
+fes_iqs = File.open("db/fes_iqs.txt")
+
+ber_iqs = File.open("db/ber_iqs.txt")
+
+ber_iqs = File.open("db/ber_iqs.txt")
+
+bep_iqs = File.open("db/bep_iqs.txt")
+
+bes = File.open("db/bes.txt")
