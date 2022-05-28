@@ -26,8 +26,8 @@ STATUS = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer',
 # statuses = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer', 'Rejected']
 # statuses.freeze
 
-tags = ['developer', 'front-end', 'back-end', 'full stack']
-tags.freeze
+TAG = ['Back-End Developer', 'Front-End Developer',
+       'Full-Stack Developer'].freeze
 
 puts "Creating user 1..."
 User.create!(
@@ -81,7 +81,7 @@ puts "Creating resources..."
     content: Faker::Lorem.paragraphs.join,
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: LEVEL.sample,
-    tags: tags.sample,
+    tags: TAG.sample,
     user: User.first
   )
 end
