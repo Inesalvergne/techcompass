@@ -1,18 +1,23 @@
-<%= form_tag resources_path, method: :get do %>
-  <%= text_field_tag :query,
-    params[:query],
-    class: "form-control",
-    placeholder: "Find a resource"
-  %>
-  <%= submit_tag "Search", class: "btn btn-primary" %>
-<% end %>
 
-<ul>
-  <% @resources.each do |resource| %>
-    <% if resource.user == current_user %>
-      <li><%= link_to "#{resource.title} by #{resource.user.full_name}", resource_path(resource.id) %></li>
-    <% else %>
-      <li><%= link_to "#{resource.title} by #{resource.user.full_name}", resource_path(resource.id), data: { confirm: "You are about to use a credit. You have #{current_user.credits} credits left. Are you sure?" } %></li>
-    <% end %>
+<div class="container">
+
+  <%= form_tag resources_path, method: :get do %>
+    <%= text_field_tag :query,
+      params[:query],
+      class: "form-control",
+      placeholder: "Find a resource"
+    %>
+    <%= submit_tag "Search", class: "btn btn-primary" %>
   <% end %>
-</ul>
+
+  <ul>
+    <% @resources.each do |resource| %>
+      <% if resource.user == current_user %>
+        <li><%= link_to "#{resource.title} by #{resource.user.full_name}", resource_path(resource.id) %></li>
+      <% else %>
+        <li><%= link_to "#{resource.title} by #{resource.user.full_name}", resource_path(resource.id), data: { confirm: "You are about to use a credit. You have #{current_user.credits} credits left. Are you sure?" } %></li>
+      <% end %>
+    <% end %>
+  </ul>
+
+</div>

@@ -12,3 +12,9 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+// Body flex to fix the navbar on the left on every pages
+body{
+  display: flex;
+  background-color: white;
+}
