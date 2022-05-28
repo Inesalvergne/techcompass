@@ -2,32 +2,44 @@
 
   <div class="container-dashboard">
 
-    <div class="mt-5 wrapper-dashboard">
+    <div class="mt-5 ml-3 wrapper-dashboard">
+
       <div class="header-dashboard">
+
         <div class="wrapper-header-title">
           <h5> Hello <%= current_user.full_name %>, welcome back!</h5>
         </div>
+
         <div class="wrapper-header-date">
+          <h5> <%= @today %></h5>
         </div>
-        <h3>My goal</h3>
+
       </div>
+
+      <h3 class= "mb-4 mt-4">My goal</h3>
+
+      <div class="p-3 info-card">
       <% unless @jobs.nil? %>
         <p><%= @goal.description %></p>
       <% else %>
         <p>You currently have not set a goal!</p>
       <% end %>
+      </div>
 
       <%= link_to 'Add a Goal', new_goal_path %>
       <% unless @jobs.nil? %>
         <%= link_to 'Edit your Goal', edit_goal_path(@goal) %>
       <% end %>
 
-      <div class='border border-primary'>
+      <h3 class= "mb-4 mt-4">My credits</h3>
+
+      <div class="p-3 info-card">
         <p><%= pluralize(current_user.credits, 'credit')%></p>
       </div>
 
-      <div class='border border-primary'>
-        <%= link_to 'My Job Applications', jobs_path %>
+       <h3 class= "mb-4 mt-4">My job applications</h3>
+
+        <%= link_to 'View all', jobs_path %>
         <% unless @jobs.nil? %>
           <% @jobs.each do |job| %>
             <div>
@@ -35,7 +47,6 @@
             </div>
           <% end %>
         <% end %>
-      </div>
 
       <div class='border border-primary'>
         <%= link_to 'My Resources', my_resources_resources_path %>
