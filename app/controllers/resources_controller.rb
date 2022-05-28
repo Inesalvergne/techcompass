@@ -16,11 +16,17 @@ class ResourcesController < ApplicationController
   # I can use credits to access resources
   def show
     @resource = Resource.find(params[:id])
+    # if user has enough credit and has not viewed the resource before
+    # create a view
 
-    return if @resource.user == current_user
+    return if @resource.user == current_user || current_user.viewed?(@resource)
 
-    current_user.credits -= 1 if current_user.credits.positive?
-    current_user.save
+    if current_user.credits.positive?
+      if View.create!(user: current_user, resource: @resource)
+        current_user.credits -= 1
+        current_user.save
+      end
+    end
   end
 
   # I can create a resource
@@ -32,6 +38,7 @@ class ResourcesController < ApplicationController
     @resource = Resource.new(resource_params)
     @resource.user = current_user
     if @resource.save
+      current_user.credits += 1
       redirect_to resource_path(@resource)
     else
       render :new
