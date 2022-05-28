@@ -37,6 +37,7 @@ gem 'simple_form', github: 'heartcombo/simple_form'
 gem 'pg_search', '~> 2.3.0'
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 gem 'sweetalert2-rails'
+gem "font-awesome-rails"
 
 group :development, :test do  gem 'pry-byebug'
   gem 'pry-rails'
