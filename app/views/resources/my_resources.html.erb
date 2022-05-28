@@ -1,8 +1,4 @@
 
 <div class="container">
-  <ul>
-    <% @resources.each do |resource| %>
-      <li><%= link_to "#{resource.title} by #{resource.user.full_name}", resource_path(resource.id) %></li>
-    <% end %>
-  </ul>
+  <%= render 'shared/resources' %>
 </div>
