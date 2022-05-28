@@ -12,11 +12,24 @@ Job.destroy_all
 Resource.destroy_all
 puts "Test string"
 
+<<<<<<< HEAD
 levels = ['Entry-Level', 'Junior', 'Senior']
 levels.freeze
+=======
+ROLE = ['Back-End Developer', 'Front-End Developer',
+        'Full-Stack Developer'].freeze
+>>>>>>> 0d0bc56a47638c6ecf24bc4bfbad15d8ddf59613
 
-statuses = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer', 'Rejected']
-statuses.freeze
+LEVEL = ['Entry Level', 'Junior', 'Senior'].freeze
+
+STATUS = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer',
+          'Rejected'].freeze
+
+# levels = ['Entry-Level', 'Junior', 'Senior', 'CEO']
+# levels.freeze
+
+# statuses = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer', 'Rejected']
+# statuses.freeze
 
 tags = ['front-end', 'back-end', 'full stack']
 tags.freeze
@@ -56,10 +69,10 @@ puts "Creating jobs..."
     company: Faker::Company.name,
     description: "It's a company.",
     location: Faker::Address.city,
-    role: Faker::Job.title,
-    level: levels.sample,
+    role: ROLE.sample,
+    level: LEVEL.sample,
     post_url: Faker::Internet.url(host: 'linkedin.com'),
-    status: statuses.sample,
+    status: STATUS.sample,
     remote: true,
     goal: Goal.all.sample
   )
@@ -72,7 +85,7 @@ puts "Creating resources..."
     summary: Faker::Lorem.paragraph,
     content: Faker::Lorem.paragraphs.join,
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-    level: levels.sample,
+    level: LEVEL.sample,
     tags: tags.sample,
     user: User.first
   )

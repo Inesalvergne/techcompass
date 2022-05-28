@@ -1,36 +1,33 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <div class="container-fluid">
-    <%= link_to "#", class: "navbar-brand" do %>
-      <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
-    <% end %>
+<div class="navbar-container">
+  <div class="m-4 navbar-content">
+  <%= image_tag("TechCompass-logo", height: '35', width: '171', class: "mt-5 mb-5 navbar-logo") %>
+  <ul>
+    <li class="mb-2 d-flex align-item-center">
+      <%= render 'shared/svg/icon_dashboard', class: "navbar-icon", height: '23', width: '23' %>
+      <%= link_to "Dashboard", dashboard_path, class: "m-2 navbar-link" %>
+    </li>
+    <li class="mb-2 d-flex align-item-center">
+      <%= render 'shared/svg/icon_jobs', class: "navbar-icon", height: '21', width: '21' %>
+      <%= link_to "Job Applications", jobs_path, class: "m-2 navbar-link" %>
+    </li>
+    <li class="mb-2 d-flex align-item-center">
+      <%= render 'shared/svg/icon_add_job', class: "navbar-icon", height: '23', width: '23' %>
+      <%= link_to "Add a job", new_job_path, class: "m-2 navbar-link" %>
+    </li>
+    <li class="mb-2 d-flex align-item-center">
+      <%= render 'shared/svg/icon_find_resource', class: "navbar-icon", height: '23', width: '23' %>
+      <%= link_to "Find a resource", resources_path, class: "m-2 navbar-link" %>
+    </li>
+    <li class="mb-2 d-flex align-item-center">
+      <%= render 'shared/svg/icon_add_resource', class: "navbar-icon", height: '23', width: '23' %>
+      <%= link_to "Create a resource", new_resource_path, class: "m-2 navbar-link" %>
+    </li>
+    <li class="mb-2 d-flex align-item-center">
+      <%= render 'shared/svg/icon_my_resources', class: "navbar-icon", height: '40', width: '40' %>
+      <%= link_to "My published resources", my_resources_resources_path, class: "m-2 navbar-link" %>
+    </li>
+  </ul>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto">
-        <% if user_signed_in? %>
-          <li class="nav-item active">
-            <%= link_to "Home", "#", class: "nav-link" %>
-          </li>
-          <li class="nav-item">
-            <%= link_to "Messages", "#", class: "nav-link" %>
-          </li>
-          <li class="nav-item dropdown">
-            <%= image_tag "https://kitt.lewagon.com/placeholder/users/ssaunier", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
-            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-              <%= link_to "Action", "#", class: "dropdown-item" %>
-              <%= link_to "Another action", "#", class: "dropdown-item" %>
-              <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
-            </div>
-          </li>
-        <% else %>
-          <li class="nav-item">
-            <%= link_to "Login", new_user_session_path, class: "nav-link" %>
-          </li>
-        <% end %>
-      </ul>
-    </div>
+  <%# <%= link_to "My favorites resources",  toggle_favorite_resource_path , class: "navbar-link" %>
   </div>
 </div>
