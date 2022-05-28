@@ -1,18 +1,5 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
 
 .navbar-container {
-  display: block;
   border-right: 0.1rem solid $light-grey;
   height: 100vh;
 
@@ -28,11 +15,17 @@
 
   ul{
     list-style-type: none;
+    padding: 0 0 0 0;
   }
 
-}
+  li{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+  }
 
+  img{
+    fill: $dark-grey;
+  }
 
-.navbar-logo{
-  margin-bottom: 70px;
 }

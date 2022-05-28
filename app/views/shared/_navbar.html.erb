@@ -1,12 +1,14 @@
-<div class="m-4 navbar-container">
-<div class="mt-5 navbar-logo"> <%= image_tag("TechCompass-logo", height: '35', width: '171') %> </div>
-<ul>
-  <li> <%= image_tag("icon-dashboard", class: "navbar-icon") %> <%= link_to "Dashboard", dashboard_path, class: "m-2 navbar-link" %> </li>
-  <li> <%= image_tag("icon-job-applications", class: "navbar-icon") %> <%= link_to "Job Applications", jobs_path, class: "m-2 navbar-link" %> </li>
-  <li> <%= image_tag("icon-add-resource", class: "navbar-icon") %> <%= link_to "Add a job", new_job_path, class: "m-2 navbar-link" %> </li>
-  <li> <%= image_tag("icon-find-resource", class: "navbar-icon") %> <%= link_to "Find a resource", resources_path, class: "m-2 navbar-link" %> </li>
-  <li> <%= image_tag("icon-add-resource", class: "navbar-icon") %> <%= link_to "Create a resource", new_resource_path, class: "m-2 navbar-link" %> </li>
-  <li> <%= image_tag("icon-my-resources", class: "navbar-icon") %> <%= link_to "My published resources", my_resources_resources_path, class: "m-2 navbar-link" %> </li>
-</ul>
-<%# <%= link_to "My favorites resources",  toggle_favorite_resource_path , class: "navbar-link" %>
+<div class="navbar-container">
+  <div class="m-4 navbar-content">
+  <%= image_tag("TechCompass-logo", height: '35', width: '171', class: "mt-5 mb-5 navbar-logo") %>
+  <ul>
+    <li class="mb-2 d-flex align-item-center"> <%= image_tag("icon-dashboard", class: "navbar-icon", height: '23', width: '23') %> <%= link_to "Dashboard", dashboard_path, class: "m-2 navbar-link" %> </li>
+    <li class="mb-2 d-flex align-item-center"> <%= image_tag("icon-job-applications", class: "navbar-icon", height: '21', width: '21') %> <%= link_to "Job Applications", jobs_path, class: "m-2 navbar-link" %> </li>
+    <li class="mb-2 d-flex align-item-center"> <%= image_tag("icon-add-resource", class: "navbar-icon", height: '23', width: '23') %> <%= link_to "Add a job", new_job_path, class: "m-2 navbar-link" %> </li>
+    <li class="mb-2 d-flex align-item-center"> <%= image_tag("icon-find-resource", class: "navbar-icon", height: '23', width: '23') %> <%= link_to "Find a resource", resources_path, class: "m-2 navbar-link" %> </li>
+    <li class="mb-2 d-flex align-item-center"> <%= image_tag("icon-add-resource", class: "navbar-icon", height: '23', width: '23') %> <%= link_to "Create a resource", new_resource_path, class: "m-2 navbar-link" %> </li>
+    <li class="mb-2 d-flex align-item-center"> <%= image_tag("circle-check-regular", class: "navbar-icon", height: '23', width: '23') %> <%= link_to "My published resources", my_resources_resources_path, class: "m-2 navbar-link" %> </li>
+  </ul>
+  <%# <%= link_to "My favorites resources",  toggle_favorite_resource_path , class: "navbar-link" %>
+  </div>
 </div>
