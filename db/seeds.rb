@@ -45,8 +45,13 @@ STATUS = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer',
 # statuses = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer', 'Rejected']
 # statuses.freeze
 
+<<<<<<< HEAD
 tags = ['front-end', 'back-end', 'full stack']
 tags.freeze
+=======
+TAG = ['Back-End Developer', 'Front-End Developer',
+       'Full-Stack Developer'].freeze
+>>>>>>> 40ef23a5d5823a59745bf4ed305fb0c1fdd6e51c
 
 
 User.create!(
@@ -100,9 +105,10 @@ puts "Creating resources..."
     content: Faker::Lorem.paragraphs.join,
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: LEVEL.sample,
-    tags: tags.sample,
+    tags: TAG.sample,
     user: User.first
   )
+
   g_interview_q = File.open("db/programmer_interview_questions.txt")
 results = file.read
   Resource.create!(
