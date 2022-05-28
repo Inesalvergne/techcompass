@@ -7,4 +7,12 @@ class User < ApplicationRecord
   has_many :resources
   has_many :goals
   has_many :jobs, through: :goals
+  has_many :views
+  has_many :resources, through: :views
+
+  def viewed?(resource)
+    views.any? do |view|
+      view.resource == resource
+    end
+  end
 end
