@@ -1,0 +1,25 @@
+.border-wishlist{
+  border-top: 10px solid $yellow !important;
+}
+
+.border-applied{
+  border-color: $purple;
+  border-top: 10px solid $purple !important;
+}
+
+.border-interview{
+  border-top: 10px solid $orange !important;
+}
+
+.border-decision{
+  border-color: $yellow;
+  border-top: 10px solid $blue !important;
+}
+
+.border-offer{
+  border-top: 10px solid $green !important;
+}
+
+.border-rejected{
+  border-top: 10px solid $pink !important;
+}
