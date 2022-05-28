@@ -2,9 +2,15 @@
 
   <div class="container-dashboard">
 
-    <div class="wrapper-dashboard">
-      <h1> Hello <%= current_user.full_name %>, welcome back!</h1>
-      <h3>My goal</h3>
+    <div class="mt-5 wrapper-dashboard">
+      <div class="header-dashboard">
+        <div class="wrapper-header-title">
+          <h4> Hello <%= current_user.full_name %>, welcome back!</h1>
+        </div>
+        <div class="wrapper-header-date">
+        </div>
+        <h3>My goal</h3>
+      </div>
       <% unless @jobs.nil? %>
         <p><%= @goal.description %></p>
       <% else %>
@@ -48,7 +54,8 @@
       </div>
     </div>
 
-    <div class="wrapper-kpi">
+    <div class="mt-5 wrapper-kpi">
+      <h2> My KPIs</h2>
       <%= render 'shared/kpi_card' %>
     </div>
 
