@@ -9,10 +9,6 @@
     color: $dark-grey;
   }
 
-  a:hover {
-    color: $purple;
-  }
-
   ul{
     list-style-type: none;
     padding: 0 0 0 0;
@@ -24,8 +20,13 @@
     align-items: center;
   }
 
-  img{
-    fill: $dark-grey;
-  }
+}
 
+// Purple hover effect for icon + text
+li:hover svg path {
+  fill: $purple;
+}
+
+li:hover a{
+  color: $purple;
 }
