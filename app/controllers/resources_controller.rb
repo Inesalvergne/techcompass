@@ -10,7 +10,7 @@ class ResourcesController < ApplicationController
   end
 
   def my_resources
-    @resources = current_user.resources
+    @resources = Resource.where(user: current_user)
   end
 
   # I can use credits to access resources

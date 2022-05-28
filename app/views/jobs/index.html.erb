@@ -6,66 +6,7 @@
                                                         'data-bs-target':
                                                         '#exampleModal'} %>
 
-  <div>
-    <h3>Wishlist</h3>
-    <ul>
-      <% @jobs.select do |job| %>
-        <% if job.status == 'Wishlist' %>
-          <li><%= job.company %></li>
-        <% end %>
-      <% end %>
-    </ul>
-  </div>
-  <div>
-    <h3>Applied</h3>
-    <ul>
-      <% @jobs.select do |job| %>
-        <% if job.status == 'Applied' %>
-          <li><%= job.company %></li>
-        <% end %>
-      <% end %>
-    </ul>
-  </div>
-  <div>
-    <h3>Interview</h3>
-    <ul>
-      <% @jobs.select do |job| %>
-        <% if job.status == 'Interview' %>
-          <li><%= job.company %></li>
-        <% end %>
-      <% end %>
-    </ul>
-  </div>
-  <div>
-    <h3>Decision</h3>
-    <ul>
-      <% @jobs.select do |job| %>
-        <% if job.status == 'Decision' %>
-          <li><%= job.company %></li>
-        <% end %>
-      <% end %>
-    </ul>
-  </div>
-  <div>
-    <h3>Offer</h3>
-    <ul>
-      <% @jobs.select do |job| %>
-        <% if job.status == 'Offer' %>
-        <li><%= job.company %></li>
-        <% end %>
-      <% end %>
-    </ul>
-  </div>
-  <div>
-    <h3>Rejected</h3>
-    <ul>
-      <% @jobs.select do |job| %>
-        <% if job.status == 'Rejected' %>
-          <li><%= job.company %></li>
-        <% end %>
-      <% end %>
-    </ul>
-  </div>
+  <%= render 'shared/jobs' %>
 
   <%# MODAL TO ADD A JOB %>
 
