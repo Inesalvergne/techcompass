@@ -1,94 +1,99 @@
-<h1>My Jobs</h1>
-<%= link_to 'Add a Job', new_job_path, {remote: :true, 'data-bs-toggle': 'modal',
-                                                       'data-bs-target':
-                                                       '#exampleModal'} %>
 
-<div>
-  <h3>Wishlist</h3>
-  <ul>
-    <% @jobs.select do |job| %>
-      <% if job.status == 'Wishlist' %>
-        <li><%= job.company %></li>
-      <% end %>
-    <% end %>
-  </ul>
-</div>
-<div>
-  <h3>Applied</h3>
-  <ul>
-    <% @jobs.select do |job| %>
-      <% if job.status == 'Applied' %>
-        <li><%= job.company %></li>
-      <% end %>
-    <% end %>
-  </ul>
-</div>
-<div>
-  <h3>Interview</h3>
-  <ul>
-    <% @jobs.select do |job| %>
-      <% if job.status == 'Interview' %>
-        <li><%= job.company %></li>
-      <% end %>
-    <% end %>
-  </ul>
-</div>
-<div>
-  <h3>Decision</h3>
-  <ul>
-    <% @jobs.select do |job| %>
-      <% if job.status == 'Decision' %>
-        <li><%= job.company %></li>
-      <% end %>
-    <% end %>
-  </ul>
-</div>
-<div>
-  <h3>Offer</h3>
-  <ul>
-    <% @jobs.select do |job| %>
-      <% if job.status == 'Offer' %>
-       <li><%= job.company %></li>
-      <% end %>
-    <% end %>
-  </ul>
-</div>
-<div>
-  <h3>Rejected</h3>
-  <ul>
-    <% @jobs.select do |job| %>
-      <% if job.status == 'Rejected' %>
-        <li><%= job.company %></li>
-      <% end %>
-    <% end %>
-  </ul>
-</div>
+<div class="container">
 
-<%# MODAL TO ADD A JOB %>
+  <h1>My Jobs</h1>
+  <%= link_to 'Add a Job', new_job_path, {remote: :true, 'data-bs-toggle': 'modal',
+                                                        'data-bs-target':
+                                                        '#exampleModal'} %>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel"> Add a Job </h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <%= simple_form_for(Job.new) do |f| %>
-              <%= f.input :company %>
-              <%= f.input :description %>
-              <%= f.input :location %>
-              <%= f.input :role, as: :select, collection: Job::ROLE %>
-              <%= f.input :level, as: :select, collection: Job::LEVEL %>
-              <%= f.input :post_url %>
-              <%= f.input :interview_date %>
-              <%= f.input :remote %>
-              <%= f.input :status, as: :select, collection: Job::STATUS %>
-              <%= f.submit "Add a Job", class: "btn btn-sm btn-primary" %>
-            <% end %>
+  <div>
+    <h3>Wishlist</h3>
+    <ul>
+      <% @jobs.select do |job| %>
+        <% if job.status == 'Wishlist' %>
+          <li><%= job.company %></li>
+        <% end %>
+      <% end %>
+    </ul>
+  </div>
+  <div>
+    <h3>Applied</h3>
+    <ul>
+      <% @jobs.select do |job| %>
+        <% if job.status == 'Applied' %>
+          <li><%= job.company %></li>
+        <% end %>
+      <% end %>
+    </ul>
+  </div>
+  <div>
+    <h3>Interview</h3>
+    <ul>
+      <% @jobs.select do |job| %>
+        <% if job.status == 'Interview' %>
+          <li><%= job.company %></li>
+        <% end %>
+      <% end %>
+    </ul>
+  </div>
+  <div>
+    <h3>Decision</h3>
+    <ul>
+      <% @jobs.select do |job| %>
+        <% if job.status == 'Decision' %>
+          <li><%= job.company %></li>
+        <% end %>
+      <% end %>
+    </ul>
+  </div>
+  <div>
+    <h3>Offer</h3>
+    <ul>
+      <% @jobs.select do |job| %>
+        <% if job.status == 'Offer' %>
+        <li><%= job.company %></li>
+        <% end %>
+      <% end %>
+    </ul>
+  </div>
+  <div>
+    <h3>Rejected</h3>
+    <ul>
+      <% @jobs.select do |job| %>
+        <% if job.status == 'Rejected' %>
+          <li><%= job.company %></li>
+        <% end %>
+      <% end %>
+    </ul>
+  </div>
+
+  <%# MODAL TO ADD A JOB %>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"> Add a Job </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <%= simple_form_for(Job.new) do |f| %>
+                <%= f.input :company %>
+                <%= f.input :description %>
+                <%= f.input :location %>
+                <%= f.input :role, as: :select, collection: Job::ROLE %>
+                <%= f.input :level, as: :select, collection: Job::LEVEL %>
+                <%= f.input :post_url %>
+                <%= f.input :interview_date %>
+                <%= f.input :remote %>
+                <%= f.input :status, as: :select, collection: Job::STATUS %>
+                <%= f.submit "Add a Job", class: "btn btn-sm btn-primary" %>
+              <% end %>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
+    </div>
+
+</div>
