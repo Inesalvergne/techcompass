@@ -1,6 +1,6 @@
 <ul class="container list-unstyled">
   <% @resources.each do |resource| %>
-    <% if resource.user == current_user %>
+    <% if resource.user == current_user || current_user.viewed?(resource) %>
       <li>
         <%= link_to resource_path(resource.id), class: 'text-decoration-none text-body' do %>
           <div class="box-resource row d-flex border my-4 py-3">
@@ -25,6 +25,32 @@
             </div>
           </div>
         <% end %>
+      </li>
+    <% elsif !current_user.credits.positive? %>
+      <li>
+        <%= link_to new_resource_path, class: 'text-decoration-none text-body', data: { confirm: "You do not have enough credit to view this resource. Please add a resource to gain credit." }  do %>
+            <div class="box-resource row d-flex border my-4 py-3">
+              <div class="box-resource-left col-2 position-relative">
+                <%= fa_icon "heart", class: 'position-absolute top-0 right-0 text-white' %>
+                <%= image_tag("TechCompass-logo.png", class:"img-fluid resource-img") %>
+              </div>
+              <div class="box-resource-center col-7 d-flex flex-column justify-content-center">
+                <div class="box-resource-center-top">
+                  <h4 class="fw-bold"><%= resource.title %></h4>
+                  <p><%= "By #{resource.user.full_name}" %></p>
+                </div>
+                <div class="box-resource-center-bottom d-flex flex-row">
+                  <p class="d-inline-flex border rounded p-1"><%= resource.tags %></p>
+                </div>
+              </div>
+              <div class="box-resource-right col-3 d-flex justify-content-center align-items-center">
+                <div type="button" class="btn btn-primary d-flex flex-column">
+                  <%= fa_icon "caret-up", class:"fs-1" %>
+                  <%= "#{resource.votes} votes" %>
+                </div>
+              </div>
+            </div>
+          <% end %>
       </li>
     <% else %>
       <li>
