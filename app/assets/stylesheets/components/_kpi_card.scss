@@ -1,0 +1,35 @@
+
+.kpi-card {
+  flex: 0 0 auto;
+  width: 30%;
+  background-color: $lighter-purple;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.kpi-title{
+  font-family: $headers-font;
+  font-size: 15px;
+}
+
+.kpi-number{
+  font-family: $headers-font;
+  font-size: 40px;
+  color: $purple;
+  text-align: end;
+  padding-top: 12px;
+}
+
+.kpi-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line{
+  display: block;
+  background-color: $light-purple;
+  height: 40px;
+  width: 4px;
+  border-radius: 2px;
+}
