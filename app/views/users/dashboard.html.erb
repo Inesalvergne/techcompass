@@ -38,6 +38,7 @@
       </div>
 
        <h3 class= "mb-4 mt-4">My job applications</h3>
+          <%= render 'shared/jobs' %>
 
         <%= link_to 'View all', jobs_path %>
         <% unless @jobs.nil? %>
