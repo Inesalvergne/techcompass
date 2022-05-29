@@ -1,4 +1,4 @@
-<div class="container">
+<div class="main-container">
 
   <div class="container-dashboard">
 
@@ -52,7 +52,6 @@
         </div>
       </div>
 
-
       <div class="job-preview-section">
         <h3 class= "mb-4 mt-4">My job applications</h3>
         <%= link_to 'View all', jobs_path %>
@@ -61,15 +60,11 @@
 
       <div class='my-resources-section'>
         <h3 class= "mb-4 mt-4">My resources</h3>
-        <%= link_to 'My Resources', my_resources_resources_path %>
-        <% @resources.each do |resource| %>
-          <div>
-            <%= resource.title %>
-          </div>
-        <% end %>
+        <%= render 'shared/resources' %>
       </div>
 
     </div>
+
 
     <%# KPIs SECTION %>
 
