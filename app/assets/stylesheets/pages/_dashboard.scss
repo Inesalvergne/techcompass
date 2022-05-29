@@ -3,8 +3,15 @@
 }
 
 .wrapper-dashboard {
-  width: 2200px;
-  border-right: 0.1rem solid $light-grey;
+  width: 700px;
+}
+
+.wrapper-kpi {
+  border-left: 0.1rem solid $light-grey;
+
+  h3 {
+    margin-left: 20px;
+  }
 }
 
 .header-dashboard {
@@ -13,6 +20,13 @@
 }
 
 .info-card {
+  display: flex;
   border-radius: 16px;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
 }

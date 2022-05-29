@@ -2,7 +2,7 @@
 
   <div class="container-dashboard">
 
-    <div class="mt-5 ml-3 wrapper-dashboard">
+    <div class="m-5 wrapper-dashboard">
 
       <div class="header-dashboard">
 
@@ -11,44 +11,56 @@
         </div>
 
         <div class="wrapper-header-date">
-          <h5> <%= @today %></h5>
+          <h5> <%= image_tag("icon-date.svg", class: "m-1") %><%= @today %></h5>
         </div>
 
       </div>
 
-      <h3 class= "mb-4 mt-4">My goal</h3>
+      <div class="goal-section">
+        <h3 class= "mb-4 mt-5">My goal</h3>
 
-      <div class="p-3 info-card">
-      <% unless @jobs.nil? %>
-        <p><%= @goal.description %></p>
-      <% else %>
-        <p>You currently have not set a goal!</p>
-      <% end %>
-      </div>
+        <div class="p-3 info-card">
+          <div class="p-2 icon-card">
+            <%=image_tag("icon-goal.svg") %>
+          </div>
+          <div class="m-2 align-self-center text-card">
+            <% unless @jobs.nil? %>
+              <p><%= @goal.description %></p>
+            <% else %>
+              <p>You currently have not set a goal!</p>
+            <% end %>
+          </div>
+        </div>
 
-      <%= link_to 'Add a Goal', new_goal_path %>
-      <% unless @jobs.nil? %>
-        <%= link_to 'Edit your Goal', edit_goal_path(@goal) %>
-      <% end %>
-
-      <h3 class= "mb-4 mt-4">My credits</h3>
-
-      <div class="p-3 info-card">
-        <p> You have <%= pluralize(current_user.credits, 'credit')%> left </p>
-        <%= link_to 'Share a resource to get more credits!', new_resource_path %>
-      </div>
-
-       <h3 class= "mb-4 mt-4">My job applications</h3>
-        <%= link_to 'View all', jobs_path %>
+        <%= link_to 'Add a Goal', new_goal_path %>
         <% unless @jobs.nil? %>
-          <% @jobs.each do |job| %>
-            <div>
-              <%= job.company %>
-            </div>
-          <% end %>
+          <%= link_to 'Edit your Goal', edit_goal_path(@goal) %>
         <% end %>
+      </div>
 
-      <div class='border border-primary'>
+      <div class="credit-section">
+        <h3 class= "mb-4 mt-5">My credits</h3>
+
+        <div class="p-3 info-card">
+          <div class="p-2 icon-card">
+            <%=image_tag("icon-credits.svg") %>
+          </div>
+          <div class="m-2 align-self-center text-card">
+            <p> You have <%= pluralize(current_user.credits, 'credit')%> left </p>
+            <%= link_to 'Share a resource to get more credits!', new_resource_path %>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="job-preview-section">
+        <h3 class= "mb-4 mt-4">My job applications</h3>
+        <%= link_to 'View all', jobs_path %>
+        <%= render 'shared/job_preview' %>
+      </div>
+
+      <div class='my-resources-section'>
+        <h3 class= "mb-4 mt-4">My resources</h3>
         <%= link_to 'My Resources', my_resources_resources_path %>
         <% @resources.each do |resource| %>
           <div>
@@ -57,18 +69,15 @@
         <% end %>
       </div>
 
-      <div class='border border-primary'>
-        <% unless @jobs.nil? %>
-          <p>You have <%= pluralize(@goal.job_target - @goal.jobs.count, 'Application') %>left to meet your goal</p>
-          <p>You have posted <%= pluralize(current_user.resources.count, 'Resource') %></p>
-        <% end %>
-      </div>
     </div>
 
-    <div class="mt-5 wrapper-kpi">
-      <h5> My KPIs</h5>
+    <%# KPIs SECTION %>
+
+    <div class="wrapper-kpi">
+      <h3 class="mt-5 pl-3"> My KPIs</h3>
       <%= render 'shared/kpi_card' %>
     </div>
 
   </div>
+
 </div>
