@@ -1,0 +1,49 @@
+<div class="grid-container-job">
+
+        <% @jobs_preview.each do |job| %>
+          <% if job.status == 'Wishlist' %>
+            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-wishlist">
+              <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
+                  <p class="fw-bold mt-1"><%= job.company %></p>
+                  <p class="fs-6"><%= job.role %></p>
+              <% end %>
+          </div>
+          <% elsif job.status == 'Applied' %>
+            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-applied">
+              <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
+                  <p class="fw-bold mt-1"><%= job.company %></p>
+                  <p class="fs-6"><%= job.role %></p>
+              <% end %>
+            </div>
+           <% elsif job.status == 'Interview' %>
+            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-interview">
+              <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
+                  <p class="fw-bold mt-1"><%= job.company %></p>
+                  <p class="fs-6"><%= job.role %></p>
+              <% end %>
+            </div>
+          <% elsif job.status == 'Decision' %>
+            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-decision">
+              <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
+                  <p class="fw-bold mt-1"><%= job.company %></p>
+                  <p class="fs-6"><%= job.role %></p>
+              <% end %>
+            </div>
+          <% elsif job.status == 'Offer' %>
+            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-offer">
+              <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
+                  <p class="fw-bold mt-1"><%= job.company %></p>
+                  <p class="fs-6"><%= job.role %></p>
+              <% end %>
+            </div>
+          <% elsif job.status == 'Rejected' %>
+            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-rejected">
+              <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
+                  <p class="fw-bold mt-1"><%= job.company %></p>
+                  <p class="fs-6"><%= job.role %></p>
+              <% end %>
+            </div>
+          <% end %>
+        <% end %>
+
+</div>

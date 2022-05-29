@@ -1,0 +1,9 @@
+.grid-container-job{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 12px;
+}
+
+.grid-item-job{
+  width: 300px;
+}
