@@ -1,0 +1,113 @@
+<div class="container container-job-preview">
+
+  <div class="row row-cols-2">
+      <div class="col p-4 job-card">
+      @jobs.find(1)
+      </div>
+    </div>
+
+
+<div class="container-fluid">
+  <div class="row d-flex">
+    <div class="col bg-light mx-1 d-flex flex-column py-4">
+      <ul class="list-unstyled">
+        <% @jobs.select do |job| %>
+          <% if job.status == 'Wishlist' %>
+            <li>
+              <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
+                <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-wishlist">
+                  <p class="fw-bold mt-1"><%= job.company %></p>
+                  <p class="fs-6"><%= job.role %></p>
+                </div>
+              <% end %>
+            </li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+    <div class="col bg-light mx-1 d-flex flex-column py-4">
+      <ul class="list-unstyled">
+        <% @jobs.select do |job| %>
+          <% if job.status == 'Applied' %>
+            <li>
+              <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
+                <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-applied">
+                  <p class="fw-bold mt-1"><%= job.company %></p>
+                  <p class="fs-6"><%= job.role %></p>
+                </div>
+              <% end %>
+            </li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+    <div class="col bg-light mx-1 d-flex flex-column py-4">
+      <h5 class="text-center mb-3 fw-bold">Interview</h5>
+      <ul class="list-unstyled">
+        <% @jobs.select do |job| %>
+          <% if job.status == 'Interview' %>
+            <li>
+              <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
+                <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-interview">
+                  <p class="fw-bold mt-1"><%= job.company %></p>
+                  <p class="fs-6"><%= job.role %></p>
+                </div>
+              <% end %>
+            </li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+    <div class="col bg-light mx-1 d-flex flex-column py-4">
+      <h5 class="text-center mb-3 fw-bold">Decision</h5>
+      <ul class="list-unstyled">
+        <% @jobs.select do |job| %>
+          <% if job.status == 'Decision' %>
+            <li>
+              <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
+                <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-decision">
+                  <p class="fw-bold mt-1"><%= job.company %></p>
+                  <p class="fs-6"><%= job.role %></p>
+                </div>
+              <% end %>
+            </li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+    <div class="col bg-light mx-1 d-flex flex-column py-4">
+      <h5 class="text-center mb-3 fw-bold">Offer</h5>
+      <ul class="list-unstyled">
+        <% @jobs.select do |job| %>
+          <% if job.status == 'Offer' %>
+            <li>
+              <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
+                <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-offer">
+                  <p class="fw-bold mt-1"><%= job.company %></p>
+                  <p class="fs-6"><%= job.role %></p>
+                </div>
+              <% end %>
+            </li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+    <div class="col bg-light mx-1 d-flex flex-column py-4">
+      <h5 class="text-center mb-3 fw-bold">Rejected</h5>
+      <ul class="list-unstyled">
+        <% @jobs.select do |job| %>
+          <% if job.status == 'Rejected' %>
+            <li>
+              <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
+                <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-rejected">
+                  <p class="fw-bold mt-1"><%= job.company %></p>
+                  <p class="fs-6"><%= job.role %></p>
+                </div>
+              <% end %>
+            </li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

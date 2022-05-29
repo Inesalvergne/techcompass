@@ -34,12 +34,11 @@
       <h3 class= "mb-4 mt-4">My credits</h3>
 
       <div class="p-3 info-card">
-        <p><%= pluralize(current_user.credits, 'credit')%></p>
+        <p> You have <%= pluralize(current_user.credits, 'credit')%> left </p>
+        <%= link_to 'Share a resource to get more credits!', new_resource_path %>
       </div>
 
        <h3 class= "mb-4 mt-4">My job applications</h3>
-          <%= render 'shared/jobs' %>
-
         <%= link_to 'View all', jobs_path %>
         <% unless @jobs.nil? %>
           <% @jobs.each do |job| %>
