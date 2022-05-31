@@ -16,7 +16,7 @@ class UsersController < ApplicationController
     else
       @jobs = @goal.jobs.order(created_at: :desc).first(4)
     end
-    @resources = current_user.resources.order(created_at: :desc).first(4)
+    @resources = Resource.where(user: current_user).order(created_at: :desc).first(4)
 
     # date
     @today = Date.today.to_s(:long)
