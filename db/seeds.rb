@@ -80,19 +80,21 @@ puts "Creating goals..."
 end
 
 puts "Creating jobs..."
-5.times do
-  Job.create!(
-    company: Faker::Company.name,
-    description: "It's a company.",
-    location: Faker::Address.city,
-    role: ROLE.sample,
-    level: LEVEL.sample,
-    post_url: Faker::Internet.url(host: 'linkedin.com'),
-    status: STATUS.sample,
-    remote: true,
-    goal: Goal.all.sample
-  )
-end
+=begin
+  5.times do
+    Job.create!(
+      company: Faker::Company.name,
+      description: "It's a company.",
+      location: Faker::Address.city,
+      role: ROLE.sample,
+      level: LEVEL.sample,
+      post_url: Faker::Internet.url(host: 'linkedin.com'),
+      status: STATUS.sample,
+      remote: true,
+      goal: Goal.all.sample
+    )
+  end
+=end
 
 puts "Creating resources..."
 5.times do
