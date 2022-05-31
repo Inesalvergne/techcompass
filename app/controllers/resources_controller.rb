@@ -23,7 +23,7 @@ class ResourcesController < ApplicationController
 
     if current_user.credits.positive?
       if View.create!(user: current_user, resource: @resource)
-        current_user.credits -= 1
+        current_user.credits -= 5
         current_user.save
       end
     end
@@ -38,7 +38,7 @@ class ResourcesController < ApplicationController
     @resource = Resource.new(resource_params)
     @resource.user = current_user
     if @resource.save
-      current_user.credits += 1
+      current_user.credits += 15
       redirect_to resource_path(@resource)
     else
       render :new
