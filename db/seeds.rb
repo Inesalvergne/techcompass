@@ -43,10 +43,10 @@ def create_user(name, title)
 end
 
 
-puts "Creating user 1..."
-ibrahim = create_user("ibrahim", LEVEL[1])
-programmer_interview.user = ibrahim
-programmer_interview.save!
+#puts "Creating user 1..."
+#ibrahim = create_user("ibrahim", LEVEL[1])
+#programmer_interview.user = ibrahim
+#programmer_interview.save!
 
 
 
@@ -109,23 +109,25 @@ end
 
 
 piq = File.open("db/programmer_interview_questions.txt")
-basic_programmer_interviewqs = Resource.new(
+basic_programmer_interviewqs = Resource.create!(
     title: "Essential Full-Stack interview questions",
     summary: "...",
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: "Junior",
-    tags: "Full-Stack Developer"
+    tags: "Full-Stack Developer",
+    user: User.first,
     rich_content: piq.read
 )
 piq.close
 
 efave_lang = File.open("db/efave_lang.txt")
-basic_interview_qs = Resource.new(
+basic_interview_qs = Resource.create!(
     title: "Basic programming interview questions",
     summary: "...",
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: "Junior",
     tags: "Full-Stack Developer",
+    user: User.first,
     rich_content: efave_lang.read
 )
 efave_lang.close
@@ -133,48 +135,51 @@ efave_lang.close
 
 
 fes_interviewqs = File.open("db/fes_interviewqs.txt")
-senior_interview_qs = Resource.new(
+senior_interview_qs = Resource.create!(
     title: "Senior Front-End Interview Questions",
     summary: "...",
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: "Senior",
     tags: "Front-End Developer",
+    user: User.first,
     rich_content: fes_interviewqs.read)
     fes_interviewqs.close
 
 
 
   ber_iqs = File.open("db/ber_iqs.txt")
-  back_end_ruby = Resource.new(
+  back_end_ruby = Resource.create!(
     title: "Ruby Interview Questions",
     summary: "...",
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: "Junior",
     tags: "Back-End Developer",
+    user: User.first,
     rich_content: ber_iqs.read)
    ber_iqs.close
 
 
 fsportfolio = File.open("db/fs_devportfolio.txt")
-full_stack_portfolio = Resource.new(
+full_stack_portfolio = Resource.create!(
         title: "Full Stack Devloper Portfolio Tips",
         summary: "...",
         votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
         level: "Junior, Senior",
         tags: "Front-End Developer",
+        user: User.first,
         rich_content: fsportfolio.read)
         fsportfolio.close
 
 
-bep_iqs = File.open("db/bep_iqs.txt")
-back_end_python = Resource.new(
-        title: "Python Devloper Interview Tips",
-        summary: "...",
-        votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-        level: "Senior",
-        tags: "Back-End Developer",
-        rich_content: bep_iqs.read)
-        bep_iqs.close
+#bep_iqs = File.open("db/bep_iqs.txt")
+#back_end_python = Resource.create!(
+    #    title: "Python Devloper Interview Tips",
+      #  summary: "...",
+       # votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+        #level: "Senior",
+        #tags: "Back-End Developer",
+        #rich_content: bep_iqs.read)
+        #bep_iqs.close
 
 fes_iqs = File.open("db/fes_iqs.txt")
        front_end_senior = Resource.new(
@@ -187,7 +192,8 @@ fes_iqs = File.open("db/fes_iqs.txt")
           fes_iqs.close
 
 
-dm_iqs = File.open("db/dm_interview")
+
+dm_iqs = File.open("db/dm_interview.txt")
 digital_marketing_interview = Resource.new(
   title: "Digital Marketing Interview Tips",
   summary: "...",
@@ -197,7 +203,7 @@ digital_marketing_interview = Resource.new(
   rich_content: dm_iqs.read)
   dm_iqs.close
 
-be_skills = File.open("db/be_skills")
+be_skills = File.open("db/be_skills.txt")
 back_end_skills = Resource.new(
   title: "7 Must-Have Back-End Developer Skills",
   summary: "...",
@@ -207,15 +213,20 @@ back_end_skills = Resource.new(
   rich_content: be_skills.read)
   be_skills.close
 
-  be_rm = File.open("db/be_roadmap")
-  back_end_roadmap = Resource.new(
+  be_rm = File.open("db/be_roadmap.txt")
+  back_end_roadmap = Resource.create!(
   title: "Complete Back-End Developer Roadmap",
   summary: "...",
   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
   level: "Junior",
+  user: User.first,
   tags: "Back-End Developer",
   rich_content: be_rm.read)
+
   be_rm.close
+
+# the commented out lines of code are already linked to
+#text files in the db folder, but some are redundant so I commented them out for now.
 
 
 #interview_questions = File.open("db/i_questions.txt")
