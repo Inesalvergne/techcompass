@@ -39,6 +39,7 @@ class ResourcesController < ApplicationController
     @resource.user = current_user
     if @resource.save
       current_user.credits += 15
+      current_user.save
       redirect_to resource_path(@resource)
     else
       render :new
