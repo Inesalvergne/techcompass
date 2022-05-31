@@ -6,33 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 #
-User.destroy_all
-Goal.destroy_all
-Job.destroy_all
-Resource.destroy_all
-puts "Test string"
-
-
-file = File.open("db/programmer_interview_questions.txt")
-programmer_interview = Resource.new(
-    title: "Top interview questions",
-    summary: "",
-    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-    level: LEVEL.sample,
-    tags: TAG.sample,
-    rich_content: file.read
-)
-file.close
-
-def create_user(name, title)
-  User.create!(
-    full_name: name,
-    job_title: title,
-    email: "#{name}@email.com",
-    password: "12345678",
-    credits: 5,
-  )
-end
 
 
 ROLE = ['Back-End Developer', 'Front-End Developer',
@@ -42,21 +15,38 @@ ROLE = ['Back-End Developer', 'Front-End Developer',
 LEVEL = ['Entry Level', 'Junior', 'Senior'].freeze
 
 STATUS = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer',
-          'Rejected'].freeze
+          'Rejected']
 
 
 
 TAG = ['Back-End Developer', 'Front-End Developer',
-                 'Full-Stack Developer']
+                 'Full-Stack Developer', 'Digital Marketer']
+
+Resource.destroy_all
+User.destroy_all
+Goal.destroy_all
+Job.destroy_all
+
+puts "Test string"
 
 
+
+
+def create_user(name, title)
+  return User.create!(
+    full_name: name,
+    job_title: title,
+    email: "#{name}@email.com",
+    password: "12345678",
+    credits: 5,
+  )
+end
 
 
 puts "Creating user 1..."
-ibrahim = create_user("ibrahim", levels[1])
-
+ibrahim = create_user("ibrahim", LEVEL[1])
 programmer_interview.user = ibrahim
-programmer_interview.save
+programmer_interview.save!
 
 
 
@@ -117,29 +107,134 @@ puts "Creating resources..."
   )
 end
 
-g_interview_q = File.open("db/programmer_interview_questions.txt")
+
+piq = File.open("db/programmer_interview_questions.txt")
+basic_programmer_interviewqs = Resource.new(
+    title: "Essential Full-Stack interview questions",
+    summary: "...",
+    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    level: "Junior",
+    tags: "Full-Stack Developer"
+    rich_content: piq.read
+)
+piq.close
 
 efave_lang = File.open("db/efave_lang.txt")
+basic_interview_qs = Resource.new(
+    title: "Basic programming interview questions",
+    summary: "...",
+    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    level: "Junior",
+    tags: "Full-Stack Developer",
+    rich_content: efave_lang.read
+)
+efave_lang.close
 
-piq = File.open("db/piq.txt")
 
-interview_questions = File.open("db/i_questions.txt")
-
-
-
-portfolio = File.open("db/portfolio_1.txt")
-
-
-fej_interviewqs = File.open("db/fej_interviewqs.txt")
 
 fes_interviewqs = File.open("db/fes_interviewqs.txt")
+senior_interview_qs = Resource.new(
+    title: "Senior Front-End Interview Questions",
+    summary: "...",
+    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    level: "Senior",
+    tags: "Front-End Developer",
+    rich_content: fes_interviewqs.read)
+    fes_interviewqs.close
 
-fes_iqs = File.open("db/fes_iqs.txt")
 
-ber_iqs = File.open("db/ber_iqs.txt")
 
-ber_iqs = File.open("db/ber_iqs.txt")
+  ber_iqs = File.open("db/ber_iqs.txt")
+  back_end_ruby = Resource.new(
+    title: "Ruby Interview Questions",
+    summary: "...",
+    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    level: "Junior",
+    tags: "Back-End Developer",
+    rich_content: ber_iqs.read)
+   ber_iqs.close
+
+
+fsportfolio = File.open("db/fs_devportfolio.txt")
+full_stack_portfolio = Resource.new(
+        title: "Full Stack Devloper Portfolio Tips",
+        summary: "...",
+        votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+        level: "Junior, Senior",
+        tags: "Front-End Developer",
+        rich_content: fsportfolio.read)
+        fsportfolio.close
+
 
 bep_iqs = File.open("db/bep_iqs.txt")
+back_end_python = Resource.new(
+        title: "Python Devloper Interview Tips",
+        summary: "...",
+        votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+        level: "Senior",
+        tags: "Back-End Developer",
+        rich_content: bep_iqs.read)
+        bep_iqs.close
 
-bes = File.open("db/bes.txt")
+fes_iqs = File.open("db/fes_iqs.txt")
+       front_end_senior = Resource.new(
+          title: "Senior Front-End Interview Preparation",
+          summary: "...",
+          votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+          level: "Senior",
+          tags: "Front-End Developer",
+          rich_content: fes_iqs.read)
+          fes_iqs.close
+
+
+dm_iqs = File.open("db/dm_interview")
+digital_marketing_interview = Resource.new(
+  title: "Digital Marketing Interview Tips",
+  summary: "...",
+  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+  level: "Junior",
+  tags: "Digital Marketer",
+  rich_content: dm_iqs.read)
+  dm_iqs.close
+
+be_skills = File.open("db/be_skills")
+back_end_skills = Resource.new(
+  title: "7 Must-Have Back-End Developer Skills",
+  summary: "...",
+  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+  level: "Junior",
+  tags: "Back-End Developer",
+  rich_content: be_skills.read)
+  be_skills.close
+
+  be_rm = File.open("db/be_roadmap")
+  back_end_roadmap = Resource.new(
+  title: "Complete Back-End Developer Roadmap",
+  summary: "...",
+  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+  level: "Junior",
+  tags: "Back-End Developer",
+  rich_content: be_rm.read)
+  be_rm.close
+
+
+#interview_questions = File.open("db/i_questions.txt")
+
+
+
+#portfolio = File.open("db/portfolio_1.txt")
+
+
+#fej_interviewqs = File.open("db/fej_interviewqs.txt")
+
+#
+
+
+
+
+
+#ber_iqs = File.open("db/ber_iqs.txt")
+
+
+
+#bes = File.open("db/bes.txt")
