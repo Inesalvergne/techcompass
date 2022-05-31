@@ -11,21 +11,22 @@ $font-size-base: 1rem;
 
 // Colors
 $body-color: $grey;
-$primary:    $blue;
+$primary:    $purple;
 $success:    $green;
 $info:       $yellow;
 $danger:     $red;
 $warning:    $orange;
 
 // Buttons & inputs' radius
-$border-radius:    2px;
+$border-radius:    18px;
 $border-radius-lg: 2px;
 $border-radius-sm: 2px;
 
 // Override other variables below!
-
-$wishlist:   $yellow;
-$applied:    $purple;
-$interview:  $orange;
-$decision:   $blue;
-$offer:      $green;
+.btn-primary {
+  border-radius: 18px !important;
+  padding: 16px !important;
+  font-family: $body-font !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+}

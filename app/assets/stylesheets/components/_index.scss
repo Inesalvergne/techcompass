@@ -1,8 +1,15 @@
 // Import your components CSS files here.
 @import "alert";
 @import "avatar";
+@import "box-resource";
 @import "form_legend_clear";
 @import "job-borders";
 @import "navbar";
 @import "richtext";
 @import "kpi_card";
+@import "job_preview_card";
+
+
+h5{
+  color: $purple
+}
