@@ -1,0 +1,246 @@
+
+        <div class="crayons-article__main">
+
+          <div class="crayons-article__body text-styles spec__body" data-article-id="924782" id="article-body">
+            <p>Interested in becoming a backend developer? You’ve come to the right place. If you’ve got some coding experience but are new to programming, this guide will teach you all about backend development. It can be overwhelming to learn everything at once, which is why we break it down into steps. This way, you can learn at your own pace and get help when you need it! </p>
+
+<p>As a new developer, it’s essential to know the basics before moving to more advanced topics. This roadmap will provide an overview of what you need to know as a beginner getting started with backend development.</p>
+
+<p><strong>Table Of Content</strong></p>
+
+<p><a href="#1-what-is-backend-development">1. What is backend development?</a><br>
+<a href="#2-why-learn-backend-development">2. Why learn backend development?</a><br>
+<a href="#3-how-to-get-started-with-backend-development">3. How to get started with backend development</a><br>
+<a href="#4-the-roadmap-for-beginners">4. The roadmap for beginners</a><br>
+<a href="#41-basicslearn-a-language-and-database">4.1 Basics - Learn a Language and Database</a><br>
+<a href="#42-intermediatelearn-a-backend-framework">4.2 Intermediate - Learn a backend Framework</a><br>
+<a href="#43-advancedapi-caching-security-and-testing">4.3 Advanced - Api, Caching, Security, and Testing</a><br><br>
+<a href="#5-extra-stuffgood-to-know">5. Extra Stuff - Good to know</a><br>
+<a href="#6-next-steps">6. Next Steps</a><br>
+<a href="#7-conclusion">7. Conclusion</a></p>
+
+<h2>
+  <a name="1-what-is-backend-development" href="#1-what-is-backend-development">
+  </a>
+  1. What is backend development?
+</h2>
+
+<p>Backend developers handle the code on the “back-end” of websites. This means that the server communicates with the database to store and retrieve information. To create a website, most of your code will be written in HTML, CSS, and JavaScript. Most people don’t know that this code is what makes your website responsive or interactive. In addition, developers use backend code to program actions on the server.</p>
+
+<p>For example, if you want to send an email when someone registers for your company’s newsletter, backend developers will write the code to accomplish this task. They may use PHP or Python to write the code for your website.<br>
+Another way backend developers can help you is by optimizing the performance of your website. They can also maintain your database, write scripts in languages like Bash, and work with data. If you want to become a backend developer, these are just some of the skills you’ll need to know.</p>
+
+<h2>
+  <a name="2-why-learn-backend-development" href="#2-why-learn-backend-development">
+  </a>
+  2. Why learn backend development?
+</h2>
+
+<p><a href="https://res.cloudinary.com/practicaldev/image/fetch/s--eV53WLPk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://images.unsplash.com/photo-1467232004584-a241de8bcf5d%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2669%26q%3D80" class="article-body-image-wrapper"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--eV53WLPk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://images.unsplash.com/photo-1467232004584-a241de8bcf5d%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2669%26q%3D80" alt="Learn Backend Development" loading="lazy" width="880" height="588"></a></p>
+
+<p>If you want to be a developer, it’s a good idea to have various skills under your belt. For example, some developers only work on the frontend, some only do the backend, and a few do a bit of both.</p>
+
+<p><strong>Backend development is an important part of programming because it’s the server-side of the process.</strong> Therefore, you need to know how to write code to handle the frontend requests and communicate with databases to store data.</p>
+
+<p>In many cases, backend developers need to understand how clients talk to servers and vice-versa, as well as how information is stored and retrieved from databases. Plus, you still need to know the basics of programming languages.</p>
+
+<p>So if you’re interested in backend development, <strong>you’ll need a solid understanding of HTML and CSS before moving on.</strong> This will ensure that you have a good foundation in front end development as well. You don’t want to spend all your time learning back-end development when your knowledge is limited.</p>
+
+<h2>
+  <a name="3-how-to-get-started-with-backend-development" href="#3-how-to-get-started-with-backend-development">
+  </a>
+  3. How to get started with backend development
+</h2>
+
+<p><a href="https://res.cloudinary.com/practicaldev/image/fetch/s--qMaiN7mC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://images.unsplash.com/photo-1518770660439-4636190af475%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80" class="article-body-image-wrapper"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--qMaiN7mC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://images.unsplash.com/photo-1518770660439-4636190af475%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80" alt="Get Started Backend Dev" loading="lazy" width="880" height="587"></a></p>
+
+<p>It can be overwhelming to learn everything at once, which is why we break it down into steps. This way, you can learn at your own pace and get help when you need it! So if you’ve never coded before, don’t worry! We’ve got you covered with the basics.</p>
+
+<p>Here are some key areas you need to know before you start working with backend development:</p>
+
+<h3>
+  <a name="internet" href="#internet">
+  </a>
+  Internet
+</h3>
+
+<p>a. How does the Internet work?<br><br>
+b. What is HTTP?<br><br>
+c. How do browsers work?<br><br>
+d. What is a domain and how does it work?<br><br>
+e. What is hosting?<br><br>
+f. DNS and how it works?  </p>
+
+<h3>
+  <a name="frontend-basics" href="#frontend-basics">
+  </a>
+  Frontend Basics
+</h3>
+
+<p>a. HTML Knowledge<br><br>
+b. Basics CSS/SCSS Knowledge<br><br>
+c. Basics Javascript Knowledge<br><br>
+d. CSS frameworks and JS frameworks basics  </p>
+
+<h3>
+  <a name="os-and-general-knowledge" href="#os-and-general-knowledge">
+  </a>
+  OS and General Knowledge
+</h3>
+
+<p>a. Terminal Usage<br><br>
+b. Memory Management<br><br>
+c. Process Management<br><br>
+d. Thread and Concurrency<br><br>
+e. Basic Terminal Commands<br><br>
+f. Version Control System (Git)  </p>
+
+<h2>
+  <a name="4-the-roadmap-for-beginners" href="#4-the-roadmap-for-beginners">
+  </a>
+  4. The roadmap for beginners
+</h2>
+
+<p><a href="https://res.cloudinary.com/practicaldev/image/fetch/s--LbmJYJpq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://images.unsplash.com/photo-1531403009284-440f080d1e12%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80" class="article-body-image-wrapper"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--LbmJYJpq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://images.unsplash.com/photo-1531403009284-440f080d1e12%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D2670%26q%3D80" alt="Roadmap Backend" loading="lazy" width="880" height="587"></a></p>
+
+<p>As a beginner, you’ll need to make sure you understand the fundamentals before moving on to more advanced topics. For example, it’s essential to know how to code before you learn how to make a REST API call.</p>
+
+<p>It’s also important to understand how an application is structured. <strong>The frontend deals with the UI, while the backend deals with the logic.</strong> The frontend is what users interact with, while the backend is what creates the code behind it.</p>
+
+<p><a href="https://www.creative-tim.com/blog/educational-tech/frontend-developer-roadmap/?ref=devto">Extra Resource: The Front-end Developer Roadmap - How to Become One</a></p>
+
+<p>This may sound confusing, but it’s actually pretty straightforward. Think of it this way: the frontend is the person wearing the suit, while the backend is the person who makes all of the clothes. The frontend makes sure everything looks good on the outside, while the backend is making sure everything looks good on the inside.</p>
+
+<p>The roadmaps for each section are designed to help you understand what you should be focusing on. </p>
+
+<h3>
+  <a name="41-basics-learn-a-language-and-database" href="#41-basics-learn-a-language-and-database">
+  </a>
+  4.1 Basics - Learn a Language and Database
+</h3>
+
+<p>A backend developer must learn a programming language to improve their coding skills. We start with the basics of a programming language: syntax, variables, data types, functions, objects, and execution. Besides these things, make sure to learn its quirks (Core details about its runtime e.g. concurrency, memory model).</p>
+
+<p>Among the most used programming languages for the backend part of an application are:</p>
+
+<p>a. Javascript<br><br>
+b. PHP<br><br>
+c. Python<br><br>
+d. Ruby<br><br>
+d. C#  </p>
+
+<p>A <strong>database</strong> is an organized collection of structured information, or data, typically stored electronically in a computer system. There are two major categories of database: SQL and NoSQL. SQL databases are table-based, while NoSQL databases are document, key-value, graph, or wide-column stores.</p>
+
+<p><strong>SQL Databases</strong>:<br><br>
+a. PostgreSQL<br><br>
+b. MySQL<br><br>
+c. Oracle  </p>
+
+<p><strong>NoSQL Databases</strong><br><br>
+a. Firebase<br><br>
+b. MongoDB<br><br>
+c. Cassandra<br><br>
+d. InfluxDB  </p>
+
+<h3>
+  <a name="42-intermediate-learn-a-backend-framework" href="#42-intermediate-learn-a-backend-framework">
+  </a>
+  4.2 Intermediate - Learn a backend Framework
+</h3>
+
+<p>To be able to develop backend applications faster, frameworks have been developed over each programming language.</p>
+
+<p>a. <strong>Node.js</strong> is a runtime environment that allows software developers to launch both the frontend and backend of web apps using JavaScript.<br>
+b. <strong>Laravel</strong> is considered as one of the best PHP frameworks for web application development. It helps build wonderful apps using an expressive but simple syntax.<br>
+c. <strong>Django</strong> is a collection of Python libs allowing you to quickly and efficiently create a quality Web application and is suitable for both frontend and backend.<br>
+d. <strong>Rails or Ruby on Rails</strong>, is an open-source framework based on the Ruby programming language. Using RoR, developers don’t have to rewrite every single piece of code in the process of web application development. <br>
+e. <strong>ASP.NET</strong> is a web application framework developed and marketed by Microsoft to allow programmers to build dynamic websites. It allows you to use a full-featured programming language such as C#  to build web applications easily.</p>
+
+<h3>
+  <a name="43-advanced-api-caching-security-and-testing" href="#43-advanced-api-caching-security-and-testing">
+  </a>
+  4.3 Advanced - Api, Caching, Security, and Testing
+</h3>
+
+<p><strong>API</strong> is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Backend developers use APIs to create connections between different applications or services to improve user experience through the frontend. Some of the APIs you should know about are:</p>
+
+<ul>
+<li>REST
+</li>
+<li>JSON
+</li>
+<li>SOAP
+</li>
+<li>GSON
+</li>
+<li>XML-RPC
+</li>
+<li>AES
+</li>
+</ul>
+
+<p><strong>A cache</strong> is a high-speed data storage tier that stores a subset of data, usually transient in nature so that future requests for that data can be served faster than is possible by accessing the primary location of the data. Caching allows you to reuse previously retrieved or computed data efficiently. There are three types of caching: </p>
+
+<ul>
+<li>CDN</li>
+<li>Server Side</li>
+<li>Client Side</li>
+</ul>
+
+<p><strong>Web Secutiry Knowledge</strong></p>
+
+<ul>
+<li>HTTPS</li>
+<li>SSL</li>
+<li>CORS</li>
+<li>Hashing Algorithms</li>
+</ul>
+
+<p><strong>Backend Testing</strong> is a testing method that checks the server-side or database of web applications or the software. Some of the testings you should know about are:</p>
+
+<ul>
+<li>Integration Testing</li>
+<li>Unit Testing</li>
+<li>Functional Testing</li>
+</ul>
+
+<h2>
+  <a name="5-extra-stuff-good-to-know" href="#5-extra-stuff-good-to-know">
+  </a>
+  5. Extra stuff - Good to know
+</h2>
+
+<p><a href="https://res.cloudinary.com/practicaldev/image/fetch/s--lQZSmLwB--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://images.unsplash.com/photo-1503437313881-503a91226402%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D3432%26q%3D80" class="article-body-image-wrapper"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lQZSmLwB--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://images.unsplash.com/photo-1503437313881-503a91226402%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D3432%26q%3D80" alt="Good to know" loading="lazy" width="880" height="495"></a></p>
+
+<p><strong>Continuous integration</strong> (CI) and <strong>continuous delivery</strong> (CD) embody a culture, set of operating principles, and collection of practices that enable application development teams to deliver code changes more frequently and reliably.</p>
+
+<p>An <strong>Architectural Pattern</strong>  is a general, reusable solution to a commonly occurring problem in software architecture within a given context. </p>
+
+<p><strong>Docker</strong>  is indeed the most recommended tool for all developers. It is a containerization platform that allows you to create, deploy, and run applications without any hassle with the help of containers.</p>
+
+<p><strong>Web Servers</strong><br><br>
+The <strong>Apache</strong>, or you can say Apache HTTP Server, is an open-source cross-platform web server that was developed by the Apache Software Foundation.<br>
+<strong>NGINX</strong> is another open-source web server that is also being used for reverse proxying, load balancing, caching, mail proxying, and more.</p>
+
+<h2>
+  <a name="6-next-steps" href="#6-next-steps">
+  </a>
+  6. Next Steps
+</h2>
+
+<p>After you've finished all these steps, it's time for practicing. You can do this through open-source projects or, we recommend you to get an entry job. This way you will gain experience easier with the help of your senior colleagues.</p>
+
+<p>For this, we've prepared a comprehensive guide on <strong><a href="https://www.creative-tim.com/blog/education/web-developer-portfolio-website/?ref=devto">How to Build Your First Web Developer Portfolio Website.</a></strong></p>
+
+<p>Also, another smart way to present yourself as a developer is by using your <strong><a href="https://www.creative-tim.com/blog/educational-tech/how-to-create-github-profile/?ref=devto">Github profile to create a fancy CV.</a></strong></p>
+
+<h2>
+  <a name="7-conclusion" href="#7-conclusion">
+  </a>
+  7. Conclusion
+</h2>
+
+<p>Congratulations, you’ve reached the end of the frontend development roadmap! <br>
+Becoming a web developer can be hard. It takes time, hard work, and persistence. You have to learn how to code, how to use specific frameworks, and even when you’ve mastered all of that there’s still much more to learn. </p>
+
+<p>Thankfully, you don’t have to do this alone! There are many resources out there, all aimed at helping you learn these skills in an organized manner. This is why we created this roadmap for becoming a backend developer. Prioritizing roadmaps ensures that you can make the most progress possible in the shortest amount of time.</p>

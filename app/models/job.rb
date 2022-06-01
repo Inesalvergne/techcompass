@@ -3,7 +3,7 @@ class Job < ApplicationRecord
   has_one :user, through: :goal
 
   ROLE = ['Back-End Developer', 'Front-End Developer',
-          'Full-Stack Developer'].freeze
+          'Full-Stack Developer', 'Digital Marketer'].freeze
   LEVEL = ['Entry Level', 'Junior', 'Senior'].freeze
   STATUS = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer',
             'Rejected'].freeze

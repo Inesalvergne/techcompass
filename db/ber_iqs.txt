@@ -1,0 +1,448 @@
+<div data-cid="interview-questions-2"><section class="_1gJRUv-Q _1YibmBYc _1_bvS4sL _3LOPUP7d "><div class="_2Msq6oVU _1YibmBYc _3LOPUP7d _2_32njdU "><h1 class="_3jzzwAad" data-testid="hero-title">21 Essential Ruby Interview Questions <a href="#note">*</a></h1><h2 data-testid="hero-subtitle" class="_3IsJPeZO   ">Toptal sourced essential questions that the best Ruby developers and engineers can answer. Driven from our community, we encourage experts to submit questions and offer feedback.</h2><a href="https://www.toptal.com/hire?interested_in=developers&amp;skill=ruby&amp;skill_job_title=Ruby+Developer" data-gtm-id="hero-subtitle-client-cta" data-testid="hero-subtitle-client-cta" class="_1bcYCljm _2u-I7BW0 _3n8NuEgU  ">Hire a Top Ruby Developer Now</a></div></section><div style="top:63px;height:164px" class="_116Uew6e TMXH2M8I _3vbT-Z4e "><div style="height:100%" class="_1_o8QAUw"><div class="txKc_nfw"><ul class="_3rxKHC5E"><li data-gtm-id="client-tab-selection" data-testid="client-tab-selection" class="IsRXVLNB _3gdqtwfd"><img data-src="https://bs-uploads.toptal.io/blackfish-uploads/components/interview_questions_page/tabs_section/item/content/active_icon_file/active_icon/822463/ICON_TALENT__ACTIVE__2x-64d6654dfad0c04528a0525c494b144f.png" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="I&#x27;m hiring-icon" class="lazyload _3HwyQo4A"/><span class="NJOPghGI" role="button">I&#x27;m hiring</span></li><li data-gtm-id="talent-tab-selection" data-testid="talent-tab-selection" class="IsRXVLNB"><img data-src="https://bs-uploads.toptal.io/blackfish-uploads/components/interview_questions_page/tabs_section/item/content/inactive_icon_file/inactive_icon/822462/ICON_CLIENT__NON_ACTIVE__2x-de363650453eabe3d2c4e70e75deaaad.png" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="I’m looking for work-icon" class="lazyload _3HwyQo4A"/><span class="NJOPghGI" role="button">I’m looking for work</span></li></ul></div></div></div><div class="_1YibmBYc _1_bvS4sL _3LOPUP7d _2_32njdU "><div class="h7NHpGkN VRzpBOaS "><div class="RqckegCL _2tDzT42o _1ZZGIcz- _3jgwFSUz "><h2 class="_2RRuYon7 _ukMuZDC">Interview Questions</h2><section class="_1YibmBYc _1_bvS4sL _3LOPUP7d "><div id="question-3280018" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>What is the difference between calling <code>super</code> and calling <code>super()</code>?</p>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280018" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280018" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p>A call to <code>super</code> invokes the parent method with the same arguments that were passed to the child method.  An error will therefore occur if the arguments passed to the child method don’t match what the parent is expecting.</p>
+
+<p>A call to <code>super()</code> invokes the parent method without any arguments, as presumably expected.  As always, being explicit in your code is a good thing.</p>
+
+<p>(Thanks to <a href="https://docs.google.com/a/toptal.com/presentation/d/1cqdp89_kolr4q1YAQaB-6i5GXip8MHyve8MvQ_1r6_s/edit#slide=id.gd9ccd329_00">Ruby Gotchas</a> for this question.)</p>
+</div></div></div><div id="question-3280019" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>What will <code>val1</code> and <code>val2</code> equal after the code below is executed?  Explain your answer.</p>
+
+<pre><code>val1 = true and false  # hint: output of this statement in IRB is NOT value of val1!
+val2 = true &amp;&amp; false
+</code></pre>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280019" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280019" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p>Although these two statements might appear to be equivalent, they are not, due to the order of operations.  Specifically, the <code>and</code> and <code>or</code> operators have <em>lower</em> precedence than the <code>=</code> operator, whereas the <code>&amp;&amp;</code> and <code>||</code> operators have <em>higher</em> precedence than the <code>=</code> operator, based on order of operations.</p>
+
+<p>To help clarify this, here’s the same code, but employing parentheses to clarify the default order of operations:</p>
+
+<pre><code>(val1 = true) and false    # results in val1 being equal to true
+val2 = (true &amp;&amp; false)     # results in val2 being equal to false
+</code></pre>
+
+<p>This is, incidentally, a great example of why using parentheses to clearly specify your intent is generally a good practice, in any language.  But whether or not you use parentheses, it’s important to be aware of these order of operations rules and to thereby ensure that you are properly determining when to employ <code>and</code> / <code>or</code> vs. <code>&amp;&amp;</code> / <code>||</code>.</p>
+</div></div></div><div id="question-3280020" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>Which of the expressions listed below will result in <code>"false"</code>?</p>
+
+<pre><code>true    ? "true" : "false"
+false   ? "true" : "false"
+nil     ? "true" : "false"
+1       ? "true" : "false"
+0       ? "true" : "false"
+"false" ? "true" : "false"
+""      ? "true" : "false"
+[]      ? "true" : "false"
+</code></pre>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280020" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280020" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p>In Ruby, the <em>only</em> values that evaluate to false are <code>false</code> and <code>nil</code>.  <em>Everything else</em> – even zero (0) and an empty array ([]) – evaluates to true.</p>
+
+<p>This comes as a real surprise to programmers who have previously been working in other languages like JavaScript.</p>
+
+<p>(Thanks to <a href="https://docs.google.com/a/toptal.com/presentation/d/1cqdp89_kolr4q1YAQaB-6i5GXip8MHyve8MvQ_1r6_s/edit#slide=id.gd9ccd329_00">Ruby Gotchas</a> for this question.)</p>
+</div></div></div><div class="mOsNUS2K"><div class="RXFpIwaj"><p class="_2OnrEmVm">Apply to Join Toptal&#x27;s Development Network</p><p class="_3Qd8MD_d   ">and enjoy reliable, steady, remote <a href="https://www.toptal.com/freelance-jobs/developers/ruby">Freelance Ruby Developer Jobs</a></p></div><a href="/talent/apply" data-ga-category="cta" data-ga-event="cta - interview_questions_block" data-ga-label="Apply to Freelance Ruby Developer Jobs" data-testid="questions-banner-cta" class="_1bcYCljm _2u-I7BW0 _3n8NuEgU  ">Apply as a Freelancer</a></div><div id="question-3280021" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>Write a function that sorts the keys in a hash by the length of the key as a string. For instance, the hash:</p>
+
+<pre><code>{ abc: 'hello', 'another_key' =&gt; 123, 4567 =&gt; 'third' }
+</code></pre>
+
+<p>should result in:</p>
+
+<pre><code>["abc", "4567", "another_key"]
+</code></pre>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280021" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280021" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p>As is always true in programming, there are in fact multiple ways to accomplish this.</p>
+
+<p>The most straightforward answer would be of the form:</p>
+
+<pre><code>hsh.keys.map(&amp;:to_s).sort_by(&amp;:length)
+</code></pre>
+
+<p>or:</p>
+
+<pre><code>hsh.keys.collect(&amp;:to_s).sort_by { |key| key.length }
+</code></pre>
+
+<p>Alternatively, Ruby’s <a href="http://ruby-doc.org/core-2.1.2/Enumerable.html"><code>Enumerable</code> mixin</a> provides many methods to operate on collections. The key here is to turn the hash keys into a collection, convert them all to strings, then sort the array.</p>
+
+<pre><code>def key_sort hsh
+	hsh.keys.collect(&amp;:to_s).sort { |a, b| a.length &lt;=&gt; b.length }
+end
+</code></pre>
+
+<p>An equivalent call of the <a href="http://www.tutorialspoint.com/ruby/ruby_iterators.htm"><code>collect</code> method</a> is done with the usual block syntax of:</p>
+
+<pre><code>collect { |x| x.to_s }
+</code></pre>
+</div></div></div><div id="question-3280022" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>Consider the following two methods:</p>
+
+<pre><code>def times_two(arg1);
+  puts arg1 * 2;
+end
+
+def sum(arg1, arg2);
+  puts arg1 + arg2;
+end
+</code></pre>
+
+<p>What will be the result of each of the following lines of code:</p>
+
+<pre><code>times_two 5
+times_two(5)
+times_two (5)
+sum 1, 2
+sum(1, 2)
+sum (1, 2)
+</code></pre>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280022" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280022" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p>The first three lines of code will all print out 10, as expected.</p>
+
+<p>The next two lines of code will both print out 3, as expected.</p>
+
+<p>However, the last line of code (i.e., <code>sum (1,2)</code>) will result in the following:</p>
+
+<pre><code>syntax error, unexpected ',', expecting ')'
+sum (1, 2)
+       ^
+</code></pre>
+
+<p>The problem is the space between the method name and the open parenthesis.  Because of the space, the Ruby parser thinks that <code>(1, 2)</code> is an expression that represents a single argument, but <code>(1, 2)</code> is not a valid Ruby expression, hence the error.</p>
+
+<p>Note that the problem does not occur with single argument methods (as shown with our <code>timesTwo</code> method above), since the single value <em>is</em> a valid expression (e.g., <code>(5)</code> is a valid expression which simply evaluates to 5).</p>
+</div></div></div><div id="question-3280023" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>Consider the following code:</p>
+
+<pre><code>VAL = 'Global'
+
+module Foo
+  VAL = 'Foo Local'
+
+  class Bar
+    def value1
+      VAL
+    end
+  end
+end
+
+class Foo::Bar
+  def value2
+    VAL
+  end
+end
+</code></pre>
+
+<p>What will be the value of each of the following:</p>
+
+<pre><code>Foo::Bar.new.value1
+Foo::Bar.new.value2
+</code></pre>
+
+<p>Explain your answer.</p>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280023" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280023" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p><code>Foo::Bar.new.value1</code> will be equal to <code>'Foo Local'</code> and <code>Foo::Bar.new.value2</code> will be equal to <code>'Global'</code>.</p>
+
+<p>Here’s why:</p>
+
+<p>The <code>module</code> keyword (as well as the <code>class</code> and <code>def</code> keywords) will create a new <a href="https://en.wikipedia.org/wiki/Scope_(computer_science)#Lexical_scoping">lexical scope</a> for all of its contents.  The above module <code>Foo</code> therefore creates the scope <code>Foo</code> in which the <code>VAL</code> constant equal to <code>'Foo Local'</code> is defined.  Inside <code>Foo</code>, we declare class <code>Bar</code>, which creates another new lexical scope (named <code>Foo::Bar</code>) which also has access to its parent scope (i.e., <code>Foo</code>) and all of its constants.</p>
+
+<p>However, when we then declare <code>Foo::Bar</code> (i.e., using <code>::</code>), we are actually creating yet <em>another</em> lexical scope, which is <em>also</em> named <code>Foo::Bar</code> (how’s that for confusing!).  However, this lexical scope has no parent (i.e., it is entirely independent of the lexcial scope <code>Foo</code> created earlier) and therefore does not have any access to the contents of the ‘Foo’ scope.  Therefore, inside class <code>Foo::Bar</code>, we only have access to the <code>VAL</code> constant declared at the beginning of the script (i.e., outside of any module) with the value <code>'Global'</code>.</p>
+</div></div></div><div id="question-3280024" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>Is the line of code below valid Ruby code?  If so, what does it do?  Explain your answer.</p>
+
+<pre><code>-&gt; (a) {p a}["Hello world"]
+</code></pre>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280024" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280024" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p>Yes, it’s valid.  Here’s how to understand what it does:</p>
+
+<p>The <code>-&gt;</code> operator creates a new Proc, which is one of Ruby’s function types. (The <code>-&gt;</code> is often called the “stabby proc”.  It’s also called the “stabby lambda”, as it creates a new Proc instance that is a lambda.  All lambdas are Procs, but not all Procs are lambdas.  There are some slight differences between the two.)</p>
+
+<p>This particular Proc takes one parameter (namely, <code>a</code>).  When the Proc is called, Ruby executes the block <code>p a</code>, which is the equivalent of <code>puts(a.inspect)</code> (a subtle, but useful, difference which is why <code>p</code> is sometimes better than <code>puts</code> for debugging).  So this Proc simply prints out the string that is passed to it.</p>
+
+<p>You can call a Proc by using either the <code>call</code> method on Proc, or by using the square bracket syntax, so this line of code also invokes the Proc and passes it the string “Hello World”.</p>
+
+<p>So putting that all together, this line of code (a) creates a Proc that takes a single parameter <code>a</code> which it prints out and (b) invokes that Proc and passes it the string “Hello world”.  So, in short, this line of code prints “Hello World”.</p>
+</div></div></div><div id="question-3280025" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>Explain each of the following <a href="http://www.tutorialspoint.com/ruby/ruby_operators.htm">operators</a> and how and when they should be used:  <code>==</code>, <code>===</code>, <code>eql?</code>, <code>equal?</code>.</p>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280025" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280025" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p><code>==</code> – Checks if the <em>value</em> of two operands are equal (often overridden to provide a class-specific definition of equality).</p>
+
+<p><code>===</code> – Specifically used to test equality within the <code>when</code> clause of a <code>case</code> statement (also often overridden to provide meaningful class-specific semantics in case statements).</p>
+
+<p><code>eql?</code> – Checks if the <em>value</em> and <em>type</em> of two operands are the same (as opposed to the <code>==</code> operator which compares values but ignores types).  For example, <code>1 == 1.0</code> evaluates to <code>true</code>, whereas <code>1.eql?(1.0)</code> evaluates to <code>false</code>.</p>
+
+<p><code>equal?</code> – Compares the <code>identity</code> of two objects; i.e., returns <code>true</code> iff both operands have the same object id (i.e., if they both refer to the <em>same object</em>).  Note that this will return <code>false</code> when comparing two identical <em>copies</em> of the same object.</p>
+
+<p>(Thanks to <a href="https://docs.google.com/a/toptal.com/presentation/d/1cqdp89_kolr4q1YAQaB-6i5GXip8MHyve8MvQ_1r6_s/edit#slide=id.gd9ccd329_00">Ruby Gotchas</a> for this question.)</p>
+</div></div></div><div id="question-3280026" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>Given:</p>
+
+<pre><code>x = "hello"
+</code></pre>
+
+<p>Explain the difference between:</p>
+
+<pre><code>x += " world"
+</code></pre>
+
+<p>and</p>
+
+<pre><code>x.concat " world"
+</code></pre>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280026" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280026" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p>The <code>+=</code> operator re-initializes the variable with a new value, so <code>a += b</code> is equivalent to <code>a = a + b</code>.</p>
+
+<p>Therefore, while it may <em>seem</em> that <code>+=</code> is mutating the value, it’s actually creating a <em>new</em> object and pointing the the old variable to that new object.</p>
+
+<p>This is perhaps easier to understand if written as follows:</p>
+
+<pre><code>foo = "foo"
+foo2 = foo
+foo.concat "bar"
+
+puts foo
+=&gt; "foobar"
+puts foo2
+=&gt; "foobar"
+
+foo += "baz"
+puts foo
+=&gt; "foobarbaz"
+puts foo2
+=&gt; "foobar"
+</code></pre>
+
+<p>(Examining the <code>object_id</code> of <code>foo</code> and <code>foo2</code> will also demonstrate that new objects are being created.)</p>
+
+<p>The difference has implications for performance and also has different mutation behavior than one might expect.</p>
+</div></div></div><div id="question-3280027" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>In Ruby code, you quite often see the trick of using an expression like <code>array.map(&amp;:method_name)</code> as a shorthand form of <code>array.map { |element| element.method_name }</code>.  How exactly does it work?</p>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280027" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280027" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p>When a parameter is passed with <code>&amp;</code> in front of it (indicating that is it to be used as a block), Ruby will call <code>to_proc</code> on it in an attempt to make it usable as a block. <code>Symbol#to_proc</code> quite handily returns a <code>Proc</code> that will invoke the method of the corresponding name on whatever is passed to it, thus enabling our little shorthand trick to work.</p>
+</div></div></div><div id="question-3280028" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>Write a single line of Ruby code that prints the Fibonacci sequence of any length as an array.</p>
+
+<p>(Hint: use <code>inject</code>/<code>reduce</code>)</p>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280028" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280028" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p>There are multiple ways to do this, but one possible answer is:</p>
+
+<pre><code>(1..20).inject( [0, 1] ) { | fib | fib &lt;&lt; fib.last(2).inject(:+) }
+</code></pre>
+
+<p>As you go up the sequence <code>fib</code>, you sum, or <code>inject(:+)</code>, the last two elements in the array and add the result to the end of <code>fib</code>.</p>
+
+<p>Note: <code>inject</code> is an alias of <code>reduce</code></p>
+</div></div></div><div id="question-3280029" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>Can you call a private method outside a Ruby class using its object?</p>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280029" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280029" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p>Yes, with the help of the <code>send</code> method.</p>
+
+<p>Given the class <code>Test</code>:</p>
+
+<pre><code class="language-ruby">class Test
+   private
+       def method
+         p "I am a private method"
+      end
+end
+</code></pre>
+
+<p>We can execute the private method using <code>send</code>:</p>
+
+<pre><code class="language-ruby">&gt;&gt; Test.new.send(:method)
+"I am a private method"
+</code></pre>
+</div></div></div><div id="question-3280030" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>Consider the following code:</p>
+
+<pre><code>class A
+  def self.a(b)
+    if b &gt; 0
+      b * b
+    end
+  end
+end
+</code></pre>
+
+<p>What will be the values of:</p>
+
+<ul>
+  <li><code>var1 = A.a(0)</code></li>
+  <li><code>var2 = A.a(2)</code></li>
+</ul>
+
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280030" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280030" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><ul>
+  <li>var1 will be equal to <code>nil</code>
+</li>
+  <li>var2 will be equal to <code>4</code>
+</li>
+</ul>
+
+<p>Understand:
+* A conditional statement in Ruby is an expression that returns <code>nil</code> if the conditional is <code>false</code>.
+* Ruby methods return the last expression in the method body.</p>
+
+<p>In this example:</p>
+
+<ul>
+  <li>
+<code>A.a(0)</code> returns <code>nil</code> for unsuccessful conditional</li>
+  <li>
+<code>A.a(2)</code> returns the square of <code>2</code>, i.e <code>4</code>
+</li>
+</ul>
+</div></div></div><div id="question-3280031" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>What is the difference between <code>Array#map</code> and <code>Array#each</code>?</p>
+
+<p>Note: <code>collect</code> is an alias of <code>map</code></p>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280031" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280031" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><ul>
+  <li>
+<code>Array#each</code> method iterates over the elements of the array and executes the provided block each time. However, it returns the original array unaffected.</li>
+  <li>
+<code>Array#map</code> will return a new array of elements containing the values returned by the block it is provided. It also does not affect the original array</li>
+</ul>
+
+<p>Example:</p>
+
+<pre><code># Given
+&gt;&gt; arr = [1,2,3,4]
+
+# This will print 2,4,6,8 but will return [1,2,3,4]
+&gt;&gt; arr.each {|x| puts x*2; x*2 }
+2
+4
+6
+8
+=&gt; [1, 2, 3, 4]
+
+
+# This will also print 2,4,6,8 but returns [2,4,6,8]
+&gt;&gt; arr.map {|x| puts x*2; x*2 }
+2
+4
+6
+8
+=&gt; [2, 4, 6, 8]
+</code></pre>
+</div></div></div><div id="question-3280032" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>How do you remove <code>nil</code> values in array using ruby?</p>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280032" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280032" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p><code>Array#compact</code> removes <code>nil</code> values.</p>
+
+<p>Example:</p>
+
+<pre><code>&gt;&gt; [nil,123,nil,"test"].compact
+=&gt; [123, "test"]
+</code></pre>
+</div></div></div><div id="question-3280033" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>For the class <code>ABC</code> the given as:</p>
+
+<pre><code>class ABC
+  def xyz
+    puts "xyz in ABC"
+  end
+end
+</code></pre>
+<p>What is the return value for:</p>
+
+<ul>
+  <li><code>ABC::new::xyz</code></li>
+  <li><code>ABC::new.xyz</code></li>
+  <li><code>ABC.new::xyz</code></li>
+  <li><code>ABC.new.xyz</code></li>
+</ul>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280033" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280033" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p>All the statements for the invocation of the xyz method through the object are valid.</p>
+
+<p>When run through <code>IRB</code>:</p>
+
+<pre><code>irb(main):001:0&gt; ABC::new::xyz
+xyz in ABC
+=&gt; nil
+irb(main):002:0&gt; ABC::new.xyz
+xyz in ABC
+=&gt; nil
+irb(main):003:0&gt; ABC.new::xyz
+xyz in ABC
+=&gt; nil
+irb(main):004:0&gt; ABC.new.xyz
+xyz in ABC
+=&gt; nil
+</code></pre>
+</div></div></div><div id="question-3280034" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>What is the value of the variable <code>upcased</code> in the below piece of code?</p>
+
+<p><code>upcased = ["one", "two", "three"].map {|n| puts n.upcase }</code></p>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280034" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280034" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p><code>upcase = [nil, nil, nil]</code></p>
+
+<p>Let’s take a look at <code>puts</code> as below:</p>
+
+<pre><code>&gt;&gt; puts "Hi"
+Hi
+=&gt; nil
+</code></pre>
+
+<p>Note the <code>nil</code> at the end: that’s the return value from <code>puts</code>. After all, <code>puts</code> is a <code>method</code>, so it has to return something. As it happens, it always returns <code>nil</code>. The printing out of the string is an action the method performs.</p>
+
+<p>Similarly, evaluating the code in question we can understand that while it’s a common learner mistake to expect the result to be <code>["ONE", "TWO", "THREE"]</code>. In fact, it’s <code>[nil, nil, nil]</code>. Each time through the block, the block evaluates to the return value of <code>puts</code> to be <code>nil</code>.</p>
+</div></div></div><div id="question-3280035" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>Given that the following code has been run:</p>
+
+<pre><code>if false
+  foo = 'test'
+end
+</code></pre>
+
+<p>What will be the value of:</p>
+
+<ul>
+  <li><code>defined? foo</code></li>
+  <li><code>defined? bar</code></li>
+</ul>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280035" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280035" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><pre><code>defined? foo
+#=&gt; "local-variable"
+defined? bar
+#=&gt; nil
+</code></pre>
+
+<p><code>foo</code> has been at least read by the interpreter, therefore it is defined and assigned a <code>nil</code> value. However, since <code>bar</code> has never been written, it was never defined in the first place.</p>
+</div></div></div><div id="question-3280036" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>What is the difference between the <code>Object</code> methods <code>clone</code> and <code>dup</code>?</p>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280036" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280036" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p><code>Object#dup</code> creates a shallow copy of an object. For example, it will not copy any mixed-in module methods, whereas <code>Object#clone</code> will. This can be shown with the following code example:</p>
+
+<pre><code class="language-ruby">class Klass
+  attr_accessor :str
+end
+
+module Foo
+  def foo; 'foo'; end
+end
+
+s1 = Klass.new #=&gt; #
+s1.extend(Foo) #=&gt; #
+s1.foo #=&gt; "foo"
+
+s2 = s1.clone #=&gt; #
+s2.foo #=&gt; "foo"
+
+s3 = s1.dup #=&gt; #
+s3.foo #=&gt; NoMethodError: undefined method `foo' for #
+</code></pre>
+</div></div></div><div id="question-3280039" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>What is the difference between <code>extend</code> and <code>include</code> in ruby?</p>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280039" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280039" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><ul>
+  <li>
+<code>include</code> mixes in specified module methods as instance methods in the target class</li>
+  <li>
+<code>extend</code> mixes in specified module methods as class methods in the target class</li>
+</ul>
+
+<p>Given the following class definitions:</p>
+
+<pre><code>module ReusableModule
+  def module_method
+    puts "Module Method: Hi there! I'm a module method"
+  end
+end
+
+class ClassThatIncludes
+  include ReusableModule
+end
+class ClassThatExtends
+  extend ReusableModule
+end
+</code></pre>
+
+<p>Here’s how <code>ClassThatIncludes</code> behaves:</p>
+
+<pre><code># A class method does not exist
+&gt;&gt; ClassThatIncludes.module_method
+NoMethodError: undefined method `module_method' for ClassThatIncludes:Class
+
+# A valid instance method exists
+&gt;&gt; ClassThatIncludes.new.module_method
+Module Method: Hi there! I'm a module method
+=&gt; nil
+</code></pre>
+
+<p>Here’s how <code>ClassThatExtends</code> behaves:</p>
+
+<pre><code># A valid class method exists
+&gt;&gt; ClassThatExtends.module_method
+Module Method: Hi there! I'm a module method
+=&gt; nil
+
+# An instance method does not exist
+ClassThatExtends.new.module_method
+NoMethodError: undefined method `module_method' for #&lt;ClassThatExtends:0x007ffa1e0317e8&gt;
+</code></pre>
+
+<p>We should mention that <code>object.extend ExampleModule</code> makes <code>ExampleModule</code> methods available as singleton methods in the object.</p>
+</div></div></div><div id="question-3280040" class="_2G_82KS-"><div class="_2lZui3hR"><div class="_3n9XHvGh _3L5aS-_E _3WYSOFPZ  "><p>How many types of variables are used in Ruby and what are they?</p>
+</div><div class="_3fzXD8a_"><a class="_3aZzsbA4" rel="noopener noreferrer">View answer<span class="_1PA7ADz-"></span></a><div class="o3VO8lex"><div class="_2enYllLg" data-testid="share-facebook"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280040" title="facebook" data-testid="facebook" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="10" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M9.0155973.8653846C8.7559819.8269231 7.8617512.75 6.8232896.75c-2.1730769 0-3.6634615 1.3269231-3.6634615 3.7596154v2.0961538H.707905v2.8461539h2.4519231V16.75h2.9423077V9.4519231h2.4423077l.375-2.8461539H6.1021358V4.7884615c0-.8173077.2211538-1.3846153 1.4038461-1.3846153h1.5096154V.8653846z"></path></svg></a></div><div class="_2enYllLg" data-testid="share-twitter"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.toptal.com%2Fruby%2Finterview-questions%23question-3280040" title="twitter" data-testid="twitter" class="_3JMwWYb1"><svg class="_11VVSTaJ" width="18" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M17.8581317 1.7594301c-.634375.2734375-1.3234375.4703125-2.034375.546875.7328125-.4375 1.290625-1.1265625 1.553125-1.946875-.678125.4046875-1.44375.7-2.2421875.853125-.6453125-.6890625-1.5640625-1.115625-2.58125-1.115625-1.9578125 0-3.5328125 1.5859375-3.5328125 3.5328125 0 .2734375.0328125.546875.0875.809375-2.93125-.153125-5.5453125-1.553125-7.284375-3.696875-.30625.525-.48125 1.1265625-.48125 1.7828125 0 1.225.6234375 2.3078125 1.575 2.9421875-.5796875-.021875-1.1265625-.1859375-1.596875-.4484375v.04375c0 1.7171875 1.2140625 3.1390625 2.8328125 3.4671875-.2953125.0765625-.6125.1203125-.9296875.1203125-.2296875 0-.4484375-.021875-.6671875-.0546875.4484375 1.4 1.75 2.4171875 3.303125 2.45-1.2140625.9515625-2.734375 1.509375-4.3859375 1.509375-.2953125 0-.56875-.0109375-.853125-.04375 1.5640625 1.00625 3.4234375 1.5859375 5.425 1.5859375 6.496875 0 10.0515625-5.38125 10.0515625-10.0515625 0-.153125 0-.30625-.0109375-.459375.6890625-.503125 1.290625-1.1265625 1.771875-1.8265625z" fill="none"></path></svg></a></div></div></div></div><div class="wrqoa3gu" style="max-height:0"><div class="_3n9XHvGh _1COYfayd _3WYSOFPZ  "><p>There are 4 types of variables used in Ruby:</p>
