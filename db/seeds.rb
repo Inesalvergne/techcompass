@@ -7,6 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 #
 
+require "open-uri"
+
 
 ROLE = ['Back-End Developer', 'Front-End Developer',
         'Full-Stack Developer'].freeze
@@ -226,6 +228,9 @@ puts "Creating resources..."
   )
 end
 
+
+# Essential Full-Stack interview questions
+
 piq = File.open("db/programmer_interview_questions.txt")
 basic_programmer_interviewqs = Resource.create!(
     title: "Essential Full-Stack interview questions",
@@ -237,6 +242,11 @@ basic_programmer_interviewqs = Resource.create!(
     rich_content: piq.read
 )
 piq.close
+
+image1 = URI.open("https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+basic_programmer_interviewqs.image.attach(io: image1, filename: 'image1.jpg', content_type: 'image/jpg')
+basic_programmer_interviewqs.save!
+
 
 efave_lang = File.open("db/efave_lang.txt")
 basic_interview_qs = Resource.create!(
