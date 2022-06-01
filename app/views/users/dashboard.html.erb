@@ -26,6 +26,7 @@
           <div class="m-2 align-self-center text-card">
             <% unless @jobs.nil? %>
               <p><%= @goal.description %></p>
+              <p> To reach my goal, I need to send <%= @goal.job_target %> applications a month!</p>
             <% else %>
               <p>You currently have not set a goal!</p>
             <% end %>
