@@ -41,16 +41,22 @@ def create_user(name, title)
   )
 end
 
-User.create!(
-  full_name: "Bob Jones",
+# --------------------------------------------------------------
+# SETTING UP THE PROFILE OF THE PITCHER FOR DEMO
+# --------------------------------------------------------------
+
+puts "Creating my profile"
+me = User.create!(
+  full_name: "Ines",
   job_title: Faker::Job.title,
-  email: "bob.jones@gmail.com",
+  email: "ines@gmail.com",
   password: "12345678",
   credits: 10
 )
 
+
 puts "Creating other users..."
-4.times do
+50.times do
   User.create!(
     full_name: Faker::Name.name,
     job_title: Faker::Job.title,
@@ -60,14 +66,12 @@ puts "Creating other users..."
   )
 end
 
-puts "Creating goals..."
-5.times do
+puts "Creating my goal"
   Goal.create!(
-    job_target: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-    description: "I want to achieve my dream of being a #{Faker::Job.title}",
-    user: User.first
+    job_target: 15,
+    description: "In three months, I want to achieve my dream of transitioning to web development.",
+    user: me
   )
-end
 
 puts "Creating jobs..."
 Job.create!(
@@ -81,9 +85,10 @@ Job.create!(
   role: ROLE[2],
   level: LEVEL[2],
   post_url: "https://careers.google.com/jobs/results/129701606946939590-senior-staff-software-developer-open-source/?hl=en&jlo=en-US&location=Montreal,%20QC,%20Canada",
-  status: STATUS[4],
+  status: STATUS[0],
   remote: false,
-  goal: Goal.all.sample
+  goal: Goal.all.sample,
+  user: me
 )
 
 Job.create!(
@@ -95,7 +100,8 @@ Job.create!(
   post_url: "https://automattic.com/work-with-us/job/senior-backend-software-engineer/",
   status: STATUS[2],
   remote: true,
-  goal: Goal.all.sample
+  goal: Goal.all.sample,
+  user: me
 )
 
 Job.create!(
@@ -107,7 +113,8 @@ Job.create!(
   post_url: "https://condenast.wd5.myworkdayjobs.com/en-US/CondeCareers/job/The-Adelphi-London-GB/Senior-Software-Engineer_R-09753",
   status: STATUS[3],
   remote: false,
-  goal: Goal.all.sample
+  goal: Goal.all.sample,
+  user: me
 )
 
 Job.create!(
@@ -121,7 +128,8 @@ Job.create!(
   post_url: "https://jobs.apple.com/en-ca/details/200378978/senior-software-engineer-apple-media-products?team=SFTWR",
   status: STATUS[0],
   remote: false,
-  goal: Goal.all.sample
+  goal: Goal.all.sample,
+  user: me
 )
 
 Job.create!(
@@ -136,9 +144,10 @@ Job.create!(
   role: ROLE[0],
   level: LEVEL[1],
   post_url: "https://chimera-entertainment.jobs.personio.com/job/690557?display=en",
-  status: STATUS[2],
+  status: STATUS[1],
   remote: true,
-  goal: Goal.all.sample
+  goal: Goal.all.sample,
+  user: me
 )
 
 Job.create!(
@@ -158,7 +167,8 @@ Job.create!(
   post_url: "https://www.linkedin.com/jobs/view/3102291235/?eBP=CwEAAAGBHJ8OnGvo1gql5pr9nL0zanTB0sycyffXlYa4C5WhutNDs3Bnwr2KBUQIso1ccU1Btq3Op4gp-wXc0e-4zoIekUBENuXIe9jNwXaDgLMv751t9EbZr9UVnBkdnLqjuLDEHWtI5HqlFBGRhlYg_yOXCH8WlfRu0g1Jm5jQu-VBqPjaLmG-xow8iaAsC9Lij3meSpHPLjARszkq0oAHHCGLcXD_yoXtBDBbC49OIz_uDn6svIP2nkc72_ObDETy4qqdlk4LkcpL-dhWSFHKWUdQHOMurDGb4x-zAwKwUGf0--dGXKUUHknlwq7bRl9VqhBJBd2qcVeHUaiYtGKxf3sQgxfT_Mdd4zZlnUNe8YUACKIjP00QXv-r5PizvFPyFN-4hc33KH-1cZXkR4hC3qg&recommendedFlavor=ACTIVELY_HIRING_COMPANY&refId=GYyynu83tzSSCUJn30IzOQ%3D%3D&trackingId=ceZYX3JIho5ujtm899Vcqg%3D%3D&trk=flagship3_search_srp_jobs",
   status: STATUS[1],
   remote: false,
-  goal: Goal.all.sample
+  goal: Goal.all.sample,
+  user: me
 )
 
 Job.create!(
@@ -174,7 +184,8 @@ Job.create!(
   post_url: "https://careers.nintendo.com/job-openings/listing/210000005Q.html?src=CWS-10000",
   status: STATUS[0],
   remote: true,
-  goal: Goal.all.sample
+  goal: Goal.all.sample,
+  user: me
 )
 
 Job.create!(
@@ -186,7 +197,8 @@ Job.create!(
   post_url: "https://www.mindgeek.com/careers/?gh_jid=5854399002",
   status: STATUS[1],
   remote: false,
-  goal: Goal.all.sample
+  goal: Goal.all.sample,
+  user: me
 )
 
 Job.create!(
@@ -198,7 +210,8 @@ Job.create!(
   post_url: "https://landr.bamboohr.com/jobs/view.php?id=129",
   status: STATUS[5],
   remote: false,
-  goal: Goal.all.sample
+  goal: Goal.all.sample,
+  user: me
 )
 
 Job.create!(
@@ -210,24 +223,17 @@ Job.create!(
   role: ROLE[1],
   level: LEVEL[1],
   post_url: "https://www.twitch.tv/jobs/en/careers/5986892002/",
-  status: STATUS[3],
+  status: STATUS[0],
   remote: true,
-  goal: Goal.all.sample
+  goal: Goal.all.sample,
+  user: me
 )
 
 puts "Creating resources..."
-5.times do
-  Resource.create!(
-    title: Faker::Games::StreetFighter.quote,
-    summary: Faker::Lorem.paragraph,
-    content: Faker::Lorem.paragraphs.join,
-    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-    level: LEVEL.sample,
-    tags: TAG.sample,
-    user: User.first
-  )
-end
 
+# --------------------------------------------------------------
+# RESOURCE SEED
+# --------------------------------------------------------------
 
 # Essential Full-Stack interview questions
 
@@ -238,7 +244,7 @@ basic_programmer_interviewqs = Resource.create!(
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: "Junior",
     tags: "Full-Stack Developer",
-    user: User.first,
+    user: User.all.sample,
     rich_content: piq.read
 )
 piq.close
@@ -247,6 +253,7 @@ image1 = URI.open("https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?
 basic_programmer_interviewqs.image.attach(io: image1, filename: 'image1.jpg', content_type: 'image/jpg')
 basic_programmer_interviewqs.save!
 
+# Basic programming interview questions
 
 efave_lang = File.open("db/efave_lang.txt")
 basic_interview_qs = Resource.create!(
@@ -255,11 +262,14 @@ basic_interview_qs = Resource.create!(
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: "Junior",
     tags: "Full-Stack Developer",
-    user: User.first,
+    user: User.all.sample,
     rich_content: efave_lang.read
 )
 efave_lang.close
 
+image2 = URI.open("https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+basic_interview_qs.image.attach(io: image2, filename: 'image2.jpg', content_type: 'image/jpg')
+basic_interview_qs.save!
 
 
 fes_interviewqs = File.open("db/fes_interviewqs.txt")
@@ -269,9 +279,13 @@ senior_interview_qs = Resource.create!(
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: "Senior",
     tags: "Front-End Developer",
-    user: User.first,
+    user: User.all.sample,
     rich_content: fes_interviewqs.read)
     fes_interviewqs.close
+
+image3 = URI.open("https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80")
+senior_interview_qs.image.attach(io: image3, filename: 'image3.jpg', content_type: 'image/jpg')
+senior_interview_qs.save!
 
 
 fsportfolio = File.open("db/fs_devportfolio.txt")
@@ -281,9 +295,13 @@ full_stack_portfolio = Resource.create!(
         votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
         level: "Junior, Senior",
         tags: "Front-End Developer",
-        user: User.first,
+        user: User.all.sample,
         rich_content: fsportfolio.read)
         fsportfolio.close
+
+image4 = URI.open("https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80")
+full_stack_portfolio.image.attach(io: image4, filename: 'image4.jpg', content_type: 'image/jpg')
+full_stack_portfolio.save!
 
 
 bep_iqs = File.open("db/bep_iqs.txt")
@@ -293,9 +311,13 @@ back_end_python = Resource.create!(
         votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
         level: "Senior",
         tags: "Back-End Developer",
-        user: User.first,
+        user: User.all.sample,
         rich_content: bep_iqs.read)
         bep_iqs.close
+
+image5 = URI.open("https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80")
+back_end_python.image.attach(io: image5, filename: 'image5.jpg', content_type: 'image/jpg')
+back_end_python.save!
 
 fes_iqs = File.open("db/fes_iqs.txt")
 front_end_senior = Resource.create!(
@@ -303,10 +325,14 @@ front_end_senior = Resource.create!(
           summary: "...",
           votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
           level: "Senior",
-          user: User.first,
+          user: User.all.sample,
           tags: "Front-End Developer",
           rich_content: fes_iqs.read)
           fes_iqs.close
+
+image6 = URI.open("https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+front_end_senior.image.attach(io: image6, filename: 'image6.jpg', content_type: 'image/jpg')
+front_end_senior.save!
 
 
 demo1 = File.open("db/10challenges.txt")
@@ -315,21 +341,31 @@ demo_seed = Resource.create!(
           summary: "...",
           votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
           level: "Junior",
-          user: User.first,
+          user: User.all.sample,
           tags: "Full-Stack Developer",
           rich_content: demo1.read)
           demo1.close
 
-          demo3 = File.open("db/ber_iqs.txt")
-          back_end_ruby = Resource.create!(
-            title: "Ruby Interview Questions",
-            summary: "...",
-            votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-            level: "Junior",
-            tags: "Back-End Developer",
-            user: User.first,
-            rich_content: demo3.read)
-           demo3.close
+
+image6 = URI.open("https://images.unsplash.com/photo-1580894742597-87bc8789db3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+demo_seed.image.attach(io: image6, filename: 'image6.jpg', content_type: 'image/jpg')
+demo_seed.save!
+
+demo3 = File.open("db/ber_iqs.txt")
+back_end_ruby = Resource.create!(
+                title: "Ruby Interview Questions",
+                summary: "...",
+                votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+                level: "Junior",
+                tags: "Back-End Developer",
+                user: User.all.sample,
+                rich_content: demo3.read)
+                demo3.close
+
+
+image7 = URI.open("https://images.unsplash.com/photo-1597008641621-cefdcf718025?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1478&q=80")
+back_end_ruby.image.attach(io: image7, filename: 'image7.jpg', content_type: 'image/jpg')
+back_end_ruby.save!
 
 demo2 = File.open("db/softwaredev_int.txt")
 demo_seed2 = Resource.create!(
@@ -337,12 +373,14 @@ demo_seed2 = Resource.create!(
              summary: "...",
              votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
              level: "Junior",
-             user: User.first,
+             user: User.all.sample,
              tags: "Full-Stack Developer",
              rich_content: demo2.read)
              demo2.close
 
-
+image8 = URI.open("https://images.unsplash.com/photo-1565728744382-61accd4aa148?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1773&q=80")
+demo_seed2.image.attach(io: image8, filename: 'image8.jpg', content_type: 'image/jpg')
+demo_seed2.save!
 
 dm_iqs = File.open("db/dm_interview.txt")
 digital_marketing_interview = Resource.create!(
@@ -351,9 +389,14 @@ digital_marketing_interview = Resource.create!(
   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
   level: "Junior",
   tags: "Digital Marketer",
-  user: User.first,
+  user: User.all.sample,
   rich_content: dm_iqs.read)
   dm_iqs.close
+
+image9 = URI.open("https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+digital_marketing_interview.image.attach(io: image9, filename: 'image9.jpg', content_type: 'image/jpg')
+digital_marketing_interview.save!
+
 
 be_skills = File.open("db/be_skills.txt")
 back_end_skills = Resource.create!(
@@ -362,61 +405,46 @@ back_end_skills = Resource.create!(
   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
   level: "Junior",
   tags: "Back-End Developer",
-  user: User.first,
+  user: User.all.sample,
   rich_content: be_skills.read)
   be_skills.close
 
-  be_rm = File.open("db/be_roadmap.txt")
-  back_end_roadmap = Resource.create!(
-  title: "Complete Back-End Developer Roadmap",
-  summary: "...",
-  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-  level: "Junior",
-  user: User.first,
-  tags: "Back-End Developer",
-  rich_content: be_rm.read)
+image10 = URI.open("https://images.unsplash.com/photo-1581089778245-3ce67677f718?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+back_end_skills.image.attach(io: image10, filename: 'image10.jpg', content_type: 'image/jpg')
+back_end_skills.save!
 
-  be_rm.close
+be_rm = File.open("db/be_roadmap.txt")
+back_end_roadmap = Resource.create!(
+                  title: "Complete Back-End Developer Roadmap",
+                  summary: "...",
+                  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+                  level: "Junior",
+                  user: User.all.sample,
+                  tags: "Back-End Developer",
+                  rich_content: be_rm.read)
+                  be_rm.close
+
+image11 = URI.open("https://images.unsplash.com/photo-1523289333742-be1143f6b766?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+back_end_roadmap.image.attach(io: image11, filename: 'image11.jpg', content_type: 'image/jpg')
+back_end_roadmap.save!
 
 # the commented out lines of code are already linked to
 #text files in the db folder, but some are redundant so I commented them out for now.
-
-
 #interview_questions = File.open("db/i_questions.txt")
-
-
-
-#portfolio = File.open("db/portfolio_1.txt")
-
-
-fej_interviewqs = File.open("db/fej_interviewqs.txt")
-back_end_roadmap = Resource.create!(
-title: "Junior Front-End Interview Questions",
-summary: "...",
-votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-level: "Junior",
-user: User.first,
-tags: "Front-End Developer",
-rich_content: fej_interviewqs.read)
-fej_interviewqs.close
-
-
-
-
-
-
-
 #ber_iqs = File.open("db/ber_iqs.txt")
-
-
+#portfolio = File.open("db/portfolio_1.txt")
 
 bes = File.open("db/bes.txt")
 back_end_roadmap = Resource.create!(
-title: "Senior Back-End Developer Tips",
-summary: "...",
-votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-level: "Senior",
-user: User.first,
-tags: "Back-End Developer",
-rich_content: bes.read)
-bes.close
+                  title: "Senior Back-End Developer Tips",
+                  summary: "...",
+                  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+                  level: "Senior",
+                  user: User.all.sample,
+                  tags: "Back-End Developer",
+                  rich_content: bes.read)
+                  bes.close
+
+image12 = URI.open("https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+back_end_roadmap.image.attach(io: image12, filename: 'image12.jpg', content_type: 'image/jpg')
+back_end_roadmap.save!
