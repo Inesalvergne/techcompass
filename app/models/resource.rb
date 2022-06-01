@@ -14,4 +14,5 @@ class Resource < ApplicationRecord
   has_rich_text :rich_content
 
   validates :title, :summary, :level, :tags, presence: true
+  has_one_attached :image
 end

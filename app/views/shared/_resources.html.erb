@@ -6,7 +6,11 @@
           <div class="box-resource row d-flex border my-4 py-3">
             <div class="box-resource-left col-2 position-relative">
               <%= fa_icon "heart", class: 'position-absolute top-0 right-0 text-white' %>
-              <%= image_tag("TechCompass-logo.png", class:"img-fluid resource-img") %>
+              <% if resource.image.key.nil? %>
+                <%= image_tag(url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"), height: '35', width: '171', class: "mt-4 mb-5 navbar-logo") %>
+              <% else %>
+                <%= cl_image_tag resource.image.key, height: 150, width: 150, crop: :fill %>
+              <% end %>
             </div>
             <div class="box-resource-center col-7 d-flex flex-column justify-content-center">
               <div class="box-resource-center-top">

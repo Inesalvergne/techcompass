@@ -59,6 +59,6 @@ class ResourcesController < ApplicationController
   private
 
   def resource_params
-    params.require(:resource).permit(:content, :rich_content, :title, :summary, :votes, :level, :tags)
+    params.require(:resource).permit(:content, :rich_content, :title, :summary, :votes, :level, :tags, :image)
   end
 end

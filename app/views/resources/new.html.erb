@@ -3,6 +3,7 @@
     <%= f.input :title %>
     <%= f.input :summary %>
     <%= f.rich_text_area :rich_content %>
+    <%= f.input :image, as: :file %>
     <%= f.input :level %>
     <%= f.input :tags %>
     <%= f.submit "Add a Resource", class: "btn btn-sm btn-primary" %>
