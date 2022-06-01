@@ -6,7 +6,11 @@
           <div class="box-resource row d-flex border my-4 py-3">
             <div class="box-resource-left col-2 position-relative">
               <%= fa_icon "heart", class: 'position-absolute top-0 right-0 text-white' %>
-              <%= image_tag("TechCompass-logo.png", class:"img-fluid resource-img") %>
+              <% if resource.image.key.nil? %>
+                <%= image_tag("dummy-image.png", class:"resource-image") %>
+              <% else %>
+                <%= cl_image_tag resource.image.key, height: 150, width: 150, class:"resource-image" %>
+              <% end %>
             </div>
             <div class="box-resource-center col-7 d-flex flex-column justify-content-center">
               <div class="box-resource-center-top">

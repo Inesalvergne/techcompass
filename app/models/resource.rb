@@ -15,4 +15,5 @@ class Resource < ApplicationRecord
 
 
   validates :title, :summary, :level, :tags, presence: true
+  has_one_attached :image
 end
