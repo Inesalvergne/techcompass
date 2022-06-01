@@ -10,8 +10,9 @@ class Resource < ApplicationRecord
                   }
 
   belongs_to :user
-  has_many :views
+  has_many :views, dependent: :destroy
   has_rich_text :rich_content
+
 
   validates :title, :summary, :level, :tags, presence: true
 end
