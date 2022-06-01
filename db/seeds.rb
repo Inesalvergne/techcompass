@@ -264,19 +264,6 @@ senior_interview_qs = Resource.create!(
     fes_interviewqs.close
 
 
-
-  ber_iqs = File.open("db/ber_iqs.txt")
-  back_end_ruby = Resource.create!(
-    title: "Ruby Interview Questions",
-    summary: "...",
-    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-    level: "Junior",
-    tags: "Back-End Developer",
-    user: User.first,
-    rich_content: ber_iqs.read)
-   ber_iqs.close
-
-
 fsportfolio = File.open("db/fs_devportfolio.txt")
 full_stack_portfolio = Resource.create!(
         title: "Full Stack Developer Portfolio Tips",
@@ -301,7 +288,7 @@ back_end_python = Resource.create!(
         bep_iqs.close
 
 fes_iqs = File.open("db/fes_iqs.txt")
-       front_end_senior = Resource.new(
+front_end_senior = Resource.create!(
           title: "Senior Front-End Interview Preparation",
           summary: "...",
           votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
@@ -312,8 +299,8 @@ fes_iqs = File.open("db/fes_iqs.txt")
           fes_iqs.close
 
 
-          demo1 = File.open("db/10challenges.txt")
-       demo_seed = Resource.create!(
+demo1 = File.open("db/10challenges.txt")
+demo_seed = Resource.create!(
           title: "10 Coding Challenges, Tips, and Websites to Practice",
           summary: "...",
           votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
@@ -323,8 +310,19 @@ fes_iqs = File.open("db/fes_iqs.txt")
           rich_content: demo1.read)
           demo1.close
 
-          demo2 = File.open("db/softwaredev_int.txt")
-          demo_seed2 = Resource.create!(
+          demo3 = File.open("db/ber_iqs.txt")
+          back_end_ruby = Resource.create!(
+            title: "Ruby Interview Questions",
+            summary: "...",
+            votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+            level: "Junior",
+            tags: "Back-End Developer",
+            user: User.first,
+            rich_content: demo3.read)
+           demo3.close
+
+demo2 = File.open("db/softwaredev_int.txt")
+demo_seed2 = Resource.create!(
              title: "How To Prepare For A Software Developer Interview",
              summary: "...",
              votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
@@ -337,7 +335,7 @@ fes_iqs = File.open("db/fes_iqs.txt")
 
 
 dm_iqs = File.open("db/dm_interview.txt")
-digital_marketing_interview = Resource.new(
+digital_marketing_interview = Resource.create!(
   title: "Digital Marketing Interview Tips",
   summary: "...",
   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
@@ -348,7 +346,7 @@ digital_marketing_interview = Resource.new(
   dm_iqs.close
 
 be_skills = File.open("db/be_skills.txt")
-back_end_skills = Resource.new(
+back_end_skills = Resource.create!(
   title: "7 Must-Have Back-End Developer Skills",
   summary: "...",
   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
@@ -381,9 +379,18 @@ back_end_skills = Resource.new(
 #portfolio = File.open("db/portfolio_1.txt")
 
 
-#fej_interviewqs = File.open("db/fej_interviewqs.txt")
+fej_interviewqs = File.open("db/fej_interviewqs.txt")
+back_end_roadmap = Resource.create!(
+title: "Junior Front-End Interview Questions",
+summary: "...",
+votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+level: "Junior",
+user: User.first,
+tags: "Front-End Developer",
+rich_content: fej_interviewqs.read)
+fej_interviewqs.close
 
-#
+
 
 
 
@@ -393,4 +400,13 @@ back_end_skills = Resource.new(
 
 
 
-#bes = File.open("db/bes.txt")
+bes = File.open("db/bes.txt")
+back_end_roadmap = Resource.create!(
+title: "Senior Back-End Developer Tips",
+summary: "...",
+votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+level: "Senior",
+user: User.first,
+tags: "Back-End Developer",
+rich_content: bes.read)
+bes.close
