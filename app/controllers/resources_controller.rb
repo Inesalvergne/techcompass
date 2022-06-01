@@ -23,7 +23,7 @@ class ResourcesController < ApplicationController
 
     if current_user.credits >= 10
       if View.create!(user: current_user, resource: @resource)
-        current_user.credits += 5
+        current_user.credits -= 5
         current_user.save
       end
     end
