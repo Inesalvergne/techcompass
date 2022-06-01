@@ -1,0 +1,531 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head profile="http://microformats.org/profile/specs">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="ya1mi7e+4ZTWpwYZFS3kdFlqKpj+WCQ4Mc/LEf81/q6L73zwm4hI73wHAo0lKHGOfQavEgO/G2M+7vcCUr+bQg==" />
+
+<link rel="stylesheet" media="all" href="/assets/application-19c699a4e8e57137ac551662c1549ad2e9164ac9d0870c3d393bb806ec25911b.css" />
+<script src="/assets/application-42a7062ca0d0f85560fe58e0e1c17264d85c8eec7662731b4ca6ae3ba43c3f0d.js" defer="defer"></script>
+
+
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+<link rel="publisher" href="https://plus.google.com/112969061958407377053" />
+
+<link rel="alternate" type="application/atom+xml" title="FreshGigs.ca Jobs Feed" href="https://www.freshgigs.ca/jobs.atom" />
+<link rel="alternate" type="application/rss+xml" title="FreshGigs.ca Blog Feed" href="https://www.freshgigs.ca/blog/feed/">
+<link rel="alternate" type="application/rss+xml" title="FreshGigs.ca Blog Comments Feed" href="https://www.freshgigs.ca/blog/comments/feed/">
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-PS2TRBB':true});</script>
+
+<script async src='//www.google-analytics.com/analytics.js'></script>
+<script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-2153000-13', 'auto');
+  ga('require', 'GTM-PS2TRBB');
+
+    ga('send', 'pageview');
+</script>
+
+  <script type="text/javascript">
+    (function() {
+      window._pa = window._pa || {};
+      // _pa.orderId = "myCustomer@email.com"; // OPTIONAL: attach user email or order ID to conversions
+      var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+      pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/52682450febc0c617b00000f.js";
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+    })();
+  </script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '670813026348159');
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1"
+src="https://www.facebook.com/tr?id=670813026348159&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<script src="https://cdn.optimizely.com/js/545461380.js"></script>
+<!-- Adroll Code -->
+  <script type="text/javascript">
+    adroll_adv_id = "5QEZEVGNKNE4JLGGBHJNBZ";
+    adroll_pix_id = "UPJO35RDZFDOXFQ5MNQ53F";
+    /* OPTIONAL: provide email to improve user identification */
+    /* adroll_email = "username@example.com"; */
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+  </script>
+<!-- End Adroll Code -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Fresh Gigs",
+  "url": "https://www.freshgigs.ca",
+  "logo": "",
+  "sameAs": [
+    "https://twitter.com/FreshGigsca"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "Fresh Gigs",
+  "url": "https://www.freshgigs.ca",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.freshgigs.ca/jobs?utf8=✓&job_search%5Bsearch_query%5D={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+
+
+
+  <title>5 Tips for Preparing for a Digital Marketing Interview | FreshGigs.ca</title>
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[5013,5077] -->
+<link rel="author" href="https://plus.google.com/112969061958407377053" />
+<meta name="description"  content="In this post we look at 5 tips you need to know when preparing for a digital marketing interview - are you ready to talk analytics?" />
+
+<meta name="keywords"  content="digital marketing interview,digital marketing interview tips,marketing interview tips,interview tips" />
+
+<link rel="canonical" href="https://www.freshgigs.ca/blog/5-tips-for-preparing-for-a-digital-marketing-interview/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="FreshGigs.ca &raquo; 5 Tips for Preparing for a Digital Marketing Interview Comments Feed" href="https://www.freshgigs.ca/blog/5-tips-for-preparing-for-a-digital-marketing-interview/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.freshgigs.ca\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='freshgigs-style-css'  href='https://www.freshgigs.ca/blog/wp-content/themes/freshgigs/style.css?ver=e656beb8738af51ec1d7c71569fcf087a9899049' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://www.freshgigs.ca/blog/wp-json/' />
+<link rel='prev' title='Read This One Book to Beat Writer’s Block' href='https://www.freshgigs.ca/blog/read-this-one-book-to-beat-writers-block/' />
+<link rel='next' title='Some Advice You Will Thank Me for Later!' href='https://www.freshgigs.ca/blog/some-advice-you-will-thank-me-for-later/' />
+<link rel='shortlink' href='https://www.freshgigs.ca/blog/?p=3904' />
+<link rel="alternate" type="application/json+oembed" href="https://www.freshgigs.ca/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.freshgigs.ca%2Fblog%2F5-tips-for-preparing-for-a-digital-marketing-interview%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.freshgigs.ca/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.freshgigs.ca%2Fblog%2F5-tips-for-preparing-for-a-digital-marketing-interview%2F&#038;format=xml" />
+<!-- Open Graph Meta Data by WP-Open-Graph plugin-->
+<meta property="og:site_name" content="FreshGigs.ca" />
+<meta property="og:locale" content="en_us" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="5 Tips for Preparing for a Digital Marketing Interview" />
+<meta property="og:url" content="https://www.freshgigs.ca/blog/5-tips-for-preparing-for-a-digital-marketing-interview/" />
+<meta property="og:description" content="In this post we look at 5 tips you need to know when preparing for a digital marketing interview - are you ready to talk analytics?" />
+<meta property="og:image" content="https://www.freshgigs.ca/blog/wp-content/uploads/2015/07/5-Tips-for-Preparing-for-a-Digital-Marketing-Interview.png" />
+<!-- /Open Graph Meta Data -->
+
+        <script defer="defer" src="https://www.freshgigs.ca/blog/wp-content/themes/freshgigs/js/sharebar.js?ver=8f62d71d81e3d66cca95ef8c05ac9aaab4304463"></script>
+  </head>
+
+<body class="post-template-default single single-post postid-3904 single-format-standard">
+
+
+<header itemprop="itemReviewed" itemscope itemtype="http://schema.org/Organization" itemref="footer" id="header">
+  <meta itemprop="image" content="https://www.freshgigs.ca/assets/freshgigs-snippet-22faed4ca5ae7b2a54b1c3a2356a352273bfbf79cf86c8a5e6ce7dd5efbf559b.gif">
+  <meta itemprop="name" content="FreshGigs.ca">
+  <div class="centered_max_width">
+    <a class="logo" href="/">
+      <img alt="FreshGigs.ca" class="large" src="/assets/freshgigs-logo-white-14bc9d16d2899fc3cca478981ff34337f9827ba11348469062fc98a571e317da.svg" />
+      <img alt="FreshGigs.ca" class="small" src="/assets/freshgigs-logo-square-white-text-78ad9956c4554bcbe19f969545627885162aab99044d87cffb58a2e7852189b5.svg" />
+</a>
+    <nav>
+      <div class="global menu">
+        <a href="#" class="launcher">MENU</a>
+
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/jobs/new">POST JOB</a></li>
+
+            <li><a href="/employers">EMPLOYERS</a></li>
+            <li><a href="/testimonials">TESTIMONIALS</a></li>
+
+          <li><a class="current" href="/blog/">BLOG</a></li>
+          <li><a href="mailto:info@freshgigs.ca">CONTACT</a></li>
+        </ul>
+      </div>
+
+      <div class="user_panel">
+    <div class="logged_out">
+      <strong>JOB SEEKERS</strong><br>
+      <a class="" href="https://www.freshgigs.ca/login"><strong>Login</strong></a>
+      or
+      <a class="" href="https://www.freshgigs.ca/join"><strong>Sign Up</strong></a>
+    </div>
+</div>
+
+    </nav>
+  </div>
+</header>
+
+<div id="content" class="hfeed site">
+  <div class="centered_max_width">
+    	<div id="secondary" class="widget-area" role="complementary">
+				<aside id="search-2" class="widget widget_search"><h1 class="widget-title">Search the Blog&#8230;</h1>	<form method="get" id="searchform" class="searchform " action="https://www.freshgigs.ca/blog/" role="search">
+	  <div class="field_with_submit_image">
+	    <input type="image" src="/assets/search.png" class="submit" id="searchsubmit" value="Search" />
+
+	    <div>
+  		  <input type="text" class="field" name="s" value="" id="s" placeholder="Search &hellip;" />
+  		</div>
+		</div>
+	</form>
+</aside><aside id="text-4" class="widget widget_text"><h1 class="widget-title">Welcome to the FreshGigs.ca Blog!</h1>			<div class="textwidget">FreshGigs.ca specializes in Marketing, Communications and Design jobs in Canada. This blog features interviews, ideas and insights from the industry.</div>
+		</aside><aside id="text-5" class="widget widget_text">			<div class="textwidget"><a href="https://www.freshgigs.ca/jobs/new" class="pill_button red"><div>Post a Job</div></a>
+<a href="/" class="pill_button blue"><div>View Jobs</div></a></div>
+		</aside>		<aside id="recent-posts-3" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
+											<li>
+					<a href="https://www.freshgigs.ca/blog/how-to-add-references-to-a-resume/">How To Add References To A Resume</a>
+									</li>
+											<li>
+					<a href="https://www.freshgigs.ca/blog/what-is-a-copywriter-3-reasons-why-you-need-one/">What is a Copywriter? (+ 3 Reasons Why You Need One)</a>
+									</li>
+											<li>
+					<a href="https://www.freshgigs.ca/blog/top-10-entry-level-designer-jobs/">Top 10 Entry Level Designer Jobs</a>
+									</li>
+											<li>
+					<a href="https://www.freshgigs.ca/blog/13-creative-resume-examples-thatll-help-you-land-your-dream-job/">13 Creative Resume Examples That’ll Help You Land Your Dream Job</a>
+									</li>
+											<li>
+					<a href="https://www.freshgigs.ca/blog/6-good-reasons-for-leaving-a-job-and-how-to-prepare-to-get-a-new-one/">6 Good Reasons for Leaving a Job and How to Prepare to Get a New One</a>
+									</li>
+											<li>
+					<a href="https://www.freshgigs.ca/blog/the-top-10-best-entry-level-digital-marketing-jobs-in-2021/">The Top 10 Best Entry Level Digital Marketing Jobs in 2021</a>
+									</li>
+					</ul>
+		</aside><aside id="text-6" class="widget widget_text">			<div class="textwidget"><div id="hire_ad">
+  <a href="/jobs/new" style="position: relative; display: block; width: 220px; height: 349px;">
+    <img src="https://www.freshgigs.ca/blog/wp-content/uploads/2015/08/blog-sidebar-ad.jpg" alt="Hire top marketing & creative talent in Canada">
+
+    <div style="position: absolute; top: 45px; left: 0; right: 0; font-size: 32px; font-weight: 900; line-height: 30px; text-align: center; color: white;">
+      HIRE TOP<br>
+      MARKETING<br>
+      & DESIGN<br>
+      TALENT<br>
+      IN CANADA
+    </div>
+
+    <div class="button" style="position: absolute; bottom: 60px; color: #f44a35; border: 1px solid white; padding: 6px 8px; font-weight: bold; font-size: 14px; width: 146px; left: 29px; text-align: center;">
+      POST YOUR JOB NOW &raquo;
+    </div>
+  </a>
+</div>
+
+<style type="text/css" media="screen">
+  #hire_ad {
+    display: none;
+  }
+  @media only screen and (min-width: 700px) {
+    #hire_ad {
+      display: block;
+    }
+  }
+
+  #hire_ad a:hover {
+    opacity: 0.9;
+  }
+
+  #hire_ad .button:hover {
+    background: #f44a35;
+    color: black !important;
+  }
+</style></div>
+		</aside>	</div><!-- #secondary -->
+
+    <div class="the_post">
+
+<article itemscope itemtype="http://schema.org/Article" id="post-3904" class="post-3904 post type-post status-publish format-standard category-job-finding-tips tag-digital-marketing-interview tag-digital-marketing-interview-tips tag-interview-tips tag-marketing-interview-tips">
+
+	<header class="entry-header">
+		<h1 class="entry-title" itemprop="name headline">5 Tips for Preparing for a Digital Marketing Interview</h1>
+
+		<div class="entry-meta">
+			<div id="social_media_float">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.freshgigs.ca/blog/5-tips-for-preparing-for-a-digital-marketing-interview/" data-text="5 Tips for Preparing for a Digital Marketing Interview" data-count="vertical">Tweet</a>
+
+      <script type="IN/Share" data-url="https://www.freshgigs.ca/blog/5-tips-for-preparing-for-a-digital-marketing-interview/" data-counter="top"></script>
+
+      <div class="g-plusone" data-size="tall" data-width="75" data-href="https://www.freshgigs.ca/blog/5-tips-for-preparing-for-a-digital-marketing-interview/"></div>
+
+      <div class="facebook_like">
+      <div class="fb-like" data-href="https://www.freshgigs.ca/blog/5-tips-for-preparing-for-a-digital-marketing-interview/" data-send="false" data-layout="box_count" data-show-faces="false"></div>
+      </div>
+    </div><meta itemprop="datePublished" content="2015-07-16T04:30:56+00:00"><span class="byline"><span class="author vcard"><a class="url fn n" href="https://www.freshgigs.ca/blog/author/liz-da-ponte/" title="View all posts by Liz Da Ponte" rel="author">Liz Da Ponte</a></span></span>
+
+	<div class="right">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.freshgigs.ca/blog/5-tips-for-preparing-for-a-digital-marketing-interview/" data-text="5 Tips for Preparing for a Digital Marketing Interview">Tweet</a>
+<script type="IN/Share" data-url="https://www.freshgigs.ca/blog/5-tips-for-preparing-for-a-digital-marketing-interview/" data-counter="right"></script>
+<div class="google_plus1_badge"><div class="g-plusone" data-size="medium" data-width="75" data-href="https://www.freshgigs.ca/blog/5-tips-for-preparing-for-a-digital-marketing-interview/"></div></div>
+<div class="fb-like" data-href="https://www.freshgigs.ca/blog/5-tips-for-preparing-for-a-digital-marketing-interview/" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+  </div>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><img alt="5 Tips for Preparing for a Digital Marketing Interview" class="alignnone size-full wp-image-3906" height="321" itemprop="image" src="https://www.freshgigs.ca/blog/wp-content/uploads/2015/07/5-Tips-for-Preparing-for-a-Digital-Marketing-Interview.png" width="620"></img></p>
+<p itemprop="description">Everyone knows the basics about preparing for an interview – pick an outfit that is clean and appropriate for the job level, don’t wear too much perfume or cologne, and thoroughly research the company beforehand. I was recently involved with the interviews for digital marketing positions and was surprised to see that several of the candidates made the same mistakes.</p>
+<p>I shouldn’t have been too surprised, given digital marketing’s embryonic state. Still, the trip-ups among the candidates were common enough that I thought I could provide some tips to anyone looking to prepare for a digital marketing interview.</p>
+<p><span id="more-3904"></span></p>
+<h3>1. Don’t be afraid to critique the company’s website/social media channels</h3>
+<p>You can bet that you will be asked whether you have reviewed the company’s website or social profiles. Don’t worry, this isn’t a trick question and no one is looking for your flattery. This question is asked to see what fresh insights and perspectives you can bring.</p>
+<p>This is the perfect opportunity to illustrate that you’ve done your research on the company and that you paid extra attention to the site/social profiles. The interviewer will also appreciate hearing any suggestions you have. Comments like, “I think the site is great!” Or, “I think it could use more white space,” will lead the interviewer to believe you haven’t spent any time on the site at all.</p>
+<p>If for some reason you aren’t asked about the website, bring it up, along with some recommendations and areas you think could be improved upon. The interviewer will appreciate knowing that you didn’t neglect to review the company’s digital properties.</p>
+<h3>2. Have an online presence</h3>
+<p>I remember being astounded at the number of candidates who hadn’t put much effort into their own digital brand. Whenever an interview with a candidate was booked, I would immediately look them up online, usually starting with LinkedIn and then moving on to Google.</p>
+<blockquote><p>What will set you apart from other candidates will be your ability to illustrate that you can take a set of data and tell a story with it.</p></blockquote>
+<p>It was a little alarming to see LinkedIn profiles without a profile picture, or public tweets that contained profanity, or blogs that hadn’t been updated in years. I couldn’t really understand why the profiles were so neglected when these candidates were applying for digital marketing roles.</p>
+<p>If you can’t market yourself online, how can you expect your interviewer to believe you could market the company?</p>
+<p>Spend some time on your social profiles, especially LinkedIn. An up-to-date LinkedIn profile can go a long way in making a great first digital impression.</p>
+<h3>3. It’s okay to not know everything about the digital space</h3>
+<p>The digital marketing space is varied with everything from SEO to social media marketing to marketing automation falling under the digital umbrella. If you can do most of the job as described in the posting but are a little shaky in one area, don’t panic. Rather than try to gloss it over, turn it into an advantage.</p>
+<p>For example, if SEO isn’t your strong suit but it’s something the successful candidate will have to work on, say something like, “While my previous roles haven’t allowed for much SEO experience, I’ve taken it upon myself to stay current via SEO blogs and podcasts.” The interviewer will appreciate your honesty and your initiative to learn more on the topic.</p>
+<h3>4. Keep the jargon and buzzwords to a minimum</h3>
+<p>While it may be tempting to speak about how much you know about growth hacking, hashtags and gamification, you’ll quickly lose the interviewer’s interest if none of those terms have to do with the job you’re interviewing for.</p>
+<p>The interview is your opportunity to illustrate what you know, not how many buzzwords you’ve memorized. You should be able to answer questions while keeping the jargon to a minimum. Provide clear, concise answers in tone that is formal and easy to understand. By relying buzzwords, you risk having the interviewer tune you out.</p>
+<h3>5. Be comfortable with analytics</h3>
+<p>Any digital marketing role will have a measurement component to it, there is no escaping that. You can find yourself working with web, social or online advertising analytics. As a result, you need to show that you are both comfortable working with the analytics and interpreting them.</p>
+<p>Anyone can read numbers off of a spreadsheet. What will set you apart from other candidates will be your ability to illustrate that you can take a set of data and tell a story with it. Provide clear examples from previous campaigns you’ve worked on and explain how your insights helped improve the outcome of the campaign.</p>
+<p>If you haven’t had an opportunity to work with analytics in your professional experience, then try to gain as much exposure as you can outside of work. Start a blog and install Google Analytics. Log in to your Twitter account and check out your tweets’ analytics there. There are countless online resources to help people learn about Google Analytics.</p>
+<p><strong>Have any questions about preparing for a digital marketing role? Feel free to ask them in the comments below! </strong></p>			</div><!-- .entry-content -->
+      <aside id="below_post_banner">
+      <h1>Canada's Job Board for Marketing and Design Professionals</h1>
+
+      <div class="action">
+        <a class="button" href="/jobs/new">POST YOUR JOB NOW &raquo;</a>
+        <div class="or">OR</div>
+        <a class="button find_dream_job" href="/jobs">FIND A DREAM JOB &raquo;</a>
+      </div>
+    </aside>
+  </article><!-- #post-## -->
+
+
+<div id="disqus_thread">
+            <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-612">
+        <div id="dsq-comment-header-612" class="dsq-comment-header">
+            <cite id="dsq-cite-612">
+                <span id="dsq-author-user-612">Maureen Peets</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-612" class="dsq-comment-body">
+            <div id="dsq-comment-message-612" class="dsq-comment-message"><p>Great information and I would add one more tip. Check out the company LinkedIn profile, follow it and see who you know at the company. It might be a good discussion point for the interview and make that connection to the team.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-613">
+        <div id="dsq-comment-header-613" class="dsq-comment-header">
+            <cite id="dsq-cite-613">
+                <a id="dsq-author-user-613" href="http://www.lizdaponte.ca" target="_blank" rel="nofollow">lizdaponte</a>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-613" class="dsq-comment-body">
+            <div id="dsq-comment-message-613" class="dsq-comment-message"><p>That&#8217;s a great point, Maureen. Any information you can find out ahead of time to make a &#8220;warm&#8221; connection will help during the interview.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-1070">
+        <div id="dsq-comment-header-1070" class="dsq-comment-header">
+            <cite id="dsq-cite-1070">
+                <span id="dsq-author-user-1070">Saumya Pokhriyal</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-1070" class="dsq-comment-body">
+            <div id="dsq-comment-message-1070" class="dsq-comment-message"><p>What if you are a fresher and is going for the the interview for the first time? Should you have your own website and the analytics account? And what about the fb page,should one have that prepared too before the interview?</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-1086">
+        <div id="dsq-comment-header-1086" class="dsq-comment-header">
+            <cite id="dsq-cite-1086">
+                <span id="dsq-author-user-1086">vishal patel</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-1086" class="dsq-comment-body">
+            <div id="dsq-comment-message-1086" class="dsq-comment-message"><p>Well, It is not mandatory also it is less likely that you will asked to display your google analytics performance. I, Myself, am a Digital marketer working for a real estate company since 2 months. According to me, you should have a certain experience of your own, i.e have you ever run an Ad campaign? Or do you have a blog? Not mandatory but very very helpful. It shows the interviewer that you are passionate about your job and are willing to learn and enhance your skills. In my case, I ran Facebook ads and Instagram Ads for my Fathers clinic. I verified our clinic listing in Google-my-business, changed the title and description in order to put more keywords, developed a site and started posted regularly. In turn, our clinic started coming in top results when searched on Google. So, have a few personal projects, ask your friends and family members if you can do something for them.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
+    </div>
+
+		  		</div>
+	</div>
+</div>
+
+
+
+<footer id="footer">
+  <div class="centered_max_width">
+    <div class="links">
+      <ul>
+        <li><a href="/">JOBS</a></li>
+        <li><a href="/marketing-jobs">Marketing Jobs</a></li>
+        <li><a href="/social-media-jobs">Social Media Jobs</a></li>
+        <li><a href="/graphic-web-design-jobs">Graphic Design Jobs</a></li>
+        <li><a href="/communications-jobs">Communications Jobs</a></li>
+          <li><a href="/marketing-jobs-toronto">Marketing Jobs Toronto</a></li>
+          <li><a href="/marketing-jobs-vancouver">Marketing Jobs Vancouver</a></li>
+          <li><a href="/marketing-jobs-montreal">Marketing Jobs Montréal</a></li>
+          <li><a href="/marketing-jobs-ottawa">Marketing Jobs Ottawa</a></li>
+      </ul><ul>
+        <li>JOB SEEKERS</li>
+        <li><a href="/jobs">Find Jobs</a></li>
+        <li><a target="_blank" href="https://weworkremotely.com/?&amp;utm_source=fg-footer">Remote Jobs</a></li>
+        <li><a href="/join">Signup</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="https://visualcv.grsm.io/freshgigs" target="_blank">Perfect your CV</a></li>
+      </ul><ul>
+        <li><a href="/employers">EMPLOYERS</a></li>
+        <li><a href="/jobs/new">Post Job</a></li>
+        <li><a href="/testimonials">Testimonials</a></li>
+        <li><a href="/partners">Partners</a></li>
+      </ul><ul>
+        <li>OTHER STUFF</li>
+        <li><a href="/why-choose-freshgigs">Why Choose FreshGigs?</a></li>
+        <li><a href="/top-companies-hiring-in-canada">Top 100 Companies Hiring</a></li>
+        <li><a href="https://www.freshgigs.ca/blog/">Blog</a></li>
+        <li><a itemprop="url" href="https://www.freshgigs.ca/about-us">About</a></li>
+        <li><a href="mailto:info@freshgigs.ca">Contact</a></li>
+      </ul><ul class="social_media">
+        <li>CONNECT</li>
+        <li>
+          <a target="_blank" href="http://www.facebook.com/pages/FreshGigsca/166493470039228">
+            <img alt="Facebook" src="/assets/icon-footer-facebook-b0cd6a44e1e06712bbe581b1979662196aefb4aea2b36b55817d90f905109b76.png" />
+            Join us on Facebook
+</a>        </li>
+
+        <li>
+          <a target="_blank" href="https://twitter.com/freshgigsca">
+            <img alt="Twitter" src="/assets/icon-footer-twitter-bd07cd0aa65926a1ff38f9dfbd71fb0f0b52da5d330e5fcfd2f413da5a7e6151.png" />
+            Join us on Twitter
+</a>        </li>
+
+        <li>
+          <a target="_blank" href="https://plus.google.com/112969061958407377053/posts">
+            <img alt="Google+" src="/assets/icon-footer-google-plus-ac485e2af28a68913992c4627e8bb16422823693d2b9a0916370f5eacd7d756d.png" />
+            Join us on Google+
+</a>        </li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="misc">
+    <div class="centered_max_width">
+      <div class="about">
+        <span>Copyright &copy; 2010-2022 FreshGigs.ca</span>
+        <a href="/terms-and-conditions">Terms and Conditions</a>
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/faq">FAQ</a>
+        <a href="mailto:info@freshgigs.ca">Get in touch</a>
+      </div>
+      <a class="logo" href="/"><img alt="FreshGigs.ca" src="/assets/freshgigs-logo-white-14bc9d16d2899fc3cca478981ff34337f9827ba11348469062fc98a571e317da.svg" /></a>
+    </div>
+  </section>
+</footer>
+
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+
+
+
+<!-- QWP v3.0.2 -->
+<script type='text/javascript' defer="defer" src='https://www.freshgigs.ca/blog/wp-content/themes/freshgigs/js/sticky_vertical_widget.js?ver=65b07d8027a74763086172da4fcdf370c3ed4e9e'></script>
+<script type='text/javascript' src='https://www.freshgigs.ca/blog/wp-includes/js/comment-reply.min.js?ver=4.9.3'></script>
+<script type='text/javascript' src='https://www.freshgigs.ca/blog/wp-includes/js/wp-embed.min.js?ver=4.9.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var embedVars = {"disqusConfig":{"platform":"wordpress@4.9.3","language":""},"disqusIdentifier":"3904 https:\/\/www.freshgigs.ca\/blog\/?p=3904","disqusShortname":"freshgigsca","disqusTitle":"5 Tips for Preparing for a Digital Marketing Interview","disqusUrl":"https:\/\/www.freshgigs.ca\/blog\/5-tips-for-preparing-for-a-digital-marketing-interview\/","options":{"manualSync":false},"postId":"3904"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.freshgigs.ca/blog/wp-content/plugins/disqus-comment-system/media/js/disqus.js?ver=4.9.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"freshgigsca"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.freshgigs.ca/blog/wp-content/plugins/disqus-comment-system/media/js/count.js?ver=4.9.3'></script>
+
+</body>
+</html>

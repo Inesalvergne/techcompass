@@ -29,9 +29,6 @@ Job.destroy_all
 
 puts "Test string"
 
-
-
-
 def create_user(name, title)
   return User.create!(
     full_name: name,
