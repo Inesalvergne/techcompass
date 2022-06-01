@@ -379,16 +379,18 @@ back_end_skills = Resource.create!(
 #portfolio = File.open("db/portfolio_1.txt")
 
 
-fej_interviewqs = File.open("db/fej_interviewqs.txt")
-back_end_roadmap = Resource.create!(
-title: "Junior Front-End Interview Questions",
-summary: "...",
-votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-level: "Junior",
-user: User.first,
-tags: "Front-End Developer",
-rich_content: fej_interviewqs.read)
-fej_interviewqs.close
+=begin
+  fej_interviewqs = File.open("db/fej_interviewqs.txt")
+  back_end_roadmap = Resource.create!(
+  title: "Junior Front-End Interview Questions",
+  summary: "...",
+  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+  level: "Junior",
+  user: User.first,
+  tags: "Front-End Developer",
+  rich_content: fej_interviewqs.read)
+  fej_interviewqs.close
+=end
 
 
 
