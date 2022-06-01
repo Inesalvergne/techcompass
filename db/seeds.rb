@@ -161,7 +161,7 @@ senior_interview_qs = Resource.create!(
 
 fsportfolio = File.open("db/fs_devportfolio.txt")
 full_stack_portfolio = Resource.create!(
-        title: "Full Stack Devloper Portfolio Tips",
+        title: "Full Stack Developer Portfolio Tips",
         summary: "...",
         votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
         level: "Junior, Senior",
@@ -171,15 +171,16 @@ full_stack_portfolio = Resource.create!(
         fsportfolio.close
 
 
-#bep_iqs = File.open("db/bep_iqs.txt")
-#back_end_python = Resource.create!(
-    #    title: "Python Devloper Interview Tips",
-      #  summary: "...",
-       # votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-        #level: "Senior",
-        #tags: "Back-End Developer",
-        #rich_content: bep_iqs.read)
-        #bep_iqs.close
+bep_iqs = File.open("db/bep_iqs.txt")
+back_end_python = Resource.create!(
+        title: "Python Developer Interview Tips",
+        summary: "...",
+        votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+        level: "Senior",
+        tags: "Back-End Developer",
+        user: User.first,
+        rich_content: bep_iqs.read)
+        bep_iqs.close
 
 fes_iqs = File.open("db/fes_iqs.txt")
        front_end_senior = Resource.new(
@@ -187,9 +188,33 @@ fes_iqs = File.open("db/fes_iqs.txt")
           summary: "...",
           votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
           level: "Senior",
+          user: User.first,
           tags: "Front-End Developer",
           rich_content: fes_iqs.read)
           fes_iqs.close
+
+
+          demo1 = File.open("db/10challenges.txt")
+       demo_seed = Resource.create!(
+          title: "10 Coding Challenges, Tips, and Websites to Practice",
+          summary: "...",
+          votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+          level: "Junior",
+          user: User.first,
+          tags: "Full-Stack Developer",
+          rich_content: demo1.read)
+          demo1.close
+
+          demo2 = File.open("db/softwaredev_int.txt")
+          demo_seed2 = Resource.create!(
+             title: "How To Prepare For A Software Developer Interview",
+             summary: "...",
+             votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+             level: "Junior",
+             user: User.first,
+             tags: "Full-Stack Developer",
+             rich_content: demo2.read)
+             demo2.close
 
 
 
@@ -200,6 +225,7 @@ digital_marketing_interview = Resource.new(
   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
   level: "Junior",
   tags: "Digital Marketer",
+  user: User.first,
   rich_content: dm_iqs.read)
   dm_iqs.close
 
@@ -210,6 +236,7 @@ back_end_skills = Resource.new(
   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
   level: "Junior",
   tags: "Back-End Developer",
+  user: User.first,
   rich_content: be_skills.read)
   be_skills.close
 
