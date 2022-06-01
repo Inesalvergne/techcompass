@@ -431,6 +431,23 @@ back_end_roadmap.save!
 # the commented out lines of code are already linked to
 #text files in the db folder, but some are redundant so I commented them out for now.
 #interview_questions = File.open("db/i_questions.txt")
+
+#portfolio = File.open("db/portfolio_1.txt")
+
+
+=begin
+  fej_interviewqs = File.open("db/fej_interviewqs.txt")
+  back_end_roadmap = Resource.create!(
+  title: "Junior Front-End Interview Questions",
+  summary: "...",
+  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+  level: "Junior",
+  user: User.first,
+  tags: "Front-End Developer",
+  rich_content: fej_interviewqs.read)
+  fej_interviewqs.close
+=end
+
 #ber_iqs = File.open("db/ber_iqs.txt")
 #portfolio = File.open("db/portfolio_1.txt")
 
