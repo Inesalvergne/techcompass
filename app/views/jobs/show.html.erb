@@ -3,6 +3,7 @@
   <div class="m-2 p-2">
     <h3><%= @job.company %></h3>
     <h6><%= @job.role %></h6>
+    <h6> Status: <%= @job.status %></h6>
   </div>
   <div class="border border-secondary rounded m-2 p-2 d-flex
               justify-content-around">
@@ -24,6 +25,31 @@
       <a href="<%= @job.post_url %>">See the Job Posting</a>
     <% end %>
   </div>
+
+<%# Edit job status %>
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Update status
+  </button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Update the status of your application at <%= @job.company %></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <%= simple_form_for @job do |f| %>
+          <%= f.input :status, label: "Where are you at in the application process?", as: :select, collection: Job::STATUS %>
+          <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
   <div class="m-2 p-2">
     <h3>Suggested Resources Related to <%= @job.role %> Positions</h3>
     <%= render 'shared/job_resource' %>
