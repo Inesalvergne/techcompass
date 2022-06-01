@@ -2,3 +2,9 @@
   height: 200px;
   background-color: $lighter-purple;
 }
+
+.resource-image{
+  width: 100%;
+  height: 10vw;
+  object-fit: cover;
+}
