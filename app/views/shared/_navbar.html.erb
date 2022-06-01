@@ -26,6 +26,10 @@
       <%= render 'shared/svg/icon_my_resources', class: "navbar-icon", height: '40', width: '40' %>
       <%= link_to "My published resources", my_resources_resources_path, class: "m-2 navbar-link" %>
     </li>
+    <li class="mb-2 d-flex align-item-center">
+      <%= render 'shared/svg/icon_logout', class: "navbar-icon", height: '23', width: '23' %>
+      <%= link_to "Log out", destroy_user_session_path, method: "delete", class: "m-2 navbar-link" %>
+    </li>
   </ul>
 
   <%# <%= link_to "My favorites resources",  toggle_favorite_resource_path , class: "navbar-link" %>
