@@ -4,8 +4,8 @@
     <%= f.input :summary %>
     <%= f.rich_text_area :rich_content %>
     <%= f.input :image, as: :file %>
-    <%= f.input :level %>
-    <%= f.input :tags %>
+    <%= f.input :level, as: :select, collection: Resource::LEVEL %>
+    <%= f.input :tags, as: :select, collection: Resource::TAGS %>
     <%= f.submit "Add a Resource", class: "btn btn-sm btn-primary" %>
   <% end %>
 </div>
