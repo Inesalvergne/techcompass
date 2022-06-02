@@ -25,7 +25,7 @@
                 <%= f.input :role, as: :select, collection: Job::ROLE %>
                 <%= f.input :level, as: :select, collection: Job::LEVEL %>
                 <%= f.input :post_url %>
-                <%= f.input :interview_date %>
+                <%= f.input :interview_date, as: :date, html5: true  %>
                 <%= f.input :remote %>
                 <%= f.input :status, as: :select, collection: Job::STATUS %>
                 <%= f.submit "Add a Job", class: "btn btn-sm btn-primary" %>
