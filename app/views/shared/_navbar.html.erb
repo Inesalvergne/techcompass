@@ -12,7 +12,7 @@
     </li>
     <%# <li class="mb-2 d-flex align-item-center">
       <%= render 'shared/svg/icon_add_job', class: "navbar-icon", height: '23', width: '23' %>
-      <%# <%= link_to "Add a job", new_job_path, class: "m-2 navbar-link" %>
+    <%# <%= link_to "Add a job", new_job_path, class: "m-2 navbar-link" %>
     <%# </li> %>
     <li class="mb-2 d-flex align-item-center">
       <%= render 'shared/svg/icon_find_resource', class: "navbar-icon", height: '23', width: '23' %>
@@ -25,6 +25,10 @@
     <li class="mb-2 d-flex align-item-center">
       <%= render 'shared/svg/icon_my_resources', class: "navbar-icon", height: '40', width: '40' %>
       <%= link_to "My published resources", my_resources_resources_path, class: "m-2 navbar-link" %>
+    </li>
+    <li class="mb-2 m-1 d-flex align-item-center">
+      <%= render 'shared/svg/icon_logout', class: "navbar-icon", height: '23', width: '23' %>
+      <%= link_to "Log out", destroy_user_session_path, method: "delete", class: "m-2 navbar-link" %>
     </li>
   </ul>
 
