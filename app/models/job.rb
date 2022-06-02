@@ -5,7 +5,6 @@ class Job < ApplicationRecord
   ROLE = ['Back-End Developer', 'Front-End Developer',
           'Full-Stack Developer', 'Digital Marketer', 'Data Scientist',
           'Data Analyst', 'Product Manager'].freeze
-  LEVEL = ['Entry-Level', 'Junior', 'Intermediate', 'Senior', 'Manager'].freeze
   STATUS = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer',
             'Rejected'].freeze
 

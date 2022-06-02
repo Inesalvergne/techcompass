@@ -9,37 +9,25 @@
 
 require "open-uri"
 
-
 ROLE = ['Back-End Developer', 'Front-End Developer',
-        'Full-Stack Developer'].freeze
-
-
-LEVEL = ['Entry Level', 'Junior', 'Senior'].freeze
+        'Full-Stack Developer', 'Digital Marketer', 'Data Scientist',
+        'Data Analyst', 'Product Manager'].freeze
 
 STATUS = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer',
-          'Rejected']
+        'Rejected'].freeze
 
+TAGS = ['Back-End Developer', 'Front-End Developer',
+        'Full-Stack Developer', 'Digital Marketer', 'Data Scientist',
+        'Data Analyst', 'Product Manager'].freeze
 
+LEVEL = ['Entry-Level', 'Junior', 'Intermediate', 'Senior', 'Manager'].freeze
 
-TAG = ['Back-End Developer', 'Front-End Developer',
-                 'Full-Stack Developer', 'Digital Marketer']
+puts "Destroy all data"
 
 Resource.destroy_all
 User.destroy_all
 Goal.destroy_all
 Job.destroy_all
-
-puts "Test string"
-
-def create_user(name, title)
-  return User.create!(
-    full_name: name,
-    job_title: title,
-    email: "#{name}@email.com",
-    password: "12345678",
-    credits: 5
-  )
-end
 
 # --------------------------------------------------------------
 # SETTING UP THE PROFILE OF THE PITCHER FOR DEMO
