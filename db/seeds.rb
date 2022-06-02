@@ -232,7 +232,7 @@ basic_programmer_interviewqs = Resource.create!(
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: "Junior",
     tags: "Full-Stack Developer",
-    user: User.all.sample,
+    user: User.where.not(full_name: “Ines”).sample,
     rich_content: piq.read
 )
 piq.close
@@ -250,7 +250,7 @@ basic_interview_qs = Resource.create!(
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: "Junior",
     tags: "Full-Stack Developer",
-    user: User.all.sample,
+    user: User.where.not(full_name: “Ines”).sample,
     rich_content: efave_lang.read
 )
 efave_lang.close
@@ -267,7 +267,7 @@ senior_interview_qs = Resource.create!(
     votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
     level: "Senior",
     tags: "Front-End Developer",
-    user: User.all.sample,
+    user: User.,
     rich_content: fes_interviewqs.read)
     fes_interviewqs.close
 
@@ -283,7 +283,7 @@ full_stack_portfolio = Resource.create!(
         votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
         level: "Junior, Senior",
         tags: "Front-End Developer",
-        user: User.all.sample,
+        user: User.where.not(full_name: “Ines”).sample,
         rich_content: fsportfolio.read)
         fsportfolio.close
 
@@ -299,7 +299,7 @@ back_end_python = Resource.create!(
         votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
         level: "Senior",
         tags: "Back-End Developer",
-        user: User.all.sample,
+        user: User.where.not(full_name: “Ines”).sample,
         rich_content: bep_iqs.read)
         bep_iqs.close
 
@@ -313,7 +313,7 @@ front_end_senior = Resource.create!(
           summary: "...",
           votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
           level: "Senior",
-          user: User.all.sample,
+          user: User.where.not(full_name: “Ines”).sample,
           tags: "Front-End Developer",
           rich_content: fes_iqs.read)
           fes_iqs.close
@@ -329,7 +329,7 @@ demo_seed = Resource.create!(
           summary: "...",
           votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
           level: "Junior",
-          user: User.all.sample,
+          user: User.where.not(full_name: “Ines”).sample,
           tags: "Full-Stack Developer",
           rich_content: demo1.read)
           demo1.close
@@ -346,7 +346,7 @@ back_end_ruby = Resource.create!(
                 votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
                 level: "Junior",
                 tags: "Back-End Developer",
-                user: User.all.sample,
+                user: User.where.not(full_name: “Ines”).sample,
                 rich_content: demo3.read)
                 demo3.close
 
@@ -361,7 +361,7 @@ demo_seed2 = Resource.create!(
              summary: "...",
              votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
              level: "Junior",
-             user: User.all.sample,
+             user: User.where.not(full_name: “Ines”).sample,
              tags: "Full-Stack Developer",
              rich_content: demo2.read)
              demo2.close
@@ -377,7 +377,7 @@ digital_marketing_interview = Resource.create!(
   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
   level: "Junior",
   tags: "Digital Marketer",
-  user: User.all.sample,
+  user: User.where.not(full_name: “Ines”).sample,
   rich_content: dm_iqs.read)
   dm_iqs.close
 
@@ -393,7 +393,7 @@ back_end_skills = Resource.create!(
   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
   level: "Junior",
   tags: "Back-End Developer",
-  user: User.all.sample,
+  user: User.where.not(full_name: “Ines”).sample,
   rich_content: be_skills.read)
   be_skills.close
 
@@ -407,7 +407,7 @@ back_end_roadmap = Resource.create!(
                   summary: "...",
                   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
                   level: "Junior",
-                  user: User.all.sample,
+                  user: User.where.not(full_name: “Ines”).sample,
                   tags: "Back-End Developer",
                   rich_content: be_rm.read)
                   be_rm.close
@@ -445,7 +445,7 @@ back_end_roadmap = Resource.create!(
                   summary: "...",
                   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
                   level: "Senior",
-                  user: User.all.sample,
+                  user: User.where.not(full_name: “Ines”).sample,
                   tags: "Back-End Developer",
                   rich_content: bes.read)
                   bes.close
