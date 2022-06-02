@@ -7,6 +7,7 @@ class Job < ApplicationRecord
           'Data Analyst', 'Product Manager'].freeze
   STATUS = ['Wishlist', 'Applied', 'Interview', 'Decision', 'Offer',
             'Rejected'].freeze
+  LEVEL = ['Entry-Level', 'Junior', 'Intermediate', 'Senior', 'Manager'].freeze
 
   validates :company, :description, :location, presence: true
   validates :role, presence: true, inclusion: { in: ROLE }
