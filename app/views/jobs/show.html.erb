@@ -21,7 +21,7 @@
     <%= @job.description %>
   </div>
   <div class="m-2 p-2">
-    <% if @job.post_url %>
+    <% if @job.post_url.start_with?(/\Ahttps*:\/\/.*/) %>
       <a href="<%= @job.post_url %>">See the Job Posting</a>
     <% end %>
   </div>
