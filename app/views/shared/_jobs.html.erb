@@ -1,15 +1,25 @@
+
 <div class="container-fluid">
   <div class="row d-flex">
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Wishlist</h5>
-      <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
+      <ul class="list-unstyled" data-controller="drag" id="Wishlist">
         <% @jobs.select do |job| %>
           <% if job.status == 'Wishlist' %>
-            <li data-id="<%= job.status %>">
+            <li data-id="<%= job.id %>">
+               <div class="edit-form">
+                <%= simple_form_for(job, remote: true, input_html: { "data-drag-target" => "form" }) do |f| %>
+                  <%= f.input :status, label: "Where are you at in the application process?",
+                      as: :select, collection: Job::STATUS,
+                      input_html: { "data-drag-target" => "status" } %>
+                  <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
+                <% end %>
+              </div>
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-wishlist">
                   <p class="fw-bold mt-1"><%= job.company %></p>
                   <p class="fs-6"><%= job.role %></p>
+                  <p class="fs-6"><%= job.status %></p>
                 </div>
               <% end %>
             </li>
@@ -19,14 +29,23 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Applied</h5>
-      <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
+      <ul class="list-unstyled" data-controller="drag" id="Applied">
         <% @jobs.select do |job| %>
           <% if job.status == 'Applied' %>
             <li data-id="<%= job.id %>">
+              <div class="edit-form">
+                <%= simple_form_for(job, remote: true, input_html: { "data-drag-target" => "form" }) do |f| %>
+                  <%= f.input :status, label: "Where are you at in the application process?",
+                      as: :select, collection: Job::STATUS,
+                      input_html: { "data-drag-target" => "status" } %>
+                  <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
+                <% end %>
+              </div>
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-applied">
                   <p class="fw-bold mt-1"><%= job.company %></p>
                   <p class="fs-6"><%= job.role %></p>
+                  <p class="fs-6"><%= job.status %></p>
                 </div>
               <% end %>
             </li>
@@ -36,14 +55,23 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Interview</h5>
-      <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
+      <ul class="list-unstyled" data-controller="drag" id="Interview">
         <% @jobs.select do |job| %>
           <% if job.status == 'Interview' %>
-            <li data-id="<%= job.status %>">
+            <li data-id="<%= job.id %>">
+              <div class="edit-form">
+                <%= simple_form_for(job, remote: true, input_html: { "data-drag-target" => "form" }) do |f| %>
+                  <%= f.input :status, label: "Where are you at in the application process?",
+                      as: :select, collection: Job::STATUS,
+                      input_html: { "data-drag-target" => "status" } %>
+                  <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
+                <% end %>
+              </div>
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-interview">
                   <p class="fw-bold mt-1"><%= job.company %></p>
                   <p class="fs-6"><%= job.role %></p>
+                  <p class="fs-6"><%= job.status %></p>
                 </div>
               <% end %>
             </li>
@@ -53,14 +81,23 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Decision</h5>
-      <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
+      <ul class="list-unstyled" data-controller="drag" id="Decision">
         <% @jobs.select do |job| %>
           <% if job.status == 'Decision' %>
-            <li data-id="<%= job.status %>">
+            <li data-id="<%= job.id %>">
+              <div class="edit-form">
+                  <%= simple_form_for(job, remote: true, input_html: { "data-drag-target" => "form" }) do |f| %>
+                    <%= f.input :status, label: "Where are you at in the application process?",
+                        as: :select, collection: Job::STATUS,
+                        input_html: { "data-drag-target" => "status" } %>
+                    <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
+                  <% end %>
+                </div>
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-decision">
                   <p class="fw-bold mt-1"><%= job.company %></p>
                   <p class="fs-6"><%= job.role %></p>
+                  <p class="fs-6"><%= job.status %></p>
                 </div>
               <% end %>
             </li>
@@ -70,14 +107,23 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Offer</h5>
-      <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
+      <ul class="list-unstyled" data-controller="drag" id="Offer">
         <% @jobs.select do |job| %>
           <% if job.status == 'Offer' %>
-            <li data-id="<%= job.status %>">
+            <li data-id="<%= job.id %>">
+              <div class="edit-form">
+                  <%= simple_form_for(job, remote: true, input_html: { "data-drag-target" => "form" }) do |f| %>
+                    <%= f.input :status, label: "Where are you at in the application process?",
+                        as: :select, collection: Job::STATUS,
+                        input_html: { "data-drag-target" => "status" } %>
+                    <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
+                  <% end %>
+                </div>
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-offer">
                   <p class="fw-bold mt-1"><%= job.company %></p>
                   <p class="fs-6"><%= job.role %></p>
+                  <p class="fs-6"><%= job.status %></p>
                 </div>
               <% end %>
             </li>
@@ -87,14 +133,23 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Rejected</h5>
-      <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
+      <ul class="list-unstyled" data-controller="drag" id="Rejected">
         <% @jobs.select do |job| %>
           <% if job.status == 'Rejected' %>
-            <li data-id="<%= job.status %>">
+            <li data-id="<%= job.id %>">
+              <div class="edit-form">
+                <%= simple_form_for(job, remote: true, input_html: { "data-drag-target" => "form" }) do |f| %>
+                  <%= f.input :status, label: "Where are you at in the application process?",
+                      as: :select, collection: Job::STATUS,
+                      input_html: { "data-drag-target" => "status" } %>
+                  <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
+                <% end %>
+              </div>
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-rejected">
                   <p class="fw-bold mt-1"><%= job.company %></p>
                   <p class="fs-6"><%= job.role %></p>
+                  <p class="fs-6"><%= job.status %></p>
                 </div>
               <% end %>
             </li>

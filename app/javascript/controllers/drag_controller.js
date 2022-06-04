@@ -13,7 +13,7 @@ import { end } from "@popperjs/core"
 
 export default class extends Controller {
 
-  // static targets = ["wishlist", "applied", "interview", "decision", "offer", "rejected"]
+  static targets = ["status", "form"]
 
   connect() {
     this.sortable = Sortable.create(this.element, {
@@ -23,7 +23,22 @@ export default class extends Controller {
   }
 
   end(event) {
-    let status = event.item.dataset.id
-    console.log(status)
+    // let id = event.item.dataset.id
+    let new_status = event.item.parentElement.id
+    console.log(new_status)
+
+    let input_status = this.statusTarget
+    input_status.value = new_status
   }
+
+  submitForm() {
+    Rails.fire(this.formTarget, 'submit')
+  }
+
 }
+
+// Add the form to index page to change cards
+// Add remote: :true pour pas refresh
+// input.value = where we dropped the card
+// submit the form
+// hide form with f.hidden_field
