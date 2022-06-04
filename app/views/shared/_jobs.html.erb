@@ -5,7 +5,7 @@
       <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
         <% @jobs.select do |job| %>
           <% if job.status == 'Wishlist' %>
-            <li>
+            <li data-id="<%= job.status %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-wishlist">
                   <p class="fw-bold mt-1"><%= job.company %></p>
@@ -22,7 +22,7 @@
       <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
         <% @jobs.select do |job| %>
           <% if job.status == 'Applied' %>
-            <li>
+            <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-applied">
                   <p class="fw-bold mt-1"><%= job.company %></p>
@@ -39,7 +39,7 @@
       <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
         <% @jobs.select do |job| %>
           <% if job.status == 'Interview' %>
-            <li>
+            <li data-id="<%= job.status %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-interview">
                   <p class="fw-bold mt-1"><%= job.company %></p>
@@ -56,7 +56,7 @@
       <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
         <% @jobs.select do |job| %>
           <% if job.status == 'Decision' %>
-            <li>
+            <li data-id="<%= job.status %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-decision">
                   <p class="fw-bold mt-1"><%= job.company %></p>
@@ -73,7 +73,7 @@
       <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
         <% @jobs.select do |job| %>
           <% if job.status == 'Offer' %>
-            <li>
+            <li data-id="<%= job.status %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-offer">
                   <p class="fw-bold mt-1"><%= job.company %></p>
@@ -90,7 +90,7 @@
       <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
         <% @jobs.select do |job| %>
           <% if job.status == 'Rejected' %>
-            <li>
+            <li data-id="<%= job.status %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-rejected">
                   <p class="fw-bold mt-1"><%= job.company %></p>

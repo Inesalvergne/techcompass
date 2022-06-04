@@ -9,25 +9,21 @@
 
 import { Controller } from "stimulus"
 import Sortable from "sortablejs"
+import { end } from "@popperjs/core"
 
 export default class extends Controller {
 
   // static targets = ["wishlist", "applied", "interview", "decision", "offer", "rejected"]
 
   connect() {
-    console.log('Hello, Stimulus!')
     this.sortable = Sortable.create(this.element, {
       group: "status",
+      onEnd: this.end.bind(this)
     })
+  }
 
-    //  Sortable.create(this.wishlist, {
-    //   group: 'shared', // set both lists to same group
-    //   animation: 150
-    //  });
-
-    // Sortable.create(this.applied, {
-    //     group: 'shared',
-    //     animation: 150
-    // });
+  end(event) {
+    let status = event.item.dataset.id
+    console.log(status)
   }
 }
