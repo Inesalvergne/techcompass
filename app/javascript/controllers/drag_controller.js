@@ -13,7 +13,7 @@ import { end } from "@popperjs/core"
 
 export default class extends Controller {
 
-  static targets = ["status", "form"]
+  static targets = ["form", "status"]
 
   connect() {
     this.sortable = Sortable.create(this.element, {
@@ -29,12 +29,10 @@ export default class extends Controller {
 
     let input_status = this.statusTarget
     input_status.value = new_status
-  }
+    console.log(input_status)
 
-  submitForm() {
-    Rails.fire(this.formTarget, 'submit')
+    this.formTarget.submit()
   }
-
 }
 
 // Add the form to index page to change cards

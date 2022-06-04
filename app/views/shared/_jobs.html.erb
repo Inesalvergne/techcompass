@@ -8,7 +8,7 @@
           <% if job.status == 'Wishlist' %>
             <li data-id="<%= job.id %>">
                <div class="edit-form">
-                <%= simple_form_for(job, remote: true, input_html: { "data-drag-target" => "form" }) do |f| %>
+                <%= simple_form_for job, remote: true, html: { data: { drag_target: 'form' }} do |f| %>
                   <%= f.input :status, label: "Where are you at in the application process?",
                       as: :select, collection: Job::STATUS,
                       input_html: { "data-drag-target" => "status" } %>
@@ -34,7 +34,7 @@
           <% if job.status == 'Applied' %>
             <li data-id="<%= job.id %>">
               <div class="edit-form">
-                <%= simple_form_for(job, remote: true, input_html: { "data-drag-target" => "form" }) do |f| %>
+                <%= simple_form_for(job, remote: true, html: { data: { drag_target: 'form' }}) do |f| %>
                   <%= f.input :status, label: "Where are you at in the application process?",
                       as: :select, collection: Job::STATUS,
                       input_html: { "data-drag-target" => "status" } %>
@@ -60,7 +60,7 @@
           <% if job.status == 'Interview' %>
             <li data-id="<%= job.id %>">
               <div class="edit-form">
-                <%= simple_form_for(job, remote: true, input_html: { "data-drag-target" => "form" }) do |f| %>
+                <%= simple_form_for(job, remote: true, html: { data: { drag_target: 'form' }}) do |f| %>
                   <%= f.input :status, label: "Where are you at in the application process?",
                       as: :select, collection: Job::STATUS,
                       input_html: { "data-drag-target" => "status" } %>
@@ -86,7 +86,7 @@
           <% if job.status == 'Decision' %>
             <li data-id="<%= job.id %>">
               <div class="edit-form">
-                  <%= simple_form_for(job, remote: true, input_html: { "data-drag-target" => "form" }) do |f| %>
+                  <%= simple_form_for(job, remote: true, html: { data: { drag_target: 'form' }}) do |f| %>
                     <%= f.input :status, label: "Where are you at in the application process?",
                         as: :select, collection: Job::STATUS,
                         input_html: { "data-drag-target" => "status" } %>
@@ -112,7 +112,7 @@
           <% if job.status == 'Offer' %>
             <li data-id="<%= job.id %>">
               <div class="edit-form">
-                  <%= simple_form_for(job, remote: true, input_html: { "data-drag-target" => "form" }) do |f| %>
+                  <%= simple_form_for(job, remote: true, html: { data: { drag_target: 'form' }}) do |f| %>
                     <%= f.input :status, label: "Where are you at in the application process?",
                         as: :select, collection: Job::STATUS,
                         input_html: { "data-drag-target" => "status" } %>
@@ -138,7 +138,7 @@
           <% if job.status == 'Rejected' %>
             <li data-id="<%= job.id %>">
               <div class="edit-form">
-                <%= simple_form_for(job, remote: true, input_html: { "data-drag-target" => "form" }) do |f| %>
+                <%= simple_form_for(job, remote: true, html: { data: { drag_target: 'form' }}) do |f| %>
                   <%= f.input :status, label: "Where are you at in the application process?",
                       as: :select, collection: Job::STATUS,
                       input_html: { "data-drag-target" => "status" } %>

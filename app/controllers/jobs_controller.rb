@@ -1,4 +1,6 @@
 class JobsController < ApplicationController
+  skip_before_action :verify_authenticity_token
+
   # I can see all my jobs
   def index
     @jobs = current_user.jobs
