@@ -16,7 +16,9 @@
   <body>
     <%= render 'shared/navbar' unless @disable_nav %>
     <%= render 'shared/flashes' %>
-
-    <%= yield %>
+    <div class="container">
+      <%= render 'shared/topbar' %>
+      <%= yield %>
+    </div>
   </body>
 </html>
