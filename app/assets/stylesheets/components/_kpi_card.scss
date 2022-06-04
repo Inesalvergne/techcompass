@@ -1,4 +1,4 @@
-/*
+
 .container-kpi{
   //width: 500px;
 }
@@ -24,20 +24,15 @@
 }
 
 .kpi-content{
-  //display: flex;
-  //align-items: center;
-  //justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .line{
- // display: block;
+  display: block;
   background-color: $light-purple;
   height: 40px;
   width: 4px;
   border-radius: 2px;
-}
-*/
-
-.kpi-card {
-  border: 1px black solid;
 }
