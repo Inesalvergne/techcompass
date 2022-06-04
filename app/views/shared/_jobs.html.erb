@@ -1,8 +1,8 @@
-<div class="container-fluid" data-controller="drag">
+<div class="container-fluid">
   <div class="row d-flex">
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Wishlist</h5>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
         <% @jobs.select do |job| %>
           <% if job.status == 'Wishlist' %>
             <li>
@@ -19,7 +19,7 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Applied</h5>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
         <% @jobs.select do |job| %>
           <% if job.status == 'Applied' %>
             <li>
@@ -36,7 +36,7 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Interview</h5>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
         <% @jobs.select do |job| %>
           <% if job.status == 'Interview' %>
             <li>
@@ -53,7 +53,7 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Decision</h5>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
         <% @jobs.select do |job| %>
           <% if job.status == 'Decision' %>
             <li>
@@ -70,7 +70,7 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Offer</h5>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
         <% @jobs.select do |job| %>
           <% if job.status == 'Offer' %>
             <li>
@@ -87,7 +87,7 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Rejected</h5>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" data-controller="drag" data-drag-target="drag">
         <% @jobs.select do |job| %>
           <% if job.status == 'Rejected' %>
             <li>
