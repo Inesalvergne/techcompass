@@ -7,14 +7,6 @@
         <% @jobs.select do |job| %>
           <% if job.status == 'Wishlist' %>
             <li data-id="<%= job.id %>">
-               <div class="edit-form">
-                <%= simple_form_for job, remote: true, html: { data: { drag_target: 'form' }} do |f| %>
-                  <%= f.input :status, label: "Where are you at in the application process?",
-                      as: :select, collection: Job::STATUS,
-                      input_html: { "data-drag-target" => "status" } %>
-                  <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
-                <% end %>
-              </div>
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-wishlist">
                   <p class="fw-bold mt-1"><%= job.company %></p>
@@ -33,14 +25,6 @@
         <% @jobs.select do |job| %>
           <% if job.status == 'Applied' %>
             <li data-id="<%= job.id %>">
-              <div class="edit-form">
-                <%= simple_form_for(job, remote: true, html: { data: { drag_target: 'form' }}) do |f| %>
-                  <%= f.input :status, label: "Where are you at in the application process?",
-                      as: :select, collection: Job::STATUS,
-                      input_html: { "data-drag-target" => "status" } %>
-                  <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
-                <% end %>
-              </div>
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-applied">
                   <p class="fw-bold mt-1"><%= job.company %></p>
@@ -59,14 +43,6 @@
         <% @jobs.select do |job| %>
           <% if job.status == 'Interview' %>
             <li data-id="<%= job.id %>">
-              <div class="edit-form">
-                <%= simple_form_for(job, remote: true, html: { data: { drag_target: 'form' }}) do |f| %>
-                  <%= f.input :status, label: "Where are you at in the application process?",
-                      as: :select, collection: Job::STATUS,
-                      input_html: { "data-drag-target" => "status" } %>
-                  <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
-                <% end %>
-              </div>
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-interview">
                   <p class="fw-bold mt-1"><%= job.company %></p>
@@ -85,14 +61,6 @@
         <% @jobs.select do |job| %>
           <% if job.status == 'Decision' %>
             <li data-id="<%= job.id %>">
-              <div class="edit-form">
-                  <%= simple_form_for(job, remote: true, html: { data: { drag_target: 'form' }}) do |f| %>
-                    <%= f.input :status, label: "Where are you at in the application process?",
-                        as: :select, collection: Job::STATUS,
-                        input_html: { "data-drag-target" => "status" } %>
-                    <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
-                  <% end %>
-                </div>
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-decision">
                   <p class="fw-bold mt-1"><%= job.company %></p>
@@ -111,14 +79,6 @@
         <% @jobs.select do |job| %>
           <% if job.status == 'Offer' %>
             <li data-id="<%= job.id %>">
-              <div class="edit-form">
-                  <%= simple_form_for(job, remote: true, html: { data: { drag_target: 'form' }}) do |f| %>
-                    <%= f.input :status, label: "Where are you at in the application process?",
-                        as: :select, collection: Job::STATUS,
-                        input_html: { "data-drag-target" => "status" } %>
-                    <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
-                  <% end %>
-                </div>
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-offer">
                   <p class="fw-bold mt-1"><%= job.company %></p>
@@ -137,14 +97,6 @@
         <% @jobs.select do |job| %>
           <% if job.status == 'Rejected' %>
             <li data-id="<%= job.id %>">
-              <div class="edit-form">
-                <%= simple_form_for(job, remote: true, html: { data: { drag_target: 'form' }}) do |f| %>
-                  <%= f.input :status, label: "Where are you at in the application process?",
-                      as: :select, collection: Job::STATUS,
-                      input_html: { "data-drag-target" => "status" } %>
-                  <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
-                <% end %>
-              </div>
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-rejected">
                   <p class="fw-bold mt-1"><%= job.company %></p>

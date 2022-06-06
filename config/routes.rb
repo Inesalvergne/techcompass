@@ -13,5 +13,9 @@ Rails.application.routes.draw do
       post :toggle_favorite
     end
   end
-  resources :jobs, only: %I[new create show index edit update]
+  resources :jobs, only: %I[new create show index edit update] do
+    member do
+      patch :set_status
+    end
+  end
 end

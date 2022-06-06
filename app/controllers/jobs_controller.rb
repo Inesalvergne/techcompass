@@ -29,6 +29,13 @@ class JobsController < ApplicationController
     end
   end
 
+  # I can drag and drop a job card
+  def set_status
+    @job = Job.find(params[:id])
+    @job.update(job_params)
+    head :ok
+  end
+
   # I can edit a job
   def edit
     @job = Job.find(params[:id])

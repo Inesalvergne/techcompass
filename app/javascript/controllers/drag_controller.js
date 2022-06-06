@@ -18,25 +18,33 @@ export default class extends Controller {
   connect() {
     this.sortable = Sortable.create(this.element, {
       group: "status",
-      onEnd: this.end.bind(this)
+      onEnd: this.updateJob.bind(this)
     })
   }
 
-  end(event) {
-    // let id = event.item.dataset.id
-    let new_status = event.item.parentElement.id
+  updateJob(event) {
+    console.log(event.item)
+    const id = event.item.dataset.id
+    console.log(id)
+    const new_status = event.item.parentElement.id
     console.log(new_status)
 
-    let input_status = this.statusTarget
-    input_status.value = new_status
-    console.log(input_status)
-
-    this.formTarget.submit()
+    fetch(`/jobs/${id}/set_status`, {
+      method: 'PATCH',
+      headers: { "Content-Type": "application/json"},
+      body: JSON.stringify({ status: new_status })
+    })
+    .then(response => () => {
+      // deal with colors using the card class classList.remove & classList.add
+    })
   }
 }
 
-// Add the form to index page to change cards
-// Add remote: :true pour pas refresh
-// input.value = where we dropped the card
-// submit the form
-// hide form with f.hidden_field
+
+
+// OPTION 2
+// grab card ID and where the card was droped
+// fetch dans le stimulus controller
+// case statement dans le rails controller
+// methode dans le job controller pour edit status (patch) --> case statement
+// create a route /jobs/edit/edit-status
