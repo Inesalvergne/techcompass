@@ -1,11 +1,12 @@
-<div class="container container-kpi">
+<%#
+ <div class="container container-kpi">
 
-  <div class="row row-cols-1 g-2">
+  <div class="row row-cols-2 g-2">
     <div class="col kpi-card px-4 py-2">
       <p class="kpi-title"> Applications left until goal reached </p>
       <div class="kpi-content d-flex flex-row align-items-center justify-content-between">
         <div class="line"></div>
-        <p class="kpi-number fw-bold"> <%= @applications_left_to_reach_goal %></p>
+        <p class="kpi-number fw-bold"> <%= @applications_left_to_reach_goal ></p>
       </div>
     </div>
 
@@ -13,7 +14,7 @@
       <p class="kpi-title">Applications sent this month</p>
       <div class="kpi-content d-flex flex-row align-items-center justify-content-between">
         <div class="line"></div>
-        <p class="kpi-number fw-bold"> <%= @applications_total %></p>
+        <p class="kpi-number fw-bold"> <%= @applications_total ></p>
       </div>
     </div>
 
@@ -21,7 +22,7 @@
       <p class="kpi-title"> Interviews done this month</p>
       <div class="kpi-content d-flex flex-row align-items-center justify-content-between">
         <div class="line"></div>
-        <p class="kpi-number fw-bold"> <%= @interviews_total %></p>
+        <p class="kpi-number fw-bold"> <%= @interviews_total ></p>
       </div>
     </div>
 
@@ -29,7 +30,7 @@
         <p class="kpi-title"> Total resources published </p>
       <div class="kpi-content d-flex flex-row align-items-center justify-content-between">
         <div class="line"></div>
-        <p class="kpi-number fw-bold"> <%= @my_resources_total %></p>
+        <p class="kpi-number fw-bold"> <%= @my_resources_total ></p>
       </div>
     </div>
 
@@ -42,4 +43,54 @@
     </div>
   </div>
 
+ </div>
+%>
+<div class="container">
+  <div class="row row-cols-2 g-4">
+      <div class="col-6">
+        <div class="p-3 bg-kpi rounded-3">
+          <p class="kpi-title">Applications left until goal reached</p>
+          <div class="kpi-content d-flex flex-row align-items-center justify-content-between">
+            <div class="line"></div>
+            <p class="kpi-number fw-bold"><%= @applications_left_to_reach_goal %></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="p-3 bg-kpi rounded-3">
+          <p class="kpi-title">Applications sent this month</p>
+          <div class="kpi-content d-flex flex-row align-items-center justify-content-between">
+            <div class="line"></div>
+            <p class="kpi-number fw-bold"><%= @applications_total %></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="p-3 bg-kpi  rounded-3">
+          <p class="kpi-title">Interviews done this month</p>
+          <div class="kpi-content d-flex flex-row align-items-center justify-content-between">
+            <div class="line"></div>
+            <p class="kpi-number fw-bold"><%= @interviews_total %></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="p-3 bg-kpi  rounded-3">
+          <p class="kpi-title">Total resources published</p>
+          <div class="kpi-content d-flex flex-row align-items-center justify-content-between">
+            <div class="line"></div>
+            <p class="kpi-number fw-bold"> <%= @my_resources_total %></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="p-3 bg-kpi  rounded-3">
+          <p class="kpi-title">Application to interview conversion</p>
+          <div class="kpi-content d-flex flex-row align-items-center justify-content-between">
+            <div class="line"></div>
+            <p class="kpi-number fw-bold"> 25%</p>
+          </div>
+        </div>
+      </div>
+  </div>
 </div>
