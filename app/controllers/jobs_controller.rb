@@ -2,6 +2,7 @@ class JobsController < ApplicationController
   # I can see all my jobs
   def index
     @jobs = current_user.jobs
+    # @job = Job.find(params[:id])
   end
 
   # I can see details of a job
@@ -26,8 +27,14 @@ class JobsController < ApplicationController
     end
   end
 
-  # I can change the status of a job
+  # I can drag and drop a job card
+  def set_status
+    @job = Job.find(params[:id])
+    @job.update(job_params)
+    head :ok
+  end
 
+  # I can edit a job
   def edit
     @job = Job.find(params[:id])
   end
@@ -35,7 +42,7 @@ class JobsController < ApplicationController
   def update
     @job = Job.find(params[:id])
     if @job.update(job_params)
-      redirect_to job_path(@job)
+      redirect_to jobs_path
     else
       render :new
     end

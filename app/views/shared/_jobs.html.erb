@@ -1,11 +1,12 @@
+
 <div class="container-fluid">
   <div class="row d-flex">
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Wishlist</h5>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" data-controller="drag" id="Wishlist">
         <% @jobs.select do |job| %>
           <% if job.status == 'Wishlist' %>
-            <li>
+            <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-wishlist">
                   <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
@@ -19,10 +20,10 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Applied</h5>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" data-controller="drag" id="Applied">
         <% @jobs.select do |job| %>
           <% if job.status == 'Applied' %>
-            <li>
+            <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-applied">
                   <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
@@ -36,10 +37,10 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Interview</h5>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" data-controller="drag" id="Interview">
         <% @jobs.select do |job| %>
           <% if job.status == 'Interview' %>
-            <li>
+            <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-interview">
                   <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
@@ -53,10 +54,10 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Decision</h5>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" data-controller="drag" id="Decision">
         <% @jobs.select do |job| %>
           <% if job.status == 'Decision' %>
-            <li>
+            <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-decision">
                   <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
@@ -70,10 +71,10 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Offer</h5>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" data-controller="drag" id="Offer">
         <% @jobs.select do |job| %>
           <% if job.status == 'Offer' %>
-            <li>
+            <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-offer">
                   <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
@@ -87,10 +88,10 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column py-4">
       <h5 class="text-center mb-3 fw-bold">Rejected</h5>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" data-controller="drag" id="Rejected">
         <% @jobs.select do |job| %>
           <% if job.status == 'Rejected' %>
-            <li>
+            <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                 <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-rejected">
                   <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
