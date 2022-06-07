@@ -1,13 +1,39 @@
 <div class="container">
   <h1><%= @resource.title %></h1>
   <h2><%= "by #{@resource.user.full_name}" %></h2>
+  <%= @resource.summary %>
 
-  <% if current_user.credits > 0  || @resource.user == current_user %>
+  <% if @resource.user == current_user %>
     <%= @resource.rich_content %>
+  <% elsif current_user.credits < 5 && !current_user.viewed?(@resource) %>
+    <div class="hidden_text_container">
+        <div class="background_blur">
+          <%= @resource.rich_content %>
+        </div>
+        <div class="pop_up_container">
+          <div class="pop_up">
+            <p>You do not have enough credits to purchase resource.
+               Add a resource in order to gain credit.</p>
+            <%= link_to 'Add Resource', new_resource_path %>
+            <%= link_to 'Cancel', resources_path %>
+          </div>
+        </div>
+      </div>
   <% else %>
-    <p>You currently do not have enough credits to view this resource.</p>
+    <div class="hidden_text_container" data-controller="resources"
+         data-resources-id-value="<%= @resource.id %>"
+         data-resources-viewed-value="<%= current_user.viewed?(@resource) %>"
+         data-resources-check-value="<%= @resource.user == current_user %>">
+      <div class="background_blur" data-resources-target="blur">
+        <%= @resource.rich_content %>
+      </div>
+       <div class="pop_up_container" data-resources-target="pop_up">
+        <div class="pop_up">
+          <p>Would you like to pay 5 credits to access this resource?</p>
+          <button data-action="resources#viewResource">Yes</button>
+          <%= link_to 'No', resources_path %>
+        </div>
+      </div>
+    </div>
   <% end %>
-
-  <%= "You currently have #{current_user.credits} credits" %>
-
 </div>
