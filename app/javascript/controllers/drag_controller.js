@@ -34,9 +34,11 @@ export default class extends Controller {
       headers: { "Content-Type": "application/json"},
       body: JSON.stringify({ status: new_status })
     })
-    .then(response => () => {
-      // deal with colors using the card class classList.remove & classList.add
-    })
+    // .then(response => () => {
+    //   // deal with colors using the card class classList.remove & classList.add
+    //   // event.item.classList.remove("border-wishlist")
+    //   // event.iten.classList.add('border-${new_status}')
+    // })
   }
 }
 
