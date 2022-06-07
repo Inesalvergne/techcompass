@@ -1,13 +1,17 @@
 
 <div class="container m-2 p-2">
-  <%= form_tag resources_path, method: :get do %>
-    <%= text_field_tag :query,
-      params[:query],
-      class: "form-control",
-      placeholder: "Find a resource",
-      input_html: { class: "m-2 p-2" }
-    %>
-    <%= submit_tag "Search", class: "btn btn-primary m-2 p-2" %>
+  <%= form_tag resources_path, method: :get, class: "" do %>
+    <div class="row">
+      <div class="col input-group input-group-lg rounded-3">
+        <%= text_field_tag :query,
+          params[:query],
+          class: "form-control",
+          placeholder: "What are you looking for?",
+          input_html: { class: "m-2 p-2 input-group-prepend" }
+        %>
+        <%= submit_tag "Search", class: "input-group-text rounded-3 rounded-right bg-primary text-white fw-bold" %>
+      </div>
+    </div>
   <% end %>
   <%= render 'shared/resources' %>
 </div>
