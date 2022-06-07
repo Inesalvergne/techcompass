@@ -5,7 +5,7 @@
 
   <% if @resource.user == current_user %>
     <%= @resource.rich_content %>
-  <% elsif current_user.credits < 5 %>
+  <% elsif current_user.credits < 5 && !current_user.viewed?(@resource) %>
     <div class="hidden_text_container">
         <div class="background_blur">
           <%= @resource.rich_content %>
@@ -36,7 +36,4 @@
       </div>
     </div>
   <% end %>
-
-  <%= "You currently have #{current_user.credits} credits" %>
-
 </div>
