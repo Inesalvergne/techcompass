@@ -1,13 +1,13 @@
-<div class="main-container">
+<div class="container main-container">
 
-  <div class="container-dashboard">
+  <div class="row container-dashboard">
 
-    <div class="m-5 wrapper-dashboard">
+    <div class="col m-5 wrapper-dashboard">
 
-      <div class="header-dashboard">
+      <div class="header-dashboard d-flex flex-row justify-content-between">
 
         <div class="wrapper-header-title">
-          <h5> Hello <%= current_user.full_name %>, welcome back!</h5>
+          <h5> Hello <b><%= current_user.full_name %></b>, welcome back!</h5>
         </div>
 
         <div class="wrapper-header-date">
@@ -19,11 +19,11 @@
       <div class="goal-section">
         <h3 class= "mb-4 mt-5">My goal</h3>
 
-        <div class="p-3 info-card">
+        <div class="p-3 info-card d-flex flex-row">
           <div class="p-2 icon-card">
             <%=image_tag("icon-goal.svg") %>
           </div>
-          <div class="m-2 align-self-center text-card">
+          <div class="m-2 align-self-center text-card d-flex flex-column">
             <% unless @jobs.nil? %>
               <p><%= @goal.description %></p>
               <p> To reach my goal, I need to send <%= @goal.job_target %> applications a month!</p>
@@ -42,25 +42,30 @@
       <div class="credit-section">
         <h3 class= "mb-4 mt-5">My credits</h3>
 
-        <div class="p-3 info-card">
+        <div class="p-3 info-card d-flex flex-row">
           <div class="p-2 icon-card">
             <%=image_tag("icon-credits.svg") %>
           </div>
-          <div class="m-2 align-self-center text-card">
-            <p> You have <%= pluralize(current_user.credits, 'credit')%> left </p>
-            <%= link_to 'Share a resource to get more credits!', new_resource_path %>
+          <div class="m-2 align-self-center text-card d-flex flex-column">
+            <p class="fw-bold">You have <%= pluralize(current_user.credits, 'credit')%> left.</p>
+            <%= link_to 'Share a resource to get more credits!', new_resource_path, class: "text-decoration-none" %>
           </div>
         </div>
       </div>
 
       <div class="job-preview-section">
-        <h3 class= "mb-4 mt-4">My job applications</h3>
-        <%= link_to 'View all', jobs_path %>
+        <div class="d-flex flex-row align-items-center gap-3">
+          <h3 class= "mb-4 mt-4">My job applications</h3>
+          <%= link_to 'View all', jobs_path, class: "text-decoration-none" %>
+        </div>
         <%= render 'shared/job_preview' %>
       </div>
 
       <div class='my-resources-section'>
-        <h3 class= "mb-4 mt-4">My resources</h3>
+        <div class="d-flex flex-row align-items-center gap-3">
+          <h3 class= "mb-4 mt-4">My resources</h3>
+          <%= link_to 'View all', my_resources_resources_path, class: "text-decoration-none" %>
+        </div>
         <%= render 'shared/resources' %>
       </div>
 
@@ -69,8 +74,8 @@
 
     <%# KPIs SECTION %>
 
-    <div class="wrapper-kpi">
-      <h3 class="mt-5 pl-3"> My KPIs</h3>
+    <div class="col wrapper-kpi">
+      <h3 class="mt-5 p-3"> My KPIs</h3>
       <%= render 'shared/kpi_card' %>
     </div>
 

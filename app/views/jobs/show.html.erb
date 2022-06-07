@@ -1,19 +1,20 @@
-
 <div class="container" >
   <div class="m-2 p-2">
-    <h3><%= @job.company %></h3>
+    <h3><%= fa_icon "building", class: "fa-fw" %> <%= @job.company %></h3>
     <h6><%= @job.role %></h6>
-    <h6> Status: <%= @job.status %></h6>
   </div>
-  <div class="border border-secondary rounded m-2 p-2 d-flex
-              justify-content-around">
-    <div>
-      <p><%= @job.interview_date %></p>
-      <p><%= @job.level %></p>
+  <div class="container border rounded m-2 p-2 d-flex justify-content-around">
+    <div class="col">
+      <% if @job.status == 'Interview' && @job.interview_date.nil? == false %>
+        <p><%= fa_icon "tasks", class: "text-primary fa-fw" %> <%= @job.status %> <span class="text-muted"><%= "(scheduled for #{@job.interview_date})" %></span></p>
+      <% else %>
+        <p><%= fa_icon "tasks", class: "text-primary fa-fw" %> <%= @job.status %></p>
+      <% end %>
+      <p><%= fa_icon "user", class: "text-primary fa-fw" %> <%= @job.level %></p>
     </div>
-    <div>
-      <p><%= @job.location %></p>
-      <p>Open to Remote Work: <%= @job.remote ? 'Yes' : 'No' %></p>
+    <div class="col">
+      <p><%= fa_icon "map-marker", class: "text-primary fa-fw" %> <%= @job.location %></p>
+      <p><%= fa_icon "laptop", class: "text-primary fa-fw" %> Open to Remote Work: <%= @job.remote ? 'Yes' : 'No' %></p>
     </div>
   </div>
 
@@ -21,8 +22,8 @@
     <%= @job.description %>
   </div>
   <div class="m-2 p-2">
-    <% if @job.post_url %>
-      <a href="<%= @job.post_url %>">See the Job Posting</a>
+    <% if @job.post_url.start_with?(/\Ahttps*:\/\/.*/) %>
+      <p><%= fa_icon "link", class: "text-primary fa-fw" %> <a href="<%= @job.post_url %>", class="text-decoration-none">See the Job Posting</a></p>
     <% end %>
   </div>
 
@@ -51,7 +52,7 @@
 </div>
 
   <div class="m-2 p-2">
-    <h3>Suggested Resources Related to <%= @job.role %> Positions</h3>
+    <h3>Suggested Resources Related to <span class="text-primary"><%= @job.role %></span> Positions</h3>
     <%= render 'shared/job_resource' %>
   </div>
 </div>

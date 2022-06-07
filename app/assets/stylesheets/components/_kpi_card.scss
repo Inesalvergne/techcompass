@@ -1,13 +1,17 @@
 
 .container-kpi{
-  width: 500px;
+  //width: 500px;
 }
 .kpi-card {
-  flex: 0 0 auto;
-  width: 30%;
+ // flex: 0 0 auto;
+ // width: 30%;
   background-color: $lighter-purple;
-  margin: 20px;
+  //margin: 20px;
   border-radius: 20px;
+}
+
+.bg-kpi {
+  background-color: $lighter-purple;
 }
 
 .kpi-title{
@@ -20,7 +24,7 @@
   font-size: 40px;
   color: $purple;
   text-align: end;
-  padding-top: 12px;
+  //padding-top: 12px;
 }
 
 .kpi-content{

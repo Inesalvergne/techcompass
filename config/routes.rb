@@ -14,5 +14,9 @@ Rails.application.routes.draw do
       patch :purchase_resource
     end
   end
-  resources :jobs, only: %I[new create show index edit update]
+  resources :jobs, only: %I[new create show index edit update] do
+    member do
+      patch :set_status
+    end
+  end
 end
