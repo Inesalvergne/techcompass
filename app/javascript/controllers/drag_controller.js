@@ -34,8 +34,8 @@ export default class extends Controller {
 
     const card = event.item.children[0].children[0]
     const colors = ["wishlist", "applied", "interview", "decision", "offer", "rejected"]
-    colors.forEach(color => card.classList.replace(`border-${color}`,`border-${new_status}`))
-    // card.classList.replace('border-wishlist',`border-${new_status}` )
+    colors.forEach(color => card.classList.replace(`border-${color}`,`border-${new_status.toLowerCase()}`))
+    console.log(card)
   }
 }
 
