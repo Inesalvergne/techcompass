@@ -13,8 +13,6 @@ import { end } from "@popperjs/core"
 
 export default class extends Controller {
 
-  static targets = ["form", "status"]
-
   connect() {
     this.sortable = Sortable.create(this.element, {
       group: "status",
@@ -23,7 +21,6 @@ export default class extends Controller {
   }
 
   updateJob(event) {
-    console.log(event.item)
     const id = event.item.dataset.id
     console.log(id)
     const new_status = event.item.parentElement.id
@@ -34,9 +31,11 @@ export default class extends Controller {
       headers: { "Content-Type": "application/json"},
       body: JSON.stringify({ status: new_status })
     })
-    .then(response => () => {
-      // deal with colors using the card class classList.remove & classList.add
-    })
+
+    const card = event.item.children[0].children[0]
+    const colors = ["wishlist", "applied", "interview", "decision", "offer", "rejected"]
+    colors.forEach(color => card.classList.replace(`border-${color}`,`border-${new_status.toLowerCase()}`))
+    console.log(card)
   }
 }
 
