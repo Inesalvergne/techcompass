@@ -46,6 +46,7 @@ class ResourcesController < ApplicationController
   def create
     @resource = Resource.new(resource_params)
     @resource.user = current_user
+    @resource.votes = 0
     if @resource.save
       current_user.credits += 15
       current_user.save
