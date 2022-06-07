@@ -32,10 +32,10 @@
       </li>
     <% elsif current_user.credits < 10 %>
       <li>
-        <%= link_to new_resource_path, class: 'text-decoration-none text-body', data: { confirm: "You do not have enough credit to view this resource. Please add a resource to gain 10 credits." }  do %>
+        <%= link_to resource_path(resource.id), class: 'text-decoration-none text-body' do %>
             <div class="box-resource row d-flex border my-4 py-3">
               <div class="box-resource-left col-2 position-relative">
-                <%# <%= fa_icon "heart", class: 'position-absolute top-0 right-0 text-white' %> %>
+                <%# <%= fa_icon "heart", class: 'position-absolute top-0 right-0 text-white' %>
                 <% if resource.image.key.nil? %>
                     <%= image_tag("dummy-image.png", class:"resource-image") %>
                 <% else %>
@@ -62,7 +62,7 @@
       </li>
     <% else %>
       <li>
-        <%= link_to resource_path(resource.id), class: 'text-decoration-none text-body', data: { confirm: "You are about to use 5 credits. You have #{current_user.credits} credits left. Are you sure?" }  do %>
+        <%= link_to resource_path(resource.id), class: 'text-decoration-none text-body' do %>
             <div class="box-resource row d-flex border my-4 py-3">
               <div class="box-resource-left col-2 position-relative">
                 <%# <%= fa_icon "heart", class: 'position-absolute top-0 right-0 text-white' %>

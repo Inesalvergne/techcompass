@@ -11,6 +11,7 @@ Rails.application.routes.draw do
     member do
       patch :upvote
       post :toggle_favorite
+      patch :purchase_resource
     end
   end
   resources :jobs, only: %I[new create show index edit update]
