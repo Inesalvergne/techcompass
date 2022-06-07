@@ -20,11 +20,20 @@ class ResourcesController < ApplicationController
     # create a view
 
     return if @resource.user == current_user || current_user.viewed?(@resource)
+    # send a param from the link_to indicating the user is purchasing article
+  end
 
-    if current_user.credits >= 10
-      if View.create!(user: current_user, resource: @resource)
-        current_user.credits -= 5
-        current_user.save
+  def purchase_resource
+    @resource = Resource.find(params[:id])
+    respond_to do |format|
+      if current_user.credits >= 5
+        if View.create!(user: current_user, resource: @resource)
+          current_user.credits -= 5
+          current_user.save
+          format.json { render json: true }
+        end
+      else
+        format.json { render json: false }
       end
     end
   end
@@ -37,6 +46,7 @@ class ResourcesController < ApplicationController
   def create
     @resource = Resource.new(resource_params)
     @resource.user = current_user
+    @resource.votes = 0
     if @resource.save
       current_user.credits += 15
       current_user.save
