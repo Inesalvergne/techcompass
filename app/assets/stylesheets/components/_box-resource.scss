@@ -4,7 +4,17 @@
 }
 
 .resource-image{
-  width: 100%;
-  height: 10vw;
+  width: 150px;
+  height: 100%;
   object-fit: cover;
+  border-top-left-radius : 10px;
+  border-bottom-left-radius : 10px;
+}
+
+.row > * {
+  padding-left: 0 !important;
+}
+
+.box-resource{
+  border-radius: 10px;
 }
