@@ -10,10 +10,15 @@
 }
 
 .pop_up {
-  background-color: white;
-  padding: 20px;
+  background-color: $light-grey;
+  //padding: 20px;
   z-index: 100;
   filter: blur(0);
   -webkit-filter: blur(0);
-  border: 5px solid black;
+  //border: 5px solid black;
+}
+
+.img-popup {
+  width: 80px;
+  height: 80px;
 }
