@@ -1,6 +1,6 @@
 
 <div class="container m-2 p-2" data-controller="search-resources">
-  <%= form_tag resources_path, method: :get, class: "", html: { data: { search_resources_target: 'form' } } do %>
+  <%= form_tag resources_path, method: :get, class: "", data: { search_resources_target: 'form' } do %>
     <div class="row">
       <div class="col input-group input-group-lg rounded-3">
         <%= text_field_tag :query,
@@ -8,7 +8,8 @@
           class: "form-control",
           placeholder: "What are you looking for?",
           input_html: { class: "m-2 p-2 input-group-prepend" },
-           data: { search_resources_target: 'input' }
+           data: { search_resources_target: 'input',
+                   action: 'keyup->search-resources#update' }
         %>
         <%= submit_tag "Search", class: "input-group-text rounded-3 rounded-right bg-primary text-white fw-bold" %>
       </div>
