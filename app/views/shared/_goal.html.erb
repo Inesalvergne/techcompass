@@ -1,0 +1,9 @@
+<div class = "container justify-content-center m-2 p-2">
+          <%= simple_form_for goal, html: { class: "d-none",
+                                     data: { edit_goal_target: "form",
+                                             action: "submit->edit-goal#update" } } do |f| %>
+            <%= f.input :job_target %>
+            <%= f.input :description %>
+            <%= f.submit "Edit Your Goal", class: "btn btn-sm btn-primary" %>
+          <% end %>
+        </div>
