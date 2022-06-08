@@ -1,3 +1,4 @@
+<% unless current_user.nil? %>
 <div class="container d-flex flex-row align-items-center justify-content-end text-end flex-nowrap gx-2 pt-2">
   <%= image_tag("icon-credits.svg", class:"img-topbar-credits mx-2") %>
     <p class="align-self-center"><%= "#{current_user.credits} credits left" %></p>
@@ -8,3 +9,4 @@
     <% end %>
     <p class="fw-bold align-self-center"><%= current_user.full_name %></p>
 </div>
+<% end %>

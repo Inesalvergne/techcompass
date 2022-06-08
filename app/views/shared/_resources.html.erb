@@ -1,4 +1,4 @@
-<ul class="container list-unstyled">
+<ul class="container list-unstyled" data-search-resources-target="list">
   <% @resources.each do |resource| %>
     <% if resource.user == current_user || current_user.viewed?(resource) %>
       <li>
