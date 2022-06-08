@@ -7,6 +7,11 @@ class ResourcesController < ApplicationController
     else
       @resources = Resource.all
     end
+
+    respond_to do |format|
+      format.html # Follow regular flow of Rails
+      format.text { render partial: 'shared/resources', locals: { resources: @resources }, formats: [:html] }
+    end
   end
 
   def my_resources
