@@ -11,11 +11,13 @@
           <%= @resource.rich_content %>
         </div>
         <div class="pop_up_container">
-          <div class="pop_up">
-            <p>You do not have enough credits to purchase resource.
-               Add a resource in order to gain credit.</p>
-            <%= link_to 'Add Resource', new_resource_path %>
-            <%= link_to 'Cancel', resources_path %>
+          <div class="pop_up d-flex flex-column p-3 text-center rounded rounded-3 shadow-lg">
+            <%= image_tag("anxious-face-with-sweat.png", class: "mx-auto d-block img-fluid img-popup my-2") %>
+            <p>You need <b>5 more credits</b> to continue reading this resource.</p>
+            <div class="d-flex flex-column justify-content-center gap-3">
+              <%= link_to 'Share your experience to get more credits!', new_resource_path %>
+              <%= link_to 'Take me back to the previous page', resources_path %>
+            </div>
           </div>
         </div>
       </div>
@@ -28,10 +30,15 @@
         <%= @resource.rich_content %>
       </div>
        <div class="pop_up_container" data-resources-target="pop_up">
-        <div class="pop_up">
-          <p>Would you like to pay 5 credits to access this resource?</p>
-          <button data-action="resources#viewResource">Yes</button>
-          <%= link_to 'No', resources_path %>
+          <div class="pop_up d-flex flex-column p-3 text-center rounded rounded-3 shadow-lg">
+            <%= image_tag("magic-wand.png", class: "mx-auto d-block img-fluid img-popup my-2") %>
+            <p></p>
+            <p>You need <b>5 credits</b> to access this resource.</p>
+            <p>Do you wish to use <b>5 credits</b>?</p>
+            <div class="d-flex flex-row justify-content-center gap-3">
+              <button class="btn btn-link text-primary p-0 m-0 border-0" data-action="resources#viewResource">Absolutely!</button>
+              <%= link_to "No, I don't", resources_path %>
+            </div>
         </div>
       </div>
     </div>
