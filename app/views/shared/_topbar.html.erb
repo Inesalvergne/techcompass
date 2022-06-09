@@ -1,12 +1,14 @@
 <% unless current_user.nil? %>
-  <div class="container d-flex flex-row align-items-center justify-content-end text-end flex-nowrap gx-2 pt-2">
+  <div class="container d-flex flex-row align-items-baseline justify-content-end text-end flex-nowrap gx-2 pt-2">
     <%= image_tag("icon-credits.svg", class:"img-topbar-credits mx-2") %>
-      <p class="align-self-center"><%= "#{current_user.credits} credits left" %></p>
+    <p class="align-self-center"><%= "#{current_user.credits} credits left" %></p>
+    <div class="d-flex flex-row mx-2 px-2 rounded rounded-3">
       <% if current_user.image_url.nil? %>
         <%= image_tag("dummy-image.png", class:"img-topbar mx-2") %>
       <% else %>
         <%= cl_image_tag current_user.image_url.key, class:"img-topbar" %>
       <% end %>
       <p class="fw-bold align-self-center"><%= current_user.full_name %></p>
+    </div>
   </div>
 <% end %>
