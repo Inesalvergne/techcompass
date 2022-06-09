@@ -11,7 +11,13 @@
            data: { search_resources_target: 'input',
                    action: 'keyup->search-resources#update' }
         %>
-        <%= submit_tag "Search", class: "input-group-text rounded-3 rounded-right bg-primary text-white fw-bold" %>
+      </div>
+      <div>
+      <%= select_tag("tags", options_for_select(Resource::TAGS),
+                     :prompt=>"Select a tag",
+                     class: "form-control select")
+      %>
+      <%= submit_tag "Search", class: "input-group-text rounded-3 rounded-right bg-primary text-white fw-bold" %>
       </div>
     </div>
   <% end %>
