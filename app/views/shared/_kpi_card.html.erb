@@ -54,7 +54,11 @@
             <div class="line"></div>
             <p class="kpi-number fw-bold">
               <% unless @goal.nil? %>
-                <%= @applications_left_to_reach_goal if @applications_total < @goal.job_target %>
+                <% if @applications_total < @goal.job_target %>
+                  <%= @applications_left_to_reach_goal %>
+                <% else %>
+                  <%= 0 %>
+                <% end %>
               <% else %>
                 <%= 0 %>
               <% end %>
