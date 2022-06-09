@@ -15,7 +15,9 @@
         <div class="input-group-text"> <%= image_tag("caret-down-solid.svg", height: '20', width: '20') %> </div>
         <%= select_tag("tags", options_for_select(Resource::TAGS),
                       :prompt=>"Select a tag",
-                      class: "form-control select")
+                      class: "form-control select",
+                      data: { search_resources_target: 'select',
+                      action: 'onchange->search-resources#update' })
         %>
         <%= submit_tag "Search", class: "input-group-text rounded-3 rounded-right bg-primary text-white fw-bold" %>
         </div>
