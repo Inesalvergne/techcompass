@@ -1,25 +1,27 @@
 
 <div class="container m-2 p-2" data-controller="search-resources">
+   <div class="search-form">
   <%= form_tag resources_path, method: :get, class: "", data: { search_resources_target: 'form' } do %>
-    <div class="row">
-      <div class="col input-group input-group-lg rounded-3">
-        <%= text_field_tag :query,
-          params[:query],
-          class: "form-control",
-          placeholder: "What are you looking for?",
-          input_html: { class: "m-2 p-2 input-group-prepend" },
-           data: { search_resources_target: 'input',
-                   action: 'keyup->search-resources#update' }
+        <div class="col input-group input-group-lg rounded-3">
+          <div class="input-group-text"> <i class="fa-solid fa-magnifying-glass"></i> </div>
+          <%= text_field_tag :query,
+            params[:query],
+            class: "form-control",
+            placeholder: "What are you looking for?",
+            input_html: { class: "m-2 p-2 input-group-prepend" },
+            data: { search_resources_target: 'input',
+                    action: 'keyup->search-resources#update' }
+          %>
+        </div>
+        <div>
+        <div class="input-group-text"> <i class="fa-solid fa-caret-down"></i> </div>
+        <%= select_tag("tags", options_for_select(Resource::TAGS),
+                      :prompt=>"Select a tag",
+                      class: "form-control select")
         %>
+        <%= submit_tag "Search", class: "input-group-text rounded-3 rounded-right bg-primary text-white fw-bold" %>
+        </div>
       </div>
-      <div>
-      <%= select_tag("tags", options_for_select(Resource::TAGS),
-                     :prompt=>"Select a tag",
-                     class: "form-control select")
-      %>
-      <%= submit_tag "Search", class: "input-group-text rounded-3 rounded-right bg-primary text-white fw-bold" %>
-      </div>
-    </div>
   <% end %>
   <%= render 'shared/resources' %>
 </div>
