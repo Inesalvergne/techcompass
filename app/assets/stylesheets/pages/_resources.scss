@@ -14,4 +14,21 @@
 
 .search-form {
   display: flex;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+
+  #query{
+    width: 180px;
+    margin-right: 50px;
+  }
+
+  select{
+    width: 200px;
+  }
+}
+.img-avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 6px;
 }

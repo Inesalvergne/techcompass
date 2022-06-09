@@ -1,6 +1,13 @@
 <div class="container">
-  <h1><%= @resource.title %></h1>
-  <h2><%= "by #{@resource.user.full_name}" %></h2>
+  <h3 class="fw-bold"><%= @resource.title %></h3>
+  <div class="d-flex flex-row align-items-center">
+    <% if current_user.image_url.nil? %>
+      <%= image_tag("dummy-image.png", class:"img-avatar mx-2") %>
+    <% else %>
+      <%= cl_image_tag current_user.image_url.key, class:"img-avatar" %>
+    <% end %>
+    <p><%= "by #{@resource.user.full_name}" %></p>
+  </div>
   <%= @resource.summary %>
 
   <% if @resource.user == current_user %>

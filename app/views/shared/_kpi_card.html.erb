@@ -53,8 +53,12 @@
           <div class="kpi-content d-flex flex-row align-items-center justify-content-between">
             <div class="line"></div>
             <p class="kpi-number fw-bold">
-              <% if @applications_total < @goal.job_target %>
-                <%= @applications_left_to_reach_goal %>
+              <% unless @goal.nil? %>
+                <% if @applications_total < @goal.job_target %>
+                  <%= @applications_left_to_reach_goal %>
+                <% else %>
+                  <%= 0 %>
+                <% end %>
               <% else %>
                 <%= 0 %>
               <% end %>
