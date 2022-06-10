@@ -1,9 +1,12 @@
 <div class="container" >
-  <div class="m-2 p-2">
-    <h3><%= fa_icon "building", class: "fa-fw" %> <%= @job.company %></h3>
-    <h6><%= @job.role %></h6>
+  <div class="d-flex flex-row m-2 p-2">
+    <h1><%= fa_icon "building", class: "fa-fw" %></h1>
+    <div class="d-flex flex-column">
+      <h3 class="fw-bold"><%= @job.company %></h3>
+      <h6><%= @job.role %></h6>
+    </div>
   </div>
-  <div class="container border rounded m-2 p-2 d-flex justify-content-around">
+  <div class="container border rounded mx-2 my-4 p-2 d-flex justify-content-around">
     <div class="col">
       <% if @job.status == 'Interview' && @job.interview_date.nil? == false %>
         <p><%= fa_icon "tasks", class: "text-primary fa-fw" %> <%= @job.status %> <span class="text-muted"><%= "(scheduled for #{@job.interview_date})" %></span></p>
@@ -28,11 +31,11 @@
   </div>
 
 <%# Edit job status %>
-
+<!--
   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
     Update status
   </button>
-
+-->
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -51,8 +54,12 @@
   </div>
 </div>
 
-  <div class="m-2 p-2">
-    <h3>Suggested Resources Related to <span class="text-primary"><%= @job.role %></span> Positions</h3>
-    <%= render 'shared/job_resource' %>
+  <div class="mx-2 my-4 p-2">
+    <h3 class="fw-bold">Suggested Resources Related to <span class="text-primary"><%= @job.role %></span> Positions</h3>
+    <div class="row justify-content-center">
+      <div class="col-9">
+        <%= render 'shared/job_resource' %>
+      </div>
+    </div>
   </div>
 </div>
