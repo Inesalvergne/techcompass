@@ -2,7 +2,7 @@
 
   <div class="row container-dashboard">
 
-    <div class="col-8 m-5 wrapper-dashboard">
+    <div class="col-8 m-5 wrapper-dashboard" data-controller="edit-goal">
 
       <div class="header-dashboard d-flex flex-row justify-content-between">
 
@@ -16,21 +16,14 @@
 
       </div>
 
-      <div class="goal-section" data-controller="edit-goal">
+      <div class="goal-section">
         <h3 class= "mb-4 mt-5">My goal</h3>
 
         <div class="p-3 info-card d-flex flex-row">
           <div class="p-2 icon-card">
             <%=image_tag("icon-goal.svg") %>
           </div>
-          <div class="m-2 align-self-center text-card d-flex flex-column" data-edit-goal-target="info">
-            <% unless @jobs.nil? %>
-              <p><%= @goal.description %></p>
-              <p> To reach my goal, I need to send <%= @goal.job_target %> applications a month!</p>
-            <% else %>
-              <p>You currently have not set a goal!</p>
-            <% end %>
-          </div>
+          <%= render 'shared/goal_card', goal: @goal, jobs: @jobs %>
         </div>
         <% if @goal.nil? %>
           <%= link_to "Add a Goal", new_goal_path %>
@@ -80,7 +73,10 @@
 
     <div class="col-3 wrapper-kpi">
       <h3 class="mt-5 p-3"> My KPIs</h3>
-      <%= render 'shared/kpi_card' %>
+      <%= render 'shared/kpi_card', applications_left_to_reach_goal: @applications_left_to_reach_goal,
+                                    applications_total: @applications_total,
+                                    interviews_total: @interviews_total,
+                                    my_resources_total: @my_resources_total %>
     </div>
 
   </div>

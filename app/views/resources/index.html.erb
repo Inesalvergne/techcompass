@@ -1,9 +1,11 @@
 
 <div class="container m-2 p-2" data-controller="search-resources">
+   <div class="search-form">
   <%= form_tag resources_path, method: :get, class: "", data: { search_resources_target: 'form' } do %>
     <div class="row justify-content-center">
       <div class="col-9">
         <div class="input-group input-group-lg rounded-3">
+          <div class="input-group-text"> <%= image_tag("magnifying-glass-solid.svg", height: '15', width: '15') %></i> </div>
           <%= text_field_tag :query,
             params[:query],
             class: "form-control",
@@ -12,9 +14,15 @@
             data: { search_resources_target: 'input',
                     action: 'keyup->search-resources#update' }
           %>
-          <%= submit_tag "Search", class: "input-group-text rounded-3 rounded-right bg-primary text-white fw-bold" %>
+        <div class="input-group-text"> <%= image_tag("caret-down-solid.svg", height: '20', width: '20') %> </div>
+        <%= select_tag("tags", options_for_select(Resource::TAGS),
+                      :prompt=>"Select a tag",
+                      class: "form-control select",
+                      data: { search_resources_target: 'select',
+                      action: 'change->search-resources#update' })
+        %>
+        <%# <%= submit_tag "Search", class: "input-group-text rounded-3 rounded-right bg-primary text-white fw-bold" %>
         </div>
-      </div>
     </div>
   <% end %>
   <div class="row justify-content-center">
