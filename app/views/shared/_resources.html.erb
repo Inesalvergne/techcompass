@@ -1,4 +1,4 @@
-<div data-search-resources-target="list">
+<div data-controller="upvote" class="all-resources" data-search-resources-target="list">
   <ul class="container list-unstyled" >
     <% @resources.each do |resource| %>
       <% if resource.user == current_user || current_user.viewed?(resource) %>
@@ -24,9 +24,9 @@
                 </div>
               </div>
               <div class="box-resource-right col-3 d-flex justify-content-center align-items-center">
-                <div type="button" class="btn btn-outline-primary d-flex flex-column">
+                <div data-resourceId="<%= resource.id %>" type="button" class="btn btn-outline-primary d-flex flex-column upvote-button">
                   <%= fa_icon "caret-up", class:"fs-1" %>
-                  <%= "#{resource.votes} votes" %>
+                  <span class="button-votes"><%="#{resource.votes}"%></span> votes
                 </div>
               </div>
             </div>
@@ -55,9 +55,9 @@
                   </div>
                 </div>
                 <div class="box-resource-right col-3 d-flex justify-content-center align-items-center">
-                  <div type="button" class="btn btn-outline-primary d-flex flex-column">
+                  <div data-resourceId="<%= resource.id %>" type="button" class="btn btn-outline-primary d-flex flex-column upvote-button">
                     <%= fa_icon "caret-up", class:"fs-1" %>
-                    <%= "#{resource.votes} votes" %>
+                    <span class="button-votes"><%="#{resource.votes}"%></span> votes
                   </div>
                 </div>
               </div>
@@ -86,9 +86,9 @@
                   </div>
                 </div>
                 <div class="box-resource-right col-3 d-flex justify-content-center align-items-center">
-                  <div type="button" class="btn btn-outline-primary d-flex flex-column">
+                  <div data-resourceId="<%= resource.id %>" type="button" class="btn btn-outline-primary d-flex flex-column upvote-button">
                     <%= fa_icon "caret-up", class:"fs-1" %>
-                    <%= "#{resource.votes} votes" %>
+                    <span class="button-votes"><%="#{resource.votes}"%></span> votes
                   </div>
                 </div>
               </div>
