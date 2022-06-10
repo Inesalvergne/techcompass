@@ -1,14 +1,21 @@
 <div class="container">
-  <h1><%= @resource.title %></h1>
-  <h2><%= "by #{@resource.user.full_name}" %></h2>
-  <%= @resource.summary %>
+  <h3 class="fw-bold"><%= @resource.title %></h3>
+  <div class="d-flex flex-row align-items-center">
+    <% if current_user.image_url.nil? %>
+      <%= image_tag("dummy-image.png", class:"img-avatar mx-2") %>
+    <% else %>
+      <%= cl_image_tag current_user.image_url.key, class:"img-avatar" %>
+    <% end %>
+    <p><%= "by #{@resource.user.full_name}" %></p>
+  </div>
+  <p class="my-4"><%= @resource.summary %></p>
 
   <% if @resource.user == current_user %>
-    <%= @resource.rich_content %>
+    <div class="rich-content my-5"><%= @resource.rich_content %></div>
   <% elsif current_user.credits < 5 && !current_user.viewed?(@resource) %>
     <div class="hidden_text_container">
         <div class="background_blur">
-          <%= @resource.rich_content %>
+          <div class="rich-content my-5"><%= @resource.rich_content %></div>
         </div>
         <div class="pop_up_container">
           <div class="pop_up d-flex flex-column p-3 text-center rounded rounded-3 shadow-lg">
@@ -25,9 +32,10 @@
     <div class="hidden_text_container" data-controller="resources"
          data-resources-id-value="<%= @resource.id %>"
          data-resources-viewed-value="<%= current_user.viewed?(@resource) %>"
-         data-resources-check-value="<%= @resource.user == current_user %>">
+         data-resources-check-value="<%= @resource.user == current_user %>"
+         data-resources-target="rich_content">
       <div class="background_blur" data-resources-target="blur">
-        <%= @resource.rich_content %>
+        <div class="rich-content my-5"><%= @resource.rich_content %></div>
       </div>
        <div class="pop_up_container" data-resources-target="pop_up">
           <div class="pop_up d-flex flex-column p-3 text-center rounded rounded-3 shadow-lg">

@@ -2,7 +2,7 @@ import { Controller } from "stimulus"
 import { csrfToken } from "@rails/ujs"
 
 export default class extends Controller {
-  static targets = [ "blur", "pop_up" ]
+  static targets = [ "blur", "pop_up", "rich_content" ]
 
   connect() {
     // console.log(this.data.get("idValue"))
@@ -15,7 +15,8 @@ export default class extends Controller {
     // console.log(typeof viewed)
     if(viewed || check){
       this.blurTarget.classList.remove("background_blur");
-      this.pop_upTarget.classList.add("d-none")
+      this.pop_upTarget.classList.add("d-none");
+      this.testTarget.classList.remove("hidden_text_container");
     }
     // console.log(this.blurTarget.dataset.info)
   }
@@ -32,6 +33,7 @@ export default class extends Controller {
       if(data){
         this.blurTarget.classList.remove("background_blur");
         this.pop_upTarget.classList.add("d-none");
+        this.rich_contentTarget.classList.remove("hidden_text_container");
       }
     })
 
