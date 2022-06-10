@@ -65,6 +65,13 @@ class ResourcesController < ApplicationController
 
   # I can upvote someone else's resources
   def upvote
+    @resource = Resource.find(params[:id])
+    @resource.increment(:votes)
+    respond_to do |format|
+      if @resource.save
+        format.json {render json: @resource.votes}
+      end
+    end
   end
 
   # I can practice for an interview with flashcards
