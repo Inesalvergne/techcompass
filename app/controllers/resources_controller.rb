@@ -2,8 +2,18 @@ class ResourcesController < ApplicationController
   # I can search and filter resources posted by others
   # Can be filtered by company, job position, and keyword
   def index
-    if params[:query].present?
+    if Resource.search_by_title_and_author(params[:query]).empty? && Resource.where("tags = ?", params[:tags]).empty?
+      @resources = Resource.all
+    elsif Resource.search_by_title_and_author(params[:query]).present? && Resource.where("tags = ?", params[:tags]).present?
+      @resources = Resource.search_by_title_and_author(params[:query]).where("tags = ?", params[:tags])
+    elsif params[:query].present?
       @resources = Resource.search_by_title_and_author(params[:query])
+    elsif params[:tags].present?
+      @resources = Resource.where("tags = ?", params[:tags])
+    elsif params[:query].empty?
+      @resources = Resource.all
+    elsif Resource.where("tags = ?", params[:tags]).empty?
+      @resources = Resource.all
     else
       @resources = Resource.all
     end

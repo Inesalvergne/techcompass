@@ -12,6 +12,22 @@
   overflow-y: auto;
 }
 
+.search-form {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+
+  #query{
+    width: 260px;
+    margin-right: 50px;
+  }
+
+  #tags{
+    width: 220px;
+    color: #6C757D;
+  }
+}
 .img-avatar {
   height: 30px;
   width: 30px;
