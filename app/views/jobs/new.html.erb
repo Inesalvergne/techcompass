@@ -1,17 +1,21 @@
-<% if current_user.goals.nil? || current_user.goals.length == 0 %>
-  <p>You currently have not set a goal! Set a goal first before adding a job application.</p>
-  <%= link_to 'Add a Goal', new_goal_path %>
-<% else %>
-    <%= simple_form_for @job do |f| %>
-    <%= f.input :company %>
-    <%= f.input :description %>
-    <%= f.input :location %>
-    <%= f.input :role %>
-    <%= f.input :level %>
-    <%= f.input :post_url %>
-    <%= f.input :interview_date %>
-    <%= f.input :remote %>
-    <%= f.input :status %>
-    <%= f.submit "Add a Job", class: "btn btn-sm btn-primary" %>
+<div class="row justify-content-center">
+  <div class="col-9">
+    <% if current_user.goals.nil? || current_user.goals.length == 0 %>
+      <p>You currently have not set a goal! Set a goal first before adding a job application.</p>
+      <%= link_to 'Add a Goal', new_goal_path %>
+    <% else %>
+        <%= simple_form_for @job do |f| %>
+        <%= f.input :company %>
+        <%= f.input :description %>
+        <%= f.input :location %>
+        <%= f.input :role %>
+        <%= f.input :level %>
+        <%= f.input :post_url %>
+        <%= f.input :interview_date %>
+        <%= f.input :remote %>
+        <%= f.input :status %>
+        <%= f.submit "Add a Job", class: "btn btn-sm btn-primary" %>
+        <% end %>
     <% end %>
-<% end %>
+  </div>
+</div>
