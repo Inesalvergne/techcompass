@@ -2,7 +2,9 @@
 <div class="container m-2 p-2" data-controller="search-resources">
    <div class="search-form">
   <%= form_tag resources_path, method: :get, class: "", data: { search_resources_target: 'form' } do %>
-        <div class="col input-group input-group-lg rounded-3">
+    <div class="row justify-content-center">
+      <div class="col-9">
+        <div class="input-group input-group-lg rounded-3">
           <div class="input-group-text"> <%= image_tag("magnifying-glass-solid.svg", height: '15', width: '15') %></i> </div>
           <%= text_field_tag :query,
             params[:query],
@@ -23,5 +25,9 @@
         </div>
     </div>
   <% end %>
-  <%= render 'shared/resources' %>
+  <div class="row justify-content-center">
+    <div class="col-9">
+      <%= render 'shared/resources' %>
+    </div>
+  </div>
 </div>
