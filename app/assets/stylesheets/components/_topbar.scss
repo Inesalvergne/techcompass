@@ -1,10 +1,24 @@
 .img-topbar {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border-radius: 6px;
+  align-self: center;
 }
 
+.user-info {
+  align-self: center;
+
+  .user-name {
+    font-size: 18px;
+  }
+}
 .img-topbar-credits {
-  height: 20px;
-  width: 20px;
+  height: 18px;
+  width: 18px;
+  color: $black;
+}
+
+.user-card {
+  background-color: $lighter-purple;
+  width: 250px;
 }
