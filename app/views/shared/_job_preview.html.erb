@@ -1,51 +1,50 @@
 <div class="grid-container-job">
-
         <% @jobs_preview.each do |job| %>
           <% if job.status == 'Wishlist' %>
-            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-wishlist">
+            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-wishlist">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                  <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
+                  <h3 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h3>
                   <p class="fs-6"><%= job.role %></p>
                   <p class="fs-6"><b>Status: </b><%= job.status %></p>
               <% end %>
           </div>
           <% elsif job.status == 'Applied' %>
-            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-applied">
+            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-applied">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                  <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
+                  <h3 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h3>
                   <p class="fs-6"><%= job.role %></p>
                   <p class="fs-6"><b>Status: </b><%= job.status %></p>
 
               <% end %>
             </div>
            <% elsif job.status == 'Interview' %>
-            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-interview">
+            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-interview">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                  <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
+                  <h3 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h3>
                   <p class="fs-6"><%= job.role %></p>
                   <p class="fs-6"><b>Status: </b><%= job.status %></p>
               <% end %>
             </div>
           <% elsif job.status == 'Decision' %>
-            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-decision">
+            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-decision">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                  <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
+                  <h3 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h3>
                   <p class="fs-6"><%= job.role %></p>
                   <p class="fs-6"><b>Status: </b><%= job.status %></p>
               <% end %>
             </div>
           <% elsif job.status == 'Offer' %>
-            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-offer">
+            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-offer">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                  <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
+                  <h3 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h3>
                   <p class="fs-6"><%= job.role %></p>
                   <p class="fs-6"><b>Status: </b><%= job.status %></p>
               <% end %>
             </div>
           <% elsif job.status == 'Rejected' %>
-            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-rejected">
+            <div class="grid-item-job bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-rejected">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                  <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
+                  <h3 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h3>
                   <p class="fs-6"><%= job.role %></p>
                   <p class="fs-6"><b>Status: </b><%= job.status %></p>
               <% end %>
