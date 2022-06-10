@@ -1,7 +1,7 @@
 import { Controller } from "stimulus"
 
 export default class extends Controller {
-  static targets = [ "form", "info", "edit" ]
+  static targets = [ "form", "info", "edit", "kpi" ]
 
   connect() {
   //  console.log(this.formTarget);
@@ -23,8 +23,19 @@ export default class extends Controller {
     })
       .then(response => response.text())
       .then((data) => {
-        console.log(data)
+        this.infoTarget.outerHTML = data;
+        this.formTarget.classList.add("d-none");
+        this.editTarget.classList.remove("d-none");
       })
-  }
 
+    fetch('dashboard', {
+      method: "GET",
+    })
+      .then(response => response.text())
+      .then((data) => {
+        console.log(data);
+        // this.kpiTarget.outerHTML = data;
+      })
+
+  }
 }
