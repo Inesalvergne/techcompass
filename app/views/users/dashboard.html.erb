@@ -2,7 +2,7 @@
 
   <div class="row container-dashboard">
 
-    <div class="col m-5 wrapper-dashboard" data-controller="edit-goal">
+    <div class="col-8 m-5 wrapper-dashboard" data-controller="edit-goal">
 
       <div class="header-dashboard d-flex flex-row justify-content-between">
 
@@ -71,7 +71,7 @@
 
     <%# KPIs SECTION %>
 
-    <div class="col wrapper-kpi">
+    <div class="col-3 wrapper-kpi">
       <h3 class="mt-5 p-3"> My KPIs</h3>
       <%= render 'shared/kpi_card', applications_left_to_reach_goal: @applications_left_to_reach_goal,
                                     applications_total: @applications_total,
