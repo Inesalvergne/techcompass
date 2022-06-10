@@ -29,5 +29,15 @@ class UsersController < ApplicationController
 
     # I can see the last 4 applications I sent
     @jobs_preview = current_user.jobs.last(4)
+
+    # respond_to do |format|
+    #   format.html { redirect_to dashboard_path }
+    #   format.text { render partial: 'shared/kpi_card', locals: {
+    #                 applications_total: @applications_total,
+    #                 interviews_total: @interviews_total,
+    #                 my_resources_total: @my_resources_total,
+    #                 applications_left_to_reach_goal: @applications_left_to_reach_goal },
+    #                 formats: [:html] }
+    # end
   end
 end

@@ -1,10 +1,11 @@
 
 <div class="container">
-
-  <h1>My Jobs</h1>
-  <%= link_to 'Add a Job', new_job_path, {remote: :true, 'data-bs-toggle': 'modal',
-                                                        'data-bs-target':
-                                                        '#exampleModal'} %>
+  <div class="d-flex flex-row align-items-center gap-3">
+    <h1 class="fw-bold">My Jobs</h1>
+    <%= link_to(new_job_path, {remote: :true, 'data-bs-toggle': 'modal', 'data-bs-target': '#exampleModal', class:'text-decoration-none'}) do %>
+      <%= fa_icon "plus", class: "text-primary fa-fw" %><%= 'Add a job' %>
+    <% end %>
+  </div>
 
   <%= render 'shared/jobs' %>
   <%# MODAL TO ADD A JOB %>
