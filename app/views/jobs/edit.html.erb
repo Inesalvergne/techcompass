@@ -1,6 +1,6 @@
   <div>
   <%= simple_form_for @job do |f| %>
     <%= f.input :status, label: "Where are you at in the application process?", as: :select, collection: Job::STATUS %>
-    <%= f.submit "Update status", class: "btn btn-sm btn-primary" %>
+    <%= f.submit "Update Status", class: "btn btn-sm btn-primary" %>
   <% end %>
 </div>
