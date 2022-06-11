@@ -1,8 +1,8 @@
 <div class="container main-container">
 
-  <div class="row container-dashboard">
+  <div class="row container-dashboard" data-controller="edit-goal">
 
-    <div class="col-8 m-5 wrapper-dashboard" data-controller="edit-goal">
+    <div class="col-8 m-5 wrapper-dashboard">
 
       <div class="header-dashboard d-flex flex-row justify-content-between">
 
@@ -31,7 +31,7 @@
           <%= render "shared/goal", goal: @goal %>
         <% end %>
         <% unless @jobs.nil? %>
-          <button data-edit-goal-target="edit"
+          <button class="btn btn-sm btn-primary" data-edit-goal-target="edit"
                   data-action="click->edit-goal#displayForm">Edit Your Goal</button>
         <% end %>
       </div>
