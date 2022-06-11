@@ -1,11 +1,11 @@
 .background_blur {
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
 }
 
 .hidden_text_container {
   height: 500px;
-  // overflow: hidden;
+  overflow: hidden;
   position: relative;
   padding: 25px;
 }
