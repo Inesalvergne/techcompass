@@ -6,7 +6,7 @@
   height: 160px;
   background-color: $lighter-purple;
   border-radius: 8px;
-  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:  0 5px 10px rgba(0,0,0,.05), 0 4px 8px rgba(0,0,0,.02);
 
     h4 {
       font-size: 20px;
@@ -17,6 +17,16 @@
     }
   }
 
+.box-resource:hover {
+  // transform: scale(1.01);
+  // z-index: 1;
+  box-shadow: 0 10px 20px rgba(0,0,0,.08), 0 4px 8px rgba(0,0,0,.04);
+
+  h4 {
+    color: $purple;
+  }
+}
+
 .box-resource-center-top {
   margin-left: 20px;
 }
@@ -25,7 +35,7 @@
   margin-left: 20px;
 }
 
-.resource-image{
+.resource-image {
   max-width: 150px;
   width: 100%;
   height: 100%;
