@@ -1,7 +1,7 @@
- <div class="m-2 align-self-center text-card d-flex flex-column" data-edit-goal-target="info">
+ <div class="m-2 align-self-center text-card d-flex flex-column">
             <% unless jobs.nil? %>
-              <p><%= goal.description %></p>
-              <p> To reach my goal, I need to send <%= goal.job_target %> applications a month!</p>
+              <p data-edit-goal-target="description"><%= goal.description%></p>
+              <p> To reach my goal, I need to send <span data-edit-goal-target="jobcount"><%= goal.job_target %></span> applications a month!</p>
             <% else %>
               <p>You currently have not set a goal!</p>
             <% end %>
