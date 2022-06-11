@@ -39,7 +39,7 @@ me = User.create!(
   job_title: Faker::Job.title,
   email: "ines@gmail.com",
   password: "12345678",
-  credits: 1000,
+  credits: 100,
   image_url: "Ines-headshot.jpg"
 )
 
@@ -395,7 +395,14 @@ demo_seed2.save!
 dm_iqs = File.open("db/dm_interview.txt")
 digital_marketing_interview = Resource.create!(
   title: "Digital Marketing Interview Tips",
-  summary: "...",
+  summary: "Everyone knows the basics about preparing for an interview,
+  pick an outfit that is clean and appropriate for the job level, do not
+  wear too much perfume or cologne, and thoroughly research the company beforehand.
+  I was recently involved with the interviews for digital marketing positions and was
+  surprised to see that several of the candidates made the same mistakes.
+  I should not have been too surprised, given digital marketings embryonic state.
+  Still, the trip-ups among the candidates were common enough that I thought I could
+  provide some tips to anyone looking to prepare for a digital marketing interview.",
   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
   level: "Junior",
   tags: "Digital Marketer",
@@ -411,7 +418,7 @@ digital_marketing_interview.save!
 be_skills = File.open("db/be_skills.txt")
 back_end_skills = Resource.create!(
   title: "7 Must-Have Back-End Developer Skills",
-  summary: "A backend developer is responsible for writing backend codes and communicating when
+  summary: "SUMMARY: A backend developer is responsible for writing backend codes and communicating when
   the user triggers any particular action. Today they have become the backbone of web development and
   they are in high demand in the vast scale of companies. Whatever you do in your application,
   the back-end is responsible for that as they work behind the curtains. The integrations,
@@ -438,7 +445,15 @@ back_end_skills.save!
 be_rm = File.open("db/be_roadmap.txt")
 back_end_roadmap = Resource.create!(
                   title: "Complete Back-End Developer Roadmap",
-                  summary: "...",
+                  summary: "Interested in becoming a backend developer? You have come to the right place.
+                  If you have got some coding experience but are new to programming,
+                  this guide will teach you all about backend development.
+                  It can be overwhelming to learn everything at once, which is
+                  why we break it down into steps. This way, you can learn at your
+                  own pace and get help when you need it!
+                  As a new developer, it is essential to know the basics before moving
+                  to more advanced topics. This roadmap will provide an overview of what
+                  you need to know as a beginner getting started with backend development.",
                   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
                   level: "Junior",
                   user: User.where.not("full_name = 'Ines'").sample,
@@ -473,16 +488,16 @@ back_end_roadmap.save!
 #ber_iqs = File.open("db/ber_iqs.txt")
 #portfolio = File.open("db/portfolio_1.txt")
 
-bes = File.open("db/bes.txt")
-back_end_roadmap = Resource.create!(
-                  title: "Senior Back-End Developer Tips",
+dst = File.open("db/data-sci-tips.txt")
+data_sci_tips = Resource.create!(
+                  title: "How To Apply To Data Science Jobs",
                   summary: "...",
                   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-                  level: "Senior",
+                  level: "Junior",
                   user: User.where.not("full_name = 'Ines'").sample,
                   tags: "Back-End Developer",
-                  rich_content: bes.read)
-                  bes.close
+                  rich_content: dst.read)
+                  dst.close
 
 image12 = URI.open("https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
 back_end_roadmap.image.attach(io: image12, filename: 'image12.jpg', content_type: 'image/jpg')
