@@ -4,7 +4,7 @@
     <% if current_user.image_url.nil? %>
       <%= image_tag("dummy-image.png", class:"img-avatar mx-2") %>
     <% else %>
-      <%= cl_image_tag current_user.image_url.key, class:"img-avatar" %>
+      <%= cl_image_tag current_user.image_url, class:"img-avatar" %>
     <% end %>
     <p><%= "by #{@resource.user.full_name}" %></p>
   </div>

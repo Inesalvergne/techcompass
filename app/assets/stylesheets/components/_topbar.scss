@@ -1,7 +1,7 @@
 .img-topbar {
   height: 40px;
   width: 40px;
-  border-radius: 6px;
+  border-radius: 4px;
   align-self: center;
 }
 
@@ -9,16 +9,16 @@
   align-self: center;
 
   .user-name {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .img-topbar-credits {
   height: 18px;
   width: 18px;
-  color: $black;
+  fill: $black;
 }
 
 .user-card {
   background-color: $lighter-purple;
-  width: 250px;
+  width: 220px;
 }
