@@ -43,7 +43,7 @@ class ResourcesController < ApplicationController
     respond_to do |format|
       if current_user.credits >= 5
         if View.create!(user: current_user, resource: @resource)
-          current_user.credits -= 5
+          current_user.credits += 5
           current_user.save
           format.json { render json: true }
         end
