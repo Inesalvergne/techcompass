@@ -1,7 +1,16 @@
 .box-resource {
-  height: 200px;
+  height: 160px;
   background-color: $lighter-purple;
-}
+
+    h4 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
 
 .resource-image{
   max-width: 150px;

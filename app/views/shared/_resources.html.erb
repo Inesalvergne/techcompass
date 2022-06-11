@@ -1,7 +1,6 @@
 <div data-controller="upvote" class="all-resources" data-search-resources-target="list">
   <ul class="container list-unstyled" >
     <% @resources.each do |resource| %>
-      <% if resource.user == current_user || current_user.viewed?(resource) %>
         <li>
           <%= link_to resource_path(resource.id), class: 'text-decoration-none text-body' do %>
             <div class="box-resource row d-flex my-4">
@@ -16,7 +15,7 @@
               <div class="box-resource-center col-7 d-flex flex-column justify-content-center">
                 <div class="box-resource-center-top">
                   <h4 class="fw-bold"><%= resource.title %></h4>
-                    <p><b><%= "By #{resource.user.full_name}" %></b></p>
+                    <p><%= "By #{resource.user.full_name}" %></p>
                 </div>
                 <div class="box-resource-center-bottom flex-row">
                   <p class="d-inline-flex border border-primary bg-white rounded-3 px-3 py-1"><%= resource.tags %></p>
@@ -30,71 +29,8 @@
                 </div>
               </div>
             </div>
-          <% end %>
-        </li>
-      <% elsif current_user.credits < 10 %>
-        <li>
-          <%= link_to resource_path(resource.id), class: 'text-decoration-none text-body' do %>
-              <div class="box-resource row d-flex my-4">
-                <div class="box-resource-left col-2 position-relative">
-                  <%# <%= fa_icon "heart", class: 'position-absolute top-0 right-0 text-white' %>
-                  <% if resource.image.key.nil? %>
-                      <%= image_tag("dummy-image.png", class:"resource-image") %>
-                  <% else %>
-                    <%= cl_image_tag resource.image.key, height: 150, width: 150, class:"resource-image" %>
-                  <% end %>
-                </div>
-                <div class="box-resource-center col-7 d-flex flex-column justify-content-center">
-                  <div class="box-resource-center-top">
-                    <h4 class="fw-bold"><%= resource.title %></h4>
-                    <p><b><%= "By #{resource.user.full_name}" %></b></p>
-                  </div>
-                  <div class="box-resource-center-bottom d-flex flex-row">
-                  <p class="d-inline-flex border border-primary bg-white rounded-3 px-3 py-1"><%= resource.tags %></p>
-                  <p class="d-inline-flex border border-primary bg-white rounded-3 px-3 py-1" id="tag-level"><%= resource.level %>-level</p>
-                  </div>
-                </div>
-                <div class="box-resource-right col-3 d-flex justify-content-center align-items-center">
-                  <div data-resourceId="<%= resource.id %>" type="button" class="btn btn-outline-primary d-flex flex-column upvote-button">
-                    <%= fa_icon "caret-up", class:"fs-1" %>
-                    <span class="button-votes"><%="#{resource.votes}"%></span> votes
-                  </div>
-                </div>
-              </div>
-            <% end %>
-        </li>
-      <% else %>
-        <li>
-          <%= link_to resource_path(resource.id), class: 'text-decoration-none text-body' do %>
-              <div class="box-resource row d-flex my-4">
-                <div class="box-resource-left col-2 position-relative">
-                  <%# <%= fa_icon "heart", class: 'position-absolute top-0 right-0 text-white' %>
-                  <% if resource.image.key.nil? %>
-                      <%= image_tag("dummy-image.png", class:"resource-image") %>
-                  <% else %>
-                    <%= cl_image_tag resource.image.key, height: 150, width: 150, class:"resource-image" %>
-                  <% end %>
-                </div>
-                <div class="box-resource-center col-7 d-flex flex-column justify-content-center">
-                  <div class="box-resource-center-top">
-                    <h4 class="fw-bold"><%= resource.title %></h4>
-                    <p><b><%= "By #{resource.user.full_name}" %></b></p>
-                  </div>
-                  <div class="box-resource-center-bottom d-flex flex-row">
-                  <p class="d-inline-flex border border-primary bg-white rounded-3 px-3 py-1"><%= resource.tags %></p>
-                  <p class="d-inline-flex border border-primary bg-white rounded-3 px-3 py-1" id="tag-level"><%= resource.level %></p>
-                  </div>
-                </div>
-                <div class="box-resource-right col-3 d-flex justify-content-center align-items-center">
-                  <div data-resourceId="<%= resource.id %>" type="button" class="btn btn-outline-primary d-flex flex-column upvote-button">
-                    <%= fa_icon "caret-up", class:"fs-1" %>
-                    <span class="button-votes"><%="#{resource.votes}"%></span> votes
-                  </div>
-                </div>
-              </div>
-            <% end %>
+      <% end %>
         </li>
       <% end %>
-    <% end %>
   </ul>
 </div>
