@@ -2,11 +2,13 @@
 .navbar-container {
   border-right: 0.1rem solid $light-grey;
   height: 100vh;
+  width: 200px;
 
   a {
     text-decoration: none;
     font-family: $headers-font;
     color: $dark-grey;
+    font-size: 14px;
   }
 
   ul{
