@@ -39,7 +39,7 @@ me = User.create!(
   job_title: Faker::Job.title,
   email: "ines@gmail.com",
   password: "12345678",
-  credits: 10,
+  credits: 1000,
   image_url: "Ines-headshot.jpg"
 )
 
