@@ -2,7 +2,7 @@
 
   <div class="row container-dashboard" data-controller="edit-goal">
 
-    <div class="col-8 m-5 wrapper-dashboard">
+    <div class="col-7 m-4 wrapper-dashboard">
 
       <div class="header-dashboard d-flex flex-row justify-content-between">
 
@@ -17,7 +17,12 @@
       </div>
 
       <div class="goal-section">
-        <h3 class= "mb-4 mt-5">My Goal</h3>
+      <div class="d-flex flex-row align-items-center gap-3">
+          <h3 class= "mb-4 mt-5">My Goal</h3>
+          <%= link_to 'Edit your goal', class: "text-decoration-none",
+              data-edit-goal-target="edit"
+              data-action="click->edit-goal#displayForm" %>
+        </div>
 
         <div class="p-3 info-card d-flex flex-row">
           <div class="p-2 icon-card">
@@ -71,7 +76,7 @@
 
     <%# KPIs SECTION %>
 
-    <div class="col-3 wrapper-kpi">
+    <div class="col-4 wrapper-kpi">
       <h3 class="mt-5 p-3"> My KPIs</h3>
       <%= render 'shared/kpi_card', applications_left_to_reach_goal: @applications_left_to_reach_goal,
                                     applications_total: @applications_total,
