@@ -1,15 +1,15 @@
 
 <div class="container-fluid">
-  <div class="row d-flex">
-    <div class="col bg-light mx-1 d-flex flex-column py-4">
+  <div class="row">
+    <div class="col bg-light mx-1 d-flex flex-column px-0 py-4 align-items-center justify-content-start">
       <h5 class="text-center mb-3 fw-bold">Wishlist</h5>
       <ul class="list-unstyled" data-controller="drag" id="Wishlist">
         <% @jobs.select do |job| %>
           <% if job.status == 'Wishlist' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-wishlist">
-                  <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
+                <div class="container bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-wishlist">
+                  <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
               <% end %>
@@ -18,15 +18,15 @@
         <% end %>
       </ul>
     </div>
-    <div class="col bg-light mx-1 d-flex flex-column py-4">
+    <div class="col bg-light mx-1 d-flex flex-column px-0 py-4 align-items-center justify-content-start">
       <h5 class="text-center mb-3 fw-bold">Applied</h5>
       <ul class="list-unstyled" data-controller="drag" id="Applied">
         <% @jobs.select do |job| %>
           <% if job.status == 'Applied' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-applied">
-                  <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
+                <div class="container bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-applied">
+                  <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
               <% end %>
@@ -35,15 +35,15 @@
         <% end %>
       </ul>
     </div>
-    <div class="col bg-light mx-1 d-flex flex-column py-4">
+    <div class="col bg-light mx-1 d-flex flex-column px-0 py-4 align-items-center justify-content-start">
       <h5 class="text-center mb-3 fw-bold">Interview</h5>
       <ul class="list-unstyled" data-controller="drag" id="Interview">
         <% @jobs.select do |job| %>
           <% if job.status == 'Interview' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-interview">
-                  <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
+                <div class="container bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-interview">
+                  <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
               <% end %>
@@ -52,15 +52,15 @@
         <% end %>
       </ul>
     </div>
-    <div class="col bg-light mx-1 d-flex flex-column py-4">
+    <div class="col bg-light mx-1 d-flex flex-column px-0 py-4 align-items-center justify-content-start">
       <h5 class="text-center mb-3 fw-bold">Decision</h5>
       <ul class="list-unstyled" data-controller="drag" id="Decision">
         <% @jobs.select do |job| %>
           <% if job.status == 'Decision' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-decision">
-                  <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
+                <div class="container bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-decision">
+                  <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
               <% end %>
@@ -69,15 +69,15 @@
         <% end %>
       </ul>
     </div>
-    <div class="col bg-light mx-1 d-flex flex-column py-4">
+    <div class="col bg-light mx-1 d-flex flex-column px-0 py-4 align-items-center justify-content-start">
       <h5 class="text-center mb-3 fw-bold">Offer</h5>
       <ul class="list-unstyled" data-controller="drag" id="Offer">
         <% @jobs.select do |job| %>
           <% if job.status == 'Offer' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-offer">
-                  <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
+                <div class="container bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-offer">
+                  <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
               <% end %>
@@ -86,15 +86,15 @@
         <% end %>
       </ul>
     </div>
-    <div class="col bg-light mx-1 d-flex flex-column py-4">
+    <div class="col bg-light mx-1 d-flex flex-column px-0 py-4 align-items-center justify-content-start">
       <h5 class="text-center mb-3 fw-bold">Rejected</h5>
       <ul class="list-unstyled" data-controller="drag" id="Rejected">
         <% @jobs.select do |job| %>
           <% if job.status == 'Rejected' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container bg-white rounded-3 d-flex flex-column p-2 my-4 shadow-sm border-rejected">
-                  <h3 class="fw-bold mt-1 text-break"><%= job.company %></h3>
+                <div class="container bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-rejected">
+                  <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
               <% end %>
