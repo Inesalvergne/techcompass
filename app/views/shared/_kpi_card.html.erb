@@ -45,14 +45,14 @@
 
  </div>
 %>
-<div class="container" data-edit-goal-target="kpi">
+<div class="container">
   <div class="row row-cols-2 g-4">
       <div class="col-6">
         <div class="p-3 bg-kpi rounded-3">
           <p class="kpi-title">Applications left until goal reached</p>
           <div class="kpi-content d-flex flex-row align-items-center justify-content-between">
             <div class="line"></div>
-            <p class="kpi-number fw-bold">
+            <p class="kpi-number fw-bold" data-edit-goal-target="kpi">
               <% unless @goal.nil? %>
                 <% if @applications_total < @goal.job_target %>
                   <%= @applications_left_to_reach_goal %>
