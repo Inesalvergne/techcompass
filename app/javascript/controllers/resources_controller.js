@@ -2,7 +2,7 @@ import { Controller } from "stimulus"
 import { csrfToken } from "@rails/ujs"
 
 export default class extends Controller {
-  static targets = [ "blur", "pop_up", "rich_content" ]
+  static targets = [ "blur", "credit", "pop_up", "rich_content" ]
 
   connect() {
     // console.log(this.data.get("idValue"))
@@ -16,12 +16,13 @@ export default class extends Controller {
     if(viewed || check){
       this.blurTarget.classList.remove("background_blur");
       this.pop_upTarget.classList.add("d-none");
-      this.testTarget.classList.remove("hidden_text_container");
+      this.rich_contentTarget.classList.remove("hidden_text_container");
     }
     // console.log(this.blurTarget.dataset.info)
   }
 
   viewResource() {
+    console.log(this.creditTarget);
     fetch(`/resources/${this.data.get("idValue")}/purchase_resource`, {
       method: 'PATCH',
       headers: {
@@ -34,6 +35,7 @@ export default class extends Controller {
         this.blurTarget.classList.remove("background_blur");
         this.pop_upTarget.classList.add("d-none");
         this.rich_contentTarget.classList.remove("hidden_text_container");
+        this.creditTarget.innerHTML = ` ${data.credit} credits left`;;
       }
     })
 
