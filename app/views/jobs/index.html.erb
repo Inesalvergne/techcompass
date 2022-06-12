@@ -1,7 +1,7 @@
 
 <div class="container">
-  <div class="d-flex flex-row align-items-center gap-3">
-    <h1 class="fw-bold">My Job Applications </h1>
+  <div class="d-flex mb-5 flex-row align-items-center gap-3 justify-content-center">
+    <h1 class="fw-bold ">My Job Applications </h1>
     <%= link_to(new_job_path, {remote: :true, 'data-bs-toggle': 'modal', 'data-bs-target': '#exampleModal', class:'text-decoration-none'}) do %>
       <%= fa_icon "plus", class: "text-primary fa-fw" %><%= 'Add a Job' %>
     <% end %>

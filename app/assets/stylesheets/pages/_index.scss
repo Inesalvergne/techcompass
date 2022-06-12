@@ -3,9 +3,9 @@
 @import "dashboard";
 @import "resources";
 
-h5{
-  color: $purple;
-}
+// h5{
+//   color: $purple;
+// }
 
 a {
   color: $purple;
@@ -13,4 +13,8 @@ a {
 
 h1 {
   font-size: 30px;
+}
+
+h4 {
+  font-size: 16px;
 }
