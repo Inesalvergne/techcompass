@@ -8,9 +8,10 @@
       <% end %>
       <div class= "m-2 user-info">
         <p class="fw-bold align-self-center mb-0 mt-2 user-name"><%= current_user.full_name %></p>
-        <p class="align-self-center"> <%= image_tag("icon-credits.svg", class:"img-topbar-credits") %>
-                                      <%= " #{current_user.credits} credits left" %>
-        </p>
+        <div class="d-flex flex-row align-self-center">
+          <%= image_tag("icon-credits.svg", class:"img-topbar-credits") %>
+          <p class="g-3" data-resources-target="credit"><%= "#{current_user.credits} credits left" %></p>
+        </div>
       </div>
     </div>
   </div>

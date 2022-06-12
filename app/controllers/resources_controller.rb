@@ -46,7 +46,8 @@ class ResourcesController < ApplicationController
         if View.create!(user: current_user, resource: @resource)
           current_user.credits -= 5
           current_user.save
-          format.json { render json: true }
+          # format.json { render json: true }
+          format.json { render json: { credit: current_user.credits } }
         end
       else
         format.json { render json: false }

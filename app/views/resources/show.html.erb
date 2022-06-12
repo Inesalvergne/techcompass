@@ -29,7 +29,7 @@
         </div>
       </div>
   <% else %>
-    <div class="hidden_text_container" data-controller="resources"
+    <div class="hidden_text_container"
          data-resources-id-value="<%= @resource.id %>"
          data-resources-viewed-value="<%= current_user.viewed?(@resource) %>"
          data-resources-check-value="<%= @resource.user == current_user %>"
