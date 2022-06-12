@@ -121,23 +121,23 @@ Job.create!(
   user: me
 )
 
-Job.create!(
-  company: "Chimera Entertainment",
-  description: "Chimera Entertainment is a creative and independent development studio for digital entertainment software in the heart of the beautiful city of Munich. In addition to developing our own IPs, we implement work for hire, from conception to completion. Gameplay and creative imagination are always in the foreground, and we promote teamwork and talent. Thanks to more than 15 years of expertise in the field of mobile gaming and cross-platform development, as well as our award-winning portfolio of top titles such as “Angry Birds Epic” and “Angry Birds Evolution”, we are one of Germany’s leading game developers.
+# Job.create!(
+#   company: "Chimera Entertainment",
+#   description: "Chimera Entertainment is a creative and independent development studio for digital entertainment software in the heart of the beautiful city of Munich. In addition to developing our own IPs, we implement work for hire, from conception to completion. Gameplay and creative imagination are always in the foreground, and we promote teamwork and talent. Thanks to more than 15 years of expertise in the field of mobile gaming and cross-platform development, as well as our award-winning portfolio of top titles such as “Angry Birds Epic” and “Angry Birds Evolution”, we are one of Germany’s leading game developers.
 
 
-  As a successful and ambitious company since 2006, Chimera Entertainment is working on state-of-the-art projects with high-profile partners, which offers a dynamic, challenging, and ultimately rewarding experience. Our values and culture are defined by a healthy team spirit, a sustainable work environment, a passion for games, and the collaborative ambition to strive for excellence in an ever-changing industry, where our development studio is constantly striving to reach the next level.
+#   As a successful and ambitious company since 2006, Chimera Entertainment is working on state-of-the-art projects with high-profile partners, which offers a dynamic, challenging, and ultimately rewarding experience. Our values and culture are defined by a healthy team spirit, a sustainable work environment, a passion for games, and the collaborative ambition to strive for excellence in an ever-changing industry, where our development studio is constantly striving to reach the next level.
 
-  As a Backend Developer (f/m/d) at Chimera Entertainment, you will create high-quality, visually appealing games within an experienced, international and flexible team. As a successful and ambitious company with a sustainable and transparent leadership style, all of our employees work with dedication and a team-first attitude. Working on state-of-the-art projects with high-profile partners, will be your opportunity to grow and expand your knowledge within the games industry in a professional and friendly atmosphere.",
-  location: "Munich, Germany",
-  role: ROLE[0],
-  level: LEVEL[1],
-  post_url: "https://chimera-entertainment.jobs.personio.com/job/690557?display=en",
-  status: STATUS[1],
-  remote: true,
-  goal: Goal.all.sample,
-  user: me
-)
+#   As a Backend Developer (f/m/d) at Chimera Entertainment, you will create high-quality, visually appealing games within an experienced, international and flexible team. As a successful and ambitious company with a sustainable and transparent leadership style, all of our employees work with dedication and a team-first attitude. Working on state-of-the-art projects with high-profile partners, will be your opportunity to grow and expand your knowledge within the games industry in a professional and friendly atmosphere.",
+#   location: "Munich, Germany",
+#   role: ROLE[0],
+#   level: LEVEL[1],
+#   post_url: "https://chimera-entertainment.jobs.personio.com/job/690557?display=en",
+#   status: STATUS[1],
+#   remote: true,
+#   goal: Goal.all.sample,
+#   user: me
+# )
 
 Job.create!(
   company: "Creative Currency",

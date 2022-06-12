@@ -8,7 +8,7 @@
           <% if job.status == 'Wishlist' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-wishlist">
+                <div class="container-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-wishlist">
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
@@ -25,7 +25,7 @@
           <% if job.status == 'Applied' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-applied">
+                <div class="container-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-applied">
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
@@ -42,7 +42,7 @@
           <% if job.status == 'Interview' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-interview">
+                <div class="container-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-interview">
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
@@ -59,7 +59,7 @@
           <% if job.status == 'Decision' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-decision">
+                <div class="container-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-decision">
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
@@ -76,7 +76,7 @@
           <% if job.status == 'Offer' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-offer">
+                <div class="container-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-offer">
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
@@ -93,7 +93,7 @@
           <% if job.status == 'Rejected' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container bg-white rounded-3 d-flex flex-column p-3 my-4 shadow-sm border-rejected">
+                <div class="container-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-rejected">
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
