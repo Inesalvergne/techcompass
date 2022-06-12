@@ -1,4 +1,5 @@
 class ResourcesController < ApplicationController
+  skip_before_action :verify_authenticity_token
   # I can search and filter resources posted by others
   # Can be filtered by company, job position, and keyword
   def index
