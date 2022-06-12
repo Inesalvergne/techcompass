@@ -33,7 +33,10 @@
   <body>
     <%= render 'shared/navbar' unless @disable_nav %>
     <%= render 'shared/flashes' %>
-    <div class="container-fluid">
+    <div class="container-fluid" data-controller='resources'
+        data-resources-id-value="<%= @resource.nil? ? 0 : @resource.id %>"
+        data-resources-viewed-value="<%= @resource.nil? ? 0 : current_user.viewed?(@resource) %>"
+        data-resources-check-value="<%= @resource.nil? ? 0 : @resource.user == current_user %>">
       <%= render 'shared/topbar' unless @disable_nav %>
       <%= yield %>
     </div>
