@@ -1,0 +1,9 @@
+.container-job{
+  border-radius: 10px;
+}
+
+.container-job:hover {
+  transform: scale(1.06);
+  z-index: 3;
+  box-shadow: 0 10px 20px rgba(0,0,0,.08), 0 4px 8px rgba(0,0,0,.04);
+}
