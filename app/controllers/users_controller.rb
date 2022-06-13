@@ -26,6 +26,7 @@ class UsersController < ApplicationController
     @interviews_total = Job.where(status: "Interview").count
     @my_resources_total = Resource.where(user: current_user).count
     @applications_left_to_reach_goal = current_user.goals.empty? ? "N/A" : (@goal.job_target - @applications_total)
+    @applications_to_interview_ratio = ((@interviews_total / @applications_total.to_f) * 100).round
 
     # I can see the last 4 applications I sent
     @jobs_preview = current_user.jobs.last(4)
