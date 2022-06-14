@@ -328,17 +328,12 @@ demo1 = File.open("db/10challenges.txt")
 demo_seed = Resource.create!(
           title: "10 Coding Challenges, Tips, and Websites to Practice",
           summary: "SUMMARY:
-          Master a single language to start, and aim to interview in that language.
-          Understand programming paradigms (imperative, procedural, object-oriented, parallel processing, declarative etc.)
-          Learn data structures and algorithms,
-          as these are the heart of all programming languages. Common data structures: 'Heap, Graph, Array, Stack, Linked List'
-          Look at other people's code and try to understand the format, design patterns, styling and naming conventions.
-          Always plan your strategy when dealing with a coding challenge. Choose the most relevant tools for your project.
-          Web apps can be done with but not limited to: Ruby on Rails, Javascript, HTML/CSS.
-          For machine learning and analytics: Python, Java, C# AND R.
-          Don't rush through your project, but set meaningful deadlines.
-          Most importantly, practice as much as possible to solidify your knowledge.
-          Check out the 10 websites below for some additional coding training!",
+
+          A 'coding challenge' is a programming assignment that tests the abilities of software engineers. Because coding
+          is a must-have skill for a software developer, it is critical to test whether candidates can code effectively.
+          It is basically the first phase before a technical interview. Even if you aren't looking for a job,
+          there are a lot of programming challenges that you can take part in to improve your skills. This article will
+          take you through several examples of coding challenges, tips and additional websites to practice.
           votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
           level: "Junior",
           user: User.where.not("full_name = 'Ines'").sample,
@@ -370,17 +365,11 @@ back_end_ruby.save!
 demo2 = File.open("db/softwaredev_int.txt")
 demo_seed2 = Resource.create!(
              title: "How To Prepare For A Software Developer Interview",
-             summary: "The phases of the interview process:
-             Phone screen, technical phone interview, or on site
-             Expect company specific and situational questions.
-             Talk about yourself and any recent relevent projects.
-             If possible with the company you are interviewing with,
-             stick to the one language you are most comfortable with.
-             Prepare for a take-home assignment and/or pair programming tasks
-             Try to over-communicate as opposed to under-communicating
-             Set up mock interviews to practice before the actual interview.
-             Do not cram the night before, prepare adequately and get rest
-             to perform at your optimal state.",
+             summary: "Tech interviews are notoriously nerve-racking and unpredictable, but there
+             are steps you can take to mitigate a lot of these feelings. This article goes over all you need to know to
+             perform at your best in your next interview. You will learn about the phases of the interview process, company
+             requirements, how to go about preparing for the technical challenges, your elevator pitch,
+             as well as best practices of interview preparation and execution.",
              votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
              level: "Junior",
              user: User.where.not("full_name = 'Ines'").sample,
@@ -402,7 +391,8 @@ digital_marketing_interview = Resource.create!(
   surprised to see that several of the candidates made the same mistakes.
   I should not have been too surprised, given digital marketings embryonic state.
   Still, the trip-ups among the candidates were common enough that I thought I could
-  provide some tips to anyone looking to prepare for a digital marketing interview.",
+  provide some tips to anyone looking to prepare for a digital marketing interview, and that's
+  what you will find in this article",
   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
   level: "Junior",
   tags: "Digital Marketer",
@@ -418,18 +408,14 @@ digital_marketing_interview.save!
 be_skills = File.open("db/be_skills.txt")
 back_end_skills = Resource.create!(
   title: "7 Must-Have Back-End Developer Skills",
-  summary: "SUMMARY: A backend developer is responsible for writing backend codes and communicating when
+  summary: "A backend developer is responsible for writing backend codes and communicating when
   the user triggers any particular action. Today they have become the backbone of web development and
-  they are in high demand in the vast scale of companies. Whatever you do in your application,
-  the back-end is responsible for that as they work behind the curtains. The integrations,
-  logic, APIs, all are being taken care of by back-end developers. That is why they are the
-  foundation of web development. It is trending and has been resembled as one of
-  the most desired jobs. But firstly, you need to understand the basics of backend
+  they are in high demand in the vast scale of companies. But firstly, you need to understand the basics of backend
   development. A successful roadmap in backend development will start from the base itself
   i.e. in-depth knowledge of programming languages and will go along to applying it in real projects.
   Besides the fact, it is not mandated that every backend developer needs to follow the same strategy.
   Certain skill sets will define your career in backend development and those are the fundamental ones.
-  So, today, we’re going to discuss the
+  So, today, we're going to discuss the
   top 7 skills which are required to become a successful backend developer.",
   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
   level: "Junior",
@@ -496,7 +482,8 @@ data_sci_tips = Resource.create!(
                   important to do proper research about what the role entails and the industry you will be working
                   in. It is also important to consider what employers are looking for in a data scientist.
                   These can have a huge impact on what you do each day, and your overall satisfaction — and
-                  success — in a role.",
+                  success — in a role. This article will go over what you need to know before applying to a data Science
+                  position",
                   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
                   level: "Junior",
                   user: User.where.not("full_name = 'Ines'").sample,
