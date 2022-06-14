@@ -285,7 +285,7 @@ piq = File.open("db/programmer_interview_questions.txt")
 basic_programmer_interviewqs = Resource.create!(
     title: "Essential Full-Stack interview questions",
     summary: "...",
-    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    votes: [98, 203, 325, 409, 56, 70, 38, 156, 276, 351].sample,
     level: "Junior",
     tags: "Full-Stack Developer",
     user: User.where.not("full_name = 'Ines'").sample,
@@ -303,7 +303,7 @@ efave_lang = File.open("db/efave_lang.txt")
 basic_interview_qs = Resource.create!(
     title: "Basic programming interview questions",
     summary: "...",
-    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    votes: [98, 203, 325, 409, 56, 70, 38, 156, 276, 351].sample,
     level: "Junior",
     tags: "Full-Stack Developer",
     user: User.where.not("full_name = 'Ines'").sample,
@@ -320,7 +320,7 @@ fes_interviewqs = File.open("db/fes_interviewqs.txt")
 senior_interview_qs = Resource.create!(
     title: "Senior Front-End Interview Questions",
     summary: "...",
-    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    votes: [98, 203, 325, 409, 56, 70, 38, 156, 276, 351].sample,
     level: "Senior",
     tags: "Front-End Developer",
     user: User.where.not("full_name = 'Ines'").sample,
@@ -336,7 +336,7 @@ fsportfolio = File.open("db/fs_devportfolio.txt")
 full_stack_portfolio = Resource.create!(
         title: "Full Stack Developer Portfolio Tips",
         summary: "...",
-        votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+        votes: [98, 203, 325, 409, 56, 70, 38, 156, 276, 351].sample,
         level: "Junior, Senior",
         tags: "Front-End Developer",
         user: User.where.not("full_name = 'Ines'").sample,
@@ -352,7 +352,7 @@ bep_iqs = File.open("db/bep_iqs.txt")
 back_end_python = Resource.create!(
         title: "Python Developer Interview Tips",
         summary: "...",
-        votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+        votes: [98, 203, 325, 409, 56, 70, 38, 156, 276, 351].sample,
         level: "Senior",
         tags: "Back-End Developer",
         user: User.where.not("full_name = 'Ines'").sample,
@@ -367,7 +367,7 @@ fes_iqs = File.open("db/fes_iqs.txt")
 front_end_senior = Resource.create!(
           title: "Senior Front-End Interview Preparation",
           summary: "...",
-          votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+          votes: [98, 203, 325, 409, 56, 70, 38, 156, 276, 351].sample,
           level: "Senior",
           user: User.where.not("full_name = 'Ines'").sample,
           tags: "Front-End Developer",
@@ -383,7 +383,7 @@ demo1 = File.open("db/10challenges.txt")
 demo_seed = Resource.create!(
           title: "10 Coding Challenges, Tips, and Websites to Practice",
           summary: "...",
-          votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+          votes: [98, 203, 325, 409, 56, 70, 38, 156, 276, 351].sample,
           level: "Junior",
           user: User.where.not("full_name = 'Ines'").sample,
           tags: "Full-Stack Developer",
@@ -399,7 +399,7 @@ demo3 = File.open("db/ber_iqs.txt")
 back_end_ruby = Resource.create!(
                 title: "Ruby Interview Questions",
                 summary: "...",
-                votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+                votes: [98, 203, 325, 409, 56, 70, 38, 156, 276, 351].sample,
                 level: "Junior",
                 tags: "Back-End Developer",
                 user: User.where.not("full_name = 'Ines'").sample,
@@ -415,7 +415,7 @@ demo2 = File.open("db/softwaredev_int.txt")
 demo_seed2 = Resource.create!(
              title: "How To Prepare For A Software Developer Interview",
              summary: "...",
-             votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+             votes: 510,
              level: "Junior",
              user: User.where.not("full_name = 'Ines'").sample,
              tags: "Full-Stack Developer",
@@ -430,7 +430,7 @@ dm_iqs = File.open("db/dm_interview.txt")
 digital_marketing_interview = Resource.create!(
   title: "Digital Marketing Interview Tips",
   summary: "...",
-  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+  votes: [98, 203, 325, 409, 56, 70, 38, 156, 276, 351].sample,
   level: "Junior",
   tags: "Digital Marketer",
   user: User.where.not("full_name = 'Ines'").sample,
@@ -446,7 +446,7 @@ be_skills = File.open("db/be_skills.txt")
 back_end_skills = Resource.create!(
   title: "7 Must-Have Back-End Developer Skills",
   summary: "...",
-  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+  votes: [98, 203, 325, 409, 56, 70, 38, 156, 276, 351].sample,
   level: "Junior",
   tags: "Back-End Developer",
   user: User.where.not("full_name = 'Ines'").sample,
@@ -461,7 +461,7 @@ be_rm = File.open("db/be_roadmap.txt")
 back_end_roadmap = Resource.create!(
                   title: "Complete Back-End Developer Roadmap",
                   summary: "...",
-                  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+                  votes: [98, 203, 325, 409, 56, 70, 38, 156, 276, 351].sample,
                   level: "Junior",
                   user: User.where.not("full_name = 'Ines'").sample,
                   tags: "Back-End Developer",
@@ -499,7 +499,7 @@ bes = File.open("db/bes.txt")
 back_end_roadmap = Resource.create!(
                   title: "Senior Back-End Developer Tips",
                   summary: "...",
-                  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+                  votes: [98, 203, 325, 409, 56, 70, 38, 156, 276, 351].sample,
                   level: "Senior",
                   user: User.where.not("full_name = 'Ines'").sample,
                   tags: "Back-End Developer",
