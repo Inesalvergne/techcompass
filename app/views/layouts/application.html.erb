@@ -31,11 +31,16 @@
   </head>
 
   <body>
+  <div class="container-fluid d-flex flex-row m-0 p-0">
     <%= render 'shared/navbar' unless @disable_nav %>
     <%= render 'shared/flashes' %>
-    <div class="container-fluid">
+    <div class="container-fluid m-0 p-0" data-controller='resources'
+        data-resources-id-value="<%= @resource.nil? ? 0 : @resource.id %>"
+        data-resources-viewed-value="<%= @resource.nil? ? 0 : current_user.viewed?(@resource) %>"
+        data-resources-check-value="<%= @resource.nil? ? 0 : @resource.user == current_user %>">
       <%= render 'shared/topbar' unless @disable_nav %>
       <%= yield %>
     </div>
+  </div>
   </body>
 </html>

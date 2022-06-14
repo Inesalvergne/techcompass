@@ -1,7 +1,7 @@
 
 <div class="container">
-  <div class="d-flex flex-row align-items-center gap-3">
-    <h1 class="fw-bold">My Jobs</h1>
+  <div class="d-flex mb-5 flex-row align-items-center gap-3 justify-content-center">
+    <h1 class="fw-bold ">My Job Applications </h1>
     <%= link_to(new_job_path, {remote: :true, 'data-bs-toggle': 'modal', 'data-bs-target': '#exampleModal', class:'text-decoration-none'}) do %>
       <%= fa_icon "plus", class: "text-primary fa-fw" %><%= 'Add a Job' %>
     <% end %>
@@ -20,13 +20,13 @@
             <div class="modal-body">
               <%= simple_form_for(Job.new) do |f| %>
                 <%= f.input :company %>
-                <%= f.input :description %>
-                <%= f.input :location %>
                 <%= f.input :role, as: :select, collection: Job::ROLE %>
                 <%= f.input :level, as: :select, collection: Job::LEVEL %>
-                <%= f.input :post_url %>
-                <%= f.input :interview_date, as: :date, html5: true  %>
+                <%= f.input :description, label: 'Requirements' %>
                 <%= f.input :remote %>
+                <%# <%= f.input :location %>
+                <%# <%= f.input :post_url %>
+                <%= f.input :interview_date, as: :date, html5: true  %>
                 <%= f.input :status, as: :select, collection: Job::STATUS %>
                 <%= f.submit "Add a Job", class: "btn btn-sm btn-primary" %>
               <% end %>

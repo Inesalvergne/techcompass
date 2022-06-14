@@ -31,8 +31,8 @@
           <%= render "shared/goal", goal: @goal %>
         <% end %>
         <% unless @jobs.nil? %>
-          <button class="btn btn-sm btn-primary" data-edit-goal-target="edit"
-                  data-action="click->edit-goal#displayForm">Edit Your Goal</button>
+          <a class= "text-decoration-none" data-edit-goal-target="edit"
+             data-action="click->edit-goal#displayForm">Edit Your Goal</a>
         <% end %>
       </div>
 
@@ -51,16 +51,16 @@
       </div>
 
       <div class="job-preview-section">
-        <div class="d-flex flex-row align-items-center gap-3">
-          <h3 class= "mb-4 mt-4">My Job Applications</h3>
+        <div class="d-flex flex-row align-items-center gap-3 mb-4 mt-5">
+          <h3>My Job Applications</h3>
           <%= link_to 'View all', jobs_path, class: "text-decoration-none" %>
         </div>
         <%= render 'shared/job_preview' %>
       </div>
 
       <div class='my-resources-section'>
-        <div class="d-flex flex-row align-items-center gap-3">
-          <h3 class= "mb-4 mt-4">My Resources</h3>
+        <div class="d-flex flex-row align-items-center gap-3 mb-4 mt-4">
+          <h3>My Resources</h3>
           <%= link_to 'View all', my_resources_resources_path, class: "text-decoration-none" %>
         </div>
         <%= render 'shared/resources' %>

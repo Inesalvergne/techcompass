@@ -1,6 +1,5 @@
 class ResourcesController < ApplicationController
   skip_before_action :verify_authenticity_token
-
   # I can search and filter resources posted by others
   # Can be filtered by company, job position, and keyword
   def index
@@ -47,7 +46,8 @@ class ResourcesController < ApplicationController
         if View.create!(user: current_user, resource: @resource)
           current_user.credits -= 5
           current_user.save
-          format.json { render json: true }
+          # format.json { render json: true }
+          format.json { render json: { credit: current_user.credits } }
         end
       else
         format.json { render json: false }

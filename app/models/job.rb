@@ -9,7 +9,7 @@ class Job < ApplicationRecord
             'Rejected'].freeze
   LEVEL = ['Entry-Level', 'Junior', 'Intermediate', 'Senior', 'Manager'].freeze
 
-  validates :company, :description, :location, presence: true
+  validates :company, :description, presence: true
   validates :role, presence: true, inclusion: { in: ROLE }
   validates :level, presence: true, inclusion: { in: LEVEL }
   validates :status, presence: true, inclusion: { in: STATUS }
