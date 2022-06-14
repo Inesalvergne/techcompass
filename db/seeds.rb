@@ -491,7 +491,12 @@ back_end_roadmap.save!
 dst = File.open("db/data-sci-tips.txt")
 data_sci_tips = Resource.create!(
                   title: "How To Apply To Data Science Jobs",
-                  summary: "...",
+                  summary: "Data science is a
+                  broad discipline with a range of applications and unique roles. When applying to jobs, it is
+                  important to do proper research about what the role entails and the industry you will be working
+                  in. It is also important to consider what employers are looking for in a data scientist.
+                  These can have a huge impact on what you do each day, and your overall satisfaction — and
+                  success — in a role.",
                   votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
                   level: "Junior",
                   user: User.where.not("full_name = 'Ines'").sample,
