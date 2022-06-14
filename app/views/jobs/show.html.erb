@@ -16,7 +16,7 @@
       <p><%= fa_icon "user", class: "text-primary fa-fw" %> <%= @job.level %></p>
     </div>
     <div class="col">
-      <p><%= fa_icon "map-marker", class: "text-primary fa-fw" %> <%= @job.location %></p>
+      <p><%= fa_icon "map-marker", class: "text-primary fa-fw" %> Montréal, Canada </p>
       <p><%= fa_icon "laptop", class: "text-primary fa-fw" %> Open to Remote Work: <%= @job.remote ? 'Yes' : 'No' %></p>
     </div>
   </div>
@@ -25,9 +25,7 @@
     <%= @job.description %>
   </div>
   <div class="m-2 p-2">
-    <% if @job.post_url.start_with?(/\Ahttps*:\/\/.*/) %>
-      <p><%= fa_icon "link", class: "text-primary fa-fw" %> <a href="<%= @job.post_url %>", class="text-decoration-none">See the Job Posting</a></p>
-    <% end %>
+      <p><%= fa_icon "link", class: "text-primary fa-fw" %> <a href="https://ca.indeed.com/", class="text-decoration-none">See the Job Posting</a></p>
   </div>
 
 <%# Edit job status %>
