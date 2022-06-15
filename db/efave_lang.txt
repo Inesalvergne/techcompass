@@ -1,201 +1,201 @@
-        <div class="qa-question" id="question_1">
-         <div class="qa-question-content">
-          <p class="qa-question-prefix" aria-label="Q:.">Q:</p>
-          <h3>What was the first programming language that you learned?</h3>
-         </div>
-         <div class="qa-answer" id="answer_1">
-          <div class="qa-answer-content">
-           <p class="qa-answer-prefix" aria-label="A:.">A:</p>
-           <div>
-            <p>The answer to this question can tell you a lot about job applicant’s interest in programming. People who start learning languages when they’re young usually know languages like JavaScript, which is used for making interactive websites. Those who learned languages like Java and C++ probably didn’t develop a sincere interest in programming until they went to college.</p>
-            <p>What to look for in an answer:</p>
-            <ul>
-             <li>Learn about applicant’s experience</li>
-             <li>Discover languages the applicant knows</li>
-             <li>Measure the applicant’s enthusiasm for programming</li>
-            </ul>
-            <p></p>
-           </div>
-          </div>
-          <div class="beispiel">
-           <strong>Example:</strong>
-           <p><br> “C++ was the first programming language in an academic class. Before I went to college, though, I had picked up a fair amount of JavaScript and Python. I remember making my first math-based game with JavaScript. I still enjoy using those languages because they’re flexible enough that you can use them in a lot of contexts.”</p>
-          </div>
-         </div>
-        </div>
-        <div class="qa-question" id="question_2">
-         <div class="qa-question-content">
-          <p class="qa-question-prefix" aria-label="Q:.">Q:</p>
-          <h3>What do you enjoy about programming?</h3>
-         </div>
-         <div class="qa-answer" id="answer_2">
-          <div class="qa-answer-content">
-           <p class="qa-answer-prefix" aria-label="A:.">A:</p>
-           <div>
-            <p>How people answer this question tells about their personalities and how they might fit into your existing team of programmers. You may find a new team member who enjoys tasks that your other employees dislike.</p>
-            <p>What to look for in an answer:</p>
-            <ul>
-             <li>The applicant’s interest in programming</li>
-             <li>Parts of programming that interest the applicant most</li>
-             <li>Positions the applicant may fill</li>
-            </ul>
-            <p></p>
-           </div>
-          </div>
-          <div class="beispiel">
-           <strong>Example:</strong>
-           <p><br> “I love looking through code so I can find errors and fix them. In fact, I’ve always loved fixing things methodically. When I was a kid, my dad and I fixed a 1967 Mustang. It took a meticulous approach and a lot of patience. I feel the same way about reviewing code.”</p>
-          </div>
-         </div>
-        </div>
-        <div class="qa-question" id="question_3">
-         <div class="qa-question-content">
-          <p class="qa-question-prefix" aria-label="Q:.">Q:</p>
-          <h3>What’s the hardest thing about working as a computer programmer?</h3>
-         </div>
-         <div class="qa-answer" id="answer_3">
-          <div class="qa-answer-content">
-           <p class="qa-answer-prefix" aria-label="A:.">A:</p>
-           <div>
-            <p>It’s natural for computer programmers to hide their weaknesses. As an employer, though, you need to find each person’s weaknesses and strengths. How someone answers this question can give you insight into the person’s personality as well as what parts of projects the applicant may not enjoy.</p>
-            <p>What to look for in an answer:</p>
-            <ul>
-             <li>The applicant’s strengths and weaknesses</li>
-             <li>What aspects of programming excite the applicant</li>
-             <li>Projects that the applicant is suited for</li>
-            </ul>
-            <p></p>
-           </div>
-          </div>
-          <div class="beispiel">
-           <strong>Example:</strong>
-           <p><br> “As much as I love sitting at my computer and solving problems, I need regular breaks to maintain my focus. After two hours staring at a screen, I need to take a short walk to clear my head and get my body active.”</p>
-          </div>
-         </div>
-        </div>
-        <div class="qa-question" id="question_4">
-         <div class="qa-question-content">
-          <p class="qa-question-prefix" aria-label="Q:.">Q:</p>
-          <h3>What’s your favorite programming language?</h3>
-         </div>
-         <div class="qa-answer" id="answer_4">
-          <div class="qa-answer-content">
-           <p class="qa-answer-prefix" aria-label="A:.">A:</p>
-           <div>
-            <p>Every programmer has a favorite language. If possible, it makes sense to pair people with languages that they enjoy using. If you can match employees with their preferred programming languages, you should see better productivity and work satisfaction.</p>
-            <p>What to look for in an answer:</p>
-            <ul>
-             <li>The applicant’s favorite language</li>
-             <li>Whether the applicant enjoys languages used at the company</li>
-             <li>Projects the applicant may enjoy working on</li>
-            </ul>
-            <p></p>
-           </div>
-          </div>
-          <div class="beispiel">
-           <strong>Example:</strong>
-           <p><br> “I love using JavaScript because it’s such an elegant language with so many purposes. Like most coders, I learned JS when I started building websites. JavaScript makes it easy for websites and visitors to interact with each other.”</p>
-          </div>
-         </div>
-        </div>
-        <div class="qa-question" id="question_5">
-         <div class="qa-question-content">
-          <p class="qa-question-prefix" aria-label="Q:.">Q:</p>
-          <h3>Can you tell me about your favorite programming project?</h3>
-         </div>
-         <div class="qa-answer" id="answer_5">
-          <div class="qa-answer-content">
-           <p class="qa-answer-prefix" aria-label="A:.">A:</p>
-           <div>
-            <p>Learning about a person’s favorite programming project can tell you what the applicant enjoys about work. You may find that the person values creative thinking used to solve complex issues, or you may discover that the interviewee prefers getting lost in repetitive lines of code.</p>
-            <p>What to look for in an answer:</p>
-            <ul>
-             <li>Learn more about the applicant’s critical thinking skills</li>
-             <li>Whether the person will work well within the company</li>
-             <li>How the applicant approaches unknown problems</li>
-            </ul>
-            <p></p>
-           </div>
-          </div>
-          <div class="beispiel">
-           <strong>Example:</strong>
-           <p><br> “Early in college, I worked with a group of librarians to preserve letters written by Samuel Taylor Coleridge. They wanted to digitize each of the letters so students could access them online instead of coming to the library. We took high-quality images of the letters. I added XML tags to the images to make them easier to categorize and search. It was a fun interdisciplinary project that I’m still proud of.”</p>
-          </div>
-         </div>
-        </div>
-        <div class="qa-question" id="question_6">
-         <div class="qa-question-content">
-          <p class="qa-question-prefix" aria-label="Q:.">Q:</p>
-          <h3>What’s the most recent language that you learned?</h3>
-         </div>
-         <div class="qa-answer" id="answer_6">
-          <div class="qa-answer-content">
-           <p class="qa-answer-prefix" aria-label="A:.">A:</p>
-           <div>
-            <p>New languages emerge frequently. Knowing what an applicant has learned recently will tell you whether that person has an interest in keeping up with newer languages. Some of the programmers that you interview may only know older, established languages like C++ and Python. Adventurous programmers who keep up with the latest languages may know how to use Julia, Rust and Swift.</p>
-            <p>What to look for in an answer:</p>
-            <ul>
-             <li>How many programs the applicant knows</li>
-             <li>Whether the applicant keeps up with new languages</li>
-             <li>The person’s enthusiasm for new programming languages</li>
-            </ul>
-            <p></p>
-           </div>
-          </div>
-          <div class="beispiel">
-           <strong>Example:</strong>
-           <p><br> “I probably don’t keep up with as many new languages as I should, but I’ve learned a lot since I graduated from college. In school, I had to focus on C++. Outside of class, I spent time experimenting with newer languages like Julia and Swift. Since graduating, I’ve worked on some projects that require those languages.”</p>
-          </div>
-         </div>
-        </div>
-        <div class="qa-question" id="question_7">
-         <div class="qa-question-content">
-          <p class="qa-question-prefix" aria-label="Q:.">Q:</p>
-          <h3>What would your skills and personality contribute to our team?</h3>
-         </div>
-         <div class="qa-answer" id="answer_7">
-          <div class="qa-answer-content">
-           <p class="qa-answer-prefix" aria-label="A:.">A:</p>
-           <div>
-            <p>You need to know what positive traits applicants will bring to your company. Asking this question gives potential employees opportunities to talk about themselves and how they foresee working for your company.</p>
-            <p>What to look for in an answer:</p>
-            <ul>
-             <li>How the person fits into your team</li>
-             <li>What skills the applicant brings to the company</li>
-             <li>Whether the applicant’s personality will fit with company culture</li>
-            </ul>
-            <p></p>
-           </div>
-          </div>
-          <div class="beispiel">
-           <strong>Example:</strong>
-           <p><br> “I enjoy solving difficult problems. If other members of your team can’t find the right solution, then I will search for it. At the same time, I’m a team player. I know that other people contribute a lot of work to every project. Even when I find a solution that eluded other people, I’m happy to share the success with everyone.”</p>
-          </div>
-         </div>
-        </div>
-        <div class="qa-question" id="question_8">
-         <div class="qa-question-content">
-          <p class="qa-question-prefix" aria-label="Q:.">Q:</p>
-          <h3>Are you comfortable working with a team of programmers to complete coding projects? If so, what examples can you provide from your previous programming jobs?</h3>
-         </div>
-         <div class="qa-answer" id="answer_8">
-          <div class="qa-answer-content">
-           <p class="qa-answer-prefix" aria-label="A:.">A:</p>
-           <div>
-            <p>Programmers create websites, apps, software and other types of digital programs to support businesses. Their ability to work with other programmers and collaborate on projects ensures the correction of errors and adherence to deadlines. This question helps interviewers decide whether a candidate has to experience and personality traits that enable them to work well with others.</p>
-            <p>A candidate's answer should emphasize:</p>
-            <ul>
-             <li>Verbal communication</li>
-             <li>Team-oriented mindset</li>
-             <li>Previous professional experiences</li>
-            </ul>
-            <p>Here is an example of a quality candidate answer:</p>
-            <p></p>
-           </div>
-          </div>
-          <div class="beispiel">
-           <strong>Example:</strong>
-           <p>"Yes, in my previous programmer roles, I frequently worked with other programmers and IT professionals to collaborate on the creation of mobile apps and computer software for both business and consumer use. Because we were working in the same workspace, we could easily ask each other questions about code strings, testing issues or potential ideas to improve the security of programs. It was also a great opportunity for me, as an entry-level programmer to learn about different languages, coding terminology and programming procedures."</p>
-          </div>
-         </div>
-        </div>
+<div class="qa-question" id="question_1">
+	<div class="qa-question-content">
+		<p class="qa-question-prefix" aria-label="Q:.">Q:</p><br>
+		<h3>What was the first programming language that you learned?</h3><br>
+	</div>
+	<div class="qa-answer" id="answer_1">
+		<div class="qa-answer-content">
+			<p class="qa-answer-prefix" aria-label="A:.">A:</p><br>
+			<div>
+				<p>The answer to this question can tell you a lot about job applicant’s interest in programming. People who start learning languages when they’re young usually know languages like JavaScript, which is used for making interactive websites. Those who learned languages like Java and C++ probably didn’t develop a sincere interest in programming until they went to college.</p><br>
+				<p>What to look for in an answer:</p><br>
+				<ul>
+					<li>Learn about applicant’s experience</li>
+					<li>Discover languages the applicant knows</li>
+					<li>Measure the applicant’s enthusiasm for programming</li>
+				</ul><br>
+				<p></p><br>
+			</div>
+		</div>
+		<div class="beispiel">
+			<strong>Example:</strong>
+			<p><br> “C++ was the first programming language in an academic class. Before I went to college, though, I had picked up a fair amount of JavaScript and Python. I remember making my first math-based game with JavaScript. I still enjoy using those languages because they’re flexible enough that you can use them in a lot of contexts.”</p><br>
+		</div>
+	</div>
+</div>
+<div class="qa-question" id="question_2">
+	<div class="qa-question-content">
+		<p class="qa-question-prefix" aria-label="Q:.">Q:</p><br>
+		<h3>What do you enjoy about programming?</h3><br>
+	</div>
+	<div class="qa-answer" id="answer_2">
+		<div class="qa-answer-content">
+			<p class="qa-answer-prefix" aria-label="A:.">A:</p><br>
+			<div>
+				<p>How people answer this question tells about their personalities and how they might fit into your existing team of programmers. You may find a new team member who enjoys tasks that your other employees dislike.</p><br>
+				<p>What to look for in an answer:</p><br>
+				<ul>
+					<li>The applicant’s interest in programming</li>
+					<li>Parts of programming that interest the applicant most</li>
+					<li>Positions the applicant may fill</li>
+				</ul><br>
+				<p></p><br>
+			</div>
+		</div>
+		<div class="beispiel">
+			<strong>Example:</strong>
+			<p><br> “I love looking through code so I can find errors and fix them. In fact, I’ve always loved fixing things methodically. When I was a kid, my dad and I fixed a 1967 Mustang. It took a meticulous approach and a lot of patience. I feel the same way about reviewing code.”</p><br>
+		</div>
+	</div>
+</div>
+<div class="qa-question" id="question_3">
+	<div class="qa-question-content">
+		<p class="qa-question-prefix" aria-label="Q:.">Q:</p><br>
+		<h3>What’s the hardest thing about working as a computer programmer?</h3><br>
+	</div>
+	<div class="qa-answer" id="answer_3">
+		<div class="qa-answer-content">
+			<p class="qa-answer-prefix" aria-label="A:.">A:</p><br>
+			<div>
+				<p>It’s natural for computer programmers to hide their weaknesses. As an employer, though, you need to find each person’s weaknesses and strengths. How someone answers this question can give you insight into the person’s personality as well as what parts of projects the applicant may not enjoy.</p><br>
+				<p>What to look for in an answer:</p><br>
+				<ul>
+					<li>The applicant’s strengths and weaknesses</li>
+					<li>What aspects of programming excite the applicant</li>
+					<li>Projects that the applicant is suited for</li>
+				</ul><br>
+				<p></p><br>
+			</div>
+		</div>
+		<div class="beispiel">
+			<strong>Example:</strong>
+			<p><br> “As much as I love sitting at my computer and solving problems, I need regular breaks to maintain my focus. After two hours staring at a screen, I need to take a short walk to clear my head and get my body active.”</p><br>
+		</div>
+	</div>
+</div>
+<div class="qa-question" id="question_4">
+	<div class="qa-question-content">
+		<p class="qa-question-prefix" aria-label="Q:.">Q:</p><br>
+		<h3>What’s your favorite programming language?</h3><br>
+	</div>
+	<div class="qa-answer" id="answer_4">
+		<div class="qa-answer-content">
+			<p class="qa-answer-prefix" aria-label="A:.">A:</p><br>
+			<div>
+				<p>Every programmer has a favorite language. If possible, it makes sense to pair people with languages that they enjoy using. If you can match employees with their preferred programming languages, you should see better productivity and work satisfaction.</p><br>
+				<p>What to look for in an answer:</p><br>
+				<ul>
+					<li>The applicant’s favorite language</li>
+					<li>Whether the applicant enjoys languages used at the company</li>
+					<li>Projects the applicant may enjoy working on</li>
+				</ul><br>
+				<p></p><br>
+			</div>
+		</div>
+		<div class="beispiel">
+			<strong>Example:</strong>
+			<p><br> “I love using JavaScript because it’s such an elegant language with so many purposes. Like most coders, I learned JS when I started building websites. JavaScript makes it easy for websites and visitors to interact with each other.”</p><br>
+		</div>
+	</div>
+</div>
+<div class="qa-question" id="question_5">
+	<div class="qa-question-content">
+		<p class="qa-question-prefix" aria-label="Q:.">Q:</p><br>
+		<h3>Can you tell me about your favorite programming project?</h3><br>
+	</div>
+	<div class="qa-answer" id="answer_5">
+		<div class="qa-answer-content">
+			<p class="qa-answer-prefix" aria-label="A:.">A:</p><br>
+			<div>
+				<p>Learning about a person’s favorite programming project can tell you what the applicant enjoys about work. You may find that the person values creative thinking used to solve complex issues, or you may discover that the interviewee prefers getting lost in repetitive lines of code.</p><br>
+				<p>What to look for in an answer:</p><br>
+				<ul>
+					<li>Learn more about the applicant’s critical thinking skills</li>
+					<li>Whether the person will work well within the company</li>
+					<li>How the applicant approaches unknown problems</li>
+				</ul><br>
+				<p></p><br>
+			</div>
+		</div>
+		<div class="beispiel">
+			<strong>Example:</strong>
+			<p><br> “Early in college, I worked with a group of librarians to preserve letters written by Samuel Taylor Coleridge. They wanted to digitize each of the letters so students could access them online instead of coming to the library. We took high-quality images of the letters. I added XML tags to the images to make them easier to categorize and search. It was a fun interdisciplinary project that I’m still proud of.”</p><br>
+		</div>
+	</div>
+</div>
+<div class="qa-question" id="question_6">
+	<div class="qa-question-content">
+		<p class="qa-question-prefix" aria-label="Q:.">Q:</p><br>
+		<h3>What’s the most recent language that you learned?</h3><br>
+	</div>
+	<div class="qa-answer" id="answer_6">
+		<div class="qa-answer-content">
+			<p class="qa-answer-prefix" aria-label="A:.">A:</p><br>
+			<div>
+				<p>New languages emerge frequently. Knowing what an applicant has learned recently will tell you whether that person has an interest in keeping up with newer languages. Some of the programmers that you interview may only know older, established languages like C++ and Python. Adventurous programmers who keep up with the latest languages may know how to use Julia, Rust and Swift.</p><br>
+				<p>What to look for in an answer:</p><br>
+				<ul>
+					<li>How many programs the applicant knows</li>
+					<li>Whether the applicant keeps up with new languages</li>
+					<li>The person’s enthusiasm for new programming languages</li>
+				</ul><br>
+				<p></p><br>
+			</div>
+		</div>
+		<div class="beispiel">
+			<strong>Example:</strong>
+			<p><br> “I probably don’t keep up with as many new languages as I should, but I’ve learned a lot since I graduated from college. In school, I had to focus on C++. Outside of class, I spent time experimenting with newer languages like Julia and Swift. Since graduating, I’ve worked on some projects that require those languages.”</p><br>
+		</div>
+	</div>
+</div>
+<div class="qa-question" id="question_7">
+	<div class="qa-question-content">
+		<p class="qa-question-prefix" aria-label="Q:.">Q:</p><br>
+		<h3>What would your skills and personality contribute to our team?</h3><br>
+	</div>
+	<div class="qa-answer" id="answer_7">
+		<div class="qa-answer-content">
+			<p class="qa-answer-prefix" aria-label="A:.">A:</p><br>
+			<div>
+				<p>You need to know what positive traits applicants will bring to your company. Asking this question gives potential employees opportunities to talk about themselves and how they foresee working for your company.</p><br>
+				<p>What to look for in an answer:</p><br>
+				<ul>
+					<li>How the person fits into your team</li>
+					<li>What skills the applicant brings to the company</li>
+					<li>Whether the applicant’s personality will fit with company culture</li>
+				</ul><br>
+				<p></p><br>
+			</div>
+		</div>
+		<div class="beispiel">
+			<strong>Example:</strong>
+			<p><br> “I enjoy solving difficult problems. If other members of your team can’t find the right solution, then I will search for it. At the same time, I’m a team player. I know that other people contribute a lot of work to every project. Even when I find a solution that eluded other people, I’m happy to share the success with everyone.”</p><br>
+		</div>
+	</div>
+</div>
+<div class="qa-question" id="question_8">
+	<div class="qa-question-content">
+		<p class="qa-question-prefix" aria-label="Q:.">Q:</p><br>
+		<h3>Are you comfortable working with a team of programmers to complete coding projects? If so, what examples can you provide from your previous programming jobs?</h3><br>
+	</div>
+	<div class="qa-answer" id="answer_8">
+		<div class="qa-answer-content">
+			<p class="qa-answer-prefix" aria-label="A:.">A:</p><br>
+			<div>
+				<p>Programmers create websites, apps, software and other types of digital programs to support businesses. Their ability to work with other programmers and collaborate on projects ensures the correction of errors and adherence to deadlines. This question helps interviewers decide whether a candidate has to experience and personality traits that enable them to work well with others.</p><br>
+				<p>A candidate's answer should emphasize:</p><br>
+				<ul>
+					<li>Verbal communication</li>
+					<li>Team-oriented mindset</li>
+					<li>Previous professional experiences</li>
+				</ul><br>
+				<p>Here is an example of a quality candidate answer:</p><br>
+				<p></p><br>
+			</div>
+		</div>
+		<div class="beispiel">
+			<strong>Example:</strong>
+			<p>"Yes, in my previous programmer roles, I frequently worked with other programmers and IT professionals to collaborate on the creation of mobile apps and computer software for both business and consumer use. Because we were working in the same workspace, we could easily ask each other questions about code strings, testing issues or potential ideas to improve the security of programs. It was also a great opportunity for me, as an entry-level programmer to learn about different languages, coding terminology and programming procedures."</p><br>
+		</div>
+	</div>
+</div>

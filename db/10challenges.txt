@@ -4,129 +4,134 @@
 <br>
 <br>
 <h2>‍<strong>Tip #1. Master a Language</strong></h2>
-
+<br>
 <p>The ideal approach is to focus on one programming language at a time. For example, if you are learning C++, learn it from scratch. Coding challenges can be filled with a variety of questionable code, and you should be capable of debugging a program without difficulty. </p>
-
+<br>
 <p>This can only be accomplished by sharpening your technical skills in a specific programming language, to prepare, in this case, for a future C++ challenge. This approach will help you move quickly through more difficult problems and give you an advantage in the interview process.</p>
-
+<br>
 <br>
 <br>
 <h2>‍<strong>Tip #2. Understand Programming Paradigms.</strong></h2>
-
+<br>
 <p>Programming paradigms are basically a method to solve similar problems or perform certain tasks using programming languages. With so many programming paradigms available, it would be beneficial to learn at least one. These programming paradigms include:</p>
 <br>
 <h4>Imperative Programming Paradigm</h4>
-
+<br>
 <p>The term &quot;imperative&quot; is derived from the Latin &quot;Impero,&quot; which means &quot;I command.&quot; You give the computer small tasks to complete, and it completes them one at a time and reports back.</p>
-
+<br>
 <p>The paradigm is made up of several statements, and the result is saved after they have all been executed. It requires you to write a set of instructions that tell the computer what to do step-by-step. </p>
-
+<br>
 <code><strong><br/></strong>#include &lt;stdio.h&gt;<br/>int main()<br/>{<br/>    int sum = 0;<br/>    sum += 2;<br/>    sum += 4;<br/>    sum += 6;<br/>    sum += 8;<br/>    sum += 10;<br/>    sum += 12;<br/>    sum += 14;<br/>    sum += 16;<br/>    sum += 18;<br/>    sum += 20;<br/>     printf(&quot;The sum is: %d\n&quot;, sum); //prints-&gt; The sum is 110 <br/>return 0;<br/></code>
-
+<br><br>
 <p>The order of the steps is critical in an imperative programming paradigm because a specific step will have different consequences depending on the current values of variables when it is executed.</p>
-
+<br>
 <p>There are different types of programming paradigms</p>
 <br>
 <h4>Procedural Programming Paradigm </h4>
-
+<br>
 <p>Procedural programming allows for the division of instructions into smaller procedures. The procedural paradigm approach shown below helps you find the sum of the first ten natural numbers to demonstrate:</p>
-
+<br>
 <code>#include &lt;stdio.h&gt;<br/>int main()<br/>{<br/>    int sum = 0;<br/>    int i =0;<br/>    for(i=1;i&lt;111;i++){<br/>        sum += i;<br/>    }<br/>    printf(&quot;The sum is: %d\n&quot;, sum); //prints-&gt; The sum is 110<br/>    return 0;</code>
-<br>
+<br><br>
 <h4>Object-Oriented Programming Paradigm</h4>
-
+<br>
 <p>Because of its unique advantages, such as code modularity and the ability to directly associate real-world business problems in terms of code, OOP is the most popular programming paradigm with key features like Class, Encapsulation, Abstraction, Inheritance, and Polymorphism.</p>
-
+<br>
 <p>Example:</p>
-
+<br>
 <code><br/>public class Main<br/>{<br/>	public static void main(String[] args) {<br/>		Addition obj = new Addition();<br/>		obj.num = 20;<br/>		int answer = obj.addValues();<br/>		System.out.println(&quot;The sum is = &quot;+answer); //prints-&gt; The sum is 110<br/>	}<br/>}<br/>class Addition {<br/>    int sum =0;<br/>    int num =0;<br/>    int addValues(){<br/>        for(int i=1; i&lt;=num;i++){<br/>            sum += i;<br/>        }<br/>        return sum;<br/>    }<br/>}</code>
-<br>
+<br><br>
 <h4>‍<strong>‍</strong>Parallel Processing Programming Paradigm</h4>
-
+<br>
 <p>Parallel processing is the division of program instructions among multiple processors. A parallel processing system divides up multiple processors to run a program in less time. Languages that support the parallel processing strategy include C/C++ and NESL. </p>
-<br>
+<br><br>
 <h4>Declarative Programming Paradigm</h4>
-
+<br>
 <p>The main distinction here is that the imperative paradigm tells you how to do something, whereas declarative paradigm tells you what to do. In this type of programming, the paradigm programmer defines what the program must accomplish without specifying how it must be implemented. In other words, the approach focuses on what needs to be accomplished rather than how to accomplish it. There are two types of declarative programming paradigms. </p>
-<br>
+<br><br>
 <h4>Logic Programming Paradigm</h4>
-
+<br>
 <p>The logic programming paradigm approaches problem-solving declaratively. It is founded on formal logic. The logic programming paradigm is made up of facts and clauses rather than instructions. It uses everything it knows to create a world where all of those facts and clauses are true. The emphasis in logical programming is on the problem and the knowledge base. </p>
-
+<br>
 <p>Example:</p>
-
+<br>
 <code>{% code-block language=&quot;js&quot; %}<br/>sum of two number in prolog:<br/>  predicates<br/>  sumoftwonumber(integer, integer)<br/>clauses<br/>  sum(0, 0).<br/>   sum(n, r):-<br/>        n1=n-1,<br/>        sum(n1, r1),<br/>        r=r1+n</code>
-
+<br>
 <p>This paradigm supports languages like Absys, Prolog, ALF, Ciao, and Alice.</p>
-<br>
+<br><br>
 <h4>The Functional Programming Paradigm</h4>
-
-<p>The functional programming paradigm has mathematical roots and is language agnostic. The execution of a series of mathematical functions is the fundamental principle of this paradigm. You put together a program of short functions. Every line of the code is contained within a function. The function&#x27;s variables are all scoped. </p>
-
-<p>In the functional programming paradigm, functions do not modify any values outside their scope, and they are not affected by any values outside their scope. This paradigm supports languages like Racket, JavaScript, Haskell, Scala, Clojure, and OCaml. </p>
 <br>
+<p>The functional programming paradigm has mathematical roots and is language agnostic. The execution of a series of mathematical functions is the fundamental principle of this paradigm. You put together a program of short functions. Every line of the code is contained within a function. The function&#x27;s variables are all scoped. </p>
+<br>
+<p>In the functional programming paradigm, functions do not modify any values outside their scope, and they are not affected by any values outside their scope. This paradigm supports languages like Racket, JavaScript, Haskell, Scala, Clojure, and OCaml. </p>
+<br><br>
 <h4>Database Programming Approach</h4>
-
+<br>
 <p>This programming methodology is built around data and how it moves. Rather than hard-coding a series of steps, program statements are defined by data. A database program will beat the heart of any business information system, providing file creation, data entry, update, query, and reporting functions. Several programming languages have been developed primarily for database applications. As an example, consider SQL. It is used to filter, transform, aggregate (data such as computing statistics), or call other programs on structured data streams. As a result, it has a wide range of applications. </p>
-
+<br>
 <p>Example:</p>
-
+<br>
 <code>{% code-block language=&quot;js&quot; %}<br/>CREATE DATABASE databaseAddress;<br/>CREATE TABLE Addr (<br/>    PersonID int,<br/>    LastName varchar(200),<br/>    FirstName varchar(200),<br/>    Address varchar(200),<br/>    City varchar(200),<br/>    State varchar(200)<br/>);</code>
-
+<br><br>
 <p>Programming paradigms reduce programme complexity. When writing code, every programmer must use a paradigm based approach. </p>
 <br><br>
 <h3><strong>Tip #3. Get to Know Data Structures</strong></h3>
-
+<br>
 <p>Data structures and algorithms are the heart of programming. Data structures act as the foundation for all programming languages. You can improve your programming logic for a programming language if you understand its data structure. You should start with the language&#x27;s data structures if you want to learn how to work with it. </p>
-
+<br>
 <p>The most common data structures include <strong>Heap, Graph, Tree, HashMap, Stack, Linked List, Array, and Queue</strong>. On the other hand, the most common algorithm types include two pointers, sorting, bit manipulation, string manipulation, dynamic programming, and backtracking. </p>
+<br>
 <p>Some of these may appear difficult at first, but if you want to land an interview at one of the top tech firms, you should devote more time to what you find difficult and master each of these.</p>
 <br><br>
 <h3><strong>Tip #4. Time and Space Complexity</strong></h3>
-
+<br>
 <p>There are some problems that have more than one solution. So, it is essential to learn how to reach the best solution to solve a specific problem. When looking at an algorithm, you should consider time and space complexity. </p>
-<br>
+<br><br>
 <h4>Time Complexity</h4>
-
-<p>The time complexity of an algorithm is a measure of how long it takes an algorithm to run as a function of the input length. It&#x27;s worth noting that the time it takes to run is determined by the length of the input rather than the system’s actual execution time. </p>
-
-<p>To determine the time complexity of an algorithm, it is assumed that one operation takes a constant time C, and the total operations for an input length on N are then calculated. </p>
-
-<p>Consider the following scenario to understand the computation process better: Assume you are trying to figure out if a pair (X, Y) occurs in an array A of N elements with a sum of Z. The simplest approach is to look at each pair and see if it meets the provided criteria.</p>
-
-<p>The pseudo-code is as follows:</p>
-
-<code><br/>int a[n];<br/>for(int i = 0;i &lt; n;i++)<br/>  cin &gt;&gt; a[i]<br/>for(int i = 0;i &lt; n;i++)<br/>  for(int j = 0;j &lt; n;j++)<br/>    if(i!=j &amp;&amp; a[i]+a[j] == z)<br/>       return true<br/>return false</code>
 <br>
+<p>The time complexity of an algorithm is a measure of how long it takes an algorithm to run as a function of the input length. It&#x27;s worth noting that the time it takes to run is determined by the length of the input rather than the system’s actual execution time. </p>
+<br>
+<p>To determine the time complexity of an algorithm, it is assumed that one operation takes a constant time C, and the total operations for an input length on N are then calculated. </p>
+<br>
+<p>Consider the following scenario to understand the computation process better: Assume you are trying to figure out if a pair (X, Y) occurs in an array A of N elements with a sum of Z. The simplest approach is to look at each pair and see if it meets the provided criteria.</p>
+<br>
+<p>The pseudo-code is as follows:</p>
+<br>
+<code><br/>int a[n];<br/>for(int i = 0;i &lt; n;i++)<br/>  cin &gt;&gt; a[i]<br/>for(int i = 0;i &lt; n;i++)<br/>  for(int j = 0;j &lt; n;j++)<br/>    if(i!=j &amp;&amp; a[i]+a[j] == z)<br/>       return true<br/>return false</code>
+<br><br>
 <h4>Space Complexity</h4>
-
+<br>
 <p>An algorithm&#x27;s space complexity measures how much space it takes to run as a function of the length of the input. Consider the following scenario: the problem of determining the frequency of array elements.</p>
-
+<br>
 <p>The pseudo-code is as follows: </p>
-
+<br>
 <code><br/> int freq[n];<br/>int a[n];<br/>for(int i = 0; i&lt;n; i++)<br/>{<br/>   cin&gt;&gt;a[i];<br/>   freq[a[i]]++;<br/>} </code>
 <br>
 <br>
 <h3>‍<strong>Tip #5. Look at Other People’s Code</strong></h3>
-
+<br>
 <p>Reviewing other programmers&#x27; code helps you understand the format, design patterns,  styling, and naming conventions consistency throughout the code. For that, you can find and explore the online communities of programmers like <a href="https://confluence.atlassian.com/bamboo/stash-590257906.html" target="_blank">Stash</a>, <a href="https://github.com/" target="_blank">GitHub</a>, <a href="https://discuss.codecademy.com/?utm_source=ccblog&amp;utm_medium=ccblog&amp;utm_campaign=ccblog&amp;utm_content=code_review_blog" target="_blank">Codeacademy Forums</a>, and <a href="https://bitbucket.org/" target="_blank">Bitbucket</a>.  </p>
-
+<br>
 <p>When you take part in code review platforms like GitHub and Stash, you need a pull request. This means the original programmer will add you as a reviewer, and when you finish your code review, the website will track all changes you make. You could also be conducting an internal code review at work, either in person or through a version control system that your company has implemented.</p>
 <br><br>
 <h3>‍<strong>Tip #6. Plan your Strategy to Deal with the Coding Challenge</strong></h3>
-
+<br>
 <p>Many learners often jump right into the project without a proper strategy and plan. This is one of the most common mistakes. Experienced developers make sure to have a strategy and a comprehensive project plan. In order to plan your strategy, you need to consider the following things.</p>
-<br>
+<br><br>
 <h4>Step 1: Choose a project that excites you</h4>
-
+<br>
 <p>Always start by deciding what project you want to work on. There are numerous suggestions suitable for various ability levels available on the internet. Because you&#x27;ll be investing a lot of time and effort into this project, make sure it&#x27;s something that stimulates and pleases you. If you have a project concept that displays your uniqueness, don&#x27;t be scared to overlook common project subjects!</p>
-<br>
+<br><br>
 <h4>Step 2: Find similar projects online</h4>
-<p>Look online for other people who have worked on similar tasks after you&#x27;ve come up with an idea. Many programmers post their work on the internet in order to get feedback and influence others. There are innumerable projects to examine, particularly in the open-source community.</p>
-<p>You can upload your project after each phase to see what your peers have to say about how to improve it. The online community is eager to assist students such as you! It&#x27;s not a bad idea to obtain a second opinion to see where you can improve.</p>
 <br>
+<p>Look online for other people who have worked on similar tasks after you&#x27;ve come up with an idea. Many programmers post their work on the internet in order to get feedback and influence others. There are innumerable projects to examine, particularly in the open-source community.</p>
+<br>
+<p>You can upload your project after each phase to see what your peers have to say about how to improve it. The online community is eager to assist students such as you! It&#x27;s not a bad idea to obtain a second opinion to see where you can improve.</p>
+<br><br>
 <h4>Step 3: Choose the tools and your language. </h4>
+<br>
 <p>Another step is to choose the language and tools you&#x27;ll use to develop your project. Choose a language to learn if you wish to learn more than one. If you&#x27;re undecided about language, think about what kind of language would be most beneficial to the project. The following are the languages you can choose from.</p>
+<br>
 <p>Example:</p>
 <ul role="list">
    <li>For Mobile apps: Object-C, JavaScript, Swift, and Java</li>
@@ -136,46 +141,62 @@
    <li>Machine Learning and Analytics: Julia, Python, R, and Clojure</li>
    <li>Enterprise applications: ErLang, C++, C#, Java</li>
 </ul>
+<br>
 <p>To write your code, you will also need a text editor. The most popular text editors are Notepad++, Sublime Text, and Vim. Choose an editor with auto-complete tools, FTP integration, find and replace functions, folder management systems, and syntax highlighting. </p>
-<br>
+<br><br>
 <h4>Step 4: Map the architecture of the project</h4>
+<br>
 <p>You can make the architecture of your project with sticky notes, or digitally so you can move around the pieces without any hassle. After that, connect each feature with a line. After creating your flowchart, you now need to write different inputs. Follow each input through the program to see which points it contacts as it moves through it. Make a list of them. Create the features needed to handle an unsupported input if you locate one.</p>
-<br>
+<br><br>
 <h4>Step 5: Add pseudocode to your program</h4>
-<p>Pseudocode is a plain-language explanation of an algorithm&#x27;s steps. In other words, your pseudocode is a step-by-step method for resolving the coding challenge. </p>
 <br>
+<p>Pseudocode is a plain-language explanation of an algorithm&#x27;s steps. In other words, your pseudocode is a step-by-step method for resolving the coding challenge. </p>
+<br><br>
 <h4>Step 6: Set deadlines to complete each step. </h4>
+<br>
 <p>Start with completing the most crucial features first, and then go step-by-step. </p>
 <br><br>
 <h3>‍<strong>Tip #7. Don&#x27;t Rush Things</strong></h3>
+<br>
 <p>There is a popular saying, &quot;Rome wasn&#x27;t built in a day,&quot; so don&#x27;t expect to arrive at the solution immediately. If you rush, things will start falling apart, and you will get stuck. Make sure to understand the problem first and then start solving it step-by-step. If you don&#x27;t understand the problem, you can&#x27;t solve it. </p>
+<br>
 <p>Many people start coding without having prior knowledge and understanding of it and often get stuck. So, in order to solve any coding problem, it is important to correctly understand exactly what it is first. </p>
+<br>
 <p>When you understand the coding problem, write it down on a piece of paper and start solving it. Remember, code, syntax, and efficiency aren&#x27;t important right now, so don&#x27;t think about them just yet. If you think you can’t solve the problem, make sure to keep trying until you arrive at a solution. </p>
 <br><br>
 <h3>‍<strong>Tip #8. Keep Practicing</strong></h3>
+<br>
 <p>“Practice makes improvement.” This phrase stands true in coding as well. The more code problems you solve, the more proficient you become. Make sure to start with simpler problems and work your way up to more complex ones. </p>
 <p>You can also go back to the problems you&#x27;ve already solved and tackle them in a new, or similar way. Remember that everything takes time, so don&#x27;t be too hard on yourself if you can&#x27;t solve a problem right away!</p>
 <br><br>
 <h2>Bonus Coding Challenge Tips</h2>
 <br><br>
 <h3>‍<strong>Bonus Tip #9. Read Discussions on Blind</strong></h3>
+<br>
 <p>‍<a href="https://www.teamblind.com/articles/Topics" target="_blank">Blind</a> is an app for anonymous communication between professionals around the world, including software developers. It&#x27;s a community of almost 3 million experts that share industry-specific advice and their honest feedback about the companies they work at - their salaries, interview processes, promotions, and perks. Many of them work for FAANG (Facebook, Apple, Amazon, Netflix, and Alphabet&#x27;s Google) and other industry giants. Everything is anonymous, so if you&#x27;re seeking professional advice regarding coding challenges, this app is a good source of information. You can even find information on the level of complexity, the time allocated, and the number of tasks - that other candidates are welcome to share.</p>
-
+<br>
 <p>A coding challenge helps employers to select the best candidates for the next stage of the interview process. Also called the &#x27;zero stage&#x27; of the interview, a coding challenge is a quick and easy way to see if the candidate is the right fit from the start. The coding challenges will help evaluate both coding techniques (things you already know) and engineering capabilities (things you potentially are capable of). So go ahead and check the discussions on Blind.</p>
 <br><br>
 <h3>‍<strong>Bonus Tip #10. Read “Cracking the Coding Interview”</strong></h3>
+<br>
 <p>This book by Gayle Laakmann McDowell includes around 200 programming problems and solutions that can be useful during coding interviews. The book also includes soft skills question examples and &quot;behind the scenes&quot; insights into how top firms hire developers.</p>
+<br>
 <p>The book&#x27;s author has extensive experience as a software engineer with tech behemoths such as Microsoft, Apple, and Google. She&#x27;s also interviewed over 700 individuals for software engineer posts, so she knows what she&#x27;s talking about.</p>
 <br><br>
 <h2>Which are the Most Popular Programming Challenge Websites</h2>
+<br>
 <p>Writing code is also all about coming up with solutions. To be good at anything, you need to have enough practice to master the skill. </p>
+<br>
 <p>Code challenge websites help you do that. Solving coding problems is a great way to improve your skills as you learn to code. </p>
+<br>
 <p>Programming challenges and puzzles can help you improve your problem-solving skills, and learning how to better use a programming language will give you more chances to get better jobs.</p>
+<br>
 <p>The following are the most popular programming challenge websites that help you sharpen your coding skills. </p>
 <br><br>
 <h3>‍<a href="https://www.hackerrank.com/" target="_blank">HackerRank</a> - For Beginners to Intermediate </h3>
-<p>‍</p>
+<br>
 <p>‍<a href="https://www.hackerrank.com/" target="_blank">HackerRank</a> is one of the most popular websites to practice coding. When using HackerRank you should know that:</p>
+<br>
 <ul role="list">
    <li>Developers say programming challenges on HackerRank are generally better than on other platforms, which means they&#x27;re more out of the ordinary.</li>
    <li>HackerRank has a great interface (but don&#x27;t base your decision on UI only).</li>
@@ -183,13 +204,17 @@
    <li>HackerRank is better for beginners and students that would like to master a new language.</li>
    <li>HackerRank allows developers to apply for open positions at companies using their score on HackerRank which can be easily accessed online.</li>
 </ul>
+<br>
 <p>If you can find the company you&#x27;re applying for in the LeetCode Premium section, subscribe and practice there. If the company you&#x27;re applying for is not as big as FAANG (Facebook, Apple, Amazon, Netflix, and Alphabet&#x27;s Google), then go with HackerRank coding challenges. Either way, focus on one platform at a time.</p>
 <br><br>
 <h3>‍<a href="https://leetcode.com/" target="_blank">LeetCode</a> - For Intermediate to Advanced Coding</h3>
-<p>LeetCode&#x27;s technical interview platform is a great place to start practicing with coding challenges to help you improve your skills before the real thing. Their platform offers approximately 200 challenges, in 14 programming languages. Besides its large number of challenges, we also like that after completing a challenge, you can view stats - such as how fast your code ran compared to other users. There&#x27;s also a section of the website dedicated to resources that can help you mock interviews with tasks considering the specifics of individual companies. LeetCode&#x27;s Premium version can be really helpful if you have the budget for it. For $35/month, you can unlock a section where you can review specific interview questions for companies like Facebook, Google, Apple, and Amazon. These questions were generously provided by a community of developers that have already landed their dream jobs and want to give back.</p>
 <br>
+<p>LeetCode&#x27;s technical interview platform is a great place to start practicing with coding challenges to help you improve your skills before the real thing. Their platform offers approximately 200 challenges, in 14 programming languages. Besides its large number of challenges, we also like that after completing a challenge, you can view stats - such as how fast your code ran compared to other users. There&#x27;s also a section of the website dedicated to resources that can help you mock interviews with tasks considering the specifics of individual companies. LeetCode&#x27;s Premium version can be really helpful if you have the budget for it. For $35/month, you can unlock a section where you can review specific interview questions for companies like Facebook, Google, Apple, and Amazon. These questions were generously provided by a community of developers that have already landed their dream jobs and want to give back.</p>
+<br><br>
 <h4><strong>Top Hits from LeetCode Premium</strong></h4>
+<br>
 <p>There are also more benefits, apart from Premium Subscriptions, to practicing coding challenges with LeetCode: </p>
+<br>
 <ul role="list">
    <li>Developers prefer LeetCode for their straightforward tasks followed by the theory (which is mostly lacking in HackerRank).</li>
    <li>Specific challenges, such as SQL, are better on LeetCode than, for instance, on HackerRank. LeetCode also offers more support for specific languages, such as Go or C.</li>
@@ -197,41 +222,35 @@
 </ul>
 <br><br>
 <h3>‍<a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a> - For Intermediate to Advanced Coding</h3>
+<br>
 <p>Since 2014, FreeCodeCamp says that over 40,000 of its graduates have obtained IT jobs at Google, Amazon, Microsoft, Apple, Spotify, and various other organizations. </p>
+<br>
 <p>The curriculum at FreeCodeCamp includes ten areas of study, each of which takes roughly 300 hours to finish, for 3,000 hours of training. The organization also provides thousands of hours of educational content on its YouTube channel.</p>
+<br>
 <p>Graduates can use a robust alumni network; freeCodeCamp has over 115,000 alumni on LinkedIn. FreeCodeCamp also offers coding interview practice with thousands of hours of coding assignments.</p>
 <br><br>
 <h3>‍<a href="https://www.topcoder.com/challenges/?tracks[DS]=true&amp;tracks[Des]=true&amp;tracks[Dev]=true&amp;tracks[QA]=true&amp;types[]=CH&amp;types[]=F2F&amp;types[]=TSK" target="_blank">TopCoder</a> - For Intermediate to Advanced Coding</h3>
-<figure class="w-richtext-align-center w-richtext-figure-type-image">
-   <div><img src="https://assets-global.website-files.com/5dbb30f00775d4350591a4e5/6279637df071e05a81701986_KEOqQ3fx1ThdraAyqiArko2kkbm2iVsQ0u77vVDxMyvYSLYlyfIpdKj33z12LytcrW4vdPjc6g8cuTMFOzi0P4V2mKc6CNE4dkl20GbHhT2ey7_zGIuQk4CEyjpTJjB59WdRypHCDjbQqWJZ9w.png" alt="top coder coding challanges microverse"/></div>
-   <figcaption><a href="https://www.topcoder.com/" target="_blank">https://www.topcoder.com/</a></figcaption>
-</figure>
+<br>
 <p>TopCoder, one of the oldest websites for competitive coding challenges, is still very important and relevant in terms of giving you the best source of competitive coding.</p>
+<br>
 <p>TopCoder has weekly challenges and competitions in web design and algorithms, programming, SQL, algebra, and many other exciting ways to learn. Many different technologies are used to help with editing, and they&#x27;ve built one of the largest developer crowdsourcing groups in the world on the internet.</p>
 <br><br>
 <h3><a href="https://coderbyte.com/" target="_blank">Coderbyte</a> - Novice, and Intermediate Level </h3>
-<figure style="max-width:1485pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image">
-   <div><img src="https://assets-global.website-files.com/5dbb30f00775d4350591a4e5/6279637d98aa9a3fc2adaf00_hliHeyTVJmWFglo3s7O8C0NVnm-m09vFqLYlj7iyhInFv4nBhdGQ1akaYmUHLZDfyz0wP1p-jHUvOlfZX4nySyVVubYw-5SP3fHQV9FVlGCkR5F6IgV7mj0JoEImuAiPoVrVkSInKIEvk2LOVA.png" alt=""/></div>
-   <figcaption><a href="https://coderbyte.com/" target="_blank">https://coderbyte.com/</a></figcaption>
-</figure>
+<br>
 <p>Coderbyte offers over 200 coding problems to tackle in their online editor. Coderbyte provides a wide range of coding challenges for novice and intermediate-level coders, and it can significantly improve your coding skills. You can use ten different <strong>programming languages</strong> with Coderbyte, and they provide a choice of official challenge solutions as well as a large number of user solutions. Coderbyte also offers classes on web development, algorithms, data structures, and some preparation for coding boot camps.</p>
 <br><br>
 <h3><a href="https://projecteuler.net/" target="_blank">Project Euler</a> - Novice, and Intermediate Level </h3>
-<p> </p>
-<figure style="max-width:1290pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image">
-   <div><img src="https://assets-global.website-files.com/5dbb30f00775d4350591a4e5/6279637d1efa49b5091c0c46_c8P_zSBXO7G8ACH80hoQdYyJTMUwtzWQ1fimFkPvy2jFUowrjDVkFj_WvXOP05Ylyyf6DYKjzu9UAld8v4CN90dfhkubbni2kEIqEbseKNPdSce0KK4O_smwZxwtKRNyE7JhI4EllpYRLKvH2Q.png" alt=""/></div>
-   <figcaption><a href="https://projecteuler.net/" target="_blank">https://projecteuler.net/</a></figcaption>
-</figure>
+<br>
 <p>ProjectEuler is perhaps the best source for coding problems in math and computer sciences. It focuses on more advanced knowledge, so it is vital that you have some math understanding and other skills.</p>
+<br>
 <p>Their challenges involve building a program to solve difficult arithmetic problems or equations. It helps in your creative thinking, learning, and advancement in the programming language. They provide weekly challenges even though they do not provide an online code editor.</p>
 <br><br>
 <h3><a href="https://www.codechef.com/" target="_blank">CodeChef</a> - For All Levels</h3>
-<figure style="max-width:1459pxpx" class="w-richtext-align-fullwidth w-richtext-figure-type-image">
-   <div><img src="https://assets-global.website-files.com/5dbb30f00775d4350591a4e5/6279637d578f61c08822d231_5GeJiDjUuTnySae7M1T5gwRq1ZF5khkKpeclMyxWBdq-nM2GA-kIYVnQv98UMGkodOnc_-O_YLn9LcmxhCyviDqfVull9Sj2acMWML1BfmZOZSAs9XEW0sA46gYij2aKURWUezkkRntiUg6OFQ.png" alt=""/></div>
-   <figcaption><a href="https://www.codechef.com/" target="_blank">https://www.codechef.com/</a></figcaption>
-</figure>
+<br>
 <p>This is an India-based competitive programming website that offers a virtual sea of challenges for beginning, intermediate, and even advanced coders.</p>
+<br>
 <p>CodeChef provides an online editor as well as collections of categorized tasks. It offers a large community of coders and programmers who participate in its forums and discussion boards, which is one of its greatest advantages. They create courses, conduct competitions, and, most importantly, assist you with your coding issues so that you may learn as effectively as possible.</p>
 <br><br>
 <h3><strong>Conclusion </strong></h3>
+<br>
 <p>If you want to prepare for coding challenges and are looking for the best and most effective ways to do so, <a href="https://support.microverse.org/en/articles/3047108-what-are-the-microverse-coding-challenges" target="_blank">Microverse </a>is a name you can rely on. Microverse can assist you through its “<a href="https://support.microverse.org/en/articles/2946210-what-is-level-up#:~:text=The%20Microverse%20%22Level%20Up%22%20experience,applicants%20from%20across%20the%20world." target="_blank">Level Up” experience</a> which helps you to prepare for coding challenges.</p>
