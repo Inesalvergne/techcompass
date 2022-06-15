@@ -575,17 +575,17 @@ data_sci_tips = Resource.create!(
 
 bes = File.open("db/bes.txt")
 senior_be = Resource.create!(
-                  title: "Senior Back-End Developer Tips",
-                  summary: "PREVIEW: Senior front end developers have one of the highest paying jobs in the tech industry. The average senior
-                  front end developer  makes over $114,000 per year. Senior front end developers are in high demand as the
-                  tech industry focuses on user friendliness within their apps and services. So, if you are ready to hop on board the
-                  front end development movement, you may be wondering what an interview is like for such a prestigious position.
-                  This article has the breakdown plus tips on how to ace your own Senior front end development interview.",
-                  votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
-                  level: "Senior",
-                  user: User.where.not("full_name = 'Ines'").sample,
-                  tags: "Back-End Developer",
-                  rich_content: bes.read)
+               title: "Senior Back-End Developer Tips",
+               summary: "PREVIEW: Senior front end developers have one of the highest paying jobs in the tech industry. The average senior
+               front end developer  makes over $114,000 per year. Senior front end developers are in high demand as the
+               tech industry focuses on user friendliness within their apps and services. So, if you are ready to hop on board the
+               front end development movement, you may be wondering what an interview is like for such a prestigious position.
+               This article has the breakdown plus tips on how to ace your own Senior front end development interview.",
+               votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
+               level: "Senior",
+               user: User.where.not("full_name = 'Ines'").sample,
+               tags: "Back-End Developer",
+               rich_content: bes.read)
                   bes.close
 
 image12 = URI.open("https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
