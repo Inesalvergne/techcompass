@@ -565,7 +565,7 @@ data_sci_tips = Resource.create!(
                   in. It is also important to consider what employers are looking for in a data scientist.
                   These can have a huge impact on what you do each day, and your overall satisfaction — and
                   success — in a role. This article will go over what you need to know before applying to a data Science
-                  position",
+                  position.",
                   votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
                   level: "Junior",
                   user: User.where.not("full_name = 'Ines'").sample,
