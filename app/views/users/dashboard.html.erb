@@ -31,7 +31,7 @@
           <%= render "shared/goal", goal: @goal %>
         <% end %>
         <% unless @jobs.nil? %>
-          <a class= "text-decoration-none" data-edit-goal-target="edit"
+          <a class= "text-decoration-none custom-link" data-edit-goal-target="edit"
              data-action="click->edit-goal#displayForm">Edit Your Goal</a>
         <% end %>
       </div>
