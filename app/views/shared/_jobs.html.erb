@@ -3,12 +3,12 @@
   <div class="row">
     <div class="col bg-light me-1 d-flex flex-column px-0 py-4 align-items-center justify-content-start">
       <h5 class="text-center mb-3 fw-bold">Wishlist</h5>
-      <ul class="list-unstyled" data-controller="drag" id="Wishlist">
+      <ul class="list-unstyled list-custom" data-controller="drag" id="Wishlist">
         <% @jobs.select do |job| %>
           <% if job.status == 'Wishlist' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-wishlist">
+                <div class="container-job bg-white d-flex flex-column p-3 my-4 border-wishlist">
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
@@ -20,12 +20,12 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column px-0 py-4 align-items-center justify-content-start">
       <h5 class="text-center mb-3 fw-bold">Applied</h5>
-      <ul class="list-unstyled" data-controller="drag" id="Applied">
+      <ul class="list-unstyled list-custom" data-controller="drag" id="Applied">
         <% @jobs.select do |job| %>
           <% if job.status == 'Applied' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-applied">
+                <div class="container-job bg-white d-flex flex-column p-3 my-4 border-applied">
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
@@ -37,12 +37,12 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column px-0 py-4 align-items-center justify-content-start">
       <h5 class="text-center mb-3 fw-bold">Interview</h5>
-      <ul class="list-unstyled" data-controller="drag" id="Interview">
+      <ul class="list-unstyled list-custom" data-controller="drag" id="Interview">
         <% @jobs.select do |job| %>
           <% if job.status == 'Interview' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-interview">
+                <div class="container-job bg-white d-flex flex-column p-3 my-4 border-interview">
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
@@ -54,12 +54,12 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column px-0 py-4 align-items-center justify-content-start">
       <h5 class="text-center mb-3 fw-bold">Decision</h5>
-      <ul class="list-unstyled" data-controller="drag" id="Decision">
+      <ul class="list-unstyled list-custom" data-controller="drag" id="Decision">
         <% @jobs.select do |job| %>
           <% if job.status == 'Decision' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-decision">
+                <div class="container-job bg-white d-flex flex-column p-3 my-4 border-decision">
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
@@ -71,12 +71,12 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column px-0 py-4 align-items-center justify-content-start">
       <h5 class="text-center mb-3 fw-bold">Offer</h5>
-      <ul class="list-unstyled" data-controller="drag" id="Offer">
+      <ul class="list-unstyled list-custom" data-controller="drag" id="Offer">
         <% @jobs.select do |job| %>
           <% if job.status == 'Offer' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-offer">
+                <div class="container-job bg-white d-flex flex-column p-3 my-4 border-offer">
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
@@ -88,12 +88,12 @@
     </div>
     <div class="col bg-light mx-1 d-flex flex-column px-0 py-4 align-items-center justify-content-start">
       <h5 class="text-center mb-3 fw-bold">Rejected</h5>
-      <ul class="list-unstyled" data-controller="drag" id="Rejected">
+      <ul class="list-unstyled list-custom" data-controller="drag" id="Rejected">
         <% @jobs.select do |job| %>
           <% if job.status == 'Rejected' %>
             <li data-id="<%= job.id %>">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
-                <div class="container-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-rejected">
+                <div class="container-job bg-white d-flex flex-column p-3 my-4 border-rejected">
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
                 </div>
