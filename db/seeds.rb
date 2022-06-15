@@ -290,7 +290,7 @@ web developer interview, a candidate should be able to demonstrate great organiz
 to detail. These professionals are in a higher skill intensive role and should be able to demonstrate sharpness and
 presence of mind. Weaker candidates generally struggle to communicate well and show low-quality interpersonal skills.
 In the article below, you will be exposed to more common questions asked in a full-stack interview.",
-    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
     level: "Junior",
     tags: "Full-Stack Developer",
     user: User.where.not("full_name = 'Ines'").sample,
@@ -298,7 +298,7 @@ In the article below, you will be exposed to more common questions asked in a fu
 )
 piq.close
 
-image1 = URI.open("https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+image1 = URI.open("https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80")
 basic_programmer_interviewqs.image.attach(io: image1, filename: 'image1.jpg', content_type: 'image/jpg')
 basic_programmer_interviewqs.save!
 
@@ -312,7 +312,7 @@ basic_interview_qs = Resource.create!(
     is always expected from you. Coding skills are always the deciding factor in any programming interview. In this
     article, we will discuss several popular coding interview questions you should absolutely know, to crack those
     interviews and get your dream job.",
-    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
     level: "Junior",
     tags: "Full-Stack Developer",
     user: User.where.not("full_name = 'Ines'").sample,
@@ -332,15 +332,15 @@ senior_interview_qs = Resource.create!(
     There are more jobs available for people who specialize on the front end with higher salaries than before.
     So you might be asking what kinds of questions get asked in a senior engineer interview, and what is expected
     of a senior front-end developer.
-    Well, here are some of the questions I like to ask or have been asked and things I look for in an answer.",
-    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    Well, here are some of the questions I like to ask or have been asked and things I look for in an answer."
+    votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
     level: "Senior",
     tags: "Front-End Developer",
     user: User.where.not("full_name = 'Ines'").sample,
     rich_content: fes_interviewqs.read)
     fes_interviewqs.close
 
-image3 = URI.open("https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80")
+image3 = URI.open("https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80")
 senior_interview_qs.image.attach(io: image3, filename: 'image3.jpg', content_type: 'image/jpg')
 senior_interview_qs.save!
 
@@ -349,14 +349,14 @@ fsportfolio = File.open("db/fs_devportfolio.txt")
 full_stack_portfolio = Resource.create!(
         title: "Full Stack Developer Portfolio Tips",
         summary: "...",
-        votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+        votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
         level: "Junior, Senior",
         tags: "Front-End Developer",
         user: User.where.not("full_name = 'Ines'").sample,
         rich_content: fsportfolio.read)
         fsportfolio.close
 
-image4 = URI.open("https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80")
+image4 = URI.open("https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80")
 full_stack_portfolio.image.attach(io: image4, filename: 'image4.jpg', content_type: 'image/jpg')
 full_stack_portfolio.save!
 
@@ -370,7 +370,7 @@ back_end_python = Resource.create!(
         Here, you will come across some of the best interview tips related to Python.
         Let us take a look at some of the most popular and significant Python
         programming interview questions and answers to help you ace your interviews."
-        votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+        votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
         level: "Senior",
         tags: "Back-End Developer",
         user: User.where.not("full_name = 'Ines'").sample,
@@ -385,7 +385,7 @@ fes_iqs = File.open("db/fes_iqs.txt")
 front_end_senior = Resource.create!(
           title: "Senior Front-End Interview Preparation",
           summary: ,
-          votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+          votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
           level: "Senior",
           user: User.where.not("full_name = 'Ines'").sample,
           tags: "Front-End Developer",
@@ -407,7 +407,7 @@ demo_seed = Resource.create!(
           It is basically the first phase before a technical interview. Even if you aren't looking for a job,
           there are a lot of programming challenges that you can take part in to improve your skills. This article will
           take you through several examples of coding challenges, tips and additional websites to practice."
-          votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+          votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
           level: "Junior",
           user: User.where.not("full_name = 'Ines'").sample,
           tags: "Full-Stack Developer",
@@ -425,8 +425,8 @@ back_end_ruby = Resource.create!(
                 summary: "Ruby is a dynamic, reflective, open source programming language that aims on simplicity
                 and productivity. Interviews can be stressful, so we've gathered several questions and answers that go
                 over all you need to know to aid in your preparation to be the best Ruby developer you can be and ace your
-                interviews",
-                votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+                interviews.",
+                votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
                 level: "Junior",
                 tags: "Back-End Developer",
                 user: User.where.not("full_name = 'Ines'").sample,
@@ -446,7 +446,7 @@ demo_seed2 = Resource.create!(
              perform at your best in your next interview. You will learn about the phases of the interview process, company
              requirements, how to go about preparing for the technical challenges, your elevator pitch,
              as well as best practices of interview preparation and execution.",
-             votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+             votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
              level: "Junior",
              user: User.where.not("full_name = 'Ines'").sample,
              tags: "Full-Stack Developer",
@@ -468,8 +468,8 @@ digital_marketing_interview = Resource.create!(
   I should not have been too surprised, given digital marketing's embryonic state.
   Still, the trip-ups among the candidates were common enough that I thought I could
   provide some tips to anyone looking to prepare for a digital marketing interview, and that's
-  what you will find in this article",
-  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+  what you will find in this article."
+  votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
   level: "Junior",
   tags: "Digital Marketer",
   user: User.where.not("full_name = 'Ines'").sample,
@@ -489,12 +489,16 @@ back_end_skills = Resource.create!(
   they are in high demand in the vast scale of companies. But firstly, you need to understand the basics of backend
   development. Certain skill sets will define your career in backend development and those are the fundamental ones.
   So, today, we are going to discuss the top 7 skills which are required to become a successful backend developer.",
-  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+  votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
   level: "Junior",
   tags: "Back-End Developer",
   user: User.where.not("full_name = 'Ines'").sample,
   rich_content: be_skills.read)
   be_skills.close
+
+  user: User.where.not("full_name = 'Ines'").sample,
+  rich_content: be_skills.read)
+
 
 image10 = URI.open("https://images.unsplash.com/photo-1581089778245-3ce67677f718?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
 back_end_skills.image.attach(io: image10, filename: 'image10.jpg', content_type: 'image/jpg')
@@ -511,8 +515,8 @@ back_end_roadmap = Resource.create!(
                   own pace and get help when you need it!
                   As a new developer, it is essential to know the basics before moving
                   to more advanced topics. This roadmap will provide an overview of what
-                  you need to know as a beginner getting started with backend development.",
-                  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+                  you need to know as a beginner getting started with backend development."
+                  votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
                   level: "Junior",
                   user: User.where.not("full_name = 'Ines'").sample,
                   tags: "Back-End Developer",
@@ -556,12 +560,23 @@ data_sci_tips = Resource.create!(
                   These can have a huge impact on what you do each day, and your overall satisfaction — and
                   success — in a role. This article will go over what you need to know before applying to a data Science
                   position",
-                  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+                  votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
                   level: "Junior",
                   user: User.where.not("full_name = 'Ines'").sample,
                   tags: "Back-End Developer",
                   rich_content: dst.read)
                   dst.close
+
+bes = File.open("db/bes.txt")
+back_end_roadmap = Resource.create!(
+                  title: "Senior Back-End Developer Tips",
+                  summary: "...",
+                  votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
+                  level: "Senior",
+                  user: User.where.not("full_name = 'Ines'").sample,
+                  tags: "Back-End Developer",
+                  rich_content: bes.read)
+                  bes.close
 
 image12 = URI.open("https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
 back_end_roadmap.image.attach(io: image12, filename: 'image12.jpg', content_type: 'image/jpg')

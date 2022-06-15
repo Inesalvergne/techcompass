@@ -1,10 +1,10 @@
 <div class="container">
   <h3 class="fw-bold"><%= @resource.title %></h3>
   <div class="d-flex flex-row align-items-center">
-    <% if current_user.image_url.nil? %>
-      <%= image_tag("dummy-image.png", class:"img-avatar mx-2") %>
+    <% if @resource.user.image_url.nil? %>
+      <%= image_tag("default-avatar.webp", class:"img-avatar mx-2") %>
     <% else %>
-      <%= cl_image_tag current_user.image_url, class:"img-avatar" %>
+      <%= image_tag("#{@resource.user.image_url}", class:"img-topbar mx-2") %>
     <% end %>
     <p><%= "by #{@resource.user.full_name}" %></p>
   </div>
