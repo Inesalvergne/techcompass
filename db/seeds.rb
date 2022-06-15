@@ -285,7 +285,7 @@ piq = File.open("db/programmer_interview_questions.txt")
 basic_programmer_interviewqs = Resource.create!(
     title: "Essential Full-Stack interview questions",
     summary: "...",
-    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
     level: "Junior",
     tags: "Full-Stack Developer",
     user: User.where.not("full_name = 'Ines'").sample,
@@ -293,7 +293,7 @@ basic_programmer_interviewqs = Resource.create!(
 )
 piq.close
 
-image1 = URI.open("https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
+image1 = URI.open("https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80")
 basic_programmer_interviewqs.image.attach(io: image1, filename: 'image1.jpg', content_type: 'image/jpg')
 basic_programmer_interviewqs.save!
 
@@ -303,7 +303,7 @@ efave_lang = File.open("db/efave_lang.txt")
 basic_interview_qs = Resource.create!(
     title: "Basic programming interview questions",
     summary: "...",
-    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
     level: "Junior",
     tags: "Full-Stack Developer",
     user: User.where.not("full_name = 'Ines'").sample,
@@ -320,14 +320,14 @@ fes_interviewqs = File.open("db/fes_interviewqs.txt")
 senior_interview_qs = Resource.create!(
     title: "Senior Front-End Interview Questions",
     summary: "...",
-    votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+    votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
     level: "Senior",
     tags: "Front-End Developer",
     user: User.where.not("full_name = 'Ines'").sample,
     rich_content: fes_interviewqs.read)
     fes_interviewqs.close
 
-image3 = URI.open("https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80")
+image3 = URI.open("https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80")
 senior_interview_qs.image.attach(io: image3, filename: 'image3.jpg', content_type: 'image/jpg')
 senior_interview_qs.save!
 
@@ -336,14 +336,14 @@ fsportfolio = File.open("db/fs_devportfolio.txt")
 full_stack_portfolio = Resource.create!(
         title: "Full Stack Developer Portfolio Tips",
         summary: "...",
-        votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+        votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
         level: "Junior, Senior",
         tags: "Front-End Developer",
         user: User.where.not("full_name = 'Ines'").sample,
         rich_content: fsportfolio.read)
         fsportfolio.close
 
-image4 = URI.open("https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80")
+image4 = URI.open("https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80")
 full_stack_portfolio.image.attach(io: image4, filename: 'image4.jpg', content_type: 'image/jpg')
 full_stack_portfolio.save!
 
@@ -352,7 +352,7 @@ bep_iqs = File.open("db/bep_iqs.txt")
 back_end_python = Resource.create!(
         title: "Python Developer Interview Tips",
         summary: "...",
-        votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+        votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
         level: "Senior",
         tags: "Back-End Developer",
         user: User.where.not("full_name = 'Ines'").sample,
@@ -367,7 +367,7 @@ fes_iqs = File.open("db/fes_iqs.txt")
 front_end_senior = Resource.create!(
           title: "Senior Front-End Interview Preparation",
           summary: "...",
-          votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+          votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
           level: "Senior",
           user: User.where.not("full_name = 'Ines'").sample,
           tags: "Front-End Developer",
@@ -383,7 +383,7 @@ demo1 = File.open("db/10challenges.txt")
 demo_seed = Resource.create!(
           title: "10 Coding Challenges, Tips, and Websites to Practice",
           summary: "...",
-          votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+          votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
           level: "Junior",
           user: User.where.not("full_name = 'Ines'").sample,
           tags: "Full-Stack Developer",
@@ -399,7 +399,7 @@ demo3 = File.open("db/ber_iqs.txt")
 back_end_ruby = Resource.create!(
                 title: "Ruby Interview Questions",
                 summary: "...",
-                votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+                votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
                 level: "Junior",
                 tags: "Back-End Developer",
                 user: User.where.not("full_name = 'Ines'").sample,
@@ -415,7 +415,7 @@ demo2 = File.open("db/softwaredev_int.txt")
 demo_seed2 = Resource.create!(
              title: "How To Prepare For A Software Developer Interview",
              summary: "...",
-             votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+             votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
              level: "Junior",
              user: User.where.not("full_name = 'Ines'").sample,
              tags: "Full-Stack Developer",
@@ -428,14 +428,14 @@ demo_seed2.save!
 
 dm_iqs = File.open("db/dm_interview.txt")
 digital_marketing_interview = Resource.create!(
-  title: "Digital Marketing Interview Tips",
-  summary: "...",
-  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-  level: "Junior",
-  tags: "Digital Marketer",
-  user: User.where.not("full_name = 'Ines'").sample,
-  rich_content: dm_iqs.read)
-  dm_iqs.close
+                              title: "Digital Marketing Interview Tips",
+                              summary: "...",
+                              votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
+                              level: "Junior",
+                              tags: "Digital Marketer",
+                              user: User.where.not("full_name = 'Ines'").sample,
+                              rich_content: dm_iqs.read)
+                              dm_iqs.close
 
 image9 = URI.open("https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
 digital_marketing_interview.image.attach(io: image9, filename: 'image9.jpg', content_type: 'image/jpg')
@@ -444,14 +444,14 @@ digital_marketing_interview.save!
 
 be_skills = File.open("db/be_skills.txt")
 back_end_skills = Resource.create!(
-  title: "7 Must-Have Back-End Developer Skills",
-  summary: "...",
-  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
-  level: "Junior",
-  tags: "Back-End Developer",
-  user: User.where.not("full_name = 'Ines'").sample,
-  rich_content: be_skills.read)
-  be_skills.close
+                  title: "7 Must-Have Back-End Developer Skills",
+                  summary: "...",
+                  votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
+                  level: "Junior",
+                  tags: "Back-End Developer",
+                  user: User.where.not("full_name = 'Ines'").sample,
+                  rich_content: be_skills.read)
+                  be_skills.close
 
 image10 = URI.open("https://images.unsplash.com/photo-1581089778245-3ce67677f718?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80")
 back_end_skills.image.attach(io: image10, filename: 'image10.jpg', content_type: 'image/jpg')
@@ -461,7 +461,7 @@ be_rm = File.open("db/be_roadmap.txt")
 back_end_roadmap = Resource.create!(
                   title: "Complete Back-End Developer Roadmap",
                   summary: "...",
-                  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+                  votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
                   level: "Junior",
                   user: User.where.not("full_name = 'Ines'").sample,
                   tags: "Back-End Developer",
@@ -499,7 +499,7 @@ bes = File.open("db/bes.txt")
 back_end_roadmap = Resource.create!(
                   title: "Senior Back-End Developer Tips",
                   summary: "...",
-                  votes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].sample,
+                  votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
                   level: "Senior",
                   user: User.where.not("full_name = 'Ines'").sample,
                   tags: "Back-End Developer",
