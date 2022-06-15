@@ -7,7 +7,7 @@
 }
 
 .wrapper-kpi {
-  border-left: 0.1rem solid $light-grey;
+  // border-left: 0.1rem solid $light-grey;
   margin-left: 50px;
 
   div {
@@ -31,4 +31,8 @@
    // padding: 0;
   }
 
+}
+
+.custom-link {
+  cursor: pointer;
 }
