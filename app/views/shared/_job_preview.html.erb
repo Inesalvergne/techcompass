@@ -1,7 +1,7 @@
 <div class="grid-container-job">
         <% @jobs_preview.each do |job| %>
           <% if job.status == 'Wishlist' %>
-            <div class="grid-item-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-wishlist">
+            <div class="grid-item-job bg-white d-flex flex-column p-3 my-4 border-wishlist">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
@@ -9,7 +9,7 @@
               <% end %>
           </div>
           <% elsif job.status == 'Applied' %>
-            <div class="grid-item-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-applied">
+            <div class="grid-item-job bg-white d-flex flex-column p-3 my-4 border-applied">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
@@ -18,7 +18,7 @@
               <% end %>
             </div>
            <% elsif job.status == 'Interview' %>
-            <div class="grid-item-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-interview">
+            <div class="grid-item-job bg-white d-flex flex-column p-3 my-4 border-interview">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
@@ -26,7 +26,7 @@
               <% end %>
             </div>
           <% elsif job.status == 'Decision' %>
-            <div class="grid-item-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-decision">
+            <div class="grid-item-job bg-white d-flex flex-column p-3 my-4 border-decision">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
@@ -34,7 +34,7 @@
               <% end %>
             </div>
           <% elsif job.status == 'Offer' %>
-            <div class="grid-item-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-offer">
+            <div class="grid-item-job bg-white d-flex flex-column p-3 my-4 border-offer">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
@@ -42,7 +42,7 @@
               <% end %>
             </div>
           <% elsif job.status == 'Rejected' %>
-            <div class="grid-item-job bg-white d-flex flex-column p-3 my-4 shadow-sm border-rejected">
+            <div class="grid-item-job bg-white d-flex flex-column p-3 my-4 border-rejected">
               <%= link_to job_path(job.id), class: 'text-decoration-none text-body' do %>
                   <h4 class="fw-bold mt-1 mb-3 text-break"><%= job.company %></h4>
                   <p class="fs-6"><%= job.role %></p>
