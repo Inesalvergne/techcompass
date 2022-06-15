@@ -29,6 +29,12 @@ li:hover svg path {
   fill: $purple;
 }
 
-li:hover a{
+li:hover a {
   color: $purple;
+}
+
+// active tab
+.active {
+  color: $purple !important;
+  margin: 0.5rem;
 }

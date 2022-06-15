@@ -3,8 +3,8 @@
   <%= image_tag("TechCompass-logo.png", height: '30', width: '135', class: "mt-4 mb-5 navbar-logo") %>
   <ul>
     <li class="mb-2 d-flex align-item-center">
-      <%= render 'shared/svg/icon_dashboard', class: "navbar-icon", height: '23', width: '23' %>
-      <%= link_to "Dashboard", dashboard_path, class: "m-2 navbar-link" %>
+      <%= render 'shared/svg/icon_dashboard', height: '23', width: '23' %>
+      <%= link_to "Dashboard", dashboard_path, class: active?("dashboard") %>
     </li>
     <li class="mb-2 d-flex align-item-center">
       <%= render 'shared/svg/icon_jobs2', class: "navbar-icon", height: '21', width: '21' %>
