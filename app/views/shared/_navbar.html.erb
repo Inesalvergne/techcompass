@@ -1,37 +1,31 @@
 <div class="navbar-container h-100 d-inline-block">
   <div class="m-3 navbar-content">
-  <%= image_tag("TechCompass-logo.png", height: '30', width: '135', class: "mt-4 mb-5 navbar-logo") %>
-  <ul>
-    <li class="mb-2 d-flex align-item-center">
-      <%= render 'shared/svg/icon_dashboard', height: '23', width: '23' %>
-      <%= link_to "Dashboard", dashboard_path, class: active?("dashboard") %>
-    </li>
-    <li class="mb-2 d-flex align-item-center">
-      <%= render 'shared/svg/icon_jobs2', class: "navbar-icon", height: '21', width: '21' %>
-      <%= link_to "My jobs", jobs_path, class: "m-2 navbar-link" %>
-    </li>
-    <%# <li class="mb-2 d-flex align-item-center">
-      <%= render 'shared/svg/icon_add_job', class: "navbar-icon", height: '23', width: '23' %>
-    <%# <%= link_to "Add a job", new_job_path, class: "m-2 navbar-link" %>
-    <%# </li> %>
-    <li class="mb-2 d-flex align-item-center">
-      <%= render 'shared/svg/icon_find_resource', class: "navbar-icon", height: '23', width: '23' %>
-      <%= link_to "Find a resource", resources_path, class: "m-2 navbar-link" %>
-    </li>
-    <li class="mb-2 d-flex align-item-center">
-      <%= render 'shared/svg/icon_add_resource2', class: "navbar-icon", height: '23', width: '23' %>
-      <%= link_to "Share a resource", new_resource_path, class: "m-2 navbar-link" %>
-    </li>
-    <li class="mb-2 d-flex align-item-center">
-      <%= render 'shared/svg/icon_my_resources', class: "navbar-icon", height: '40', width: '40' %>
-      <%= link_to "My resources", my_resources_resources_path, class: "m-2 navbar-link" %>
-    </li>
-    <li class="mb-2 d-flex align-item-center">
-      <%= render 'shared/svg/icon_logout', class: "navbar-icon", height: '23', width: '23' %>
-      <%= link_to "Log out", destroy_user_session_path, method: "delete", class: "m-2 navbar-link" %>
-    </li>
-  </ul>
-
-  <%# <%= link_to "My favorites resources",  toggle_favorite_resource_path , class: "navbar-link" %>
+    <%= image_tag("TechCompass-logo.png", height: '35', width: '156', class: "mt-4 mb-5 navbar-logo") %>
+    <ul>
+      <li class= " <%= active?("dashboard", "users") ? "active" : "not_active" %>">
+        <%= render 'shared/svg/icon_dashboard', height: '23', width: '23' %>
+        <%= link_to "Dashboard", dashboard_path, class: "m-2 navbar-link" %>
+      </li>
+      <li class= " <%= active?("index", "jobs") ? "active" : "not_active" %>">
+        <%= render 'shared/svg/icon_jobs2', class: "navbar-icon", height: '21', width: '21' %>
+        <%= link_to "My jobs", jobs_path, class: "m-2 navbar-link" %>
+      </li>
+      <li class= " <%= active?("index", "resources") ? "active" : "not_active" %>">
+        <%= render 'shared/svg/icon_find_resource', class: "navbar-icon", height: '23', width: '23' %>
+        <%= link_to "Find a resource", resources_path, class: "m-2 navbar-link" %>
+      </li>
+      <li class= " <%= active?("new", "resources") ? "active" : "not_active" %>">
+        <%= render 'shared/svg/icon_add_resource2', class: "navbar-icon", height: '23', width: '23' %>
+        <%= link_to "Share a resource", new_resource_path, class: "m-2 navbar-link" %>
+      </li>
+      <li class= " <%= active?("my_resources", "resources") ? "active" : "not_active" %>">
+        <%= render 'shared/svg/icon_my_resources', class: "navbar-icon", height: '40', width: '40' %>
+        <%= link_to "My resources", my_resources_resources_path, class: "m-2 navbar-link" %>
+      </li>
+      <li class="not_active">
+        <%= render 'shared/svg/icon_logout', class: "navbar-icon", height: '23', width: '23' %>
+        <%= link_to "Log out", destroy_user_session_path, method: "delete", class: "m-2 navbar-link" %>
+      </li>
+    </ul>
   </div>
 </div>
