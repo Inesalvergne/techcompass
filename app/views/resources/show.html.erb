@@ -1,12 +1,12 @@
-<div class="container">
+<div class="container-show-resource m-5">
   <h3 class="fw-bold"><%= @resource.title %></h3>
   <div class="d-flex flex-row align-items-center">
     <% if @resource.user.image_url.nil? %>
-      <%= image_tag("default-avatar.webp", class:"img-avatar mx-2") %>
+      <%= image_tag("default-avatar.webp", class:"img-avatar mr-2") %>
     <% else %>
-      <%= image_tag("#{@resource.user.image_url}", class:"img-topbar mx-2") %>
+      <%= image_tag("#{@resource.user.image_url}", class:"img-topbar mr-2") %>
     <% end %>
-    <p><%= "by #{@resource.user.full_name}" %></p>
+    <p class= "mb-0"><%= "by #{@resource.user.full_name}" %></p>
   </div>
   <p class="my-4"><%= @resource.summary %></p>
 
