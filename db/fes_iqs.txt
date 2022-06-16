@@ -1,19 +1,51 @@
-<h1>Behavioral Senior Front End Developer Interview Questions & Answers:</h1>
-<div class="w3-clear nextprev"><a class="iqa-right iqa-btn" href="download-pdf-Senior-Front-End-Developer">Download Interview PDF <i class="fa fa-download"></i></a></div>
-<div class="content">
-<!-- Responsive Ad1 -->
-<div style='float:left;margin-right:5px;' class="mainAds" id="mainAd1">
-<ins class="adsbygoogle responsive-top-rectangle" style="display:inline-block" data-full-width-responsive="true" data-ad-client="ca-pub-7639553616776769" data-ad-slot="8257031461" data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
+<h1>Behavioral Senior Front End Developer Interview Questions & Answers:</h1><br>
 <div class="main-content">
-<div class='answer' id='QID_87099'><p><strong><a class="questionLink" title="View All Answers" href="__Tell-me-when-have-you-solved-a-problem-that-didnrsquot-involve-you-coding"><span class="number">1</span>. Tell me when have you solved a problem that didn't involve you coding?</a></strong></p><p>This could be anything from the time they fixed the coffee machine, or helped a colleague fix their bike. It doesn't really matter what they did - it just gives you an indication of how they solve problems and interact in the wider corporate environment.</p></div><div class='answer' id='QID_87098'><p><strong><a class="questionLink" title="View All Answers" href="__Tell-us-what-do-you-know-about-CORS"><span class="number">2</span>. Tell us what do you know about CORS?</a></strong></p><p>CORS (Cross-Origin Resource Sharing) is a HTML5 staple that should be familiar to most front-end web developers. It allows you to request many different resources (jQuery, fonts, and so on) from a domain outside of the domain from which the resource came from.</p></div><div class='answer' id='QID_87097'><p><strong><a class="questionLink" title="View All Answers" href="__Tell-us-can-you-describe-your-workflow-when-you-create-a-web-page-or-web-app"><span class="number">3</span>. Tell us can you describe your workflow when you create a web page or web app?</a></strong></p><p>This is a good way to assess how your candidate approaches a basic chunk of work. Do they use snippets to quickly layout a basic HTML page, add a little jQuery and start coding? Or do they use a more in-depth approach such as Bower or Yeoman?</p></div><div class='answer' id='QID_87096'><p><strong><a class="questionLink" title="View All Answers" href="__Explain-me-a-project-that-disappointed-you-What-would-you-change"><span class="number">4</span>. Explain me a project that disappointed you. What would you change?</a></strong></p><p>Continuous self evaluation is a must for a developer. You do not want to employ someone who continues to make the same mistakes.</p></div><div class='answer' id='QID_87095'><p><strong><a class="questionLink" title="View All Answers" href="__Tell-me-what-tools-do-you-use-to-find-a-performance-bug"><span class="number">5</span>. Tell me what tools do you use to find a performance bug?</a></strong></p><p>This will depend on your candidate's development environment as different programming languages use different profilers and some frameworks have built-in debug tools to find performance issues. This doesn't matter too much, but their approach does.</p></div><div class='answer' id='QID_87094'><p><strong><a class="questionLink" title="View All Answers" href="__Tell-us-about-your-preferred-development-environment"><span class="number">6</span>. Tell us about your preferred development environment?</a></strong></p><p>It doesn't matter whether your candidate is working with your exact development environment or not - but you do need to find someone who is adaptable to different environments and will voice their opinions. It will also give you an indication of whether they have experience with frameworks, version control systems, unit testing, and others.</p></div><div class='answer' id='QID_87093'><p><strong><a class="questionLink" title="View All Answers" href="__Tell-us-how-are-you-keeping-up-with-the-latest-developments-in-web-development"><span class="number">7</span>. Tell us how are you keeping up with the latest developments in web development?</a></strong></p><p>In other words, this will determine if your candidate continues to learn programming and makes the effort to stay on top of his skills. You can ask your candidate about their favorite programming-related Twitter accounts and why they like it, for example. If your candidate doesn't use Twitter, ask which tech publications they read and authors or personalities in the dev world they admire and why.<br />
-<br />
-Web development is always changing, so being curious about the latest trends and forming opinions about them is typicially a good sign.</p></div><div class='answer' id='QID_87092'><p><strong><a class="questionLink" title="View All Answers" href="__Explain-me-what-a-Thread-Local-object-in-Python-Flask-is"><span class="number">8</span>. Explain me what a Thread-Local object in Python Flask is?</a></strong></p><p>Through Python Flask, front-end developers use thread local objects internally. This is a function of user-friendliness which does not require the user to pass objects around from one function to another. This paves the way to process a request alongside permitting to operate in a “threadsafe” condition. Although this approach is worthwhile, it is essential to obtain a valid request context for dependency injection or when you are trying to reuse the code which employs a value tagged to the request.</p></div><div class='answer' id='QID_87091'><p><strong><a class="questionLink" title="View All Answers" href="__Tell-us-what-are-some-of-your-best-soft-skills"><span class="number">9</span>. Tell us what are some of your best soft skills?</a></strong></p><p>You may be looking for a problem solver, brilliant communicator, or someone with a willingness to learn. Ask them to give examples of how they can demonstrate this skill, and use this to determine whether or not this fits what you are looking for. Depending on the nature of the job, you may prioritize certain soft skills over others.</p></div><div class='answer' id='QID_87090'><p><strong><a class="questionLink" title="View All Answers" href="__Tell-us-how-do-you-structure-your-CSS-and-JavaScript-to-make-it-easier-for-other-developers-to-work-"><span class="number">10</span>. Tell us how do you structure your CSS and JavaScript to make it easier for other developers to work with?</a></strong></p><p>Front end developers often work on code created by previous employees or operate as part of a team. This question gives you an idea of whether they can create websites or web applications that will be understandable by other employees. What to look for in an answer:<br />
-<br />
-Experience with code organization and code commenting<br />
-First-hand knowledge of what happens when code isn't commented appropriately<br />
-A willingness to make things easier on the other development teams<br />
-Example: "I organize my stylesheets with sections for each site component. Each section has comments throughout the code so other developers can change it."</p><p class='w3-clear nextprev'><a class='iqa-right iqa-btn' href='download-pdf-Senior-Front-End-Developer'>Download Interview PDF <i class='fa fa-download'></i></a></p></div><div id="last_msg_loader"></div>
+<div class='answer' id='QID_87099'>
+	<p><strong>1. Tell me when have you solved a problem that didn't involve you coding?</strong></p><br>
+	<p>This could be anything from the time they fixed the coffee machine, or helped a colleague fix their bike. It doesn't really matter what they did - it just gives you an indication of how they solve problems and interact in the wider corporate environment.</p><br>
+</div>
+<div class='answer' id='QID_87098'>
+	<p><strong>2. Tell us what do you know about CORS?</strong></p><br>
+	<p>CORS (Cross-Origin Resource Sharing) is a HTML5 staple that should be familiar to most front-end web developers. It allows you to request many different resources (jQuery, fonts, and so on) from a domain outside of the domain from which the resource came from.</p><br>
+</div>
+<div class='answer' id='QID_87097'>
+	<p><strong>3. Tell us can you describe your workflow when you create a web page or web app?</strong></p><br>
+	<p>This is a good way to assess how your candidate approaches a basic chunk of work. Do they use snippets to quickly layout a basic HTML page, add a little jQuery and start coding? Or do they use a more in-depth approach such as Bower or Yeoman?</p><br>
+</div>
+<div class='answer' id='QID_87096'>
+	<p><strong>4. Explain me a project that disappointed you. What would you change?</strong></p><br>
+	<p>Continuous self evaluation is a must for a developer. You do not want to employ someone who continues to make the same mistakes.</p><br>
+</div>
+<div class='answer' id='QID_87095'>
+	<p><strong>5. Tell me what tools do you use to find a performance bug?</strong></p><br>
+	<p>This will depend on your candidate's development environment as different programming languages use different profilers and some frameworks have built-in debug tools to find performance issues. This doesn't matter too much, but their approach does.</p><br>
+</div>
+<div class='answer' id='QID_87094'>
+	<p><strong>6. Tell us about your preferred development environment?</strong></p><br>
+	<p>It doesn't matter whether your candidate is working with your exact development environment or not - but you do need to find someone who is adaptable to different environments and will voice their opinions. It will also give you an indication of whether they have experience with frameworks, version control systems, unit testing, and others.</p><br>
+</div>
+<div class='answer' id='QID_87093'>
+	<p><strong>7. Tell us how are you keeping up with the latest developments in web development?</strong></p><br>
+	<p>In other words, this will determine if your candidate continues to learn programming and makes the effort to stay on top of his skills. You can ask your candidate about their favorite programming-related Twitter accounts and why they like it, for example. If your candidate doesn't use Twitter, ask which tech publications they read and authors or personalities in the dev world they admire and why.<br />
+		<br />
+		Web development is always changing, so being curious about the latest trends and forming opinions about them is typicially a good sign.
+	</p><br>
+</div>
+<div class='answer' id='QID_87092'>
+	<p><strong>8. Explain me what a Thread-Local object in Python Flask is?</strong></p><br>
+	<p>Through Python Flask, front-end developers use thread local objects internally. This is a function of user-friendliness which does not require the user to pass objects around from one function to another. This paves the way to process a request alongside permitting to operate in a “threadsafe” condition. Although this approach is worthwhile, it is essential to obtain a valid request context for dependency injection or when you are trying to reuse the code which employs a value tagged to the request.</p><br>
+</div>
+<div class='answer' id='QID_87091'>
+	<p><strong>9. Tell us what are some of your best soft skills?</strong></p><br>
+	<p>You may be looking for a problem solver, brilliant communicator, or someone with a willingness to learn. Ask them to give examples of how they can demonstrate this skill, and use this to determine whether or not this fits what you are looking for. Depending on the nature of the job, you may prioritize certain soft skills over others.</p><br>
+</div>
+<div class='answer' id='QID_87090'>
+	<p><strong>10. Tell us how do you structure your CSS and JavaScript to make it easier for other developers to work with?</strong></p><br>
+	<p>Front end developers often work on code created by previous employees or operate as part of a team. This question gives you an idea of whether they can create websites or web applications that will be understandable by other employees. What to look for in an answer:<br />
+		<br />
+		Experience with code organization and code commenting<br />
+		First-hand knowledge of what happens when code isn't commented appropriately<br />
+		A willingness to make things easier on the other development teams<br />
+		Example: "I organize my stylesheets with sections for each site component. Each section has comments throughout the code so other developers can change it."
+	</p><br>
+</div>

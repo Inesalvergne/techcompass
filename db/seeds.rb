@@ -410,8 +410,7 @@ demo1 = File.open("db/10challenges.txt")
 demo_seed = Resource.create!(
           title: "10 Coding Challenges, Tips, and Websites to Practice",
           summary:
-          "
-          A 'coding challenge' is a programming assignment that tests the abilities of software engineers. Because coding
+          "A 'coding challenge' is a programming assignment that tests the abilities of software engineers. Because coding
           is a must-have skill for a software developer, it is critical to test whether candidates can code effectively.
           It is basically the first phase before a technical interview. Even if you aren't looking for a job,
           there are a lot of programming challenges that you can take part in to improve your skills. This article will
