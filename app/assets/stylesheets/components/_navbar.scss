@@ -12,16 +12,9 @@
   }
 
   ul{
-    list-style-type: none;
+    // list-style-type: none;
     padding: 0 0 0 0;
   }
-
-  li{
-    margin-bottom: 25px;
-    display: flex;
-    align-items: center;
-  }
-
 }
 
 // Purple hover effect for icon + text
@@ -29,6 +22,26 @@ li:hover svg path {
   fill: $purple;
 }
 
-li:hover a{
+li:hover a {
   color: $purple;
+}
+
+// active tab
+.active {
+  margin-bottom: 0.7rem;
+  display: flex;
+  align-items: center;
+  a {
+    color: $purple !important;
+  }
+
+  svg path {
+    fill: $purple;
+  }
+}
+
+.not_active {
+  margin-bottom: 0.7rem;
+  display: flex;
+  align-items: center;
 }
