@@ -1,6 +1,6 @@
 <section class="post-content ">
 	<p>In my last article, I shared my thoughts on <a href="https://www.martincartledge.io/get-software-developer-interview/">how to get an interview as a software developer</a>. This week, I will share my thoughts on how you should prepare for that interview once you get it. </p><br>
-	<p>Tech interviews are notoriously nerve-racking and unpredictable. But there are steps you can take to mitigate a lot of these feelings.</p><br>
+	<br>
 	<h2 id="phases-of-the-interview-process">Phases of the interview process</h2><br>
 	<p>Most software development interviews have a similar structure - it's kind of like the modern foundation for these interviews. </p><br>
 	<p>You'll typically find the following phases in your interview process:</p><br>

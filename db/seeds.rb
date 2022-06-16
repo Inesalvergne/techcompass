@@ -455,7 +455,7 @@ demo_seed2 = Resource.create!(
              perform at your best in your next interview. You will learn about the phases of the interview process, company
              requirements, how to go about preparing for the technical challenges, your elevator pitch,
              as well as best practices of interview preparation and execution.",
-             votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
+             votes: 228,
              level: "Junior",
              user: User.where.not("full_name = 'Ines'").sample,
              tags: "Full-Stack Developer",
