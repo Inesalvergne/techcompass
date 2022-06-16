@@ -18,3 +18,17 @@ body{
   display: flex;
   background-color: white;
 }
+
+.trix-content blockquote {
+  border: 0 solid $light-purple;
+  border-left-width: 0.3em;
+  margin-left: 0.3em;
+  padding-left: 0.6em;
+}
+
+.trix-text-field blockquote {
+  border: 0 solid $light-purple;
+  border-left-width: 0.3em;
+  margin-left: 0.3em;
+  padding-left: 0.6em;
+}
