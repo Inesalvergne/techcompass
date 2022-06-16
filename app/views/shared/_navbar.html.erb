@@ -1,6 +1,6 @@
 <div class="navbar-container h-100 d-inline-block">
   <div class="m-3 navbar-content">
-    <%= image_tag("TechCompass-logo.png", height: '35', width: '156', class: "mt-4 mb-5 navbar-logo") %>
+    <%= link_to image_tag("TechCompass-logo.png", height: '35', width: '156', class: "mt-4 mb-5 navbar-logo"), root_path %>
     <ul>
       <li class= " <%= active?("dashboard", "users") ? "active" : "not_active" %>">
         <%= render 'shared/svg/icon_dashboard', height: '23', width: '23' %>
