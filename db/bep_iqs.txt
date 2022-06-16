@@ -1,274 +1,282 @@
-            <p>Python is a high-level, interpreted, general-purpose programming language. Being a general-purpose language, it can be used to build almost any type of application with the right tools/libraries. Additionally, python supports objects, modules, threads, exception-handling, and automatic memory management which help in modelling real-world problems and building applications to solve these problems.</p><p><strong>Benefits of using Python:</strong></p><ul>
-<li>Python is a general-purpose programming language that has a simple, easy-to-learn syntax that emphasizes readability and therefore reduces the cost of program maintenance. Moreover, the language is capable of scripting, is completely open-source, and supports third-party packages encouraging modularity and code reuse.</li>
-<li>Its high-level data structures, combined with dynamic typing and dynamic binding, attract a huge community of <a href="https://www.interviewbit.com/blog/python-developer-salary-in-india/" target="_blank" rel="noopener noreferrer">developers</a> for Rapid Application Development and deployment.</li>
-</ul>
+<p>Python is a high-level, interpreted, general-purpose programming language. Being a general-purpose language, it can be used to build almost any type of application with the right tools/libraries. Additionally, python supports objects, modules, threads, exception-handling, and automatic memory management which help in modelling real-world problems and building applications to solve these problems.</p><br>
+<p><strong>Benefits of using Python:</strong></p><br>
+<ul>
+	<li>Python is a general-purpose programming language that has a simple, easy-to-learn syntax that emphasizes readability and therefore reduces the cost of program maintenance. Moreover, the language is capable of scripting, is completely open-source, and supports third-party packages encouraging modularity and code reuse.</li>
+	<li>Its high-level data structures, combined with dynamic typing and dynamic binding, attract a huge community of <a href="https://www.interviewbit.com/blog/python-developer-salary-in-india/" target="_blank" rel="noopener noreferrer">developers</a> for Rapid Application Development and deployment.</li>
+</ul><br>
 <br>
-  <a href="https://www.interviewbit.com/coding-interview-questions/?utm_source=list_card&amp;utm_campaign=exp_problem_guide&amp;utm_medium=python-interview-questions" style="text-decoration:none;color:#000;background:#fff;padding:10px 10px;border-radius:10px;">View All Practice Questions</a><br><br>
+<a href="https://www.interviewbit.com/coding-interview-questions/?utm_source=list_card&amp;utm_campaign=exp_problem_guide&amp;utm_medium=python-interview-questions" style="text-decoration:none;color:#000;background:#fff;padding:10px 10px;border-radius:10px;">View All Practice Questions</a><br><br>
 </div></div>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="what-is-a-dynamically-typed-language">
-          <h3>2. What is a dynamically typed language?</h3>
-          <article class="ibpage-article">
-            <p>Before we understand a dynamically typed language, we should learn about what typing is. <strong>Typing</strong> refers to type-checking in programming languages. In a <strong>strongly-typed</strong> language, such as Python, <strong>"1" + 2</strong> will result in a type error since these languages don't allow for "type-coercion" (implicit conversion of data types). On the other hand, a <strong>weakly-typed</strong> language, such as Javascript, will simply output <strong>"12"</strong> as result.</p><p>Type-checking can be done at two stages -</p><ul>
-<li>
-<strong>Static</strong> - Data Types are checked before execution.</li>
-<li>
-<strong>Dynamic</strong> - Data Types are checked during execution.</li>
-</ul><p>Python is an interpreted language, executes each statement line by line and thus type-checking is done on the fly, during execution. Hence, Python is a Dynamically Typed Language.</p><figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/924/original/dynamically_typed_language.jpg?1629972224" class="lazy-elem"></figure>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="interpreted-language">
-          <h3>3. What is an Interpreted language?</h3>
-          <article class="ibpage-article">
-            <p>An Interpreted language executes its statements line by line. Languages such as Python, Javascript, R, PHP, and Ruby are prime examples of Interpreted languages. Programs written in an interpreted language runs directly from the source code, with no intermediary compilation step.</p>
-          </article>
-        </section>
-          <div class="ibpage__download-container">
-  <div class="ibpage__download-banner">
-    <div class="ibpage__download-text">
-      <i class="icon-bell"></i>
-      <span>
-        You can download a PDF version of Python Interview Questions.
-      </span>
-    </div>
-    <div class="ibpage__download-action">
-
-<a
-  class=" hidden ibpage__downloadable-a ibpage__downloadable download-pdf"
-  data-source="in_content"
->
-  <span><img class="lazy-elem" data-src="https://assets.interviewbit.com/assets/svg/download_icon-cd2d5b54bc600ee83352693330804e7d9324dddf41fc105cd5e3176e92f3cd36.svg.gz"></img></span>
-  <span class=" text">Download PDF</span>
-</a>
-
-<a
-  class="auth-trigger gtm-track-element hidden ibpage__downloadable ibpage__downloadable-a enforce-signin "
-  onclick="window.trackGaEvent('onboarding', 'signin-cta-clicked', 'Download PDF')"
-  style=""
-  href=javascript:void(0)
-  data-action="flow-trigger"
-  data-target="auth"
-  data-mode="login"
-  data-gtm-element="login"
-  data-gtm-allowed-actions="click hover"
-  data-source="in_content"
->
-
-  <span><img class="lazy-elem" data-src="https://assets.interviewbit.com/assets/svg/download_icon-cd2d5b54bc600ee83352693330804e7d9324dddf41fc105cd5e3176e92f3cd36.svg.gz"></img></span>
-  <span class=" text">Download PDF</span>
-
-</a>
-
-<a id="auto-download-modal-trigger" class="modal-trigger hidden gtm-track-element" data-gtm-allowed-actions="click" data-gtm-type="button" data-gtm-parent="auto-download-modal" data-action="modal-open" data-target="auto-download-modal" onclick="">
-
-  &nbsp;
-
-</a>
-<div id="auto-download-modal" class="sr-modal ">
-  <div class="sr-modal__content sr-modal__content--center ">
-    <div class="sr-modal__body ">
-
-  <div class="p-h-10 p-v-10">
-    <h3>Download PDF</h3>
-    <hr />
-    <div class="m-v-10 text-center">
-      Your requested download is ready!<br>
-      Click
-      <a
-        class="pointer"
-        data-source="in_content"
-        data-action="start-download"
-      >
-        here
-      </a>
-      to download.
-    </div>
-  </div>
-
-    </div>
-  </div>
-</div>
-
-    </div>
-  </div>
-</div>
-
-        <section class="ibpage-article-header" id="python-pep8-and-its-importance">
-          <h3>4. What is PEP 8 and why is it important?</h3>
-          <article class="ibpage-article">
-            <p>PEP stands for <strong>Python Enhancement Proposal</strong>. A PEP is an official design document providing information to the Python community, or describing a new feature for Python or its processes. <strong>PEP 8</strong> is especially important since it documents the style guidelines for Python Code. Apparently contributing to the Python open-source community requires you to follow these style guidelines sincerely and strictly.</p>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="scope-in-python">
-          <h3>5. What is Scope in Python?</h3>
-          <article class="ibpage-article">
-            <p>Every object in Python functions within a scope. A scope is a block of code where an object in Python remains relevant. Namespaces uniquely identify all the objects inside a program. However, these namespaces also have a scope defined for them where you could use their objects without any prefix. A few examples of scope created during code execution in Python are as follows:</p><ul>
-<li>A <strong>local scope</strong> refers to the local objects available in the current function.</li>
-<li>A <strong>global scope</strong> refers to the objects available throughout the code execution since their inception.</li>
-<li>A <strong>module-level scope</strong> refers to the global objects of the current module accessible in the program.</li>
-<li>An <strong>outermost scope</strong> refers to all the built-in names callable in the program. The objects in this scope are searched last to find the name referenced.</li>
-</ul><p><strong>Note:</strong> Local scope objects can be synced with global scope objects using keywords such as <strong>global</strong>.</p>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="list-vs-tuple">
-          <h3>6. What are lists and tuples? What is the key difference between the two?</h3>
-          <article class="ibpage-article">
-            <p><strong>Lists </strong>and <strong>Tuples</strong> are both s<strong>equence data types</strong> that can store a collection of objects in Python. The objects stored in both sequences can have <strong>different data types</strong>. Lists are represented with <strong>square brackets</strong> <code>['sara', 6, 0.19]</code>, while tuples are represented with <strong>parantheses</strong> <code>('ansh', 5, 0.97)</code>.<br>But what is the real difference between the two? The key difference between the two is that while <strong>lists are mutable</strong>, <strong>tuples</strong> on the other hand are <strong>immutable</strong> objects. This means that lists can be modified, appended or sliced on the go but tuples remain constant and cannot be modified in any manner. You can run the following example on Python IDLE to confirm the difference:</p><pre><code class="language-python hljs">my_tuple = (<span class="hljs-string">'sara'</span>, <span class="hljs-number">6</span>, <span class="hljs-number">5</span>, <span class="hljs-number">0.97</span>)
+</article>
+</section>
+<section class="ibpage-article-header" id="what-is-a-dynamically-typed-language">
+	<h3>2. What is a dynamically typed language?</h3><br>
+	<article class="ibpage-article">
+		<p>Before we understand a dynamically typed language, we should learn about what typing is. <strong>Typing</strong> refers to type-checking in programming languages. In a <strong>strongly-typed</strong> language, such as Python, <strong>"1" + 2</strong> will result in a type error since these languages don't allow for "type-coercion" (implicit conversion of data types). On the other hand, a <strong>weakly-typed</strong> language, such as Javascript, will simply output <strong>"12"</strong> as result.</p><br>
+		<p>Type-checking can be done at two stages -</p><br>
+		<ul>
+			<li>
+				<strong>Static</strong> - Data Types are checked before execution.
+			</li>
+			<li>
+				<strong>Dynamic</strong> - Data Types are checked during execution.
+			</li>
+		</ul><br>
+		<p>Python is an interpreted language, executes each statement line by line and thus type-checking is done on the fly, during execution. Hence, Python is a Dynamically Typed Language.</p><br>
+		<figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/924/original/dynamically_typed_language.jpg?1629972224" class="lazy-elem"></figure><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="interpreted-language">
+	<h3>3. What is an Interpreted language?</h3><br>
+	<article class="ibpage-article">
+		<p>An Interpreted language executes its statements line by line. Languages such as Python, Javascript, R, PHP, and Ruby are prime examples of Interpreted languages. Programs written in an interpreted language runs directly from the source code, with no intermediary compilation step.</p><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="python-pep8-and-its-importance">
+	<h3>4. What is PEP 8 and why is it important?</h3><br>
+	<article class="ibpage-article">
+		<p>PEP stands for <strong>Python Enhancement Proposal</strong>. A PEP is an official design document providing information to the Python community, or describing a new feature for Python or its processes. <strong>PEP 8</strong> is especially important since it documents the style guidelines for Python Code. Apparently contributing to the Python open-source community requires you to follow these style guidelines sincerely and strictly.</p><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="scope-in-python">
+	<h3>5. What is Scope in Python?</h3><br>
+	<article class="ibpage-article">
+		<p>Every object in Python functions within a scope. A scope is a block of code where an object in Python remains relevant. Namespaces uniquely identify all the objects inside a program. However, these namespaces also have a scope defined for them where you could use their objects without any prefix. A few examples of scope created during code execution in Python are as follows:</p><br>
+		<ul>
+			<li>A <strong>local scope</strong> refers to the local objects available in the current function.</li>
+			<li>A <strong>global scope</strong> refers to the objects available throughout the code execution since their inception.</li>
+			<li>A <strong>module-level scope</strong> refers to the global objects of the current module accessible in the program.</li>
+			<li>An <strong>outermost scope</strong> refers to all the built-in names callable in the program. The objects in this scope are searched last to find the name referenced.</li>
+		</ul><br>
+		<p><strong>Note:</strong> Local scope objects can be synced with global scope objects using keywords such as <strong>global</strong>.</p><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="list-vs-tuple">
+	<h3>6. What are lists and tuples? What is the key difference between the two?</h3><br>
+	<article class="ibpage-article">
+		<p><strong>Lists </strong>and <strong>Tuples</strong> are both s<strong>equence data types</strong> that can store a collection of objects in Python. The objects stored in both sequences can have <strong>different data types</strong>. Lists are represented with <strong>square brackets</strong> <code>['sara', 6, 0.19]</code>, while tuples are represented with <strong>parantheses</strong> <code>('ansh', 5, 0.97)</code>.<br>But what is the real difference between the two? The key difference between the two is that while <strong>lists are mutable</strong>, <strong>tuples</strong> on the other hand are <strong>immutable</strong> objects. This means that lists can be modified, appended or sliced on the go but tuples remain constant and cannot be modified in any manner. You can run the following example on Python IDLE to confirm the difference:</p><br>
+		<pre><code class="language-python hljs">my_tuple = (<span class="hljs-string">'sara'</span>, <span class="hljs-number">6</span>, <span class="hljs-number">5</span>, <span class="hljs-number">0.97</span>)
 my_list = [<span class="hljs-string">'sara'</span>, <span class="hljs-number">6</span>, <span class="hljs-number">5</span>, <span class="hljs-number">0.97</span>]
 <span class="hljs-built_in">print</span>(my_tuple[<span class="hljs-number">0</span>])     <span class="hljs-comment"># output =&gt; 'sara'</span>
 <span class="hljs-built_in">print</span>(my_list[<span class="hljs-number">0</span>])     <span class="hljs-comment"># output =&gt; 'sara'</span>
 my_tuple[<span class="hljs-number">0</span>] = <span class="hljs-string">'ansh'</span>    <span class="hljs-comment"># modifying tuple =&gt; throws an error</span>
 my_list[<span class="hljs-number">0</span>] = <span class="hljs-string">'ansh'</span>    <span class="hljs-comment"># modifying list =&gt; list modified</span>
 <span class="hljs-built_in">print</span>(my_tuple[<span class="hljs-number">0</span>])     <span class="hljs-comment"># output =&gt; 'sara'</span>
-<span class="hljs-built_in">print</span>(my_list[<span class="hljs-number">0</span>])     <span class="hljs-comment"># output =&gt; 'ansh'</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="built-in-data-types-in-python">
-          <h3>7. What are the common built-in data types in Python?</h3>
-          <article class="ibpage-article">
-            <p>There are several built-in data types in Python. Although, Python doesn't require data types to be defined explicitly during variable declarations type errors are likely to occur if the knowledge of data types and their compatibility with each other are neglected. Python provides <code>type()</code> and <code>isinstance()</code> functions to check the type of these variables. These data types can be grouped into the following categories-</p><ul><li>
-<strong>None Type:</strong><br><code>None</code> keyword represents the null values in Python. Boolean equality operation can be performed using these NoneType objects.</li></ul><figure class="table"><table>
-<thead><tr>
-<th>Class Name</th>
-<th>Description</th>
-</tr></thead>
-<tbody><tr>
-<td>NoneType</td>
-<td>Represents the<strong> NULL</strong> values in Python.</td>
-</tr></tbody>
-</table></figure><ul><li>
-<strong>Numeric Types:</strong><br>There are three distinct numeric types - <strong>integers, floating-point numbers</strong>, and <strong>complex numbers</strong>. Additionally, <strong>booleans</strong> are a sub-type of integers.</li></ul><figure class="table"><table>
-<thead><tr>
-<th>Class Name</th>
-<th>Description</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>int</td>
-<td>Stores integer literals including hex, octal and binary numbers as integers</td>
-</tr>
-<tr>
-<td>float</td>
-<td>Stores literals containing decimal values and/or exponent signs as floating-point numbers</td>
-</tr>
-<tr>
-<td>complex</td>
-<td>Stores complex numbers in the form (A + Bj) and has attributes: <code>real</code> and <code>imag</code>
-</td>
-</tr>
-<tr>
-<td>bool</td>
-<td>Stores boolean value (True or False).</td>
-</tr>
-</tbody>
-</table></figure><p><i><strong>Note:</strong> The standard library also includes <strong>fractions</strong> to store rational numbers and <strong>decimal</strong> to store floating-point numbers with user-defined precision.</i></p><ul><li>
-<strong>Sequence Types:</strong><br>According to Python Docs, there are three basic Sequence Types - <strong>lists, tuples,</strong> and <strong>range</strong> objects. Sequence types have the <code>in</code> and <code>not in</code> operators defined for their traversing their elements. These operators share the same priority as the comparison operations.</li></ul><figure class="table"><table>
-<thead><tr>
-<th>Class Name</th>
-<th>Description</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>list</td>
-<td>Mutable sequence used to store collection of items.</td>
-</tr>
-<tr>
-<td>tuple</td>
-<td>Immutable sequence used to store collection of items.</td>
-</tr>
-<tr>
-<td>range</td>
-<td>Represents an immutable sequence of numbers generated during execution.</td>
-</tr>
-<tr>
-<td>str</td>
-<td>Immutable sequence of Unicode code points to store textual data.</td>
-</tr>
-</tbody>
-</table></figure><p><strong>Note: </strong>The standard library also includes additional types for processing:<br>1.<strong> Binary data </strong>such as <code>bytearray bytes</code> <code>memoryview</code> , and<br>2.<strong> Text strings </strong>such as <code>str</code>.</p><ul><li><strong>Mapping Types:</strong></li></ul><p>A mapping object can map hashable values to random objects in Python. Mappings objects are mutable and there is currently only one standard mapping type, the <i><strong>dictionary</strong></i>.</p><figure class="table"><table>
-<thead><tr>
-<th>Class Name </th>
-<th>Description</th>
-</tr></thead>
-<tbody><tr>
-<td>dict</td>
-<td>Stores comma-separated list of <strong>key: value</strong> pairs</td>
-</tr></tbody>
-</table></figure><ul><li>
-<strong>Set Types:</strong><br>Currently, Python has two built-in set types - <strong>set</strong> and <strong>frozenset</strong>. <strong>set</strong> type is mutable and supports methods like <code>add()</code> and <code>remove()</code>. <strong>frozenset</strong> type is immutable and can't be modified after creation.</li></ul><figure class="table"><table>
-<thead><tr>
-<th>Class Name</th>
-<th>Description</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>set</td>
-<td>Mutable unordered collection of distinct hashable objects.</td>
-</tr>
-<tr>
-<td>frozenset</td>
-<td>Immutable collection of distinct hashable objects.</td>
-</tr>
-</tbody>
-</table></figure><p><i><strong>Note:</strong> </i><code><i>set</i></code><i> is mutable and thus cannot be used as key for a dictionary. On the other hand, </i><code><i>frozenset</i></code><i> is immutable and thus, hashable, and can be used as a dictionary key or as an element of another set.</i></p><ul>
-<li>
-<strong>Modules:</strong><br>Module is an additional built-in type supported by the Python Interpreter. It supports one special operation, i.e., <strong>attribute access</strong>: <code>mymod.myobj</code>, where <code>mymod</code> is a module and <strong>myobj</strong> references a name defined in m's symbol table. The module's symbol table resides in a very special attribute of the module <strong>__dict__</strong>, but direct assignment to this module is neither possible nor recommended.</li>
-<li>
-<strong>Callable Types:</strong><br>Callable types are the types to which function call can be applied. They can be <strong>user-defined functions, instance methods, generator functions</strong>, and some other<strong> built-in functions, methods</strong> and <strong>classes</strong>.<br>Refer to the documentation at <a href="https://docs.python.org/3/reference/datamodel.html" target="_blank" rel="noopener noreferrer nofollow">docs.python.org</a> for a detailed view of the <strong>callable types</strong>.</li>
-</ul>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="pass-in-python">
-          <h3>8. What is pass in Python?</h3>
-          <article class="ibpage-article">
-            <p>The <code>pass</code> keyword represents a null operation in Python. It is generally used for the purpose of filling up empty blocks of code which may execute during runtime but has yet to be written. Without the <strong>pass</strong> statement in the following code, we may run into some errors during code execution.</p><pre><code class="language-python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">myEmptyFunc</span>():</span>
+<span class="hljs-built_in">print</span>(my_list[<span class="hljs-number">0</span>])     <span class="hljs-comment"># output =&gt; 'ansh'</span></code></pre><br><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="built-in-data-types-in-python">
+	<h3>7. What are the common built-in data types in Python?</h3><br>
+	<article class="ibpage-article">
+		<p>There are several built-in data types in Python. Although, Python doesn't require data types to be defined explicitly during variable declarations type errors are likely to occur if the knowledge of data types and their compatibility with each other are neglected. Python provides <code>type()</code> and <code>isinstance()</code> functions to check the type of these variables. These data types can be grouped into the following categories-</p><br>
+		<ul>
+			<li>
+				<strong>None Type:</strong><br><code>None</code> keyword represents the null values in Python. Boolean equality operation can be performed using these NoneType objects.
+			</li>
+		</ul><br>
+		<figure class="table">
+			<table>
+				<thead>
+					<tr>
+						<th>Class Name</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>NoneType</td>
+						<td>Represents the<strong> NULL</strong> values in Python.</td>
+					</tr>
+				</tbody>
+			</table>
+		</figure><br>
+		<ul>
+			<li>
+				<strong>Numeric Types:</strong><br>There are three distinct numeric types - <strong>integers, floating-point numbers</strong>, and <strong>complex numbers</strong>. Additionally, <strong>booleans</strong> are a sub-type of integers.
+			</li>
+		</ul><br>
+		<figure class="table">
+			<table>
+				<thead>
+					<tr>
+						<th>Class Name</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>int</td>
+						<td>Stores integer literals including hex, octal and binary numbers as integers</td>
+					</tr>
+					<tr>
+						<td>float</td>
+						<td>Stores literals containing decimal values and/or exponent signs as floating-point numbers</td>
+					</tr>
+					<tr>
+						<td>complex</td>
+						<td>Stores complex numbers in the form (A + Bj) and has attributes: <code>real</code> and <code>imag</code></td>
+					</tr>
+					<tr>
+						<td>bool</td>
+						<td>Stores boolean value (True or False).</td>
+					</tr>
+				</tbody>
+			</table>
+		</figure><br>
+		<p><i><strong>Note:</strong> The standard library also includes <strong>fractions</strong> to store rational numbers and <strong>decimal</strong> to store floating-point numbers with user-defined precision.</i></p><br>
+		<ul>
+			<li>
+				<strong>Sequence Types:</strong><br>According to Python Docs, there are three basic Sequence Types - <strong>lists, tuples,</strong> and <strong>range</strong> objects. Sequence types have the <code>in</code> and <code>not in</code> operators defined for their traversing their elements. These operators share the same priority as the comparison operations.
+			</li>
+		</ul><br>
+		<figure class="table">
+			<table>
+				<thead>
+					<tr>
+						<th>Class Name</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>list</td>
+						<td>Mutable sequence used to store collection of items.</td>
+					</tr>
+					<tr>
+						<td>tuple</td>
+						<td>Immutable sequence used to store collection of items.</td>
+					</tr>
+					<tr>
+						<td>range</td>
+						<td>Represents an immutable sequence of numbers generated during execution.</td>
+					</tr>
+					<tr>
+						<td>str</td>
+						<td>Immutable sequence of Unicode code points to store textual data.</td>
+					</tr>
+				</tbody>
+			</table>
+		</figure><br>
+		<p><strong>Note: </strong>The standard library also includes additional types for processing:<br>1.<strong> Binary data </strong>such as <code>bytearray bytes</code> <code>memoryview</code> , and<br>2.<strong> Text strings </strong>such as <code>str</code>.</p><br>
+		<ul>
+			<li><strong>Mapping Types:</strong></li>
+		</ul><br>
+		<p>A mapping object can map hashable values to random objects in Python. Mappings objects are mutable and there is currently only one standard mapping type, the <i><strong>dictionary</strong></i>.</p><br>
+		<figure class="table">
+			<table>
+				<thead>
+					<tr>
+						<th>Class Name </th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>dict</td>
+						<td>Stores comma-separated list of <strong>key: value</strong> pairs</td>
+					</tr>
+				</tbody>
+			</table>
+		</figure><br>
+		<ul>
+			<li>
+				<strong>Set Types:</strong><br>Currently, Python has two built-in set types - <strong>set</strong> and <strong>frozenset</strong>. <strong>set</strong> type is mutable and supports methods like <code>add()</code> and <code>remove()</code>. <strong>frozenset</strong> type is immutable and can't be modified after creation.
+			</li>
+		</ul><br>
+		<figure class="table">
+			<table>
+				<thead>
+					<tr>
+						<th>Class Name</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>set</td>
+						<td>Mutable unordered collection of distinct hashable objects.</td>
+					</tr>
+					<tr>
+						<td>frozenset</td>
+						<td>Immutable collection of distinct hashable objects.</td>
+					</tr>
+				</tbody>
+			</table>
+		</figure><br>
+		<p><i><strong>Note:</strong> </i><code><i>set</i></code><i> is mutable and thus cannot be used as key for a dictionary. On the other hand, </i><code><i>frozenset</i></code><i> is immutable and thus, hashable, and can be used as a dictionary key or as an element of another set.</i></p><br>
+		<ul>
+			<li>
+				<strong>Modules:</strong><br>Module is an additional built-in type supported by the Python Interpreter. It supports one special operation, i.e., <strong>attribute access</strong>: <code>mymod.myobj</code>, where <code>mymod</code> is a module and <strong>myobj</strong> references a name defined in m's symbol table. The module's symbol table resides in a very special attribute of the module <strong>__dict__</strong>, but direct assignment to this module is neither possible nor recommended.
+			</li>
+			<li>
+				<strong>Callable Types:</strong><br>Callable types are the types to which function call can be applied. They can be <strong>user-defined functions, instance methods, generator functions</strong>, and some other<strong> built-in functions, methods</strong> and <strong>classes</strong>.<br>Refer to the documentation at <a href="https://docs.python.org/3/reference/datamodel.html" target="_blank" rel="noopener noreferrer nofollow">docs.python.org</a> for a detailed view of the <strong>callable types</strong>.
+			</li>
+		</ul><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="pass-in-python">
+	<h3>8. What is pass in Python?</h3><br>
+	<article class="ibpage-article">
+		<p>The <code>pass</code> keyword represents a null operation in Python. It is generally used for the purpose of filling up empty blocks of code which may execute during runtime but has yet to be written. Without the <strong>pass</strong> statement in the following code, we may run into some errors during code execution.</p><br>
+		<pre><code class="language-python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">myEmptyFunc</span>():</span>
    <span class="hljs-comment"># do nothing</span>
    <span class="hljs-keyword">pass</span>
 myEmptyFunc()    <span class="hljs-comment"># nothing happens</span>
 <span class="hljs-comment">## Without the pass keyword</span>
 <span class="hljs-comment"># File "&lt;stdin&gt;", line 3</span>
-<span class="hljs-comment"># IndentationError: expected an indented block</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="modules-and-packages-in-python">
-          <h3>9. What are modules and packages in Python?</h3>
-          <article class="ibpage-article">
-            <p>Python packages and Python modules are two mechanisms that allow for <strong>modular programming</strong> in Python. Modularizing has several advantages -</p><ul>
-<li>
-<strong>Simplicity</strong>: Working on a single module helps you focus on a relatively small portion of the problem at hand. This makes development easier and less error-prone.</li>
-<li>
-<strong>Maintainability</strong>: Modules are designed to enforce logical boundaries between different problem domains. If they are written in a manner that reduces interdependency, it is less likely that modifications in a module might impact other parts of the program.</li>
-<li>
-<strong>Reusability</strong>: Functions defined in a module can be easily reused by other parts of the application.</li>
-<li>
-<strong>Scoping</strong>: Modules typically define a separate namespace, which helps avoid confusion between identifiers from other parts of the program.</li>
-</ul><p><strong>Modules</strong>, in general, are simply Python files with a .py extension and can have a set of functions, classes, or variables defined and implemented. They can be imported and initialized once using the <code>import</code> statement. If partial functionality is needed, import the requisite classes or functions using <code>from foo import bar</code>.</p><p><strong>Packages</strong> allow for hierarchial structuring of the module namespace using <strong>dot notation</strong>. As, <strong>modules</strong> help avoid clashes between global variable names, in a similar manner, <strong>packages</strong> help avoid clashes between module names.<br>Creating a package is easy since it makes use of the system's inherent file structure. So just stuff the modules into a folder and there you have it, the folder name as the package name. Importing a module or its contents from this package requires the package name as prefix to the module name joined by a dot.</p><p><i><strong>Note:</strong> You can technically import the package as well, but alas, it doesn't import the modules within the package to the local namespace, thus, it is practically useless.</i></p>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="global-protected-private-attributes-in-python">
-          <h3>10. What are global, protected and private attributes in Python?</h3>
-          <article class="ibpage-article">
-            <ul>
-<li>
-<strong>Global</strong> variables are public variables that are defined in the global scope. To use the variable in the global scope inside a function, we use the <code>global</code> keyword.</li>
-<li>
-<strong>Protected</strong> attributes are attributes defined with an underscore prefixed to their identifier eg. _sara. They can still be accessed and modified from outside the class they are defined in but a responsible developer should refrain from doing so.</li>
-<li>
-<strong>Private </strong>attributes are attributes with double underscore prefixed to their identifier eg. __ansh. They cannot be accessed or modified from the outside directly and will result in an AttributeError if such an attempt is made.</li>
-</ul>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="use-of-self-in-python">
-          <h3>11. What is the use of self in Python?</h3>
-          <article class="ibpage-article">
-            <p><strong>Self </strong>is used to represent the instance of the class. With this keyword, you can access the attributes and methods of the class in python. It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. But unlike in C++, self is not a keyword in Python.</p>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="__init__-in-python">
-          <h3>12.  What is __init__?</h3>
-          <article class="ibpage-article">
-            <p><code>__init__</code> is a contructor method in Python and is automatically called to allocate memory when a new object/instance is created. All classes have a <strong>__init__</strong> method associated with them. It helps in distinguishing methods and attributes of a class from local variables.</p><pre><code class="language-python hljs"><span class="hljs-comment"># class definition</span>
+<span class="hljs-comment"># IndentationError: expected an indented block</span></code></pre><br><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="modules-and-packages-in-python">
+	<h3>9. What are modules and packages in Python?</h3><br>
+	<article class="ibpage-article">
+		<p>Python packages and Python modules are two mechanisms that allow for <strong>modular programming</strong> in Python. Modularizing has several advantages -</p><br>
+		<ul>
+			<li>
+				<strong>Simplicity</strong>: Working on a single module helps you focus on a relatively small portion of the problem at hand. This makes development easier and less error-prone.
+			</li>
+			<li>
+				<strong>Maintainability</strong>: Modules are designed to enforce logical boundaries between different problem domains. If they are written in a manner that reduces interdependency, it is less likely that modifications in a module might impact other parts of the program.
+			</li>
+			<li>
+				<strong>Reusability</strong>: Functions defined in a module can be easily reused by other parts of the application.
+			</li>
+			<li>
+				<strong>Scoping</strong>: Modules typically define a separate namespace, which helps avoid confusion between identifiers from other parts of the program.
+			</li>
+		</ul><br>
+		<p><strong>Modules</strong>, in general, are simply Python files with a .py extension and can have a set of functions, classes, or variables defined and implemented. They can be imported and initialized once using the <code>import</code> statement. If partial functionality is needed, import the requisite classes or functions using <code>from foo import bar</code>.</p><br>
+		<p><strong>Packages</strong> allow for hierarchial structuring of the module namespace using <strong>dot notation</strong>. As, <strong>modules</strong> help avoid clashes between global variable names, in a similar manner, <strong>packages</strong> help avoid clashes between module names.<br>Creating a package is easy since it makes use of the system's inherent file structure. So just stuff the modules into a folder and there you have it, the folder name as the package name. Importing a module or its contents from this package requires the package name as prefix to the module name joined by a dot.</p><br>
+		<p><i><strong>Note:</strong> You can technically import the package as well, but alas, it doesn't import the modules within the package to the local namespace, thus, it is practically useless.</i></p><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="global-protected-private-attributes-in-python">
+	<h3>10. What are global, protected and private attributes in Python?</h3><br>
+	<article class="ibpage-article">
+		<ul>
+			<li>
+				<strong>Global</strong> variables are public variables that are defined in the global scope. To use the variable in the global scope inside a function, we use the <code>global</code> keyword.
+			</li>
+			<li>
+				<strong>Protected</strong> attributes are attributes defined with an underscore prefixed to their identifier eg. _sara. They can still be accessed and modified from outside the class they are defined in but a responsible developer should refrain from doing so.
+			</li>
+			<li>
+				<strong>Private </strong>attributes are attributes with double underscore prefixed to their identifier eg. __ansh. They cannot be accessed or modified from the outside directly and will result in an AttributeError if such an attempt is made.
+			</li>
+		</ul><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="use-of-self-in-python">
+	<h3>11. What is the use of self in Python?</h3><br>
+	<article class="ibpage-article">
+		<p><strong>Self </strong>is used to represent the instance of the class. With this keyword, you can access the attributes and methods of the class in python. It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. But unlike in C++, self is not a keyword in Python.</p><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="__init__-in-python">
+	<h3>12.  What is __init__?</h3><br>
+	<article class="ibpage-article">
+		<p><code>__init__</code> is a contructor method in Python and is automatically called to allocate memory when a new object/instance is created. All classes have a <strong>__init__</strong> method associated with them. It helps in distinguishing methods and attributes of a class from local variables.</p><br>
+		<pre><code class="language-python hljs"><span class="hljs-comment"># class definition</span>
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Student</span>:</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self, fname, lname, age, section</span>):</span>
        self.firstname = fname
@@ -276,26 +284,31 @@ myEmptyFunc()    <span class="hljs-comment"># nothing happens</span>
        self.age = age
        self.section = section
 <span class="hljs-comment"># creating a new object</span>
-stu1 = Student(<span class="hljs-string">"Sara"</span>, <span class="hljs-string">"Ansh"</span>, <span class="hljs-number">22</span>, <span class="hljs-string">"A2"</span>)</code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="python-break-continue-pass">
-          <h3>13. What is break, continue and pass in Python?</h3>
-          <article class="ibpage-article">
-            <figure class="table"><table><tbody>
-<tr>
-<th>Break</th>
-<td>The break statement terminates the loop immediately and the control flows to the statement after the body of the loop.</td>
-</tr>
-<tr>
-<th>Continue</th>
-<td>The continue statement terminates the current iteration of the statement, skips the rest of the code in the current iteration and the control flows to the next iteration of the loop.</td>
-</tr>
-<tr>
-<th>Pass</th>
-<td>As explained above, the pass keyword in Python is generally used to fill up empty blocks and is similar to an empty statement represented by a semi-colon in languages such as Java, C++, Javascript, etc.</td>
-</tr>
-</tbody></table></figure><pre><code class="language-python hljs">pat = [<span class="hljs-number">1</span>, <span class="hljs-number">3</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">3</span>]
+stu1 = Student(<span class="hljs-string">"Sara"</span>, <span class="hljs-string">"Ansh"</span>, <span class="hljs-number">22</span>, <span class="hljs-string">"A2"</span>)</code></pre><br><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="python-break-continue-pass">
+	<h3>13. What is break, continue and pass in Python?</h3><br>
+	<article class="ibpage-article">
+		<figure class="table">
+			<table>
+				<tbody>
+					<tr>
+						<th>Break</th>
+						<td>The break statement terminates the loop immediately and the control flows to the statement after the body of the loop.</td>
+					</tr>
+					<tr>
+						<th>Continue</th>
+						<td>The continue statement terminates the current iteration of the statement, skips the rest of the code in the current iteration and the control flows to the next iteration of the loop.</td>
+					</tr>
+					<tr>
+						<th>Pass</th>
+						<td>As explained above, the pass keyword in Python is generally used to fill up empty blocks and is similar to an empty statement represented by a semi-colon in languages such as Java, C++, Javascript, etc.</td>
+					</tr>
+				</tbody>
+			</table>
+		</figure><br>
+		<pre><code class="language-python hljs">pat = [<span class="hljs-number">1</span>, <span class="hljs-number">3</span>, <span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">3</span>]
 <span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> pat:
    <span class="hljs-keyword">pass</span>
    <span class="hljs-keyword">if</span> (p == <span class="hljs-number">0</span>):
@@ -304,123 +317,138 @@ stu1 = Student(<span class="hljs-string">"Sara"</span>, <span class="hljs-string
    <span class="hljs-keyword">elif</span> (p % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>):
        <span class="hljs-keyword">continue</span>
    <span class="hljs-built_in">print</span>(p)    <span class="hljs-comment"># output =&gt; 1 3 1 3 1</span>
-<span class="hljs-built_in">print</span>(current)    <span class="hljs-comment"># output =&gt; 0</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="unit-testing-in-python">
-          <h3>14. What are unit tests in Python?</h3>
-          <article class="ibpage-article">
-            <ul>
-<li>Unit test is a unit testing framework of Python.</li>
-<li>Unit testing means testing different components of software separately. Can you think about why unit testing is important? Imagine a scenario, you are building software that uses three components namely A, B, and C. Now, suppose your software breaks at a point time. How will you find which component was responsible for breaking the software? Maybe it was component A that failed, which in turn failed component B, and this actually failed the software. There can be many such combinations.</li>
-<li>This is why it is necessary to test each and every component properly so that we know which component might be highly responsible for the failure of the software.</li>
-</ul>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="python-docstrings">
-          <h3>15. What is docstring in Python?</h3>
-          <article class="ibpage-article">
-            <ul>
-<li>Documentation string or docstring is a multiline string used to document a specific code segment.</li>
-<li>The docstring should describe what the function or method does.</li>
-</ul>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="slicing-in-python">
-          <h3>16. What is slicing in Python?</h3>
-          <article class="ibpage-article">
-            <ul>
-<li>As the name suggests, ‘slicing’ is taking parts of.</li>
-<li>Syntax for slicing is <strong>[start : stop : step]</strong>
-</li>
-<li>
-<strong>start</strong> is the starting index from where to slice a list or tuple</li>
-<li>
-<strong>stop</strong> is the ending index or where to sop.</li>
-<li>
-<strong>step</strong> is the number of steps to jump.</li>
-<li>Default value for <strong>start</strong> is 0, <strong>stop</strong> is number of items, <strong>step</strong> is 1.</li>
-<li>Slicing can be done on <strong>strings, arrays, lists</strong>, and <strong>tuples</strong>.</li>
-</ul><pre><code class="language-python hljs">numbers = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>, <span class="hljs-number">7</span>, <span class="hljs-number">8</span>, <span class="hljs-number">9</span>, <span class="hljs-number">10</span>]
-<span class="hljs-built_in">print</span>(numbers[<span class="hljs-number">1</span> : : <span class="hljs-number">2</span>])  <span class="hljs-comment">#output : [2, 4, 6, 8, 10]</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="how-to-make-a-python-script-executable-on-unix">
-          <h3>17. Explain how can you make a Python Script executable on Unix?</h3>
-          <article class="ibpage-article">
-            <ul><li>Script file must begin with <strong>#!/usr/bin/env python</strong>
-</li></ul>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="python-array-vs-list">
-          <h3>18. What is the difference between Python Arrays and lists?</h3>
-          <article class="ibpage-article">
-            <ul>
-<li>Arrays in python can only contain elements of same data types i.e., data type of array should be homogeneous. It is a thin wrapper around C language arrays and consumes far less memory than lists.</li>
-<li>Lists in python can contain elements of different data types i.e., data type of lists can be heterogeneous. It has the disadvantage of consuming large memory.</li>
-</ul><pre><code class="language-python hljs"><span class="hljs-keyword">import</span> array
+<span class="hljs-built_in">print</span>(current)    <span class="hljs-comment"># output =&gt; 0</span></code></pre><br><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="unit-testing-in-python">
+	<h3>14. What are unit tests in Python?</h3><br>
+	<article class="ibpage-article">
+		<ul>
+			<li>Unit test is a unit testing framework of Python.</li>
+			<li>Unit testing means testing different components of software separately. Can you think about why unit testing is important? Imagine a scenario, you are building software that uses three components namely A, B, and C. Now, suppose your software breaks at a point time. How will you find which component was responsible for breaking the software? Maybe it was component A that failed, which in turn failed component B, and this actually failed the software. There can be many such combinations.</li>
+			<li>This is why it is necessary to test each and every component properly so that we know which component might be highly responsible for the failure of the software.</li>
+		</ul><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="python-docstrings">
+	<h3>15. What is docstring in Python?</h3><br>
+	<article class="ibpage-article">
+		<ul>
+			<li>Documentation string or docstring is a multiline string used to document a specific code segment.</li>
+			<li>The docstring should describe what the function or method does.</li>
+		</ul><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="slicing-in-python">
+	<h3>16. What is slicing in Python?</h3><br>
+	<article class="ibpage-article">
+		<ul>
+			<li>As the name suggests, ‘slicing’ is taking parts of.</li>
+			<li>Syntax for slicing is <strong>[start : stop : step]</strong></li>
+			<li>
+				<strong>start</strong> is the starting index from where to slice a list or tuple
+			</li>
+			<li>
+				<strong>stop</strong> is the ending index or where to sop.
+			</li>
+			<li>
+				<strong>step</strong> is the number of steps to jump.
+			</li>
+			<li>Default value for <strong>start</strong> is 0, <strong>stop</strong> is number of items, <strong>step</strong> is 1.</li>
+			<li>Slicing can be done on <strong>strings, arrays, lists</strong>, and <strong>tuples</strong>.</li>
+		</ul><br>
+		<pre><code class="language-python hljs">numbers = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>, <span class="hljs-number">7</span>, <span class="hljs-number">8</span>, <span class="hljs-number">9</span>, <span class="hljs-number">10</span>]
+<span class="hljs-built_in">print</span>(numbers[<span class="hljs-number">1</span> : : <span class="hljs-number">2</span>])  <span class="hljs-comment">#output : [2, 4, 6, 8, 10]</span></code></pre><br><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="how-to-make-a-python-script-executable-on-unix">
+	<h3>17. Explain how can you make a Python Script executable on Unix?</h3><br>
+	<article class="ibpage-article">
+		<ul>
+			<li>Script file must begin with <strong>#!/usr/bin/env python</strong></li>
+		</ul><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="python-array-vs-list">
+	<h3>18. What is the difference between Python Arrays and lists?</h3><br>
+	<article class="ibpage-article">
+		<ul>
+			<li>Arrays in python can only contain elements of same data types i.e., data type of array should be homogeneous. It is a thin wrapper around C language arrays and consumes far less memory than lists.</li>
+			<li>Lists in python can contain elements of different data types i.e., data type of lists can be heterogeneous. It has the disadvantage of consuming large memory.</li>
+		</ul><br>
+		<pre><code class="language-python hljs"><span class="hljs-keyword">import</span> array
 a = array.array(<span class="hljs-string">'i'</span>, [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>])
 <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> a:
     <span class="hljs-built_in">print</span>(i, end=<span class="hljs-string">' '</span>)    <span class="hljs-comment">#OUTPUT: 1 2 3</span>
 a = array.array(<span class="hljs-string">'i'</span>, [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-string">'string'</span>])    <span class="hljs-comment">#OUTPUT: TypeError: an integer is required (got type str)</span>
 a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-string">'string'</span>]
 <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> a:
-   <span class="hljs-built_in">print</span>(i, end=<span class="hljs-string">' '</span>)    <span class="hljs-comment">#OUTPUT: 1 2 string</span></code></pre>
-          </article>
-        </section>
-
-  </div>
-  <div id="experienced">
-    <h2>Python Interview Questions for Experienced</h2>
-
-        <section class="ibpage-article-header" id="memory-management-in-python">
-          <h3>19. How is memory managed in Python?</h3>
-          <article class="ibpage-article">
-            <ul>
-<li>Memory management in Python is handled by the <strong>Python Memory Manager</strong>. The memory allocated by the manager is in form of a <strong>private heap space</strong> dedicated to Python. All Python objects are stored in this heap and being private, it is inaccessible to the programmer. Though, python does provide some core API functions to work upon the private heap space.</li>
-<li>Additionally, Python has an in-built garbage collection to recycle the unused memory for the private heap space.</li>
-</ul><figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/925/original/Memory_Management_in_Python.jpg?1629977519" class="lazy-elem"></figure>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="what-are-namespace-in-python-why-are-they-used">
-          <h3>20. What are Python namespaces? Why are they used?</h3>
-          <article class="ibpage-article">
-            <p>A namespace in Python ensures that object names in a program are unique and can be used without any conflict. Python implements these namespaces as dictionaries with 'name as key' mapped to a corresponding 'object as value'. This allows for multiple namespaces to use the same name and map it to a separate object. A few examples of namespaces are as follows:</p><ul>
-<li>
-<strong>Local Namespace</strong> includes local names inside a function. the namespace is temporarily created for a function call and gets cleared when the function returns.</li>
-<li>
-<strong>Global Namespace</strong> includes names from various imported packages/ modules that are being used in the current project. This namespace is created when the package is imported in the script and lasts until the execution of the script.</li>
-<li>
-<strong>Built-in Namespace </strong>includes built-in functions of core Python and built-in names for various types of exceptions.</li>
-</ul><p>The <strong>lifecycle of a namespace</strong> depends upon the scope of objects they are mapped to. If the scope of an object ends, the lifecycle of that namespace comes to an end. Hence, it isn't possible to access inner namespace objects from an outer namespace.</p><figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/926/original/Python_namespaces.jpg?1629977690" class="lazy-elem"></figure>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="scope-resolution-in-python">
-          <h3>21. What is Scope Resolution in Python?</h3>
-          <article class="ibpage-article">
-            <p>Sometimes objects within the same scope have the same name but function differently. In such cases, scope resolution comes into play in Python automatically. A few examples of such behavior are:</p><ul>
-<li>Python modules namely 'math' and 'cmath' have a lot of functions that are common to both of them - <code>log10()</code>, <code>acos()</code>, <code>exp()</code> etc. To resolve this ambiguity, it is necessary to prefix them with their respective module, like <code>math.exp()</code> and <code>cmath.exp()</code>.</li>
-<li>Consider the code below, an object temp has been initialized to 10 globally and then to 20 on function call. However, the function call didn't change the value of the temp globally. Here, we can observe that Python draws a clear line between global and local variables, treating their namespaces as separate identities.</li>
-</ul><pre><code class="language-python hljs">temp = <span class="hljs-number">10</span>   <span class="hljs-comment"># global-scope variable</span>
+   <span class="hljs-built_in">print</span>(i, end=<span class="hljs-string">' '</span>)    <span class="hljs-comment">#OUTPUT: 1 2 string</span></code></pre><br><br>
+	</article>
+</section>
+</div>
+<div id="experienced">
+	<h2>Python Interview Questions for Experienced</h2><br>
+	<section class="ibpage-article-header" id="memory-management-in-python">
+		<h3>19. How is memory managed in Python?</h3><br>
+		<article class="ibpage-article">
+			<ul>
+				<li>Memory management in Python is handled by the <strong>Python Memory Manager</strong>. The memory allocated by the manager is in form of a <strong>private heap space</strong> dedicated to Python. All Python objects are stored in this heap and being private, it is inaccessible to the programmer. Though, python does provide some core API functions to work upon the private heap space.</li>
+				<li>Additionally, Python has an in-built garbage collection to recycle the unused memory for the private heap space.</li>
+			</ul><br>
+			<figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/925/original/Memory_Management_in_Python.jpg?1629977519" class="lazy-elem"></figure><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="what-are-namespace-in-python-why-are-they-used">
+		<h3>20. What are Python namespaces? Why are they used?</h3><br>
+		<article class="ibpage-article">
+			<p>A namespace in Python ensures that object names in a program are unique and can be used without any conflict. Python implements these namespaces as dictionaries with 'name as key' mapped to a corresponding 'object as value'. This allows for multiple namespaces to use the same name and map it to a separate object. A few examples of namespaces are as follows:</p><br>
+			<ul>
+				<li>
+					<strong>Local Namespace</strong> includes local names inside a function. the namespace is temporarily created for a function call and gets cleared when the function returns.
+				</li>
+				<li>
+					<strong>Global Namespace</strong> includes names from various imported packages/ modules that are being used in the current project. This namespace is created when the package is imported in the script and lasts until the execution of the script.
+				</li>
+				<li>
+					<strong>Built-in Namespace </strong>includes built-in functions of core Python and built-in names for various types of exceptions.
+				</li>
+			</ul><br>
+			<p>The <strong>lifecycle of a namespace</strong> depends upon the scope of objects they are mapped to. If the scope of an object ends, the lifecycle of that namespace comes to an end. Hence, it isn't possible to access inner namespace objects from an outer namespace.</p><br>
+			<figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/926/original/Python_namespaces.jpg?1629977690" class="lazy-elem"></figure><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="scope-resolution-in-python">
+		<h3>21. What is Scope Resolution in Python?</h3><br>
+		<article class="ibpage-article">
+			<p>Sometimes objects within the same scope have the same name but function differently. In such cases, scope resolution comes into play in Python automatically. A few examples of such behavior are:</p><br>
+			<ul>
+				<li>Python modules namely 'math' and 'cmath' have a lot of functions that are common to both of them - <code>log10()</code>, <code>acos()</code>, <code>exp()</code> etc. To resolve this ambiguity, it is necessary to prefix them with their respective module, like <code>math.exp()</code> and <code>cmath.exp()</code>.</li>
+				<li>Consider the code below, an object temp has been initialized to 10 globally and then to 20 on function call. However, the function call didn't change the value of the temp globally. Here, we can observe that Python draws a clear line between global and local variables, treating their namespaces as separate identities.</li>
+			</ul><br>
+			<pre><code class="language-python hljs">temp = <span class="hljs-number">10</span>   <span class="hljs-comment"># global-scope variable</span>
 <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">func</span>():</span>
      temp = <span class="hljs-number">20</span>   <span class="hljs-comment"># local-scope variable</span>
      <span class="hljs-built_in">print</span>(temp)
 <span class="hljs-built_in">print</span>(temp)   <span class="hljs-comment"># output =&gt; 10</span>
 func()    <span class="hljs-comment"># output =&gt; 20</span>
-<span class="hljs-built_in">print</span>(temp)   <span class="hljs-comment"># output =&gt; 10</span></code></pre><p>This behavior can be overridden using the <code>global</code> keyword inside the function, as shown in the following example:</p><pre><code class="language-python hljs">temp = <span class="hljs-number">10</span>   <span class="hljs-comment"># global-scope variable</span>
+<span class="hljs-built_in">print</span>(temp)   <span class="hljs-comment"># output =&gt; 10</span></code></pre><br><br>
+			<p>This behavior can be overridden using the <code>global</code> keyword inside the function, as shown in the following example:</p><br>
+			<pre><code class="language-python hljs">temp = <span class="hljs-number">10</span>   <span class="hljs-comment"># global-scope variable</span>
 <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">func</span>():</span>
      <span class="hljs-keyword">global</span> temp
      temp = <span class="hljs-number">20</span>   <span class="hljs-comment"># local-scope variable</span>
      <span class="hljs-built_in">print</span>(temp)
 <span class="hljs-built_in">print</span>(temp)   <span class="hljs-comment"># output =&gt; 10</span>
 func()    <span class="hljs-comment"># output =&gt; 20</span>
-<span class="hljs-built_in">print</span>(temp)   <span class="hljs-comment"># output =&gt; 20</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="what-are-decorators-in-python">
-          <h3>22. What are decorators in Python?</h3>
-          <article class="ibpage-article">
-            <p><strong>Decorators</strong> in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented the <code>@decorator_name</code> in Python and are called in a bottom-up fashion. For example:</p><pre><code class="language-python hljs"><span class="hljs-comment"># decorator function to convert to lowercase</span>
+<span class="hljs-built_in">print</span>(temp)   <span class="hljs-comment"># output =&gt; 20</span></code></pre><br><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="what-are-decorators-in-python">
+		<h3>22. What are decorators in Python?</h3><br>
+		<article class="ibpage-article">
+			<p><strong>Decorators</strong> in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented the <code>@decorator_name</code> in Python and are called in a bottom-up fashion. For example:</p><br>
+			<pre><code class="language-python hljs"><span class="hljs-comment"># decorator function to convert to lowercase</span>
 <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">lowercase_decorator</span>(<span class="hljs-params">function</span>):</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">wrapper</span>():</span>
        func = function()
@@ -438,7 +466,9 @@ func()    <span class="hljs-comment"># output =&gt; 20</span>
 <span class="hljs-meta">@lowercase_decorator </span><span class="hljs-comment"># this is executed first</span>
 <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">hello</span>():</span>
    <span class="hljs-keyword">return</span> <span class="hljs-string">'Hello World'</span>
-hello()   <span class="hljs-comment"># output =&gt; [ 'hello' , 'world' ]</span></code></pre><p>The beauty of the decorators lies in the fact that besides adding functionality to the output of the method, they can even <strong>accept arguments</strong> for functions and can further modify those arguments before passing it to the function itself. The <strong>inner nested function</strong>, i.e. 'wrapper' function, plays a significant role here. It is implemented to enforce <strong>encapsulation</strong> and thus, keep itself hidden from the global scope.</p><pre><code class="language-python hljs"><span class="hljs-comment"># decorator function to capitalize names</span>
+hello()   <span class="hljs-comment"># output =&gt; [ 'hello' , 'world' ]</span></code></pre><br><br>
+			<p>The beauty of the decorators lies in the fact that besides adding functionality to the output of the method, they can even <strong>accept arguments</strong> for functions and can further modify those arguments before passing it to the function itself. The <strong>inner nested function</strong>, i.e. 'wrapper' function, plays a significant role here. It is implemented to enforce <strong>encapsulation</strong> and thus, keep itself hidden from the global scope.</p><br>
+			<pre><code class="language-python hljs"><span class="hljs-comment"># decorator function to capitalize names</span>
 <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">names_decorator</span>(<span class="hljs-params">function</span>):</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">wrapper</span>(<span class="hljs-params">arg1, arg2</span>):</span>
        arg1 = arg1.capitalize()
@@ -449,44 +479,75 @@ hello()   <span class="hljs-comment"># output =&gt; [ 'hello' , 'world' ]</span>
 <span class="hljs-meta">@names_decorator</span>
 <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">say_hello</span>(<span class="hljs-params">name1, name2</span>):</span>
    <span class="hljs-keyword">return</span> <span class="hljs-string">'Hello '</span> + name1 + <span class="hljs-string">'! Hello '</span> + name2 + <span class="hljs-string">'!'</span>
-say_hello(<span class="hljs-string">'sara'</span>, <span class="hljs-string">'ansh'</span>)   <span class="hljs-comment"># output =&gt; 'Hello Sara! Hello Ansh!'</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="dict-list-comprehensions-in-python">
-          <h3>23. What are Dict and List comprehensions?</h3>
-          <article class="ibpage-article">
-            <p>Python comprehensions, like decorators, are <strong>syntactic sugar</strong> constructs that help <strong>build altered</strong> and <strong>filtered lists</strong>, dictionaries, or sets from a given list, dictionary, or set. Using comprehensions saves a lot of time and code that might be considerably more verbose (containing more lines of code). Let's check out some examples, where comprehensions can be truly beneficial:</p><ul><li><strong>Performing mathematical operations on the entire list</strong></li></ul><pre><code class="language-python hljs">my_list = [<span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">5</span>, <span class="hljs-number">7</span>, <span class="hljs-number">11</span>]
+say_hello(<span class="hljs-string">'sara'</span>, <span class="hljs-string">'ansh'</span>)   <span class="hljs-comment"># output =&gt; 'Hello Sara! Hello Ansh!'</span></code></pre><br><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="dict-list-comprehensions-in-python">
+		<h3>23. What are Dict and List comprehensions?</h3><br>
+		<article class="ibpage-article">
+			<p>Python comprehensions, like decorators, are <strong>syntactic sugar</strong> constructs that help <strong>build altered</strong> and <strong>filtered lists</strong>, dictionaries, or sets from a given list, dictionary, or set. Using comprehensions saves a lot of time and code that might be considerably more verbose (containing more lines of code). Let's check out some examples, where comprehensions can be truly beneficial:</p><br>
+			<ul>
+				<li><strong>Performing mathematical operations on the entire list</strong></li>
+			</ul><br>
+			<pre><code class="language-python hljs">my_list = [<span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">5</span>, <span class="hljs-number">7</span>, <span class="hljs-number">11</span>]
 squared_list = [x**<span class="hljs-number">2</span> <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> my_list]    <span class="hljs-comment"># list comprehension</span>
 <span class="hljs-comment"># output =&gt; [4 , 9 , 25 , 49 , 121]</span>
 squared_dict = {x:x**<span class="hljs-number">2</span> <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> my_list}    <span class="hljs-comment"># dict comprehension</span>
-<span class="hljs-comment"># output =&gt; {11: 121, 2: 4 , 3: 9 , 5: 25 , 7: 49}</span></code></pre><ul><li><strong>Performing conditional filtering operations on the entire list</strong></li></ul><pre><code class="language-python hljs">my_list = [<span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">5</span>, <span class="hljs-number">7</span>, <span class="hljs-number">11</span>]
+<span class="hljs-comment"># output =&gt; {11: 121, 2: 4 , 3: 9 , 5: 25 , 7: 49}</span></code></pre><br><br>
+			<ul>
+				<li><strong>Performing conditional filtering operations on the entire list</strong></li>
+			</ul><br>
+			<pre><code class="language-python hljs">my_list = [<span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">5</span>, <span class="hljs-number">7</span>, <span class="hljs-number">11</span>]
 squared_list = [x**<span class="hljs-number">2</span> <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> my_list <span class="hljs-keyword">if</span> x%<span class="hljs-number">2</span> != <span class="hljs-number">0</span>]    <span class="hljs-comment"># list comprehension</span>
 <span class="hljs-comment"># output =&gt; [9 , 25 , 49 , 121]</span>
 squared_dict = {x:x**<span class="hljs-number">2</span> <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> my_list <span class="hljs-keyword">if</span> x%<span class="hljs-number">2</span> != <span class="hljs-number">0</span>}    <span class="hljs-comment"># dict comprehension</span>
-<span class="hljs-comment"># output =&gt; {11: 121, 3: 9 , 5: 25 , 7: 49}</span></code></pre><ul><li><strong>Combining multiple lists into one</strong></li></ul><p>Comprehensions allow for multiple iterators and hence, can be used to combine multiple lists into one. </p><pre><code class="language-python hljs">a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]
+<span class="hljs-comment"># output =&gt; {11: 121, 3: 9 , 5: 25 , 7: 49}</span></code></pre><br><br>
+			<ul>
+				<li><strong>Combining multiple lists into one</strong></li>
+			</ul><br>
+			<p>Comprehensions allow for multiple iterators and hence, can be used to combine multiple lists into one. </p><br>
+			<pre><code class="language-python hljs">a = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]
 b = [<span class="hljs-number">7</span>, <span class="hljs-number">8</span>, <span class="hljs-number">9</span>]
 [(x + y) <span class="hljs-keyword">for</span> (x,y) <span class="hljs-keyword">in</span> <span class="hljs-built_in">zip</span>(a,b)]  <span class="hljs-comment"># parallel iterators</span>
 <span class="hljs-comment"># output =&gt; [8, 10, 12]</span>
 [(x,y) <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> a <span class="hljs-keyword">for</span> y <span class="hljs-keyword">in</span> b]    <span class="hljs-comment"># nested iterators</span>
-<span class="hljs-comment"># output =&gt; [(1, 7), (1, 8), (1, 9), (2, 7), (2, 8), (2, 9), (3, 7), (3, 8), (3, 9)] </span></code></pre><ul><li><strong>Flattening a multi-dimensional list</strong></li></ul><p>A similar approach of nested iterators (as above) can be applied to flatten a multi-dimensional list or work upon its inner elements. </p><pre><code class="language-python hljs">my_list = [[<span class="hljs-number">10</span>,<span class="hljs-number">20</span>,<span class="hljs-number">30</span>],[<span class="hljs-number">40</span>,<span class="hljs-number">50</span>,<span class="hljs-number">60</span>],[<span class="hljs-number">70</span>,<span class="hljs-number">80</span>,<span class="hljs-number">90</span>]]
+<span class="hljs-comment"># output =&gt; [(1, 7), (1, 8), (1, 9), (2, 7), (2, 8), (2, 9), (3, 7), (3, 8), (3, 9)] </span></code></pre><br><br>
+			<ul>
+				<li><strong>Flattening a multi-dimensional list</strong></li>
+			</ul><br>
+			<p>A similar approach of nested iterators (as above) can be applied to flatten a multi-dimensional list or work upon its inner elements. </p><br>
+			<pre><code class="language-python hljs">my_list = [[<span class="hljs-number">10</span>,<span class="hljs-number">20</span>,<span class="hljs-number">30</span>],[<span class="hljs-number">40</span>,<span class="hljs-number">50</span>,<span class="hljs-number">60</span>],[<span class="hljs-number">70</span>,<span class="hljs-number">80</span>,<span class="hljs-number">90</span>]]
 flattened = [x <span class="hljs-keyword">for</span> temp <span class="hljs-keyword">in</span> my_list <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> temp]
-<span class="hljs-comment"># output =&gt; [10, 20, 30, 40, 50, 60, 70, 80, 90]</span></code></pre><blockquote><p><strong>Note:</strong> List comprehensions have the same effect as the map method in other languages. They follow the mathematical set builder notation rather than map and filter functions in Python.</p></blockquote>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="what-is-lambda-function-in-python-and-why-is-it-used">
-          <h3>24. What is lambda in Python? Why is it used?</h3>
-          <article class="ibpage-article">
-            <p>Lambda is an anonymous function in Python, that can accept any number of arguments, but can only have a single expression. It is generally used in situations requiring an anonymous function for a short time period. Lambda functions can be used in either of the two ways:</p><ul><li>Assigning lambda functions to a variable:</li></ul><pre><code class="language-python hljs">mul = <span class="hljs-keyword">lambda</span> a, b : a * b
-<span class="hljs-built_in">print</span>(mul(<span class="hljs-number">2</span>, <span class="hljs-number">5</span>))    <span class="hljs-comment"># output =&gt; 10</span></code></pre><ul><li>Wrapping lambda functions inside another function:</li></ul><pre><code class="language-python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">myWrapper</span>(<span class="hljs-params">n</span>):</span>
+<span class="hljs-comment"># output =&gt; [10, 20, 30, 40, 50, 60, 70, 80, 90]</span></code></pre><br><br>
+			<blockquote>
+				<p><strong>Note:</strong> List comprehensions have the same effect as the map method in other languages. They follow the mathematical set builder notation rather than map and filter functions in Python.</p><br>
+			</blockquote>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="what-is-lambda-function-in-python-and-why-is-it-used">
+		<h3>24. What is lambda in Python? Why is it used?</h3><br>
+		<article class="ibpage-article">
+			<p>Lambda is an anonymous function in Python, that can accept any number of arguments, but can only have a single expression. It is generally used in situations requiring an anonymous function for a short time period. Lambda functions can be used in either of the two ways:</p><br>
+			<ul>
+				<li>Assigning lambda functions to a variable:</li>
+			</ul><br>
+			<pre><code class="language-python hljs">mul = <span class="hljs-keyword">lambda</span> a, b : a * b
+<span class="hljs-built_in">print</span>(mul(<span class="hljs-number">2</span>, <span class="hljs-number">5</span>))    <span class="hljs-comment"># output =&gt; 10</span></code></pre><br><br>
+			<ul>
+				<li>Wrapping lambda functions inside another function:</li>
+			</ul><br>
+			<pre><code class="language-python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">myWrapper</span>(<span class="hljs-params">n</span>):</span>
  <span class="hljs-keyword">return</span> <span class="hljs-keyword">lambda</span> a : a * n
 mulFive = myWrapper(<span class="hljs-number">5</span>)
-<span class="hljs-built_in">print</span>(mulFive(<span class="hljs-number">2</span>))    <span class="hljs-comment"># output =&gt; 10</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="copy-in-python">
-          <h3>25. How do you copy an object in Python?</h3>
-          <article class="ibpage-article">
-            <p>In Python, the assignment statement (<code>=</code> operator) does not copy objects. Instead, it creates a binding between the existing object and the target variable name. To create copies of an object in Python, we need to use the <strong>copy</strong> module. Moreover, there are two ways of creating copies for the given object using the <strong>copy</strong> module -</p><p><strong>Shallow Copy</strong> is a bit-wise copy of an object. The copied object created has an exact copy of the values in the original object. If either of the values is a reference to other objects, just the reference addresses for the same are copied.<br><strong>Deep Copy</strong> copies all values recursively from source to target object, i.e. it even duplicates the objects referenced by the source object.</p><pre><code class="language-python hljs"><span class="hljs-keyword">from</span> copy <span class="hljs-keyword">import</span> copy, deepcopy
+<span class="hljs-built_in">print</span>(mulFive(<span class="hljs-number">2</span>))    <span class="hljs-comment"># output =&gt; 10</span></code></pre><br><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="copy-in-python">
+		<h3>25. How do you copy an object in Python?</h3><br>
+		<article class="ibpage-article">
+			<p>In Python, the assignment statement (<code>=</code> operator) does not copy objects. Instead, it creates a binding between the existing object and the target variable name. To create copies of an object in Python, we need to use the <strong>copy</strong> module. Moreover, there are two ways of creating copies for the given object using the <strong>copy</strong> module -</p><br>
+			<p><strong>Shallow Copy</strong> is a bit-wise copy of an object. The copied object created has an exact copy of the values in the original object. If either of the values is a reference to other objects, just the reference addresses for the same are copied.<br><strong>Deep Copy</strong> copies all values recursively from source to target object, i.e. it even duplicates the objects referenced by the source object.</p><br>
+			<pre><code class="language-python hljs"><span class="hljs-keyword">from</span> copy <span class="hljs-keyword">import</span> copy, deepcopy
 list_1 = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, [<span class="hljs-number">3</span>, <span class="hljs-number">5</span>], <span class="hljs-number">4</span>]
 <span class="hljs-comment">## shallow copy</span>
 list_2 = copy(list_1)
@@ -499,36 +560,47 @@ list_3 = deepcopy(list_1)
 list_3[<span class="hljs-number">3</span>] = <span class="hljs-number">8</span>
 list_3[<span class="hljs-number">2</span>].append(<span class="hljs-number">7</span>)
 list_3    <span class="hljs-comment"># output =&gt; [1, 2, [3, 5, 6, 7], 8]</span>
-list_1    <span class="hljs-comment"># output =&gt; [1, 2, [3, 5, 6], 4]</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="range-vs-xrange-python">
-          <h3>26. What is the difference between xrange and range in Python?</h3>
-          <article class="ibpage-article">
-            <p><strong>xrange()</strong> and <strong>range() </strong>are quite similar in terms of functionality. They both generate a sequence of integers, with the only difference that <code>range()</code> returns a <strong>Python list</strong>, whereas, <code>xrange()</code> returns an <strong>xrange object</strong>.</p><p><strong>So how does that make a difference?</strong> It sure does, because unlike range(), xrange() doesn't generate a static list, it creates the value on the go. This technique is commonly used with an object-type <strong>generator</strong> and has been termed as "<strong>yielding</strong>".</p><p><strong>Yielding</strong> is crucial in applications where memory is a constraint. Creating a static list as in range() can lead to a <code>Memory Error</code> in such conditions, while, xrange() can handle it optimally by using just enough memory for the generator (significantly less in comparison).</p><pre><code class="language-python hljs"><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> xrange(<span class="hljs-number">10</span>):    <span class="hljs-comment"># numbers from o to 9</span>
+list_1    <span class="hljs-comment"># output =&gt; [1, 2, [3, 5, 6], 4]</span></code></pre><br><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="range-vs-xrange-python">
+		<h3>26. What is the difference between xrange and range in Python?</h3><br>
+		<article class="ibpage-article">
+			<p><strong>xrange()</strong> and <strong>range() </strong>are quite similar in terms of functionality. They both generate a sequence of integers, with the only difference that <code>range()</code> returns a <strong>Python list</strong>, whereas, <code>xrange()</code> returns an <strong>xrange object</strong>.</p><br>
+			<p><strong>So how does that make a difference?</strong> It sure does, because unlike range(), xrange() doesn't generate a static list, it creates the value on the go. This technique is commonly used with an object-type <strong>generator</strong> and has been termed as "<strong>yielding</strong>".</p><br>
+			<p><strong>Yielding</strong> is crucial in applications where memory is a constraint. Creating a static list as in range() can lead to a <code>Memory Error</code> in such conditions, while, xrange() can handle it optimally by using just enough memory for the generator (significantly less in comparison).</p><br>
+			<pre><code class="language-python hljs"><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> xrange(<span class="hljs-number">10</span>):    <span class="hljs-comment"># numbers from o to 9</span>
    <span class="hljs-built_in">print</span> i       <span class="hljs-comment"># output =&gt; 0 1 2 3 4 5 6 7 8 9</span>
 <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> xrange(<span class="hljs-number">1</span>,<span class="hljs-number">10</span>):    <span class="hljs-comment"># numbers from 1 to 9</span>
    <span class="hljs-built_in">print</span> i       <span class="hljs-comment"># output =&gt; 1 2 3 4 5 6 7 8 9</span>
 <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> xrange(<span class="hljs-number">1</span>, <span class="hljs-number">10</span>, <span class="hljs-number">2</span>):    <span class="hljs-comment"># skip by two for next</span>
-   <span class="hljs-built_in">print</span> i       <span class="hljs-comment"># output =&gt; 1 3 5 7 9</span></code></pre><p><strong>Note</strong>: <strong>xrange</strong> has been <strong>deprecated</strong> as of <strong>Python 3.x</strong>. Now <code>range</code> does exactly the same as what <code>xrange</code> used to do in <strong>Python 2.x</strong>, since it was way better to use xrange() than the original range() function in Python 2.x.</p>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="pickling-and-unpickling-in-python">
-          <h3>27. What is pickling and unpickling?</h3>
-          <article class="ibpage-article">
-            <p>Python library offers a feature - <strong>serialization</strong> out of the box. Serializing an object refers to transforming it into a format that can be stored, so as to be able to deserialize it, later on, to obtain the original object. Here, the <strong>pickle</strong> module comes into play.</p><p><strong>Pickling:</strong></p><ul>
-<li>Pickling is the name of the serialization process in Python. Any object in Python can be serialized into a byte stream and dumped as a file in the memory. The process of pickling is compact but pickle objects can be compressed further. Moreover, pickle keeps track of the objects it has serialized and the serialization is portable across versions.</li>
-<li>The function used for the above process is <code>pickle.dump()</code>.</li>
-</ul><p><strong>Unpickling:</strong></p><ul>
-<li>Unpickling is the complete inverse of pickling. It deserializes the byte stream to recreate the objects stored in the file and loads the object to memory.</li>
-<li>The function used for the above process is <code>pickle.load()</code>.</li>
-</ul><p><strong>Note:</strong> <i>Python has another, more primitive, serialization module called <strong>marshall</strong>, which exists primarily to <strong>support .pyc files</strong> in Python and <strong>differs significantly from the pickle</strong>.</i></p><figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/927/original/Pickle_Module.jpg?1629980924" class="lazy-elem"></figure>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="generators-in-python">
-          <h3>28. What are generators in Python?</h3>
-          <article class="ibpage-article">
-            <p>Generators are functions that return an iterable collection of items, one at a time, in a set manner. Generators, in general, are used to create iterators with a different approach. They employ the use of <code>yield</code> keyword rather than <code>return</code> to return a <strong>generator</strong> object.<br>Let's try and build a generator for fibonacci numbers -</p><pre><code class="language-python hljs"><span class="hljs-comment">## generate fibonacci numbers upto n</span>
+   <span class="hljs-built_in">print</span> i       <span class="hljs-comment"># output =&gt; 1 3 5 7 9</span></code></pre><br><br>
+			<p><strong>Note</strong>: <strong>xrange</strong> has been <strong>deprecated</strong> as of <strong>Python 3.x</strong>. Now <code>range</code> does exactly the same as what <code>xrange</code> used to do in <strong>Python 2.x</strong>, since it was way better to use xrange() than the original range() function in Python 2.x.</p><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="pickling-and-unpickling-in-python">
+		<h3>27. What is pickling and unpickling?</h3><br>
+		<article class="ibpage-article">
+			<p>Python library offers a feature - <strong>serialization</strong> out of the box. Serializing an object refers to transforming it into a format that can be stored, so as to be able to deserialize it, later on, to obtain the original object. Here, the <strong>pickle</strong> module comes into play.</p><br>
+			<p><strong>Pickling:</strong></p><br>
+			<ul>
+				<li>Pickling is the name of the serialization process in Python. Any object in Python can be serialized into a byte stream and dumped as a file in the memory. The process of pickling is compact but pickle objects can be compressed further. Moreover, pickle keeps track of the objects it has serialized and the serialization is portable across versions.</li>
+				<li>The function used for the above process is <code>pickle.dump()</code>.</li>
+			</ul><br>
+			<p><strong>Unpickling:</strong></p><br>
+			<ul>
+				<li>Unpickling is the complete inverse of pickling. It deserializes the byte stream to recreate the objects stored in the file and loads the object to memory.</li>
+				<li>The function used for the above process is <code>pickle.load()</code>.</li>
+			</ul><br>
+			<p><strong>Note:</strong> <i>Python has another, more primitive, serialization module called <strong>marshall</strong>, which exists primarily to <strong>support .pyc files</strong> in Python and <strong>differs significantly from the pickle</strong>.</i></p><br>
+			<figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/927/original/Pickle_Module.jpg?1629980924" class="lazy-elem"></figure><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="generators-in-python">
+		<h3>28. What are generators in Python?</h3><br>
+		<article class="ibpage-article">
+			<p>Generators are functions that return an iterable collection of items, one at a time, in a set manner. Generators, in general, are used to create iterators with a different approach. They employ the use of <code>yield</code> keyword rather than <code>return</code> to return a <strong>generator</strong> object.<br>Let's try and build a generator for fibonacci numbers -</p><br>
+			<pre><code class="language-python hljs"><span class="hljs-comment">## generate fibonacci numbers upto n</span>
 <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">fib</span>(<span class="hljs-params">n</span>):</span>
    p, q = <span class="hljs-number">0</span>, <span class="hljs-number">1</span>
    <span class="hljs-keyword">while</span>(p &lt; n):
@@ -548,73 +620,79 @@ x.__next__()    <span class="hljs-comment"># error</span>
 
 <span class="hljs-comment">## iterating using loop</span>
 <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> fib(<span class="hljs-number">10</span>):
-   <span class="hljs-built_in">print</span>(i)    <span class="hljs-comment"># output =&gt; 0 1 1 2 3 5 8</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="pythonpath-in-python">
-          <h3>29. What is PYTHONPATH in Python?</h3>
-          <article class="ibpage-article">
-            <p>PYTHONPATH is an environment variable which you can set to add additional directories where Python will look for modules and packages. This is especially useful in maintaining Python libraries that you do not wish to install in the global default location.</p>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="use-of-help-and-dir-function-in-python">
-          <h3>30. What is the use of help() and dir() functions?</h3>
-          <article class="ibpage-article">
-            <p><strong>help()</strong> function in Python is used to display the documentation of modules, classes, functions, keywords, etc. If no parameter is passed to the <code>help()</code> function, then an interactive <strong>help utility</strong> is launched on the console.<br><strong>dir()</strong> function tries to return a valid list of attributes and methods of the object it is called upon. It behaves differently with different objects, as it aims to produce the most relevant data, rather than the complete information.</p><ul>
-<li>For Modules/Library objects, it returns a list of all attributes, contained in that module.</li>
-<li>For Class Objects, it returns a list of all valid attributes and base attributes.</li>
-<li>With no arguments passed, it returns a list of attributes in the current scope.</li>
-</ul>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="what-is-the-difference-between-py-and-pyc-files-in-python">
-          <h3>31. What is the difference between .py and .pyc files?</h3>
-          <article class="ibpage-article">
-            <ul>
-<li>.py files contain the source code of a program. Whereas, .pyc file contains the bytecode of your program. We get bytecode after compilation of .py file (source code). .pyc files are not created for all the files that you run. It is only created for the files that you import.</li>
-<li>Before executing a python program python interpreter checks for the compiled files. If the file is present, the virtual machine executes it. If not found, it checks for .py file. If found, compiles it to .pyc file and then python virtual machine executes it.</li>
-<li>Having .pyc file saves you the compilation time.</li>
-</ul>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="how-python-is-interpreted">
-          <h3>32. How Python is interpreted?</h3>
-          <article class="ibpage-article">
-            <ul>
-<li>Python as a language is not interpreted or compiled. Interpreted or compiled is the property of the implementation. Python is a bytecode(set of interpreter readable instructions) interpreted generally.</li>
-<li>Source code is a file with .py extension.</li>
-<li>Python compiles the source code to a set of instructions for a virtual machine. The Python interpreter is an implementation of that virtual machine. This intermediate format is called “bytecode”.</li>
-<li>.py source code is first compiled to give .pyc which is bytecode. This bytecode can be then interpreted by the official CPython or JIT(Just in Time compiler) compiled by PyPy.</li>
-</ul>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="how-are-arguments-passed-by-value-or-by-reference-in-python">
-          <h3>33. How are arguments passed by value or by reference in python?</h3>
-          <article class="ibpage-article">
-            <ul>
-<li>
-<strong>Pass by value</strong>: Copy of the actual object is passed. Changing the value of the copy of the object will not change the value of the original object.</li>
-<li>
-<strong>Pass by reference</strong>: Reference to the actual object is passed. Changing the value of the new object will change the value of the original object.</li>
-</ul><p>In Python, arguments are passed by reference, i.e., reference to the actual object is passed.</p><pre><code class="language-python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">appendNumber</span>(<span class="hljs-params">arr</span>):</span>
+   <span class="hljs-built_in">print</span>(i)    <span class="hljs-comment"># output =&gt; 0 1 1 2 3 5 8</span></code></pre><br><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="pythonpath-in-python">
+		<h3>29. What is PYTHONPATH in Python?</h3><br>
+		<article class="ibpage-article">
+			<p>PYTHONPATH is an environment variable which you can set to add additional directories where Python will look for modules and packages. This is especially useful in maintaining Python libraries that you do not wish to install in the global default location.</p><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="use-of-help-and-dir-function-in-python">
+		<h3>30. What is the use of help() and dir() functions?</h3><br>
+		<article class="ibpage-article">
+			<p><strong>help()</strong> function in Python is used to display the documentation of modules, classes, functions, keywords, etc. If no parameter is passed to the <code>help()</code> function, then an interactive <strong>help utility</strong> is launched on the console.<br><strong>dir()</strong> function tries to return a valid list of attributes and methods of the object it is called upon. It behaves differently with different objects, as it aims to produce the most relevant data, rather than the complete information.</p><br>
+			<ul>
+				<li>For Modules/Library objects, it returns a list of all attributes, contained in that module.</li>
+				<li>For Class Objects, it returns a list of all valid attributes and base attributes.</li>
+				<li>With no arguments passed, it returns a list of attributes in the current scope.</li>
+			</ul><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="what-is-the-difference-between-py-and-pyc-files-in-python">
+		<h3>31. What is the difference between .py and .pyc files?</h3><br>
+		<article class="ibpage-article">
+			<ul>
+				<li>.py files contain the source code of a program. Whereas, .pyc file contains the bytecode of your program. We get bytecode after compilation of .py file (source code). .pyc files are not created for all the files that you run. It is only created for the files that you import.</li>
+				<li>Before executing a python program python interpreter checks for the compiled files. If the file is present, the virtual machine executes it. If not found, it checks for .py file. If found, compiles it to .pyc file and then python virtual machine executes it.</li>
+				<li>Having .pyc file saves you the compilation time.</li>
+			</ul><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="how-python-is-interpreted">
+		<h3>32. How Python is interpreted?</h3><br>
+		<article class="ibpage-article">
+			<ul>
+				<li>Python as a language is not interpreted or compiled. Interpreted or compiled is the property of the implementation. Python is a bytecode(set of interpreter readable instructions) interpreted generally.</li>
+				<li>Source code is a file with .py extension.</li>
+				<li>Python compiles the source code to a set of instructions for a virtual machine. The Python interpreter is an implementation of that virtual machine. This intermediate format is called “bytecode”.</li>
+				<li>.py source code is first compiled to give .pyc which is bytecode. This bytecode can be then interpreted by the official CPython or JIT(Just in Time compiler) compiled by PyPy.</li>
+			</ul><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="how-are-arguments-passed-by-value-or-by-reference-in-python">
+		<h3>33. How are arguments passed by value or by reference in python?</h3><br>
+		<article class="ibpage-article">
+			<ul>
+				<li>
+					<strong>Pass by value</strong>: Copy of the actual object is passed. Changing the value of the copy of the object will not change the value of the original object.
+				</li>
+				<li>
+					<strong>Pass by reference</strong>: Reference to the actual object is passed. Changing the value of the new object will change the value of the original object.
+				</li>
+			</ul><br>
+			<p>In Python, arguments are passed by reference, i.e., reference to the actual object is passed.</p><br>
+			<pre><code class="language-python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">appendNumber</span>(<span class="hljs-params">arr</span>):</span>
    arr.append(<span class="hljs-number">4</span>)
 arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]
 <span class="hljs-built_in">print</span>(arr)  <span class="hljs-comment">#Output: =&gt; [1, 2, 3]</span>
 appendNumber(arr)
-<span class="hljs-built_in">print</span>(arr)  <span class="hljs-comment">#Output: =&gt; [1, 2, 3, 4]</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="iterators-in-python">
-          <h3>34. What are iterators in Python?</h3>
-          <article class="ibpage-article">
-            <ul>
-<li>An iterator is an object.</li>
-<li>It remembers its state i.e., where it is during iteration (see code below to see how)</li>
-<li>__iter__() method initializes an iterator.</li>
-<li>It has a __next__() method which returns the next item in iteration and points to the next element. Upon reaching the end of iterable object __next__() must return StopIteration exception.</li>
-<li>It is also self-iterable.</li>
-<li>Iterators are objects with which we can iterate over iterable objects like lists, strings, etc.</li>
-</ul><pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ArrayList</span>:</span>
+<span class="hljs-built_in">print</span>(arr)  <span class="hljs-comment">#Output: =&gt; [1, 2, 3, 4]</span></code></pre><br><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="iterators-in-python">
+		<h3>34. What are iterators in Python?</h3><br>
+		<article class="ibpage-article">
+			<ul>
+				<li>An iterator is an object.</li>
+				<li>It remembers its state i.e., where it is during iteration (see code below to see how)</li>
+				<li>__iter__() method initializes an iterator.</li>
+				<li>It has a __next__() method which returns the next item in iteration and points to the next element. Upon reaching the end of iterable object __next__() must return StopIteration exception.</li>
+				<li>It is also self-iterable.</li>
+				<li>Iterators are objects with which we can iterate over iterable objects like lists, strings, etc.</li>
+			</ul><br>
+			<pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ArrayList</span>:</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self, number_list</span>):</span>
        self.numbers = number_list
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__iter__</span>(<span class="hljs-params">self</span>):</span>
@@ -634,87 +712,104 @@ it = <span class="hljs-built_in">iter</span>(array_obj)
 <span class="hljs-comment">#Throws Exception</span>
 <span class="hljs-comment">#Traceback (most recent call last):</span>
 <span class="hljs-comment">#...</span>
-<span class="hljs-comment">#StopIteration</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="how-to-delete-a-file-in-python">
-          <h3>35. Explain how to delete a file in Python?</h3>
-          <article class="ibpage-article">
-            <p>Use command <strong>os.remove(file_name)</strong></p><pre><code class="language-python hljs"><span class="hljs-keyword">import</span> os
+<span class="hljs-comment">#StopIteration</span></code></pre><br><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="how-to-delete-a-file-in-python">
+		<h3>35. Explain how to delete a file in Python?</h3><br>
+		<article class="ibpage-article">
+			<p>Use command <strong>os.remove(file_name)</strong></p><br>
+			<pre><code class="language-python hljs"><span class="hljs-keyword">import</span> os
 os.remove(<span class="hljs-string">"ChangedFile.csv"</span>)
-<span class="hljs-built_in">print</span>(<span class="hljs-string">"File Removed!"</span>)</code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="explain-split-and-join-functions-in-python">
-          <h3>36. Explain split() and join() functions in Python?</h3>
-          <article class="ibpage-article">
-            <ul>
-<li>You can use <strong>split()</strong> function to split a string based on a delimiter to a list of strings.</li>
-<li>You can use <strong>join()</strong> function to join a list of strings based on a delimiter to give a single string.</li>
-</ul><pre><code class="language-python hljs">string = <span class="hljs-string">"This is a string."</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-string">"File Removed!"</span>)</code></pre><br><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="explain-split-and-join-functions-in-python">
+		<h3>36. Explain split() and join() functions in Python?</h3><br>
+		<article class="ibpage-article">
+			<ul>
+				<li>You can use <strong>split()</strong> function to split a string based on a delimiter to a list of strings.</li>
+				<li>You can use <strong>join()</strong> function to join a list of strings based on a delimiter to give a single string.</li>
+			</ul><br>
+			<pre><code class="language-python hljs">string = <span class="hljs-string">"This is a string."</span>
 string_list = string.split(<span class="hljs-string">' '</span>) <span class="hljs-comment">#delimiter is ‘space’ character or ‘ ‘</span>
 <span class="hljs-built_in">print</span>(string_list) <span class="hljs-comment">#output: ['This', 'is', 'a', 'string.']</span>
-<span class="hljs-built_in">print</span>(<span class="hljs-string">' '</span>.join(string_list)) <span class="hljs-comment">#output: This is a string.</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="python-args-kwargs">
-          <h3>37. What does *args and **kwargs mean?</h3>
-          <article class="ibpage-article">
-            <p><strong>*args</strong></p><ul>
-<li>*args is a special syntax used in the function definition to pass variable-length arguments.</li>
-<li>“*” means variable length and “args” is the name used by convention. You can use any other.</li>
-</ul><pre><code class="language-python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">multiply</span>(<span class="hljs-params">a, b, *argv</span>):</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-string">' '</span>.join(string_list)) <span class="hljs-comment">#output: This is a string.</span></code></pre><br><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="python-args-kwargs">
+		<h3>37. What does *args and **kwargs mean?</h3><br>
+		<article class="ibpage-article">
+			<p><strong>*args</strong></p><br>
+			<ul>
+				<li>*args is a special syntax used in the function definition to pass variable-length arguments.</li>
+				<li>“*” means variable length and “args” is the name used by convention. You can use any other.</li>
+			</ul><br>
+			<pre><code class="language-python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">multiply</span>(<span class="hljs-params">a, b, *argv</span>):</span>
    mul = a * b
    <span class="hljs-keyword">for</span> num <span class="hljs-keyword">in</span> argv:
        mul *= num
    <span class="hljs-keyword">return</span> mul
-<span class="hljs-built_in">print</span>(multiply(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>)) <span class="hljs-comment">#output: 120</span></code></pre><p><strong>**kwargs</strong></p><ul>
-<li>**kwargs is a special syntax used in the function definition to pass variable-length keyworded arguments.</li>
-<li>Here, also, “kwargs” is used just by convention. You can use any other name.</li>
-<li>Keyworded argument means a variable that has a name when passed to a function.</li>
-<li>It is actually a dictionary of the variable names and its value.</li>
-</ul><pre><code class="language-python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">tellArguments</span>(<span class="hljs-params">**kwargs</span>):</span>
+<span class="hljs-built_in">print</span>(multiply(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>)) <span class="hljs-comment">#output: 120</span></code></pre><br><br>
+			<p><strong>**kwargs</strong></p><br>
+			<ul>
+				<li>**kwargs is a special syntax used in the function definition to pass variable-length keyworded arguments.</li>
+				<li>Here, also, “kwargs” is used just by convention. You can use any other name.</li>
+				<li>Keyworded argument means a variable that has a name when passed to a function.</li>
+				<li>It is actually a dictionary of the variable names and its value.</li>
+			</ul><br>
+			<pre><code class="language-python hljs"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">tellArguments</span>(<span class="hljs-params">**kwargs</span>):</span>
    <span class="hljs-keyword">for</span> key, value <span class="hljs-keyword">in</span> kwargs.items():
        <span class="hljs-built_in">print</span>(key + <span class="hljs-string">": "</span> + value)
 tellArguments(arg1 = <span class="hljs-string">"argument 1"</span>, arg2 = <span class="hljs-string">"argument 2"</span>, arg3 = <span class="hljs-string">"argument 3"</span>)
 <span class="hljs-comment">#output:</span>
 <span class="hljs-comment"># arg1: argument 1</span>
 <span class="hljs-comment"># arg2: argument 2</span>
-<span class="hljs-comment"># arg3: argument 3</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="what-are-negative-indexes-and-why-are-they-used">
-          <h3>38. What are negative indexes and why are they used?</h3>
-          <article class="ibpage-article">
-            <ul>
-<li>Negative indexes are the indexes from the end of the list or tuple or string.</li>
-<li>
-<strong>Arr[-1]</strong> means the last element of array <strong>Arr[]</strong>
-</li>
-</ul><pre><code class="language-python hljs">arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>]
+<span class="hljs-comment"># arg3: argument 3</span></code></pre><br><br>
+		</article>
+	</section>
+	<section class="ibpage-article-header" id="what-are-negative-indexes-and-why-are-they-used">
+		<h3>38. What are negative indexes and why are they used?</h3><br>
+		<article class="ibpage-article">
+			<ul>
+				<li>Negative indexes are the indexes from the end of the list or tuple or string.</li>
+				<li>
+					<strong>Arr[-1]</strong> means the last element of array <strong>Arr[]</strong>
+				</li>
+			</ul><br>
+			<pre><code class="language-python hljs">arr = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>]
 <span class="hljs-comment">#get the last element</span>
 <span class="hljs-built_in">print</span>(arr[-<span class="hljs-number">1</span>]) <span class="hljs-comment">#output 6</span>
 <span class="hljs-comment">#get the second last element</span>
-<span class="hljs-built_in">print</span>(arr[-<span class="hljs-number">2</span>]) <span class="hljs-comment">#output 5</span></code></pre>
-          </article>
-        </section>
-
-  </div>
-  <div id="python-oops">
-    <h2>Python OOPS Interview Questions</h2>
-
-        <section class="ibpage-article-header" id="how-to-create-a-class-in-python">
-          <h3>39. How do you create a class in Python?</h3>
-          <article class="ibpage-article">
-            <p>To create a class in python, we use the keyword “class” as shown in the example below:</p><pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">InterviewbitEmployee</span>:</span>
+<span class="hljs-built_in">print</span>(arr[-<span class="hljs-number">2</span>]) <span class="hljs-comment">#output 5</span></code></pre><br><br>
+		</article>
+	</section>
+</div>
+<div id="python-oops">
+<h2>Python OOPS Interview Questions</h2><br>
+<section class="ibpage-article-header" id="how-to-create-a-class-in-python">
+	<h3>39. How do you create a class in Python?</h3><br>
+	<article class="ibpage-article">
+		<p>To create a class in python, we use the keyword “class” as shown in the example below:</p><br>
+		<pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">InterviewbitEmployee</span>:</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self, emp_name</span>):</span>
-       self.emp_name = emp_name</code></pre><p>To instantiate or create an object from the class created above, we do the following:</p><pre><code class="language-python hljs">emp_1=InterviewbitEmployee(<span class="hljs-string">"Mr. Employee"</span>)</code></pre><p>To access the name attribute, we just call the attribute using the dot operator as shown below:</p><pre><code class="language-python hljs"><span class="hljs-built_in">print</span>(emp_1.emp_name)
-<span class="hljs-comment"># Prints Mr. Employee</span></code></pre><p>To create methods inside the class, we include the methods under the scope of the class as shown below:</p><pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">InterviewbitEmployee</span>:</span>
+       self.emp_name = emp_name</code></pre><br><br>
+		<p>To instantiate or create an object from the class created above, we do the following:</p><br>
+		<pre><code class="language-python hljs">emp_1=InterviewbitEmployee(<span class="hljs-string">"Mr. Employee"</span>)</code></pre><br><br>
+		<p>To access the name attribute, we just call the attribute using the dot operator as shown below:</p><br>
+		<pre><code class="language-python hljs"><span class="hljs-built_in">print</span>(emp_1.emp_name)
+<span class="hljs-comment"># Prints Mr. Employee</span></code></pre><br><br>
+		<p>To create methods inside the class, we include the methods under the scope of the class as shown below:</p><br>
+		<pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">InterviewbitEmployee</span>:</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self, emp_name</span>):</span>
        self.emp_name = emp_name
 
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">introduce</span>(<span class="hljs-params">self</span>):</span>
-       <span class="hljs-built_in">print</span>(<span class="hljs-string">"Hello I am "</span> + self.emp_name)</code></pre><p>The self parameter in the init and introduce functions represent the reference to the current class instance which is used for accessing attributes and methods of that class. The self parameter has to be the first parameter of any method defined inside the class. The method of the class InterviewbitEmployee can be accessed as shown below:</p><pre><code class="language-python hljs">emp_1.introduce()</code></pre><p>The overall program would look like this:</p><pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">InterviewbitEmployee</span>:</span>
+       <span class="hljs-built_in">print</span>(<span class="hljs-string">"Hello I am "</span> + self.emp_name)</code></pre><br><br>
+		<p>The self parameter in the init and introduce functions represent the reference to the current class instance which is used for accessing attributes and methods of that class. The self parameter has to be the first parameter of any method defined inside the class. The method of the class InterviewbitEmployee can be accessed as shown below:</p><br>
+		<pre><code class="language-python hljs">emp_1.introduce()</code></pre><br><br>
+		<p>The overall program would look like this:</p><br>
+		<pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">InterviewbitEmployee</span>:</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self, emp_name</span>):</span>
        self.emp_name = emp_name
 
@@ -724,14 +819,21 @@ tellArguments(arg1 = <span class="hljs-string">"argument 1"</span>, arg2 = <span
 <span class="hljs-comment"># create an object of InterviewbitEmployee class</span>
 emp_1 = InterviewbitEmployee(<span class="hljs-string">"Mr Employee"</span>)
 <span class="hljs-built_in">print</span>(emp_1.emp_name)    <span class="hljs-comment">#print employee name</span>
-emp_1.introduce()        <span class="hljs-comment">#introduce the employee</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="inheritance-in-python">
-          <h3>40. How does inheritance work in python? Explain it with an example.</h3>
-          <article class="ibpage-article">
-            <p>Inheritance gives the power to a class to access all attributes and methods of another class. It aids in code reusability and helps the developer to maintain applications without redundant code. The class inheriting from another class is a child class or also called a derived class. The class from which a child class derives the members are called parent class or superclass.</p><p>Python supports different kinds of inheritance, they are:</p><ul><li>
-<strong>Single Inheritance</strong>: Child class derives members of one parent class.</li></ul><figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/928/original/Single_Inheritance.jpg?1629984086" class="lazy-elem"></figure><pre><code class="language-python hljs"><span class="hljs-comment"># Parent class</span>
+emp_1.introduce()        <span class="hljs-comment">#introduce the employee</span></code></pre><br><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="inheritance-in-python">
+	<h3>40. How does inheritance work in python? Explain it with an example.</h3><br>
+	<article class="ibpage-article">
+		<p>Inheritance gives the power to a class to access all attributes and methods of another class. It aids in code reusability and helps the developer to maintain applications without redundant code. The class inheriting from another class is a child class or also called a derived class. The class from which a child class derives the members are called parent class or superclass.</p><br>
+		<p>Python supports different kinds of inheritance, they are:</p><br>
+		<ul>
+			<li>
+				<strong>Single Inheritance</strong>: Child class derives members of one parent class.
+			</li>
+		</ul><br>
+		<figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/928/original/Single_Inheritance.jpg?1629984086" class="lazy-elem"></figure><br>
+		<pre><code class="language-python hljs"><span class="hljs-comment"># Parent class</span>
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ParentClass</span>:</span>
     <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">par_func</span>(<span class="hljs-params">self</span>):</span>
          <span class="hljs-built_in">print</span>(<span class="hljs-string">"I am parent class function"</span>)
@@ -744,8 +846,14 @@ emp_1.introduce()        <span class="hljs-comment">#introduce the employee</spa
 <span class="hljs-comment"># Driver code</span>
 obj1 = ChildClass()
 obj1.par_func()
-obj1.child_func()</code></pre><ul><li>
-<strong>Multi-level Inheritance: </strong>The members of the parent class, A, are inherited by child class which is then inherited by another child class, B. The features of the base class and the derived class are further inherited into the new derived class, C. Here, A is the grandfather class of class C.</li></ul><figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/930/original/Multi-level_Inheritance.jpg?1629984200" class="lazy-elem"></figure><pre><code class="language-python hljs"><span class="hljs-comment"># Parent class</span>
+obj1.child_func()</code></pre><br><br>
+		<ul>
+			<li>
+				<strong>Multi-level Inheritance: </strong>The members of the parent class, A, are inherited by child class which is then inherited by another child class, B. The features of the base class and the derived class are further inherited into the new derived class, C. Here, A is the grandfather class of class C.
+			</li>
+		</ul><br>
+		<figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/930/original/Multi-level_Inheritance.jpg?1629984200" class="lazy-elem"></figure><br>
+		<pre><code class="language-python hljs"><span class="hljs-comment"># Parent class</span>
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">A</span>:</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self, a_name</span>):</span>
        self.a_name = a_name
@@ -773,8 +881,14 @@ obj1.child_func()</code></pre><ul><li>
 obj1 = C(<span class="hljs-string">'child'</span>, <span class="hljs-string">'intermediate'</span>, <span class="hljs-string">'parent'</span>)
 <span class="hljs-built_in">print</span>(obj1.a_name)
 obj1.display_names()
- </code></pre><ul><li>
-<strong>Multiple Inheritance:</strong> This is achieved when one child class derives members from more than one parent class. All features of parent classes are inherited in the child class.</li></ul><figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/934/original/Multiple_Inheritance.jpg?1629984498" class="lazy-elem"></figure><pre><code class="language-python hljs"><span class="hljs-comment"># Parent class1</span>
+ </code></pre><br><br>
+		<ul>
+			<li>
+				<strong>Multiple Inheritance:</strong> This is achieved when one child class derives members from more than one parent class. All features of parent classes are inherited in the child class.
+			</li>
+		</ul><br>
+		<figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/934/original/Multiple_Inheritance.jpg?1629984498" class="lazy-elem"></figure><br>
+		<pre><code class="language-python hljs"><span class="hljs-comment"># Parent class1</span>
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Parent1</span>:</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">parent1_func</span>(<span class="hljs-params">self</span>):</span>
        <span class="hljs-built_in">print</span>(<span class="hljs-string">"Hi I am first Parent"</span>)
@@ -792,8 +906,14 @@ obj1.display_names()
 
 <span class="hljs-comment"># Driver's code</span>
 obj1 = Child()
-obj1.child_func()</code></pre><ul><li>
-<strong>Hierarchical Inheritance: </strong>When a parent class is derived by more than one child class, it is called hierarchical inheritance.</li></ul><figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/935/original/Hierarchical_Inheritance.jpg?1629985141" class="lazy-elem"></figure><pre><code class="language-python hljs"><span class="hljs-comment"># Base class</span>
+obj1.child_func()</code></pre><br><br>
+		<ul>
+			<li>
+				<strong>Hierarchical Inheritance: </strong>When a parent class is derived by more than one child class, it is called hierarchical inheritance.
+			</li>
+		</ul><br>
+		<figure class="image image_resized" style="width:75%;"><img data-src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/935/original/Hierarchical_Inheritance.jpg?1629985141" class="lazy-elem"></figure><br>
+		<pre><code class="language-python hljs"><span class="hljs-comment"># Base class</span>
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">A</span>:</span>
      <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">a_func</span>(<span class="hljs-params">self</span>):</span>
          <span class="hljs-built_in">print</span>(<span class="hljs-string">"I am from the parent class."</span>)
@@ -814,14 +934,19 @@ obj2 = C()
 obj1.a_func()
 obj1.b_func()    <span class="hljs-comment">#child 1 method</span>
 obj2.a_func()
-obj2.c_func()    <span class="hljs-comment">#child 2 method</span></code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="how-do-you-access-parent-members-in-the-child-class">
-          <h3>41. How do you access parent members in the child class?</h3>
-          <article class="ibpage-article">
-            <p>Following are the ways using which you can access parent class members within a child class:</p><ul><li>
-<strong>By using Parent class name:</strong> You can use the name of the parent class to access the attributes as shown in the example below:</li></ul><pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Parent</span>(<span class="hljs-params"><span class="hljs-built_in">object</span></span>):</span>
+obj2.c_func()    <span class="hljs-comment">#child 2 method</span></code></pre><br><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="how-do-you-access-parent-members-in-the-child-class">
+	<h3>41. How do you access parent members in the child class?</h3><br>
+	<article class="ibpage-article">
+		<p>Following are the ways using which you can access parent class members within a child class:</p><br>
+		<ul>
+			<li>
+				<strong>By using Parent class name:</strong> You can use the name of the parent class to access the attributes as shown in the example below:
+			</li>
+		</ul><br>
+		<pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Parent</span>(<span class="hljs-params"><span class="hljs-built_in">object</span></span>):</span>
    <span class="hljs-comment"># Constructor</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self, name</span>):</span>
        self.name = name
@@ -837,8 +962,13 @@ obj2.c_func()    <span class="hljs-comment">#child 2 method</span></code></pre>
 
 <span class="hljs-comment"># Driver Code</span>
 obj = Child(<span class="hljs-string">"Interviewbit"</span>, <span class="hljs-number">6</span>)
-obj.display()</code></pre><ul><li>
-<strong>By using super():</strong> The parent class members can be accessed in child class using the super keyword.</li></ul><pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Parent</span>(<span class="hljs-params"><span class="hljs-built_in">object</span></span>):</span>
+obj.display()</code></pre><br><br>
+		<ul>
+			<li>
+				<strong>By using super():</strong> The parent class members can be accessed in child class using the super keyword.
+			</li>
+		</ul><br>
+		<pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Parent</span>(<span class="hljs-params"><span class="hljs-built_in">object</span></span>):</span>
    <span class="hljs-comment"># Constructor</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self, name</span>):</span>
        self.name = name
@@ -859,13 +989,15 @@ obj.display()</code></pre><ul><li>
 
 <span class="hljs-comment"># Driver Code</span>
 obj = Child(<span class="hljs-string">"Interviewbit"</span>, <span class="hljs-number">6</span>)
-obj.display()</code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="are-access-specifiers-used-in-python">
-          <h3>42. Are access specifiers used in python?</h3>
-          <article class="ibpage-article">
-            <p>Python does not make use of access specifiers specifically like private, public, protected, etc. However, it does not derive this from any variables. It has the concept of imitating the behaviour of variables by making use of a single (protected) or double underscore (private) as prefixed to the variable names. By default, the variables without prefixed underscores are public.</p><p><strong>Example:</strong></p><pre><code class="language-python hljs"><span class="hljs-comment"># to demonstrate access specifiers</span>
+obj.display()</code></pre><br><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="are-access-specifiers-used-in-python">
+	<h3>42. Are access specifiers used in python?</h3><br>
+	<article class="ibpage-article">
+		<p>Python does not make use of access specifiers specifically like private, public, protected, etc. However, it does not derive this from any variables. It has the concept of imitating the behaviour of variables by making use of a single (protected) or double underscore (private) as prefixed to the variable names. By default, the variables without prefixed underscores are public.</p><br>
+		<p><strong>Example:</strong></p><br>
+		<pre><code class="language-python hljs"><span class="hljs-comment"># to demonstrate access specifiers</span>
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">InterviewbitEmployee</span>:</span>
 
     <span class="hljs-comment"># protected members</span>
@@ -883,41 +1015,44 @@ obj.display()</code></pre>
 
     <span class="hljs-comment">#public member</span>
     <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">display</span>():</span>
-        <span class="hljs-built_in">print</span>(self._emp_name +<span class="hljs-string">" "</span>+self._age+<span class="hljs-string">" "</span>+self.__branch)</code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="is-it-possible-to-call-parent-class-without-its-instance-creation">
-          <h3>43. Is it possible to call parent class without its instance creation?</h3>
-          <article class="ibpage-article">
-            <p>Yes, it is possible if the base class is instantiated by other child classes or if the base class is a static method.</p>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="how-to-create-empty-class-in-python">
-          <h3>44. How is an empty class created in python?</h3>
-          <article class="ibpage-article">
-            <p>An empty class does not have any members defined in it. It is created by using the pass keyword (the pass command does nothing in python). We can create objects for this class outside the class.<br>For example-</p><pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">EmptyClassDemo</span>:</span>
+        <span class="hljs-built_in">print</span>(self._emp_name +<span class="hljs-string">" "</span>+self._age+<span class="hljs-string">" "</span>+self.__branch)</code></pre><br><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="is-it-possible-to-call-parent-class-without-its-instance-creation">
+	<h3>43. Is it possible to call parent class without its instance creation?</h3><br>
+	<article class="ibpage-article">
+		<p>Yes, it is possible if the base class is instantiated by other child classes or if the base class is a static method.</p><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="how-to-create-empty-class-in-python">
+	<h3>44. How is an empty class created in python?</h3><br>
+	<article class="ibpage-article">
+		<p>An empty class does not have any members defined in it. It is created by using the pass keyword (the pass command does nothing in python). We can create objects for this class outside the class.<br>For example-</p><br>
+		<pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">EmptyClassDemo</span>:</span>
    <span class="hljs-keyword">pass</span>
 obj=EmptyClassDemo()
 obj.name=<span class="hljs-string">"Interviewbit"</span>
-<span class="hljs-built_in">print</span>(<span class="hljs-string">"Name created= "</span>,obj.name)</code></pre><p><strong>Output:</strong><br>Name created = Interviewbit</p>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="difference-between-new-and-override">
-          <h3>45. Differentiate between new and override modifiers.</h3>
-          <article class="ibpage-article">
-            <p>The new modifier is used to instruct the compiler to use the new implementation and not the base class function. The Override modifier is useful for overriding a base class function inside the child class.</p>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="why-is-finalize-method-used">
-          <h3>46. Why is finalize used?</h3>
-          <article class="ibpage-article">
-            <p>Finalize method is used for freeing up the unmanaged resources and clean up before the garbage collection method is invoked. This helps in performing memory management tasks.</p>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="what-is-init-method-in-python">
-          <h3>47. What is init method in python?</h3>
-          <article class="ibpage-article">
-            <p>The <strong>init</strong> method works similarly to the constructors in Java. The method is run as soon as an object is instantiated. It is useful for initializing any attributes or default behaviour of the object at the time of instantiation.<br>For example:</p><pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">InterviewbitEmployee</span>:</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-string">"Name created= "</span>,obj.name)</code></pre><br><br>
+		<p><strong>Output:</strong><br>Name created = Interviewbit</p><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="difference-between-new-and-override">
+	<h3>45. Differentiate between new and override modifiers.</h3><br>
+	<article class="ibpage-article">
+		<p>The new modifier is used to instruct the compiler to use the new implementation and not the base class function. The Override modifier is useful for overriding a base class function inside the child class.</p><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="why-is-finalize-method-used">
+	<h3>46. Why is finalize used?</h3><br>
+	<article class="ibpage-article">
+		<p>Finalize method is used for freeing up the unmanaged resources and clean up before the garbage collection method is invoked. This helps in performing memory management tasks.</p><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="what-is-init-method-in-python">
+	<h3>47. What is init method in python?</h3><br>
+	<article class="ibpage-article">
+		<p>The <strong>init</strong> method works similarly to the constructors in Java. The method is run as soon as an object is instantiated. It is useful for initializing any attributes or default behaviour of the object at the time of instantiation.<br>For example:</p><br>
+		<pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">InterviewbitEmployee</span>:</span>
 
    <span class="hljs-comment"># init method / constructor</span>
    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self, emp_name</span>):</span>
@@ -928,13 +1063,14 @@ obj.name=<span class="hljs-string">"Interviewbit"</span>
        <span class="hljs-built_in">print</span>(<span class="hljs-string">'Hello, I am '</span>, self.emp_name)
 
 emp = InterviewbitEmployee(<span class="hljs-string">'Mr Employee'</span>)    <span class="hljs-comment"># __init__ method is called here and initializes the object name with "Mr Employee"</span>
-emp.introduce()</code></pre>
-          </article>
-        </section>
-        <section class="ibpage-article-header" id="how-will-you-check-if-a-class-is-a-child-of-another-class">
-          <h3>48. How will you check if a class is a child of another class?</h3>
-          <article class="ibpage-article">
-            <p>This is done by using a method called <strong>issubclass()</strong> provided by python. The method tells us if any class is a child of another class by returning true or false accordingly.<br><strong>For example:</strong></p><pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Parent</span>(<span class="hljs-params"><span class="hljs-built_in">object</span></span>):</span>
+emp.introduce()</code></pre><br><br>
+	</article>
+</section>
+<section class="ibpage-article-header" id="how-will-you-check-if-a-class-is-a-child-of-another-class">
+<h3>48. How will you check if a class is a child of another class?</h3><br>
+<article class="ibpage-article">
+	<p>This is done by using a method called <strong>issubclass()</strong> provided by python. The method tells us if any class is a child of another class by returning true or false accordingly.<br><strong>For example:</strong></p><br>
+	<pre><code class="language-python hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Parent</span>(<span class="hljs-params"><span class="hljs-built_in">object</span></span>):</span>
    <span class="hljs-keyword">pass</span>
 
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Child</span>(<span class="hljs-params">Parent</span>):</span>
@@ -942,8 +1078,12 @@ emp.introduce()</code></pre>
 
 <span class="hljs-comment"># Driver Code</span>
 <span class="hljs-built_in">print</span>(<span class="hljs-built_in">issubclass</span>(Child, Parent))    <span class="hljs-comment">#True</span>
-<span class="hljs-built_in">print</span>(<span class="hljs-built_in">issubclass</span>(Parent, Child))    <span class="hljs-comment">#False</span></code></pre><ul><li>We can check if an object is an instance of a class by making use of <strong>isinstance()</strong> method:</li></ul><pre><code class="language-python hljs">obj1 = Child()
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">issubclass</span>(Parent, Child))    <span class="hljs-comment">#False</span></code></pre><br><br>
+	<ul>
+		<li>We can check if an object is an instance of a class by making use of <strong>isinstance()</strong> method:</li>
+	</ul><br>
+	<pre><code class="language-python hljs">obj1 = Child()
 obj2 = Parent()
 <span class="hljs-built_in">print</span>(<span class="hljs-built_in">isinstance</span>(obj2, Child))    <span class="hljs-comment">#False </span>
-<span class="hljs-built_in">print</span>(<span class="hljs-built_in">isinstance</span>(obj2, Parent))   <span class="hljs-comment">#True </span></code></pre>
-          </article>
+<span class="hljs-built_in">print</span>(<span class="hljs-built_in">isinstance</span>(obj2, Parent))   <span class="hljs-comment">#True </span></code></pre><br><br>
+</article>
