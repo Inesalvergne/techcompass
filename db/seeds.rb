@@ -580,7 +580,7 @@ senior_be = Resource.create!(
                tech industry focuses on user friendliness within their apps and services. So, if you are ready to hop on board the
                front end development movement, you may be wondering what an interview is like for such a prestigious position.
                This article has the breakdown plus tips on how to ace your own Senior front end development interview.",
-               votes: [98, 55, 102, 24, 32, 38, 75, 128, 201, 82].sample,
+               votes: 228,
                level: "Senior",
                user: User.where.not("full_name = 'Ines'").sample,
                tags: "Back-End Developer",
