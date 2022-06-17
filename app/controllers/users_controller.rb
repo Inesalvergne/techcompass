@@ -22,7 +22,7 @@ class UsersController < ApplicationController
     @today = Date.today.to_s(:long)
 
     # I can see updated KPIs on my dashboard
-    @applications_total = current_user.jobs.nil? ? 0 : current_user.jobs.count
+    @applications_total = current_user.jobs.nil? ? 0 : (current_user.jobs.count - current_user.jobs.where(status: "Wishlist").count)
     @interviews_total = Job.where(status: "Interview").count
     @my_resources_total = Resource.where(user: current_user).count
     @applications_left_to_reach_goal = current_user.goals.empty? ? "N/A" : (@goal.job_target - @applications_total)
@@ -32,7 +32,7 @@ class UsersController < ApplicationController
       @applications_to_interview_ratio = ((@interviews_total / @applications_total.to_f) * 100).round
     end
     # I can see the last 4 applications I sent
-    @jobs_preview = current_user.jobs.last(4)
+    @jobs_preview = current_user.jobs.where(status: ['Applied', 'Interview', 'Decision', 'Offer', 'Rejected']).last(4)
 
     # respond_to do |format|
     #   format.html { redirect_to dashboard_path }
