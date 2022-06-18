@@ -29,7 +29,7 @@ class UsersController < ApplicationController
     if @applications_total.zero?
       @applications_to_interview_ratio = 0
     else
-      @applications_to_interview_ratio = ((@interviews_total / @applications_total.to_f) * 100).round
+      @applications_to_interview_ratio = ((current_user.jobs.where(status: ['Interview', 'Decision', 'Offer', 'Rejected']).count / @applications_total.to_f) * 100).round
     end
     # I can see the last 4 applications I sent
     @jobs_preview = current_user.jobs.where(status: ['Applied', 'Interview', 'Decision', 'Offer', 'Rejected']).last(4)
