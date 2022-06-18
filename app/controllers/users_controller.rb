@@ -23,7 +23,7 @@ class UsersController < ApplicationController
 
     # I can see updated KPIs on my dashboard
     @applications_total = current_user.jobs.nil? ? 0 : (current_user.jobs.count - current_user.jobs.where(status: "Wishlist").count)
-    @interviews_total = Job.where(status: "Interview").count
+    @interviews_total = current_user.jobs.where(status: "Interview").count
     @my_resources_total = Resource.where(user: current_user).count
     @applications_left_to_reach_goal = current_user.goals.empty? ? "N/A" : (@goal.job_target - @applications_total)
     if @applications_total.zero?
